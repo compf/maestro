@@ -1,0 +1,171 @@
+{
+  "name" : "OutputData",
+  "key" : "com.netflix.maestro.engine.dto.OutputData",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dto.OutputData/memberField/artifacts" : {
+      "name" : "artifacts",
+      "key" : "com.netflix.maestro.engine.dto.OutputData/memberField/artifacts",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.dto.com.netflix.maestro.models.artifact.Artifact>",
+      "displayedType" : "Map<String, Artifact>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 39,
+        "endLine" : 55,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.OutputData"
+    },
+    "com.netflix.maestro.engine.dto.OutputData/memberField/externalJobType" : {
+      "name" : "externalJobType",
+      "key" : "com.netflix.maestro.engine.dto.OutputData/memberField/externalJobType",
+      "type" : "com.netflix.maestro.engine.dto.ExternalJobType",
+      "displayedType" : "ExternalJobType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 35,
+        "endLine" : 49,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.OutputData"
+    },
+    "com.netflix.maestro.engine.dto.OutputData/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.dto.OutputData/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 26,
+        "endLine" : 51,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.OutputData"
+    },
+    "com.netflix.maestro.engine.dto.OutputData/memberField/params" : {
+      "name" : "params",
+      "key" : "com.netflix.maestro.engine.dto.OutputData/memberField/params",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.dto.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 40,
+        "endLine" : 54,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.OutputData"
+    },
+    "com.netflix.maestro.engine.dto.OutputData/memberField/createTime" : {
+      "name" : "createTime",
+      "key" : "com.netflix.maestro.engine.dto.OutputData/memberField/createTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 24,
+        "endLine" : 52,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.OutputData"
+    },
+    "com.netflix.maestro.engine.dto.OutputData/memberField/externalJobId" : {
+      "name" : "externalJobId",
+      "key" : "com.netflix.maestro.engine.dto.OutputData/memberField/externalJobId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 26,
+        "endLine" : 50,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.OutputData"
+    },
+    "com.netflix.maestro.engine.dto.OutputData/memberField/modifyTime" : {
+      "name" : "modifyTime",
+      "key" : "com.netflix.maestro.engine.dto.OutputData/memberField/modifyTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 24,
+        "endLine" : 53,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.OutputData"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/dto/OutputData.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.dto.OutputData.OutputDataBuilder" : {
+      "name" : "OutputDataBuilder",
+      "key" : "com.netflix.maestro.engine.dto.OutputData.OutputDataBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 23,
+        "endLine" : 66,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/dto/OutputData.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.dto.OutputData",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

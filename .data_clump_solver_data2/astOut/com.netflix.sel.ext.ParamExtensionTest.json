@@ -1,0 +1,732 @@
+{
+  "name" : "ParamExtensionTest",
+  "key" : "com.netflix.sel.ext.ParamExtensionTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.ext.ParamExtensionTest/memberField/extension" : {
+      "name" : "extension",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/memberField/extension",
+      "type" : "com.netflix.sel.ext.AbstractParamExtension",
+      "displayedType" : "AbstractParamExtension",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 34,
+        "endLine" : 86,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallNonexistingMethod()" : {
+      "name" : "testCallNonexistingMethod",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallNonexistingMethod()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 15,
+        "endLine" : 94,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallUnsupportedArguments()" : {
+      "name" : "testCallUnsupportedArguments",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallUnsupportedArguments()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 15,
+        "endLine" : 104,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallUnsupportedArgumentType()" : {
+      "name" : "testCallUnsupportedArgumentType",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallUnsupportedArgumentType()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 15,
+        "endLine" : 99,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallBadForeachReturn()" : {
+      "name" : "testCallBadForeachReturn",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallBadForeachReturn()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 15,
+        "endLine" : 109,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromSignal()" : {
+      "name" : "testCallGetFromSignal",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromSignal()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 15,
+        "endLine" : 132,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallNextUniqueId()" : {
+      "name" : "testCallNextUniqueId",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallNextUniqueId()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 15,
+        "endLine" : 151,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromForeach()" : {
+      "name" : "testCallGetFromForeach",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromForeach()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 15,
+        "endLine" : 139,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallUncastForeachReturn()" : {
+      "name" : "testCallUncastForeachReturn",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallUncastForeachReturn()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 15,
+        "endLine" : 117,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 15,
+        "endLine" : 89,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromStep()" : {
+      "name" : "testCallGetFromStep",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromStep()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 15,
+        "endLine" : 125,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    },
+    "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromInstance()" : {
+      "name" : "testCallGetFromInstance",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest/method/testCallGetFromInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 15,
+        "endLine" : 156,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest"
+    }
+  },
+  "file_path" : "netflix-sel/src/test/java/com/netflix/sel/ext/ParamExtensionTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension" : {
+      "name" : "UncastParamExtension",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 10,
+        "endLine" : 79,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)" : {
+          "name" : "getFromForeach",
+          "key" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)",
+          "type" : "java.lang.Object",
+          "displayedType" : "Object",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 81,
+            "startColumn" : 22,
+            "endLine" : 81,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "foreachStepId",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/foreachStepId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 81,
+              "startColumn" : 44,
+              "endLine" : 81,
+              "endColumn" : 57
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          }, {
+            "name" : "stepId",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/stepId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 81,
+              "startColumn" : 66,
+              "endLine" : 81,
+              "endColumn" : 72
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          }, {
+            "name" : "paramName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/paramName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 81,
+              "startColumn" : 81,
+              "endLine" : 81,
+              "endColumn" : 90
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest.UncastParamExtension"
+        }
+      },
+      "file_path" : "netflix-sel/src/test/java/com/netflix/sel/ext/ParamExtensionTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.sel.ext.ParamExtensionTest$TestParamExtension" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.sel.ext.ParamExtensionTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension" : {
+      "name" : "TestParamExtension",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 10,
+        "endLine" : 25,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)" : {
+          "name" : "getFromForeach",
+          "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)",
+          "type" : "java.lang.Object",
+          "displayedType" : "Object",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 26,
+            "startColumn" : 22,
+            "endLine" : 26,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "foreachStepId",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/foreachStepId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 26,
+              "startColumn" : 44,
+              "endLine" : 26,
+              "endColumn" : 57
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          }, {
+            "name" : "stepId",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/stepId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 26,
+              "startColumn" : 66,
+              "endLine" : 26,
+              "endColumn" : 72
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          }, {
+            "name" : "paramName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/paramName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 26,
+              "startColumn" : 81,
+              "endLine" : 26,
+              "endColumn" : 90
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension"
+        },
+        "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)" : {
+          "name" : "callWithTwoArgs",
+          "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 46,
+            "startColumn" : 22,
+            "endLine" : 46,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "methodName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)/parameter/methodName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 46,
+              "startColumn" : 45,
+              "endLine" : 46,
+              "endColumn" : 55
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)"
+          }, {
+            "name" : "id",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)/parameter/id",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 46,
+              "startColumn" : 64,
+              "endLine" : 46,
+              "endColumn" : 66
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)"
+          }, {
+            "name" : "paramName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)/parameter/paramName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 46,
+              "startColumn" : 75,
+              "endLine" : 46,
+              "endColumn" : 84
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String id, java.lang.String paramName)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension"
+        },
+        "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String fieldName)" : {
+          "name" : "callWithOneArg",
+          "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String fieldName)",
+          "type" : "java.lang.Object",
+          "displayedType" : "Object",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 64,
+            "startColumn" : 22,
+            "endLine" : 64,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "methodName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String fieldName)/parameter/methodName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 64,
+              "startColumn" : 44,
+              "endLine" : 64,
+              "endColumn" : 54
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String fieldName)"
+          }, {
+            "name" : "fieldName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String fieldName)/parameter/fieldName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 64,
+              "startColumn" : 63,
+              "endLine" : 64,
+              "endColumn" : 72
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String fieldName)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension"
+        },
+        "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithoutArg(java.lang.String methodName)" : {
+          "name" : "callWithoutArg",
+          "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithoutArg(java.lang.String methodName)",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 56,
+            "startColumn" : 20,
+            "endLine" : 56,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "methodName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithoutArg(java.lang.String methodName)/parameter/methodName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 56,
+              "startColumn" : 42,
+              "endLine" : 56,
+              "endColumn" : 52
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithoutArg(java.lang.String methodName)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension"
+        },
+        "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)" : {
+          "name" : "callWithThreeArgs",
+          "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)",
+          "type" : "java.lang.Object",
+          "displayedType" : "Object",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 31,
+            "startColumn" : 22,
+            "endLine" : 31,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "methodName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)/parameter/methodName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 31,
+              "startColumn" : 47,
+              "endLine" : 31,
+              "endColumn" : 57
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)"
+          }, {
+            "name" : "arg0",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)/parameter/arg0",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 31,
+              "startColumn" : 66,
+              "endLine" : 31,
+              "endColumn" : 70
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)"
+          }, {
+            "name" : "arg1",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)/parameter/arg1",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 31,
+              "startColumn" : 79,
+              "endLine" : 31,
+              "endColumn" : 83
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)"
+          }, {
+            "name" : "arg2",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)/parameter/arg2",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 31,
+              "startColumn" : 92,
+              "endLine" : 31,
+              "endColumn" : 96
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest.TestParamExtension"
+        }
+      },
+      "file_path" : "netflix-sel/src/test/java/com/netflix/sel/ext/ParamExtensionTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.sel.ext.AbstractParamExtension" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.sel.ext.ParamExtensionTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension" : {
+      "name" : "BadParamExtension",
+      "key" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 10,
+        "endLine" : 72,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)" : {
+          "name" : "getFromForeach",
+          "key" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 74,
+            "startColumn" : 20,
+            "endLine" : 74,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PROTECTED" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "foreachStepId",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/foreachStepId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 74,
+              "startColumn" : 42,
+              "endLine" : 74,
+              "endColumn" : 55
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          }, {
+            "name" : "stepId",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/stepId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 74,
+              "startColumn" : 64,
+              "endLine" : 74,
+              "endColumn" : 70
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          }, {
+            "name" : "paramName",
+            "key" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/paramName",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 74,
+              "startColumn" : 79,
+              "endLine" : 74,
+              "endColumn" : 88
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.sel.ext.ParamExtensionTest.BadParamExtension"
+        }
+      },
+      "file_path" : "netflix-sel/src/test/java/com/netflix/sel/ext/ParamExtensionTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.sel.ext.ParamExtensionTest$TestParamExtension" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.sel.ext.ParamExtensionTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

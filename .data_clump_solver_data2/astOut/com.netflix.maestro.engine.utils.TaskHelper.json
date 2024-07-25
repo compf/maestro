@@ -1,0 +1,509 @@
+{
+  "name" : "TaskHelper",
+  "key" : "com.netflix.maestro.engine.utils.TaskHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 14,
+    "endLine" : 45,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "isUserDefinedTask",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 18,
+        "endLine" : 49,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 41,
+          "endLine" : 49,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/getTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "getTaskMap",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/getTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "Map<String, Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 35,
+        "endLine" : 72,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/getTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 55,
+          "endLine" : 72,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/getTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/toStepStatusMap(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> states)" : {
+      "name" : "toStepStatusMap",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/toStepStatusMap(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> states)",
+      "type" : "java.util.EnumMap<com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowStepStatusSummary>",
+      "displayedType" : "EnumMap<StepInstance.Status, WorkflowStepStatusSummary>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 73,
+        "endLine" : 117,
+        "endColumn" : 88
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/toStepStatusMap(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> states)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 23,
+          "endLine" : 118,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/toStepStatusMap(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> states)"
+      }, {
+        "name" : "states",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/toStepStatusMap(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> states)/parameter/states",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState>",
+        "displayedType" : "Map<String, StepRuntimeState>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 62,
+          "endLine" : 118,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/toStepStatusMap(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> states)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/isRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "isRealTask",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 18,
+        "endLine" : 54,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 34,
+          "endLine" : 54,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/isRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/isValidTaskWithParamData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "isValidTaskWithParamData",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isValidTaskWithParamData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 26,
+        "endLine" : 65,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isValidTaskWithParamData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 56,
+          "endLine" : 65,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/isValidTaskWithParamData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/getUserDefinedRealTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "getUserDefinedRealTaskMap",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/getUserDefinedRealTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "Map<String, Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 35,
+        "endLine" : 97,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/getUserDefinedRealTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 70,
+          "endLine" : 97,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/getUserDefinedRealTaskMap(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)" : {
+      "name" : "checkProgress",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task#com.netflix.maestro.engine.utils.Status>",
+      "displayedType" : "Optional<Task.Status>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 39,
+        "endLine" : 232,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "realTaskMap",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)/parameter/realTaskMap",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task>",
+        "displayedType" : "Map<String, Task>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 233,
+          "startColumn" : 25,
+          "endLine" : 233,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 234,
+          "startColumn" : 23,
+          "endLine" : 234,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)"
+      }, {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)/parameter/overview",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+        "displayedType" : "WorkflowRuntimeOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 235,
+          "startColumn" : 31,
+          "endLine" : 235,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)"
+      }, {
+        "name" : "isFinal",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)/parameter/isFinal",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 236,
+          "startColumn" : 15,
+          "endLine" : 236,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/checkProgress(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, boolean isFinal)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/getAllStepOutputData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "getAllStepOutputData",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/getAllStepOutputData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.Object>>",
+      "displayedType" : "Map<String, Map<String, Object>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 50,
+        "endLine" : 84,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/getAllStepOutputData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 80,
+          "endLine" : 84,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/getAllStepOutputData(com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/confirmDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary)" : {
+      "name" : "confirmDone",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/confirmDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 301,
+        "startColumn" : 26,
+        "endLine" : 301,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "realTaskMap",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/confirmDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary)/parameter/realTaskMap",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task>",
+        "displayedType" : "Map<String, Task>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 301,
+          "startColumn" : 56,
+          "endLine" : 301,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/confirmDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/confirmDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 301,
+          "startColumn" : 85,
+          "endLine" : 301,
+          "endColumn" : 92
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/confirmDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "isUserDefinedRealTask",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 18,
+        "endLine" : 60,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 45,
+          "endLine" : 60,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/isUserDefinedRealTask(com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)" : {
+      "name" : "computeOverview",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+      "displayedType" : "WorkflowRuntimeOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 41,
+        "endLine" : 145,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 20,
+          "endLine" : 146,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 23,
+          "endLine" : 147,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)"
+      }, {
+        "name" : "rollupBase",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)/parameter/rollupBase",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 148,
+          "startColumn" : 30,
+          "endLine" : 148,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)"
+      }, {
+        "name" : "realTaskMap",
+        "key" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)/parameter/realTaskMap",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task>",
+        "displayedType" : "Map<String, Task>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 25,
+          "endLine" : 149,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TaskHelper/method/computeOverview(com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview rollupBase, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task> realTaskMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/TaskHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,211 @@
+{
+  "name" : "LongParameter",
+  "key" : "com.netflix.maestro.models.parameter.LongParameter",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 14,
+    "endLine" : 46,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.parameter.LongParameter/memberField/value" : {
+      "name" : "value",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter/memberField/value",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 22,
+        "endLine" : 47,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter"
+    },
+    "com.netflix.maestro.models.parameter.LongParameter/memberField/evaluatedResult" : {
+      "name" : "evaluatedResult",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter/memberField/evaluatedResult",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 16,
+        "endLine" : 48,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.parameter.LongParameter/method/toDefinition()" : {
+      "name" : "toDefinition",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter/method/toDefinition()",
+      "type" : "com.netflix.maestro.models.parameter.ParamDefinition",
+      "displayedType" : "ParamDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 26,
+        "endLine" : 94,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter"
+    },
+    "com.netflix.maestro.models.parameter.LongParameter/method/setEvaluatedResult(java.lang.Object result)" : {
+      "name" : "setEvaluatedResult",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter/method/setEvaluatedResult(java.lang.Object result)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 15,
+        "endLine" : 63,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "result",
+        "key" : "com.netflix.maestro.models.parameter.LongParameter/method/setEvaluatedResult(java.lang.Object result)/parameter/result",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 41,
+          "endLine" : 63,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.LongParameter/method/setEvaluatedResult(java.lang.Object result)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter"
+    },
+    "com.netflix.maestro.models.parameter.LongParameter/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter/method/getType()",
+      "type" : "com.netflix.maestro.models.parameter.ParamType",
+      "displayedType" : "ParamType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 20,
+        "endLine" : 89,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter"
+    },
+    "com.netflix.maestro.models.parameter.LongParameter/method/asLongParam()" : {
+      "name" : "asLongParam",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter/method/asLongParam()",
+      "type" : "com.netflix.maestro.models.parameter.LongParameter",
+      "displayedType" : "LongParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 24,
+        "endLine" : 84,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter"
+    },
+    "com.netflix.maestro.models.parameter.LongParameter/method/getEvaluatedResultString()" : {
+      "name" : "getEvaluatedResultString",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter/method/getEvaluatedResultString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/parameter/LongParameter.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.parameter.AbstractParameter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.parameter.LongParameter.LongParameterBuilderImpl" : {
+      "name" : "LongParameterBuilderImpl",
+      "key" : "com.netflix.maestro.models.parameter.LongParameter.LongParameterBuilderImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 16,
+        "endLine" : 52,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.models.parameter.LongParameter.LongParameterBuilderImpl/method/build()" : {
+          "name" : "build",
+          "key" : "com.netflix.maestro.models.parameter.LongParameter.LongParameterBuilderImpl/method/build()",
+          "type" : "com.netflix.maestro.models.parameter.LongParameter",
+          "displayedType" : "LongParameter",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 55,
+            "startColumn" : 26,
+            "endLine" : 55,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.LongParameter.LongParameterBuilderImpl"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/parameter/LongParameter.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.models.parameter.LongParameterBuilder<com.netflix.maestro.models.parameter.LongParameter, com.netflix.maestro.models.parameter.LongParameter$LongParameterBuilderImpl>", "com.netflix.maestro.models.parameter.LongParameter", "com.netflix.maestro.models.parameter.LongParameter$LongParameterBuilderImpl" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.parameter.LongParameter",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

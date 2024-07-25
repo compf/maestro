@@ -1,0 +1,59 @@
+{
+  "name" : "TimeUtils",
+  "key" : "com.netflix.maestro.engine.utils.TimeUtils",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 19,
+    "startColumn" : 14,
+    "endLine" : 19,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.TimeUtils/method/sleep(long millis)" : {
+      "name" : "sleep",
+      "key" : "com.netflix.maestro.engine.utils.TimeUtils/method/sleep(long millis)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.utils.com.netflix.maestro.models.error.Details>",
+      "displayedType" : "Optional<Details>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 35,
+        "endLine" : 22,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "millis",
+        "key" : "com.netflix.maestro.engine.utils.TimeUtils/method/sleep(long millis)/parameter/millis",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 22,
+          "startColumn" : 46,
+          "endLine" : 22,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.TimeUtils/method/sleep(long millis)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TimeUtils"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/TimeUtils.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

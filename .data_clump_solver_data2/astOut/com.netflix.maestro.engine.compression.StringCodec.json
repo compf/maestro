@@ -1,0 +1,273 @@
+{
+  "name" : "StringCodec",
+  "key" : "com.netflix.maestro.engine.compression.StringCodec",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.compression.StringCodec/memberField/compressors" : {
+      "name" : "compressors",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/memberField/compressors",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.compression.Compressor>",
+      "displayedType" : "Map<String, Compressor>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 41,
+        "endLine" : 33,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    },
+    "com.netflix.maestro.engine.compression.StringCodec/memberField/DEFAULT_ENCODING" : {
+      "name" : "DEFAULT_ENCODING",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/memberField/DEFAULT_ENCODING",
+      "type" : "java.nio.charset.Charset",
+      "displayedType" : "Charset",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 32,
+        "endLine" : 32,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    },
+    "com.netflix.maestro.engine.compression.StringCodec/memberField/DEFAULT_COMPRESSOR_NAME" : {
+      "name" : "DEFAULT_COMPRESSOR_NAME",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/memberField/DEFAULT_COMPRESSOR_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 31,
+        "endLine" : 31,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.compression.StringCodec/method/getCompressor(java.lang.String compressorName)" : {
+      "name" : "getCompressor",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/method/getCompressor(java.lang.String compressorName)",
+      "type" : "com.netflix.maestro.engine.compression.Compressor",
+      "displayedType" : "Compressor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 22,
+        "endLine" : 57,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "compressorName",
+        "key" : "com.netflix.maestro.engine.compression.StringCodec/method/getCompressor(java.lang.String compressorName)/parameter/compressorName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 43,
+          "endLine" : 57,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.StringCodec/method/getCompressor(java.lang.String compressorName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    },
+    "com.netflix.maestro.engine.compression.StringCodec/method/base64Encode(byte[] bytes)" : {
+      "name" : "base64Encode",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/method/base64Encode(byte[] bytes)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 18,
+        "endLine" : 63,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "bytes",
+        "key" : "com.netflix.maestro.engine.compression.StringCodec/method/base64Encode(byte[] bytes)/parameter/bytes",
+        "type" : "byte[]",
+        "displayedType" : "byte[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 38,
+          "endLine" : 63,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.StringCodec/method/base64Encode(byte[] bytes)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    },
+    "com.netflix.maestro.engine.compression.StringCodec/method/compress(java.lang.String compressorName, java.lang.String uncompressedString)" : {
+      "name" : "compress",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/method/compress(java.lang.String compressorName, java.lang.String uncompressedString)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 17,
+        "endLine" : 44,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "compressorName",
+        "key" : "com.netflix.maestro.engine.compression.StringCodec/method/compress(java.lang.String compressorName, java.lang.String uncompressedString)/parameter/compressorName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 33,
+          "endLine" : 44,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.StringCodec/method/compress(java.lang.String compressorName, java.lang.String uncompressedString)"
+      }, {
+        "name" : "uncompressedString",
+        "key" : "com.netflix.maestro.engine.compression.StringCodec/method/compress(java.lang.String compressorName, java.lang.String uncompressedString)/parameter/uncompressedString",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 56,
+          "endLine" : 44,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.StringCodec/method/compress(java.lang.String compressorName, java.lang.String uncompressedString)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    },
+    "com.netflix.maestro.engine.compression.StringCodec/method/decompress(java.lang.String compressorName, java.lang.String compressedString)" : {
+      "name" : "decompress",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/method/decompress(java.lang.String compressorName, java.lang.String compressedString)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 17,
+        "endLine" : 51,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "compressorName",
+        "key" : "com.netflix.maestro.engine.compression.StringCodec/method/decompress(java.lang.String compressorName, java.lang.String compressedString)/parameter/compressorName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 35,
+          "endLine" : 51,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.StringCodec/method/decompress(java.lang.String compressorName, java.lang.String compressedString)"
+      }, {
+        "name" : "compressedString",
+        "key" : "com.netflix.maestro.engine.compression.StringCodec/method/decompress(java.lang.String compressorName, java.lang.String compressedString)/parameter/compressedString",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 58,
+          "endLine" : 51,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.StringCodec/method/decompress(java.lang.String compressorName, java.lang.String compressedString)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    },
+    "com.netflix.maestro.engine.compression.StringCodec/method/base64Decode(java.lang.String value)" : {
+      "name" : "base64Decode",
+      "key" : "com.netflix.maestro.engine.compression.StringCodec/method/base64Decode(java.lang.String value)",
+      "type" : "byte[]",
+      "displayedType" : "byte[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 18,
+        "endLine" : 67,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.compression.StringCodec/method/base64Decode(java.lang.String value)/parameter/value",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 38,
+          "endLine" : 67,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.StringCodec/method/base64Decode(java.lang.String value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodec"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/compression/StringCodec.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

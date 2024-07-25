@@ -1,0 +1,111 @@
+{
+  "name" : "SignalTrigger",
+  "key" : "com.netflix.maestro.models.trigger.SignalTrigger",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.trigger.SignalTrigger/memberField/signalTriggerId" : {
+      "name" : "signalTriggerId",
+      "key" : "com.netflix.maestro.models.trigger.SignalTrigger/memberField/signalTriggerId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 28,
+        "endLine" : 34,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.SignalTrigger"
+    },
+    "com.netflix.maestro.models.trigger.SignalTrigger/memberField/definition" : {
+      "name" : "definition",
+      "key" : "com.netflix.maestro.models.trigger.SignalTrigger/memberField/definition",
+      "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.trigger.com.netflix.maestro.models.parameter.SignalParamDefinition>>",
+      "displayedType" : "Map<String, Map<String, SignalParamDefinition>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 59,
+        "endLine" : 33,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.SignalTrigger"
+    },
+    "com.netflix.maestro.models.trigger.SignalTrigger/memberField/joinKeys" : {
+      "name" : "joinKeys",
+      "key" : "com.netflix.maestro.models.trigger.SignalTrigger/memberField/joinKeys",
+      "type" : "java.lang.String[]",
+      "displayedType" : "String[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 20,
+        "endLine" : 32,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.SignalTrigger"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.trigger.SignalTrigger/method/setDefinition(java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.trigger.com.netflix.maestro.models.parameter.SignalParamDefinition>> definition)" : {
+      "name" : "setDefinition",
+      "key" : "com.netflix.maestro.models.trigger.SignalTrigger/method/setDefinition(java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.trigger.com.netflix.maestro.models.parameter.SignalParamDefinition>> definition)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 15,
+        "endLine" : 37,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "definition",
+        "key" : "com.netflix.maestro.models.trigger.SignalTrigger/method/setDefinition(java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.trigger.com.netflix.maestro.models.parameter.SignalParamDefinition>> definition)/parameter/definition",
+        "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.trigger.com.netflix.maestro.models.parameter.SignalParamDefinition>>",
+        "displayedType" : "Map<String, Map<String, SignalParamDefinition>>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 77,
+          "endLine" : 37,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.trigger.SignalTrigger/method/setDefinition(java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.trigger.com.netflix.maestro.models.parameter.SignalParamDefinition>> definition)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.SignalTrigger"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/trigger/SignalTrigger.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

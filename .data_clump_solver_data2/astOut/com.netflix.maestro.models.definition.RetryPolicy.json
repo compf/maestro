@@ -1,0 +1,712 @@
+{
+  "name" : "RetryPolicy",
+  "key" : "com.netflix.maestro.models.definition.RetryPolicy",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.RetryPolicy/memberField/errorRetryLimit" : {
+      "name" : "errorRetryLimit",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy/memberField/errorRetryLimit",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 22,
+        "endLine" : 44,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy"
+    },
+    "com.netflix.maestro.models.definition.RetryPolicy/memberField/backoff" : {
+      "name" : "backoff",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy/memberField/backoff",
+      "type" : "com.netflix.maestro.models.definition.RetryPolicy$Backoff",
+      "displayedType" : "Backoff",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 25,
+        "endLine" : 50,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy"
+    },
+    "com.netflix.maestro.models.definition.RetryPolicy/memberField/platformRetryLimit" : {
+      "name" : "platformRetryLimit",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy/memberField/platformRetryLimit",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 22,
+        "endLine" : 47,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.RetryPolicy/method/tryMergeWithDefault(com.netflix.maestro.models.definition.RetryPolicy policy)" : {
+      "name" : "tryMergeWithDefault",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy/method/tryMergeWithDefault(com.netflix.maestro.models.definition.RetryPolicy policy)",
+      "type" : "com.netflix.maestro.models.definition.RetryPolicy",
+      "displayedType" : "RetryPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 29,
+        "endLine" : 72,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "policy",
+        "key" : "com.netflix.maestro.models.definition.RetryPolicy/method/tryMergeWithDefault(com.netflix.maestro.models.definition.RetryPolicy policy)/parameter/policy",
+        "type" : "com.netflix.maestro.models.definition.RetryPolicy",
+        "displayedType" : "RetryPolicy",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 61,
+          "endLine" : 72,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.RetryPolicy/method/tryMergeWithDefault(com.netflix.maestro.models.definition.RetryPolicy policy)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RetryPolicy.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff" : {
+      "name" : "FixedBackoff",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 17,
+        "endLine" : 225,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/memberField/errorRetryBackoffInSecs" : {
+          "name" : "errorRetryBackoffInSecs",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/memberField/errorRetryBackoffInSecs",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 227,
+            "startColumn" : 24,
+            "endLine" : 227,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/memberField/platformRetryBackoffInSecs" : {
+          "name" : "platformRetryBackoffInSecs",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/memberField/platformRetryBackoffInSecs",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 230,
+            "startColumn" : 24,
+            "endLine" : 230,
+            "endColumn" : 50
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForUserError(long errorRetries)" : {
+          "name" : "getNextRetryDelayForUserError",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForUserError(long errorRetries)",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 238,
+            "startColumn" : 16,
+            "endLine" : 238,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "errorRetries",
+            "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForUserError(long errorRetries)/parameter/errorRetries",
+            "type" : "long",
+            "displayedType" : "long",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 238,
+              "startColumn" : 51,
+              "endLine" : 238,
+              "endColumn" : 63
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForUserError(long errorRetries)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/mergeWithDefault()" : {
+          "name" : "mergeWithDefault",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/mergeWithDefault()",
+          "type" : "com.netflix.maestro.models.definition.RetryPolicy$Backoff",
+          "displayedType" : "Backoff",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 248,
+            "startColumn" : 20,
+            "endLine" : 248,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)" : {
+          "name" : "getNextRetryDelayForPlatformError",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 243,
+            "startColumn" : 16,
+            "endLine" : 243,
+            "endColumn" : 49
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "platformRetries",
+            "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)/parameter/platformRetries",
+            "type" : "long",
+            "displayedType" : "long",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 243,
+              "startColumn" : 55,
+              "endLine" : 243,
+              "endColumn" : 70
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getType()" : {
+          "name" : "getType",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff/method/getType()",
+          "type" : "com.netflix.maestro.models.definition.RetryPolicy$BackoffPolicyType",
+          "displayedType" : "BackoffPolicyType",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 233,
+            "startColumn" : 30,
+            "endLine" : 233,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RetryPolicy.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "com.netflix.maestro.models.definition.RetryPolicy$Backoff" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.RetryPolicy",
+      "innerDefinedClasses" : {
+        "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff.FixedBackoffBuilder" : {
+          "name" : "FixedBackoffBuilder",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff.FixedBackoffBuilder",
+          "type" : "class",
+          "displayedType" : null,
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 264,
+            "startColumn" : 25,
+            "endLine" : 264,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+          "fields" : { },
+          "methods" : { },
+          "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RetryPolicy.java",
+          "imports" : [ ],
+          "anonymous" : false,
+          "auxclass" : false,
+          "implements_" : [ ],
+          "extends_" : [ ],
+          "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.RetryPolicy.FixedBackoff",
+          "innerDefinedClasses" : { },
+          "innerDefinedInterfaces" : { }
+        }
+      },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.models.definition.RetryPolicy.RetryPolicyBuilder" : {
+      "name" : "RetryPolicyBuilder",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy.RetryPolicyBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 270,
+        "startColumn" : 23,
+        "endLine" : 270,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RetryPolicy.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.RetryPolicy",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff" : {
+      "name" : "ExponentialBackoff",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/platformRetryExponent" : {
+          "name" : "platformRetryExponent",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/platformRetryExponent",
+          "type" : "java.lang.Integer",
+          "displayedType" : "Integer",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 153,
+            "startColumn" : 27,
+            "endLine" : 153,
+            "endColumn" : 48
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/errorRetryLimitInSecs" : {
+          "name" : "errorRetryLimitInSecs",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/errorRetryLimitInSecs",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 146,
+            "startColumn" : 24,
+            "endLine" : 146,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/platformRetryLimitInSecs" : {
+          "name" : "platformRetryLimitInSecs",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/platformRetryLimitInSecs",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 157,
+            "startColumn" : 24,
+            "endLine" : 157,
+            "endColumn" : 48
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/errorRetryBackoffInSecs" : {
+          "name" : "errorRetryBackoffInSecs",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/errorRetryBackoffInSecs",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 139,
+            "startColumn" : 24,
+            "endLine" : 139,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/platformRetryBackoffInSecs" : {
+          "name" : "platformRetryBackoffInSecs",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/platformRetryBackoffInSecs",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 150,
+            "startColumn" : 24,
+            "endLine" : 150,
+            "endColumn" : 50
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/errorRetryExponent" : {
+          "name" : "errorRetryExponent",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/memberField/errorRetryExponent",
+          "type" : "java.lang.Integer",
+          "displayedType" : "Integer",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 142,
+            "startColumn" : 27,
+            "endLine" : 142,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)" : {
+          "name" : "getNextRetryDelayForPlatformError",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 171,
+            "startColumn" : 16,
+            "endLine" : 171,
+            "endColumn" : 49
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "platformRetries",
+            "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)/parameter/platformRetries",
+            "type" : "long",
+            "displayedType" : "long",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 171,
+              "startColumn" : 55,
+              "endLine" : 171,
+              "endColumn" : 70
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForPlatformError(long platformRetries)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/mergeWithDefault()" : {
+          "name" : "mergeWithDefault",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/mergeWithDefault()",
+          "type" : "com.netflix.maestro.models.definition.RetryPolicy$Backoff",
+          "displayedType" : "Backoff",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 178,
+            "startColumn" : 20,
+            "endLine" : 178,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getType()" : {
+          "name" : "getType",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getType()",
+          "type" : "com.netflix.maestro.models.definition.RetryPolicy$BackoffPolicyType",
+          "displayedType" : "BackoffPolicyType",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 160,
+            "startColumn" : 30,
+            "endLine" : 160,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForUserError(long errorRetries)" : {
+          "name" : "getNextRetryDelayForUserError",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForUserError(long errorRetries)",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 165,
+            "startColumn" : 16,
+            "endLine" : 165,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "errorRetries",
+            "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForUserError(long errorRetries)/parameter/errorRetries",
+            "type" : "long",
+            "displayedType" : "long",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 165,
+              "startColumn" : 51,
+              "endLine" : 165,
+              "endColumn" : 63
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff/method/getNextRetryDelayForUserError(long errorRetries)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RetryPolicy.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "com.netflix.maestro.models.definition.RetryPolicy$Backoff" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.RetryPolicy",
+      "innerDefinedClasses" : {
+        "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff.ExponentialBackoffBuilder" : {
+          "name" : "ExponentialBackoffBuilder",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff.ExponentialBackoffBuilder",
+          "type" : "class",
+          "displayedType" : null,
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 212,
+            "startColumn" : 25,
+            "endLine" : 212,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+          "fields" : { },
+          "methods" : { },
+          "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RetryPolicy.java",
+          "imports" : [ ],
+          "anonymous" : false,
+          "auxclass" : false,
+          "implements_" : [ ],
+          "extends_" : [ ],
+          "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.RetryPolicy.ExponentialBackoff",
+          "innerDefinedClasses" : { },
+          "innerDefinedInterfaces" : { }
+        }
+      },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : {
+    "com.netflix.maestro.models.definition.RetryPolicy.Backoff" : {
+      "name" : "Backoff",
+      "key" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff",
+      "type" : "interface",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 10,
+        "endLine" : 105,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT", "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForPlatformError(long platformRetries)" : {
+          "name" : "getNextRetryDelayForPlatformError",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForPlatformError(long platformRetries)",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 113,
+            "startColumn" : 9,
+            "endLine" : 113,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "platformRetries",
+            "key" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForPlatformError(long platformRetries)/parameter/platformRetries",
+            "type" : "long",
+            "displayedType" : "long",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 113,
+              "startColumn" : 48,
+              "endLine" : 113,
+              "endColumn" : 63
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForPlatformError(long platformRetries)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/mergeWithDefault()" : {
+          "name" : "mergeWithDefault",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/mergeWithDefault()",
+          "type" : "com.netflix.maestro.models.definition.RetryPolicy$Backoff",
+          "displayedType" : "Backoff",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 116,
+            "startColumn" : 13,
+            "endLine" : 116,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getType()" : {
+          "name" : "getType",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getType()",
+          "type" : "com.netflix.maestro.models.definition.RetryPolicy$BackoffPolicyType",
+          "displayedType" : "BackoffPolicyType",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 107,
+            "startColumn" : 23,
+            "endLine" : 107,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff"
+        },
+        "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForUserError(long errorRetries)" : {
+          "name" : "getNextRetryDelayForUserError",
+          "key" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForUserError(long errorRetries)",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 110,
+            "startColumn" : 9,
+            "endLine" : 110,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "errorRetries",
+            "key" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForUserError(long errorRetries)/parameter/errorRetries",
+            "type" : "long",
+            "displayedType" : "long",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 110,
+              "startColumn" : 44,
+              "endLine" : 110,
+              "endColumn" : 56
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff/method/getNextRetryDelayForUserError(long errorRetries)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RetryPolicy.Backoff"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RetryPolicy.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.RetryPolicy",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  }
+}

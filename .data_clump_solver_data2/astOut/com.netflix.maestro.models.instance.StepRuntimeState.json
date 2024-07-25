@@ -1,0 +1,230 @@
+{
+  "name" : "StepRuntimeState",
+  "key" : "com.netflix.maestro.models.instance.StepRuntimeState",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/pauseTime" : {
+      "name" : "pauseTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/pauseTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 16,
+        "endLine" : 47,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/executeTime" : {
+      "name" : "executeTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/executeTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 16,
+        "endLine" : 52,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/createTime" : {
+      "name" : "createTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/createTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 16,
+        "endLine" : 45,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/endTime" : {
+      "name" : "endTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/endTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 16,
+        "endLine" : 54,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/waitSignalTime" : {
+      "name" : "waitSignalTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/waitSignalTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 16,
+        "endLine" : 48,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/status" : {
+      "name" : "status",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/status",
+      "type" : "com.netflix.maestro.models.instance.StepInstance.Status",
+      "displayedType" : "StepInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 40,
+        "endLine" : 44,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/initializeTime" : {
+      "name" : "initializeTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/initializeTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 16,
+        "endLine" : 46,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/waitPermitTime" : {
+      "name" : "waitPermitTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/waitPermitTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 16,
+        "endLine" : 50,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/finishTime" : {
+      "name" : "finishTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/finishTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 16,
+        "endLine" : 53,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/startTime" : {
+      "name" : "startTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/startTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 16,
+        "endLine" : 51,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/modifyTime" : {
+      "name" : "modifyTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/modifyTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 16,
+        "endLine" : 55,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    },
+    "com.netflix.maestro.models.instance.StepRuntimeState/memberField/evaluateParamTime" : {
+      "name" : "evaluateParamTime",
+      "key" : "com.netflix.maestro.models.instance.StepRuntimeState/memberField/evaluateParamTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 16,
+        "endLine" : 49,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepRuntimeState"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/StepRuntimeState.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

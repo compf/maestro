@@ -1,0 +1,107 @@
+{
+  "name" : "UserInfoInterceptor",
+  "key" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.server.interceptor.UserInfoInterceptor/memberField/callerBuilder" : {
+      "name" : "callerBuilder",
+      "key" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/memberField/callerBuilder",
+      "type" : "com.netflix.maestro.server.interceptor.com.netflix.maestro.models.definition.User#com.netflix.maestro.server.interceptor.UserBuilder",
+      "displayedType" : "User.UserBuilder",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 34,
+        "endLine" : 24,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)" : {
+      "name" : "preHandle",
+      "key" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 18,
+        "endLine" : 33,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "request",
+        "key" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)/parameter/request",
+        "type" : "com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest",
+        "displayedType" : "HttpServletRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 33,
+          "startColumn" : 47,
+          "endLine" : 33,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)"
+      }, {
+        "name" : "response",
+        "key" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)/parameter/response",
+        "type" : "com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse",
+        "displayedType" : "HttpServletResponse",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 33,
+          "startColumn" : 76,
+          "endLine" : 33,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)"
+      }, {
+        "name" : "handler",
+        "key" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)/parameter/handler",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 33,
+          "startColumn" : 93,
+          "endLine" : 33,
+          "endColumn" : 100
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor/method/preHandle(com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletRequest request, com.netflix.maestro.server.interceptor.javax.servlet.http.HttpServletResponse response, java.lang.Object handler)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.interceptor.UserInfoInterceptor"
+    }
+  },
+  "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/interceptor/UserInfoInterceptor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.server.interceptor.org.springframework.web.servlet.HandlerInterceptor" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

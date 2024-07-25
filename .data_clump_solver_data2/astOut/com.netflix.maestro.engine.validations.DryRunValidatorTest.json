@@ -1,0 +1,254 @@
+{
+  "name" : "DryRunValidatorTest",
+  "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/extensionRepo" : {
+      "name" : "extensionRepo",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/extensionRepo",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.eval.MaestroParamExtensionRepo",
+      "displayedType" : "MaestroParamExtensionRepo",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 43,
+        "endLine" : 52,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/dryRunValidator" : {
+      "name" : "dryRunValidator",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/dryRunValidator",
+      "type" : "com.netflix.maestro.engine.validations.DryRunValidator",
+      "displayedType" : "DryRunValidator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 27,
+        "endLine" : 54,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/dagTranslator" : {
+      "name" : "dagTranslator",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/dagTranslator",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.transformation.DagTranslator",
+      "displayedType" : "DagTranslator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 31,
+        "endLine" : 51,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/defaultParamsManager" : {
+      "name" : "defaultParamsManager",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/defaultParamsManager",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.params.DefaultParamManager",
+      "displayedType" : "DefaultParamManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 37,
+        "endLine" : 49,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/definition" : {
+      "name" : "definition",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/definition",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.WorkflowDefinition",
+      "displayedType" : "WorkflowDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 30,
+        "endLine" : 55,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/user" : {
+      "name" : "user",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/user",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 16,
+        "endLine" : 56,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/paramsManager" : {
+      "name" : "paramsManager",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/memberField/paramsManager",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.params.ParamsManager",
+      "displayedType" : "ParamsManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 31,
+        "endLine" : 50,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/setup()" : {
+      "name" : "setup",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/setup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 15,
+        "endLine" : 59,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidateFailStepMerge()" : {
+      "name" : "testValidateFailStepMerge",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidateFailStepMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 15,
+        "endLine" : 97,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidatePass()" : {
+      "name" : "testValidatePass",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidatePass()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 15,
+        "endLine" : 75,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testExceptionAndTraceForNullMessage()" : {
+      "name" : "testExceptionAndTraceForNullMessage",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testExceptionAndTraceForNullMessage()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 15,
+        "endLine" : 141,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidateDefaultRunParams()" : {
+      "name" : "testValidateDefaultRunParams",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidateDefaultRunParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 15,
+        "endLine" : 110,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidateFailWorkflowMerge()" : {
+      "name" : "testValidateFailWorkflowMerge",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidatorTest/method/testValidateFailWorkflowMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 15,
+        "endLine" : 84,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidatorTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/validations/DryRunValidatorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

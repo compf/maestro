@@ -1,0 +1,113 @@
+{
+  "name" : "Initiator",
+  "key" : "com.netflix.maestro.models.initiator.Initiator",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.models.initiator.Initiator/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.initiator.Initiator/method/getType()",
+      "type" : "com.netflix.maestro.models.initiator.Initiator$Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 8,
+        "endLine" : 41,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.Initiator"
+    },
+    "com.netflix.maestro.models.initiator.Initiator/method/getTimelineEvent()" : {
+      "name" : "getTimelineEvent",
+      "key" : "com.netflix.maestro.models.initiator.Initiator/method/getTimelineEvent()",
+      "type" : "com.netflix.maestro.models.initiator.com.netflix.maestro.models.timeline.TimelineEvent",
+      "displayedType" : "TimelineEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.Initiator"
+    },
+    "com.netflix.maestro.models.initiator.Initiator/method/getDepth()" : {
+      "name" : "getDepth",
+      "key" : "com.netflix.maestro.models.initiator.Initiator/method/getDepth()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 7,
+        "endLine" : 38,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.Initiator"
+    },
+    "com.netflix.maestro.models.initiator.Initiator/method/setCaller(com.netflix.maestro.models.initiator.com.netflix.maestro.models.definition.User caller)" : {
+      "name" : "setCaller",
+      "key" : "com.netflix.maestro.models.initiator.Initiator/method/setCaller(com.netflix.maestro.models.initiator.com.netflix.maestro.models.definition.User caller)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 16,
+        "endLine" : 48,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "caller",
+        "key" : "com.netflix.maestro.models.initiator.Initiator/method/setCaller(com.netflix.maestro.models.initiator.com.netflix.maestro.models.definition.User caller)/parameter/caller",
+        "type" : "com.netflix.maestro.models.initiator.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 31,
+          "endLine" : 48,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.initiator.Initiator/method/setCaller(com.netflix.maestro.models.initiator.com.netflix.maestro.models.definition.User caller)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.Initiator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/initiator/Initiator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

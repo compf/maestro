@@ -1,0 +1,1514 @@
+{
+  "name" : "ParamsMergeHelper",
+  "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 14,
+    "endLine" : 53,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/RESTRICTED_INTERNAL_MODES" : {
+      "name" : "RESTRICTED_INTERNAL_MODES",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/RESTRICTED_INTERNAL_MODES",
+      "type" : "java.util.Set<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode>",
+      "displayedType" : "Set<InternalParamMode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 47,
+        "endLine" : 87,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/PARAM_MODE_STRICTNESS" : {
+      "name" : "PARAM_MODE_STRICTNESS",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/PARAM_MODE_STRICTNESS",
+      "type" : "java.util.List<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode>",
+      "displayedType" : "List<ParamMode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 40,
+        "endLine" : 91,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/RESTART_UPDATE_MODES" : {
+      "name" : "RESTART_UPDATE_MODES",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/RESTART_UPDATE_MODES",
+      "type" : "java.util.EnumSet<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode>",
+      "displayedType" : "EnumSet<ParamMode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 43,
+        "endLine" : 57,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/ALLOWED_UPDATE_MODES" : {
+      "name" : "ALLOWED_UPDATE_MODES",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/ALLOWED_UPDATE_MODES",
+      "type" : "java.util.Map<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource, java.util.Set<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode>>",
+      "displayedType" : "Map<ParamSource, Set<ParamMode>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 57,
+        "endLine" : 61,
+        "endColumn" : 77
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/INTERNAL_PARAM_MODE_TO_MODE" : {
+      "name" : "INTERNAL_PARAM_MODE_TO_MODE",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/INTERNAL_PARAM_MODE_TO_MODE",
+      "type" : "java.util.Map<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode>",
+      "displayedType" : "Map<InternalParamMode, ParamMode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 58,
+        "endLine" : 75,
+        "endColumn" : 85
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/DEFAULT_UPDATE_MODES" : {
+      "name" : "DEFAULT_UPDATE_MODES",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/memberField/DEFAULT_UPDATE_MODES",
+      "type" : "java.util.EnumSet<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode>",
+      "displayedType" : "EnumSet<ParamMode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 43,
+        "endLine" : 55,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanupParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)" : {
+      "name" : "cleanupParams",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanupParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 46,
+        "endLine" : 313,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanupParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 313,
+          "startColumn" : 89,
+          "endLine" : 313,
+          "endColumn" : 95
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanupParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)" : {
+      "name" : "generateMergedValueOrThrow",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 481,
+        "startColumn" : 25,
+        "endLine" : 481,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 482,
+          "startColumn" : 14,
+          "endLine" : 482,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)"
+      }, {
+        "name" : "mergeFrom",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)/parameter/mergeFrom",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 482,
+          "startColumn" : 36,
+          "endLine" : 482,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)"
+      }, {
+        "name" : "mergeBaseline",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)/parameter/mergeBaseline",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 482,
+          "startColumn" : 63,
+          "endLine" : 482,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 482,
+          "startColumn" : 85,
+          "endLine" : 482,
+          "endColumn" : 90
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedValueOrThrow(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, java.lang.Object value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedTagList(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)" : {
+      "name" : "generateMergedTagList",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedTagList(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 665,
+        "startColumn" : 26,
+        "endLine" : 665,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedTagList(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/target",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 666,
+          "startColumn" : 23,
+          "endLine" : 666,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedTagList(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      }, {
+        "name" : "previousDef",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedTagList(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/previousDef",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 666,
+          "startColumn" : 47,
+          "endLine" : 666,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateMergedTagList(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)" : {
+      "name" : "validateParamModesIfMergeable",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 566,
+        "startColumn" : 23,
+        "endLine" : 566,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "context",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)/parameter/context",
+        "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+        "displayedType" : "MergeContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 567,
+          "startColumn" : 20,
+          "endLine" : 567,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)"
+      }, {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 568,
+          "startColumn" : 14,
+          "endLine" : 568,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)"
+      }, {
+        "name" : "mergeFrom",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)/parameter/mergeFrom",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 569,
+          "startColumn" : 23,
+          "endLine" : 569,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)"
+      }, {
+        "name" : "mergeBaseline",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)/parameter/mergeBaseline",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 570,
+          "startColumn" : 23,
+          "endLine" : 570,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)"
+      }, {
+        "name" : "internalMode",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)/parameter/internalMode",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode",
+        "displayedType" : "InternalParamMode",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 571,
+          "startColumn" : 25,
+          "endLine" : 571,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/validateParamModesIfMergeable(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode internalMode)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUpstreamSystemMode(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)" : {
+      "name" : "isUpstreamSystemMode",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUpstreamSystemMode(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 622,
+        "startColumn" : 26,
+        "endLine" : 622,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUpstreamSystemMode(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/target",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 622,
+          "startColumn" : 63,
+          "endLine" : 622,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUpstreamSystemMode(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUpstreamSystemMode(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/context",
+        "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+        "displayedType" : "MergeContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 622,
+          "startColumn" : 84,
+          "endLine" : 622,
+          "endColumn" : 91
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUpstreamSystemMode(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)" : {
+      "name" : "generateParamSource",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource",
+      "displayedType" : "ParamSource",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 629,
+        "startColumn" : 30,
+        "endLine" : 629,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 630,
+          "startColumn" : 14,
+          "endLine" : 630,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "target",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/target",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 630,
+          "startColumn" : 36,
+          "endLine" : 630,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "previousDef",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/previousDef",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 630,
+          "startColumn" : 60,
+          "endLine" : 630,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/context",
+        "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+        "displayedType" : "MergeContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 630,
+          "startColumn" : 86,
+          "endLine" : 630,
+          "endColumn" : 93
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamSource(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeOutputDataParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> allParams, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> params)" : {
+      "name" : "mergeOutputDataParams",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeOutputDataParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> allParams, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> params)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 214,
+        "startColumn" : 22,
+        "endLine" : 214,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "allParams",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeOutputDataParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> allParams, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> params)/parameter/allParams",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Map<String, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 30,
+          "endLine" : 215,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeOutputDataParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> allParams, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> params)"
+      }, {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeOutputDataParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> allParams, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> params)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Map<String, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 64,
+          "endLine" : 215,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeOutputDataParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> allParams, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)" : {
+      "name" : "generateParamModes",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)",
+      "type" : "java.util.Map$Entry<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.InternalParamMode>",
+      "displayedType" : "Map.Entry<ParamMode, InternalParamMode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 507,
+        "startColumn" : 58,
+        "endLine" : 507,
+        "endColumn" : 76
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/target",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 508,
+          "startColumn" : 23,
+          "endLine" : 508,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "previousDef",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/previousDef",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 508,
+          "startColumn" : 47,
+          "endLine" : 508,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/context",
+        "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+        "displayedType" : "MergeContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 508,
+          "startColumn" : 73,
+          "endLine" : 508,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateParamModes(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/convertToParameters(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)" : {
+      "name" : "convertToParameters",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/convertToParameters(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 287,
+        "startColumn" : 40,
+        "endLine" : 287,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/convertToParameters(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 287,
+          "startColumn" : 89,
+          "endLine" : 287,
+          "endColumn" : 95
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/convertToParameters(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateValidator(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)" : {
+      "name" : "generateValidator",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateValidator(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamValidator",
+      "displayedType" : "ParamValidator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 656,
+        "startColumn" : 33,
+        "endLine" : 656,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateValidator(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/target",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 657,
+          "startColumn" : 23,
+          "endLine" : 657,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateValidator(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      }, {
+        "name" : "previousDef",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateValidator(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/previousDef",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 657,
+          "startColumn" : 47,
+          "endLine" : 657,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/generateValidator(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUnchangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)" : {
+      "name" : "isUnchangedParamDef",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUnchangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 713,
+        "startColumn" : 26,
+        "endLine" : 713,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUnchangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/target",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 713,
+          "startColumn" : 62,
+          "endLine" : 713,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUnchangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      }, {
+        "name" : "previousDef",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUnchangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/previousDef",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 713,
+          "startColumn" : 86,
+          "endLine" : 713,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isUnchangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)" : {
+      "name" : "mergeParams",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 22,
+        "endLine" : 168,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 169,
+          "startColumn" : 36,
+          "endLine" : 169,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "paramsToMerge",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/paramsToMerge",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 170,
+          "startColumn" : 36,
+          "endLine" : 170,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/context",
+        "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+        "displayedType" : "MergeContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 171,
+          "startColumn" : 20,
+          "endLine" : 171,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mergeParams(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> paramsToMerge, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)" : {
+      "name" : "mapValueOrEmpty",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 677,
+        "startColumn" : 47,
+        "endLine" : 677,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 678,
+          "startColumn" : 36,
+          "endLine" : 678,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)"
+      }, {
+        "name" : "key",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 678,
+          "startColumn" : 51,
+          "endLine" : 678,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/mapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanIntermediateMetadata(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)" : {
+      "name" : "cleanIntermediateMetadata",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanIntermediateMetadata(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 717,
+        "startColumn" : 47,
+        "endLine" : 717,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanIntermediateMetadata(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 718,
+          "startColumn" : 36,
+          "endLine" : 718,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/cleanIntermediateMetadata(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)" : {
+      "name" : "buildMergedParamDefinition",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+      "displayedType" : "ParamDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 402,
+        "startColumn" : 34,
+        "endLine" : 402,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 403,
+          "startColumn" : 14,
+          "endLine" : 403,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)"
+      }, {
+        "name" : "mergeFrom",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)/parameter/mergeFrom",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 404,
+          "startColumn" : 23,
+          "endLine" : 404,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)"
+      }, {
+        "name" : "mergeBaseline",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)/parameter/mergeBaseline",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 405,
+          "startColumn" : 23,
+          "endLine" : 405,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)/parameter/context",
+        "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+        "displayedType" : "MergeContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 406,
+          "startColumn" : 20,
+          "endLine" : 406,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 407,
+          "startColumn" : 14,
+          "endLine" : 407,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/buildMergedParamDefinition(java.lang.String name, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeFrom, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition mergeBaseline, com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context, java.lang.Object value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/getAllowedModes(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)" : {
+      "name" : "getAllowedModes",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/getAllowedModes(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)",
+      "type" : "java.util.Set<com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode>",
+      "displayedType" : "Set<ParamMode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 605,
+        "startColumn" : 33,
+        "endLine" : 605,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "context",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/getAllowedModes(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)/parameter/context",
+        "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+        "displayedType" : "MergeContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 605,
+          "startColumn" : 62,
+          "endLine" : 605,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/getAllowedModes(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/populateEvaluatedResultAndTime(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter param, java.lang.Long evaluatedTime)" : {
+      "name" : "populateEvaluatedResultAndTime",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/populateEvaluatedResultAndTime(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter param, java.lang.Long evaluatedTime)",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter",
+      "displayedType" : "Parameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 28,
+        "endLine" : 264,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "param",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/populateEvaluatedResultAndTime(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter param, java.lang.Long evaluatedTime)/parameter/param",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter",
+        "displayedType" : "Parameter",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 264,
+          "startColumn" : 69,
+          "endLine" : 264,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/populateEvaluatedResultAndTime(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter param, java.lang.Long evaluatedTime)"
+      }, {
+        "name" : "evaluatedTime",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/populateEvaluatedResultAndTime(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter param, java.lang.Long evaluatedTime)/parameter/evaluatedTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 264,
+          "startColumn" : 81,
+          "endLine" : 264,
+          "endColumn" : 94
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/populateEvaluatedResultAndTime(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter param, java.lang.Long evaluatedTime)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isChangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)" : {
+      "name" : "isChangedParamDef",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isChangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 708,
+        "startColumn" : 26,
+        "endLine" : 708,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isChangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/target",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 708,
+          "startColumn" : 60,
+          "endLine" : 708,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isChangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      }, {
+        "name" : "previousDef",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isChangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)/parameter/previousDef",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition",
+        "displayedType" : "ParamDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 708,
+          "startColumn" : 84,
+          "endLine" : 708,
+          "endColumn" : 95
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/isChangedParamDef(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition target, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition previousDef)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    },
+    "com.netflix.maestro.engine.params.ParamsMergeHelper/method/stringMapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)" : {
+      "name" : "stringMapValueOrEmpty",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/stringMapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)",
+      "type" : "java.util.Map<java.lang.String, java.lang.String>",
+      "displayedType" : "Map<String, String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 692,
+        "startColumn" : 38,
+        "endLine" : 692,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/stringMapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 693,
+          "startColumn" : 36,
+          "endLine" : 693,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/stringMapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)"
+      }, {
+        "name" : "key",
+        "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/stringMapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 693,
+          "startColumn" : 51,
+          "endLine" : 693,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper/method/stringMapValueOrEmpty(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> params, java.lang.String key)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/params/ParamsMergeHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext" : {
+      "name" : "MergeContext",
+      "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 17,
+        "endLine" : 107,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/isRestartMerge" : {
+          "name" : "isRestartMerge",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/isRestartMerge",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 111,
+            "startColumn" : 27,
+            "endLine" : 111,
+            "endColumn" : 41
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/mergeSource" : {
+          "name" : "mergeSource",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/mergeSource",
+          "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource",
+          "displayedType" : "ParamSource",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 108,
+            "startColumn" : 31,
+            "endLine" : 108,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/isSystem" : {
+          "name" : "isSystem",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/isSystem",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 109,
+            "startColumn" : 27,
+            "endLine" : 109,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/isUpstreamMerge" : {
+          "name" : "isUpstreamMerge",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/isUpstreamMerge",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 110,
+            "startColumn" : 27,
+            "endLine" : 110,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/parentParamMode" : {
+          "name" : "parentParamMode",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/memberField/parentParamMode",
+          "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode",
+          "displayedType" : "ParamMode",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 113,
+            "startColumn" : 39,
+            "endLine" : 113,
+            "endColumn" : 54
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.RunRequest request)" : {
+          "name" : "workflowCreate",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.RunRequest request)",
+          "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+          "displayedType" : "MergeContext",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 116,
+            "startColumn" : 32,
+            "endLine" : 116,
+            "endColumn" : 46
+          },
+          "modifiers" : [ "PUBLIC", "STATIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "mergeSource",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.RunRequest request)/parameter/mergeSource",
+            "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource",
+            "displayedType" : "ParamSource",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 116,
+              "startColumn" : 59,
+              "endLine" : 116,
+              "endColumn" : 70
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.RunRequest request)"
+          }, {
+            "name" : "request",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.RunRequest request)/parameter/request",
+            "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.RunRequest",
+            "displayedType" : "RunRequest",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 116,
+              "startColumn" : 83,
+              "endLine" : 116,
+              "endColumn" : 90
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.RunRequest request)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/copyWithParentMode(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext orig, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode parentParamMode)" : {
+          "name" : "copyWithParentMode",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/copyWithParentMode(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext orig, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode parentParamMode)",
+          "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+          "displayedType" : "MergeContext",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 138,
+            "startColumn" : 32,
+            "endLine" : 138,
+            "endColumn" : 50
+          },
+          "modifiers" : [ "PUBLIC", "STATIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "orig",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/copyWithParentMode(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext orig, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode parentParamMode)/parameter/orig",
+            "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+            "displayedType" : "MergeContext",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 138,
+              "startColumn" : 64,
+              "endLine" : 138,
+              "endColumn" : 68
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/copyWithParentMode(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext orig, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode parentParamMode)"
+          }, {
+            "name" : "parentParamMode",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/copyWithParentMode(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext orig, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode parentParamMode)/parameter/parentParamMode",
+            "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode",
+            "displayedType" : "ParamMode",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 138,
+              "startColumn" : 80,
+              "endLine" : 138,
+              "endColumn" : 95
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/copyWithParentMode(com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext orig, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamMode parentParamMode)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge)" : {
+          "name" : "workflowCreate",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge)",
+          "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+          "displayedType" : "MergeContext",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 127,
+            "startColumn" : 32,
+            "endLine" : 127,
+            "endColumn" : 46
+          },
+          "modifiers" : [ "PUBLIC", "STATIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "mergeSource",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge)/parameter/mergeSource",
+            "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource",
+            "displayedType" : "ParamSource",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 127,
+              "startColumn" : 59,
+              "endLine" : 127,
+              "endColumn" : 70
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge)"
+          }, {
+            "name" : "isUpstreamMerge",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge)/parameter/isUpstreamMerge",
+            "type" : "boolean",
+            "displayedType" : "boolean",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 127,
+              "startColumn" : 80,
+              "endLine" : 127,
+              "endColumn" : 95
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/stepCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource)" : {
+          "name" : "stepCreate",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/stepCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource)",
+          "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+          "displayedType" : "MergeContext",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 122,
+            "startColumn" : 32,
+            "endLine" : 122,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PUBLIC", "STATIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "mergeSource",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/stepCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource)/parameter/mergeSource",
+            "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource",
+            "displayedType" : "ParamSource",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 122,
+              "startColumn" : 55,
+              "endLine" : 122,
+              "endColumn" : 66
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/stepCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        },
+        "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)" : {
+          "name" : "workflowCreate",
+          "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)",
+          "type" : "com.netflix.maestro.engine.params.ParamsMergeHelper$MergeContext",
+          "displayedType" : "MergeContext",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 131,
+            "startColumn" : 32,
+            "endLine" : 131,
+            "endColumn" : 46
+          },
+          "modifiers" : [ "PUBLIC", "STATIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "mergeSource",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)/parameter/mergeSource",
+            "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource",
+            "displayedType" : "ParamSource",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 132,
+              "startColumn" : 21,
+              "endLine" : 132,
+              "endColumn" : 32
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)"
+          }, {
+            "name" : "isUpstreamMerge",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)/parameter/isUpstreamMerge",
+            "type" : "boolean",
+            "displayedType" : "boolean",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 132,
+              "startColumn" : 42,
+              "endLine" : 132,
+              "endColumn" : 57
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)"
+          }, {
+            "name" : "isRestartMerge",
+            "key" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)/parameter/isRestartMerge",
+            "type" : "boolean",
+            "displayedType" : "boolean",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 132,
+              "startColumn" : 67,
+              "endLine" : 132,
+              "endColumn" : 81
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext/method/workflowCreate(com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamSource mergeSource, boolean isUpstreamMerge, boolean isRestartMerge)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper.MergeContext"
+        }
+      },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/params/ParamsMergeHelper.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.params.ParamsMergeHelper",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

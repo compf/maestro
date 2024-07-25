@@ -1,0 +1,77 @@
+{
+  "name" : "ForeachIterationOverview",
+  "key" : "com.netflix.maestro.engine.db.ForeachIterationOverview",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.db.ForeachIterationOverview/memberField/rollupOverview" : {
+      "name" : "rollupOverview",
+      "key" : "com.netflix.maestro.engine.db.ForeachIterationOverview/memberField/rollupOverview",
+      "type" : "com.netflix.maestro.engine.db.com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 40,
+        "endLine" : 28,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.ForeachIterationOverview"
+    },
+    "com.netflix.maestro.engine.db.ForeachIterationOverview/memberField/instanceId" : {
+      "name" : "instanceId",
+      "key" : "com.netflix.maestro.engine.db.ForeachIterationOverview/memberField/instanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 22,
+        "endLine" : 26,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.ForeachIterationOverview"
+    },
+    "com.netflix.maestro.engine.db.ForeachIterationOverview/memberField/status" : {
+      "name" : "status",
+      "key" : "com.netflix.maestro.engine.db.ForeachIterationOverview/memberField/status",
+      "type" : "com.netflix.maestro.engine.db.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.db.Status",
+      "displayedType" : "WorkflowInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 41,
+        "endLine" : 27,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.ForeachIterationOverview"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/db/ForeachIterationOverview.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

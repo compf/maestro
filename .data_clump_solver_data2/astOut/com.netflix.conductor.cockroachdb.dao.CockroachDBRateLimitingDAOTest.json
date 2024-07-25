@@ -1,0 +1,151 @@
+{
+  "name" : "CockroachDBRateLimitingDAOTest",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/memberField/dao" : {
+      "name" : "dao",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/memberField/dao",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.RateLimitingDAO",
+      "displayedType" : "RateLimitingDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 27,
+        "endLine" : 26,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/memberField/executionDAO" : {
+      "name" : "executionDAO",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/memberField/executionDAO",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.ExecutionDAO",
+      "displayedType" : "ExecutionDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 24,
+        "endLine" : 27,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/tearDown()" : {
+      "name" : "tearDown",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/tearDown()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 15,
+        "endLine" : 42,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/testExceedsRateLimitWhenNoRateLimitSet()" : {
+      "name" : "testExceedsRateLimitWhenNoRateLimitSet",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/testExceedsRateLimitWhenNoRateLimitSet()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/testExceedsRateLimitWithinLimit()" : {
+      "name" : "testExceedsRateLimitWithinLimit",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/testExceedsRateLimitWithinLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 15,
+        "endLine" : 54,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 15,
+        "endLine" : 30,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/testExceedsRateLimitOutOfLimit()" : {
+      "name" : "testExceedsRateLimitOutOfLimit",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest/method/testExceedsRateLimitOutOfLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 15,
+        "endLine" : 64,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBRateLimitingDAOTest"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/test/java/com/netflix/conductor/cockroachdb/dao/CockroachDBRateLimitingDAOTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

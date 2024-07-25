@@ -1,0 +1,770 @@
+{
+  "name" : "StepInstance",
+  "key" : "com.netflix.maestro.models.instance.StepInstance",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 71,
+    "startColumn" : 8,
+    "endLine" : 71,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.StepInstance/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 27,
+        "endLine" : 80,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/outputs" : {
+      "name" : "outputs",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/outputs",
+      "type" : "java.util.Map<com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepOutputsDefinition#com.netflix.maestro.models.instance.StepOutputType, com.netflix.maestro.models.instance.StepOutputs>",
+      "displayedType" : "Map<StepOutputsDefinition.StepOutputType, StepOutputs>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 73,
+        "endLine" : 116,
+        "endColumn" : 80
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/tags" : {
+      "name" : "tags",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/tags",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 45,
+        "endLine" : 100,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/params" : {
+      "name" : "params",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/params",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 41,
+        "endLine" : 101,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/workflowInstanceId" : {
+      "name" : "workflowInstanceId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/workflowInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 16,
+        "endLine" : 75,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/workflowUuid" : {
+      "name" : "workflowUuid",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/workflowUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 27,
+        "endLine" : 85,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/definition" : {
+      "name" : "definition",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/definition",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.Step",
+      "displayedType" : "Step",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 32,
+        "endLine" : 98,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/stepInstanceId" : {
+      "name" : "stepInstanceId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/stepInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 16,
+        "endLine" : 90,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/stepUuid" : {
+      "name" : "stepUuid",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/stepUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 27,
+        "endLine" : 86,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/timeoutInMillis" : {
+      "name" : "timeoutInMillis",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/timeoutInMillis",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 26,
+        "endLine" : 111,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 27,
+        "endLine" : 72,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/artifacts" : {
+      "name" : "artifacts",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/artifacts",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.artifact.Artifact>",
+      "displayedType" : "Map<String, Artifact>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 33,
+        "endLine" : 120,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/correlationId" : {
+      "name" : "correlationId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/correlationId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 27,
+        "endLine" : 87,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/owner" : {
+      "name" : "owner",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/owner",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 32,
+        "endLine" : 96,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/runtimeState" : {
+      "name" : "runtimeState",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/runtimeState",
+      "type" : "com.netflix.maestro.models.instance.StepRuntimeState",
+      "displayedType" : "StepRuntimeState",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 44,
+        "endLine" : 113,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/dependencies" : {
+      "name" : "dependencies",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/dependencies",
+      "type" : "java.util.Map<com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepDependencyType, com.netflix.maestro.models.instance.StepDependencies>",
+      "displayedType" : "Map<StepDependencyType, StepDependencies>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 60,
+        "endLine" : 115,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/workflowRunId" : {
+      "name" : "workflowRunId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/workflowRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 16,
+        "endLine" : 78,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/transition" : {
+      "name" : "transition",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/transition",
+      "type" : "com.netflix.maestro.models.instance.StepInstanceTransition",
+      "displayedType" : "StepInstanceTransition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 41,
+        "endLine" : 108,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/stepAttemptId" : {
+      "name" : "stepAttemptId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/stepAttemptId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 16,
+        "endLine" : 83,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/stepRetry" : {
+      "name" : "stepRetry",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/stepRetry",
+      "type" : "com.netflix.maestro.models.instance.StepInstance$StepRetry",
+      "displayedType" : "StepInstance.StepRetry",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 41,
+        "endLine" : 109,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/timeline" : {
+      "name" : "timeline",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/timeline",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.timeline.Timeline",
+      "displayedType" : "Timeline",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 20,
+        "endLine" : 124,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/memberField/workflowVersionId" : {
+      "name" : "workflowVersionId",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/memberField/workflowVersionId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 16,
+        "endLine" : 93,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.instance.StepInstance/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.Parameter> input)" : {
+      "name" : "setParams",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.Parameter> input)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 15,
+        "endLine" : 104,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.models.instance.StepInstance/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.Parameter> input)/parameter/input",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Map<String, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 48,
+          "endLine" : 104,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.StepInstance/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.Parameter> input)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/method/enrich()" : {
+      "name" : "enrich",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/method/enrich()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 15,
+        "endLine" : 128,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/method/getSignalDependencies()" : {
+      "name" : "getSignalDependencies",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/method/getSignalDependencies()",
+      "type" : "com.netflix.maestro.models.instance.StepDependencies",
+      "displayedType" : "StepDependencies",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 27,
+        "endLine" : 141,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    },
+    "com.netflix.maestro.models.instance.StepInstance/method/getIdentity()" : {
+      "name" : "getIdentity",
+      "key" : "com.netflix.maestro.models.instance.StepInstance/method/getIdentity()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 17,
+        "endLine" : 136,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/StepInstance.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.instance.StepInstance.StepRetry" : {
+      "name" : "StepRetry",
+      "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 17,
+        "endLine" : 160,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/backoff" : {
+          "name" : "backoff",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/backoff",
+          "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.RetryPolicy#com.netflix.maestro.models.instance.Backoff",
+          "displayedType" : "RetryPolicy.Backoff",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 167,
+            "startColumn" : 33,
+            "endLine" : 167,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/platformRetryLimit" : {
+          "name" : "platformRetryLimit",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/platformRetryLimit",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 164,
+            "startColumn" : 18,
+            "endLine" : 164,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/retryable" : {
+          "name" : "retryable",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/retryable",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 166,
+            "startColumn" : 21,
+            "endLine" : 166,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/errorRetries" : {
+          "name" : "errorRetries",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/errorRetries",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 161,
+            "startColumn" : 18,
+            "endLine" : 161,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/errorRetryLimit" : {
+          "name" : "errorRetryLimit",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/errorRetryLimit",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 162,
+            "startColumn" : 18,
+            "endLine" : 162,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/platformRetries" : {
+          "name" : "platformRetries",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/platformRetries",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 163,
+            "startColumn" : 18,
+            "endLine" : 163,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/manualRetries" : {
+          "name" : "manualRetries",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/memberField/manualRetries",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 165,
+            "startColumn" : 18,
+            "endLine" : 165,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/getNextRetryDelay(com.netflix.maestro.models.instance.StepInstance$Status status)" : {
+          "name" : "getNextRetryDelay",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/getNextRetryDelay(com.netflix.maestro.models.instance.StepInstance$Status status)",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 199,
+            "startColumn" : 16,
+            "endLine" : 199,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "status",
+            "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/getNextRetryDelay(com.netflix.maestro.models.instance.StepInstance$Status status)/parameter/status",
+            "type" : "com.netflix.maestro.models.instance.StepInstance$Status",
+            "displayedType" : "Status",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 199,
+              "startColumn" : 41,
+              "endLine" : 199,
+              "endColumn" : 47
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/getNextRetryDelay(com.netflix.maestro.models.instance.StepInstance$Status status)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/from(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.RetryPolicy policy)" : {
+          "name" : "from",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/from(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.RetryPolicy policy)",
+          "type" : "com.netflix.maestro.models.instance.StepInstance$StepRetry",
+          "displayedType" : "StepRetry",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 212,
+            "startColumn" : 29,
+            "endLine" : 212,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC", "STATIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "policy",
+            "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/from(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.RetryPolicy policy)/parameter/policy",
+            "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.RetryPolicy",
+            "displayedType" : "RetryPolicy",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 212,
+              "startColumn" : 56,
+              "endLine" : 212,
+              "endColumn" : 62
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/from(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.RetryPolicy policy)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/hasReachedPlatformRetryLimit()" : {
+          "name" : "hasReachedPlatformRetryLimit",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/hasReachedPlatformRetryLimit()",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 175,
+            "startColumn" : 20,
+            "endLine" : 175,
+            "endColumn" : 48
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/incrementByStatus(com.netflix.maestro.models.instance.StepInstance$Status status)" : {
+          "name" : "incrementByStatus",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/incrementByStatus(com.netflix.maestro.models.instance.StepInstance$Status status)",
+          "type" : "void",
+          "displayedType" : "void",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 180,
+            "startColumn" : 17,
+            "endLine" : 180,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "status",
+            "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/incrementByStatus(com.netflix.maestro.models.instance.StepInstance$Status status)/parameter/status",
+            "type" : "com.netflix.maestro.models.instance.StepInstance$Status",
+            "displayedType" : "Status",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 180,
+              "startColumn" : 42,
+              "endLine" : 180,
+              "endColumn" : 48
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/incrementByStatus(com.netflix.maestro.models.instance.StepInstance$Status status)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        },
+        "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/hasReachedErrorRetryLimit()" : {
+          "name" : "hasReachedErrorRetryLimit",
+          "key" : "com.netflix.maestro.models.instance.StepInstance.StepRetry/method/hasReachedErrorRetryLimit()",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 170,
+            "startColumn" : 20,
+            "endLine" : 170,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepInstance.StepRetry"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/StepInstance.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.instance.StepInstance",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

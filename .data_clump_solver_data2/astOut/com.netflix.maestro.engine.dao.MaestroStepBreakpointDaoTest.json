@@ -1,0 +1,900 @@
+{
+  "name" : "MaestroStepBreakpointDaoTest",
+  "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/workflowDao" : {
+      "name" : "workflowDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/workflowDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroWorkflowDao",
+      "displayedType" : "MaestroWorkflowDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 36,
+        "endLine" : 44,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ID3" : {
+      "name" : "TEST_STEP_ID3",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ID3",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 31,
+        "endLine" : 58,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_NON_EXIST_STEP_ID" : {
+      "name" : "TEST_NON_EXIST_STEP_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_NON_EXIST_STEP_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 31,
+        "endLine" : 62,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_VERSION1" : {
+      "name" : "TEST_WORKFLOW_VERSION1",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_VERSION1",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 29,
+        "endLine" : 54,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ID1" : {
+      "name" : "TEST_STEP_ID1",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ID1",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 31,
+        "endLine" : 56,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_VERSION2" : {
+      "name" : "TEST_WORKFLOW_VERSION2",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_VERSION2",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 29,
+        "endLine" : 55,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ID2" : {
+      "name" : "TEST_STEP_ID2",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ID2",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 31,
+        "endLine" : 57,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/wfd" : {
+      "name" : "wfd",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/wfd",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.WorkflowDefinition",
+      "displayedType" : "WorkflowDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 30,
+        "endLine" : 68,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_FOREACH_STEP_ID5" : {
+      "name" : "TEST_FOREACH_STEP_ID5",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_FOREACH_STEP_ID5",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 31,
+        "endLine" : 61,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_FOREACH_STEP_ID4" : {
+      "name" : "TEST_FOREACH_STEP_ID4",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_FOREACH_STEP_ID4",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 31,
+        "endLine" : 60,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/INTERNAL_ID" : {
+      "name" : "INTERNAL_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/INTERNAL_ID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 29,
+        "endLine" : 59,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_ID2" : {
+      "name" : "TEST_WORKFLOW_ID2",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_ID2",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 31,
+        "endLine" : 47,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_ID3" : {
+      "name" : "TEST_WORKFLOW_ID3",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_ID3",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 31,
+        "endLine" : 48,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_ID1" : {
+      "name" : "TEST_WORKFLOW_ID1",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_ID1",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 31,
+        "endLine" : 46,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_RUN2" : {
+      "name" : "TEST_WORKFLOW_RUN2",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_RUN2",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 29,
+        "endLine" : 53,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ATTEMPT1" : {
+      "name" : "TEST_STEP_ATTEMPT1",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ATTEMPT1",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 29,
+        "endLine" : 63,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ATTEMPT2" : {
+      "name" : "TEST_STEP_ATTEMPT2",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_STEP_ATTEMPT2",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 29,
+        "endLine" : 64,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_INSTANCE1" : {
+      "name" : "TEST_WORKFLOW_INSTANCE1",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_INSTANCE1",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_RUN1" : {
+      "name" : "TEST_WORKFLOW_RUN1",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_RUN1",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 29,
+        "endLine" : 52,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/SAMPLE_WORKFLOW_ID" : {
+      "name" : "SAMPLE_WORKFLOW_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/SAMPLE_WORKFLOW_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 31,
+        "endLine" : 67,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/conn" : {
+      "name" : "conn",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/conn",
+      "type" : "java.sql.Connection",
+      "displayedType" : "Connection",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 22,
+        "endLine" : 45,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_INSTANCE3" : {
+      "name" : "TEST_WORKFLOW_INSTANCE3",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_INSTANCE3",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 29,
+        "endLine" : 51,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_INSTANCE2" : {
+      "name" : "TEST_WORKFLOW_INSTANCE2",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_WORKFLOW_INSTANCE2",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 29,
+        "endLine" : 50,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_USER" : {
+      "name" : "TEST_USER",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/TEST_USER",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 29,
+        "endLine" : 66,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/maestroStepBreakpointDao" : {
+      "name" : "maestroStepBreakpointDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/maestroStepBreakpointDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao",
+      "displayedType" : "MaestroStepBreakpointDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 36,
+        "endLine" : 43,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/batchDeletionLimitSupplier" : {
+      "name" : "batchDeletionLimitSupplier",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/batchDeletionLimitSupplier",
+      "type" : "java.util.function.Supplier<java.lang.Integer>",
+      "displayedType" : "Supplier<Integer>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 35,
+        "endLine" : 70,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/DELETION_BATCH_LIMIT" : {
+      "name" : "DELETION_BATCH_LIMIT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/memberField/DELETION_BATCH_LIMIT",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 28,
+        "endLine" : 65,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testRemoveBreakpoint()" : {
+      "name" : "testRemoveBreakpoint",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testRemoveBreakpoint()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 15,
+        "endLine" : 260,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testAddBreakpoint()" : {
+      "name" : "testAddBreakpoint",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testAddBreakpoint()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 15,
+        "endLine" : 97,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPauseForeachGet()" : {
+      "name" : "testShouldStepPauseForeachGet",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPauseForeachGet()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1266,
+        "startColumn" : 15,
+        "endLine" : 1266,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPause()" : {
+      "name" : "testShouldStepPause",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPause()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1004,
+        "startColumn" : 15,
+        "endLine" : 1004,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testGetPausedStepAttemptsByStepIdentifier()" : {
+      "name" : "testGetPausedStepAttemptsByStepIdentifier",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testGetPausedStepAttemptsByStepIdentifier()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 831,
+        "startColumn" : 15,
+        "endLine" : 831,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testResumeInlineWorkflowStepInstanceAttempt()" : {
+      "name" : "testResumeInlineWorkflowStepInstanceAttempt",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testResumeInlineWorkflowStepInstanceAttempt()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1390,
+        "startColumn" : 15,
+        "endLine" : 1390,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testInsertUpsertBreakpointCycle()" : {
+      "name" : "testInsertUpsertBreakpointCycle",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testInsertUpsertBreakpointCycle()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 15,
+        "endLine" : 155,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepResume()" : {
+      "name" : "testShouldStepResume",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepResume()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1470,
+        "startColumn" : 15,
+        "endLine" : 1470,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testAddForEachBreakpoint()" : {
+      "name" : "testAddForEachBreakpoint",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testAddForEachBreakpoint()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 15,
+        "endLine" : 132,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testAddStepBreakpointForAllWorkflowVersionsInvalid()" : {
+      "name" : "testAddStepBreakpointForAllWorkflowVersionsInvalid",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testAddStepBreakpointForAllWorkflowVersionsInvalid()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 618,
+        "startColumn" : 15,
+        "endLine" : 618,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testInsertPausedStepInstanceAttempt()" : {
+      "name" : "testInsertPausedStepInstanceAttempt",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testInsertPausedStepInstanceAttempt()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 637,
+        "startColumn" : 15,
+        "endLine" : 637,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testResumePausedStepAttemptInvalid()" : {
+      "name" : "testResumePausedStepAttemptInvalid",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testResumePausedStepAttemptInvalid()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 741,
+        "startColumn" : 15,
+        "endLine" : 741,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 15,
+        "endLine" : 73,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testGetInlineWorkflowStepBreakPoints()" : {
+      "name" : "testGetInlineWorkflowStepBreakPoints",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testGetInlineWorkflowStepBreakPoints()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1323,
+        "startColumn" : 15,
+        "endLine" : 1323,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testUpsertStepBreakPoint()" : {
+      "name" : "testUpsertStepBreakPoint",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testUpsertStepBreakPoint()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 15,
+        "endLine" : 222,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPauseForeach()" : {
+      "name" : "testShouldStepPauseForeach",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPauseForeach()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1144,
+        "startColumn" : 15,
+        "endLine" : 1144,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/after()" : {
+      "name" : "after",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/after()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 15,
+        "endLine" : 92,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPauseForeachRemove()" : {
+      "name" : "testShouldStepPauseForeachRemove",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testShouldStepPauseForeachRemove()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1200,
+        "startColumn" : 15,
+        "endLine" : 1200,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testRemovePausedStepAttemptsWithConn()" : {
+      "name" : "testRemovePausedStepAttemptsWithConn",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testRemovePausedStepAttemptsWithConn()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 799,
+        "startColumn" : 15,
+        "endLine" : 799,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testNonExistStepBreakpoints()" : {
+      "name" : "testNonExistStepBreakpoints",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testNonExistStepBreakpoints()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 15,
+        "endLine" : 313,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testResumePausedStepAttempt()" : {
+      "name" : "testResumePausedStepAttempt",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testResumePausedStepAttempt()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 709,
+        "startColumn" : 15,
+        "endLine" : 709,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testGetBreakpoints()" : {
+      "name" : "testGetBreakpoints",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testGetBreakpoints()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 413,
+        "startColumn" : 15,
+        "endLine" : 413,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testRemoveForeachStepBreakpointMultiBatchDeletion()" : {
+      "name" : "testRemoveForeachStepBreakpointMultiBatchDeletion",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest/method/testRemoveForeachStepBreakpointMultiBatchDeletion()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1507,
+        "startColumn" : 15,
+        "endLine" : 1507,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDaoTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/dao/MaestroStepBreakpointDaoTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.MaestroDaoBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

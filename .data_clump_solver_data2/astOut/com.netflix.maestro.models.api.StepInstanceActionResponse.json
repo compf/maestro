@@ -1,0 +1,171 @@
+{
+  "name" : "StepInstanceActionResponse",
+  "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 8,
+    "endLine" : 50,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/timelineEvent" : {
+      "name" : "timelineEvent",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/timelineEvent",
+      "type" : "com.netflix.maestro.models.api.com.netflix.maestro.models.timeline.TimelineEvent",
+      "displayedType" : "TimelineEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 31,
+        "endLine" : 57,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse"
+    },
+    "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/workflowRunId" : {
+      "name" : "workflowRunId",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/workflowRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 22,
+        "endLine" : 53,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse"
+    },
+    "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/workflowInstanceId" : {
+      "name" : "workflowInstanceId",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/workflowInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 22,
+        "endLine" : 52,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse"
+    },
+    "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/stepRuntimeState" : {
+      "name" : "stepRuntimeState",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/stepRuntimeState",
+      "type" : "com.netflix.maestro.models.api.com.netflix.maestro.models.instance.StepRuntimeState",
+      "displayedType" : "StepRuntimeState",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 34,
+        "endLine" : 56,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse"
+    },
+    "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 24,
+        "endLine" : 54,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse"
+    },
+    "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 24,
+        "endLine" : 51,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse"
+    },
+    "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/stepAttemptId" : {
+      "name" : "stepAttemptId",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse/memberField/stepAttemptId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 22,
+        "endLine" : 55,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/StepInstanceActionResponse.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.api.StepInstanceActionResponse.StepInstanceActionResponseBuilder" : {
+      "name" : "StepInstanceActionResponseBuilder",
+      "key" : "com.netflix.maestro.models.api.StepInstanceActionResponse.StepInstanceActionResponseBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 23,
+        "endLine" : 62,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/StepInstanceActionResponse.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

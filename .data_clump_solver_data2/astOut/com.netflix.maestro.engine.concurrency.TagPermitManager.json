@@ -1,0 +1,186 @@
+{
+  "name" : "TagPermitManager",
+  "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 21,
+    "startColumn" : 8,
+    "endLine" : 21,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.engine.concurrency.TagPermitManager/memberField/NOOP_TAG_PERMIT_MANAGER" : {
+      "name" : "NOOP_TAG_PERMIT_MANAGER",
+      "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager/memberField/NOOP_TAG_PERMIT_MANAGER",
+      "type" : "com.netflix.maestro.engine.concurrency.TagPermitManager",
+      "displayedType" : "TagPermitManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 23,
+        "startColumn" : 20,
+        "endLine" : 23,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.concurrency.TagPermitManager/method/acquire(java.util.List<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.definition.Tag> tagsList, java.lang.String uuid)" : {
+      "name" : "acquire",
+      "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/acquire(java.util.List<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.definition.Tag> tagsList, java.lang.String uuid)",
+      "type" : "com.netflix.maestro.engine.concurrency.TagPermitManager$Status",
+      "displayedType" : "Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 10,
+        "endLine" : 50,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tagsList",
+        "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/acquire(java.util.List<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.definition.Tag> tagsList, java.lang.String uuid)/parameter/tagsList",
+        "type" : "java.util.List<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.definition.Tag>",
+        "displayedType" : "List<Tag>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 28,
+          "endLine" : 50,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/acquire(java.util.List<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.definition.Tag> tagsList, java.lang.String uuid)"
+      }, {
+        "name" : "uuid",
+        "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/acquire(java.util.List<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.definition.Tag> tagsList, java.lang.String uuid)/parameter/uuid",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 45,
+          "endLine" : 50,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/acquire(java.util.List<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.definition.Tag> tagsList, java.lang.String uuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager"
+    },
+    "com.netflix.maestro.engine.concurrency.TagPermitManager/method/releaseTagPermits(java.lang.String stepUuid)" : {
+      "name" : "releaseTagPermits",
+      "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/releaseTagPermits(java.lang.String stepUuid)",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 16,
+        "endLine" : 58,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepUuid",
+        "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/releaseTagPermits(java.lang.String stepUuid)/parameter/stepUuid",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 41,
+          "endLine" : 58,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager/method/releaseTagPermits(java.lang.String stepUuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/concurrency/TagPermitManager.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.concurrency.TagPermitManager.Status" : {
+      "name" : "Status",
+      "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager.Status",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 3,
+        "endLine" : 39,
+        "endColumn" : 8
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.engine.concurrency.TagPermitManager.Status/memberField/success" : {
+          "name" : "success",
+          "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager.Status/memberField/success",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 40,
+            "startColumn" : 27,
+            "endLine" : 40,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager.Status"
+        },
+        "com.netflix.maestro.engine.concurrency.TagPermitManager.Status/memberField/message" : {
+          "name" : "message",
+          "key" : "com.netflix.maestro.engine.concurrency.TagPermitManager.Status/memberField/message",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 41,
+            "startColumn" : 26,
+            "endLine" : 41,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager.Status"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/concurrency/TagPermitManager.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.concurrency.TagPermitManager",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

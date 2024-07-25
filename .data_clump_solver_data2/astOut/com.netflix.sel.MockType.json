@@ -1,0 +1,224 @@
+{
+  "name" : "MockType",
+  "key" : "com.netflix.sel.MockType",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 18,
+    "startColumn" : 8,
+    "endLine" : 18,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.sel.MockType/method/staticNoArg()" : {
+      "name" : "staticNoArg",
+      "key" : "com.netflix.sel.MockType/method/staticNoArg()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 19,
+        "startColumn" : 22,
+        "endLine" : 19,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.MockType"
+    },
+    "com.netflix.sel.MockType/method/twoArgs(java.lang.String arg, com.netflix.sel.org.joda.time.DateTime dt)" : {
+      "name" : "twoArgs",
+      "key" : "com.netflix.sel.MockType/method/twoArgs(java.lang.String arg, com.netflix.sel.org.joda.time.DateTime dt)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 17,
+        "endLine" : 37,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg",
+        "key" : "com.netflix.sel.MockType/method/twoArgs(java.lang.String arg, com.netflix.sel.org.joda.time.DateTime dt)/parameter/arg",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 32,
+          "endLine" : 37,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.MockType/method/twoArgs(java.lang.String arg, com.netflix.sel.org.joda.time.DateTime dt)"
+      }, {
+        "name" : "dt",
+        "key" : "com.netflix.sel.MockType/method/twoArgs(java.lang.String arg, com.netflix.sel.org.joda.time.DateTime dt)/parameter/dt",
+        "type" : "com.netflix.sel.org.joda.time.DateTime",
+        "displayedType" : "DateTime",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 46,
+          "endLine" : 37,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.MockType/method/twoArgs(java.lang.String arg, com.netflix.sel.org.joda.time.DateTime dt)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.MockType"
+    },
+    "com.netflix.sel.MockType/method/staticOneArg(int arg)" : {
+      "name" : "staticOneArg",
+      "key" : "com.netflix.sel.MockType/method/staticOneArg(int arg)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 21,
+        "endLine" : 25,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg",
+        "key" : "com.netflix.sel.MockType/method/staticOneArg(int arg)/parameter/arg",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 38,
+          "endLine" : 25,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.MockType/method/staticOneArg(int arg)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.MockType"
+    },
+    "com.netflix.sel.MockType/method/oneArg(java.lang.String arg)" : {
+      "name" : "oneArg",
+      "key" : "com.netflix.sel.MockType/method/oneArg(java.lang.String arg)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 17,
+        "endLine" : 29,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg",
+        "key" : "com.netflix.sel.MockType/method/oneArg(java.lang.String arg)/parameter/arg",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 29,
+          "startColumn" : 31,
+          "endLine" : 29,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.MockType/method/oneArg(java.lang.String arg)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.MockType"
+    },
+    "com.netflix.sel.MockType/method/noArg()" : {
+      "name" : "noArg",
+      "key" : "com.netflix.sel.MockType/method/noArg()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 21,
+        "startColumn" : 17,
+        "endLine" : 21,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.MockType"
+    },
+    "com.netflix.sel.MockType/method/staticTwoArgs(double arg, boolean b)" : {
+      "name" : "staticTwoArgs",
+      "key" : "com.netflix.sel.MockType/method/staticTwoArgs(double arg, boolean b)",
+      "type" : "double",
+      "displayedType" : "double",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 24,
+        "endLine" : 33,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "arg",
+        "key" : "com.netflix.sel.MockType/method/staticTwoArgs(double arg, boolean b)/parameter/arg",
+        "type" : "double",
+        "displayedType" : "double",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 33,
+          "startColumn" : 45,
+          "endLine" : 33,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.MockType/method/staticTwoArgs(double arg, boolean b)"
+      }, {
+        "name" : "b",
+        "key" : "com.netflix.sel.MockType/method/staticTwoArgs(double arg, boolean b)/parameter/b",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 33,
+          "startColumn" : 58,
+          "endLine" : 33,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.MockType/method/staticTwoArgs(double arg, boolean b)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.MockType"
+    }
+  },
+  "file_path" : "netflix-sel/src/test/java/com/netflix/sel/MockType.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.com.netflix.sel.type.AbstractSelType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,183 @@
+{
+  "name" : "SubworkflowArtifact",
+  "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 14,
+    "endLine" : 37,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowUuid" : {
+      "name" : "subworkflowUuid",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 18,
+        "endLine" : 42,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    },
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowOverview" : {
+      "name" : "subworkflowOverview",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowOverview",
+      "type" : "com.netflix.maestro.models.artifact.com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+      "displayedType" : "WorkflowRuntimeOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 35,
+        "endLine" : 43,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    },
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowId" : {
+      "name" : "subworkflowId",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 18,
+        "endLine" : 38,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    },
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowRunId" : {
+      "name" : "subworkflowRunId",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 16,
+        "endLine" : 41,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    },
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowInstanceId" : {
+      "name" : "subworkflowInstanceId",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 16,
+        "endLine" : 40,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    },
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowVersionId" : {
+      "name" : "subworkflowVersionId",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/memberField/subworkflowVersionId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 16,
+        "endLine" : 39,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/method/asSubworkflow()" : {
+      "name" : "asSubworkflow",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/method/asSubworkflow()",
+      "type" : "com.netflix.maestro.models.artifact.SubworkflowArtifact",
+      "displayedType" : "SubworkflowArtifact",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 30,
+        "endLine" : 47,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    },
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/method/getIdentity()" : {
+      "name" : "getIdentity",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/method/getIdentity()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    },
+    "com.netflix.maestro.models.artifact.SubworkflowArtifact/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.artifact.SubworkflowArtifact/method/getType()",
+      "type" : "com.netflix.maestro.models.artifact.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 15,
+        "endLine" : 52,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.SubworkflowArtifact"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/artifact/SubworkflowArtifact.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.artifact.Artifact" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

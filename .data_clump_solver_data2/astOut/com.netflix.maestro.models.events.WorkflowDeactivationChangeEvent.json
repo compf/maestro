@@ -1,0 +1,88 @@
+{
+  "name" : "WorkflowDeactivationChangeEvent",
+  "key" : "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 14,
+    "endLine" : 47,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent/memberField/previousActiveVersionId" : {
+      "name" : "previousActiveVersionId",
+      "key" : "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent/memberField/previousActiveVersionId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 32,
+        "endLine" : 48,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.events.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowDeactivationChangeEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.events.WorkflowChangeEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent.WorkflowDeactivationChangeEventBuilderImpl" : {
+      "name" : "WorkflowDeactivationChangeEventBuilderImpl",
+      "key" : "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent.WorkflowDeactivationChangeEventBuilderImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 16,
+        "endLine" : 58,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowDeactivationChangeEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.models.events.WorkflowDeactivationChangeEventBuilder<com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent, com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent$WorkflowDeactivationChangeEventBuilderImpl>", "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent", "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent$WorkflowDeactivationChangeEventBuilderImpl" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.events.WorkflowDeactivationChangeEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

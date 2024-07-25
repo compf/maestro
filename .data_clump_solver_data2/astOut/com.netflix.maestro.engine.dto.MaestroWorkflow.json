@@ -1,0 +1,265 @@
+{
+  "name" : "MaestroWorkflow",
+  "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 59,
+    "startColumn" : 14,
+    "endLine" : 59,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/propertiesSnapshot" : {
+      "name" : "propertiesSnapshot",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/propertiesSnapshot",
+      "type" : "com.netflix.maestro.engine.dto.com.netflix.maestro.models.definition.PropertiesSnapshot",
+      "displayedType" : "PropertiesSnapshot",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 36,
+        "endLine" : 67,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/modifyTime" : {
+      "name" : "modifyTime",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/modifyTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 22,
+        "endLine" : 65,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/activateTime" : {
+      "name" : "activateTime",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/activateTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 22,
+        "endLine" : 63,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/metadata" : {
+      "name" : "metadata",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/metadata",
+      "type" : "com.netflix.maestro.engine.dto.com.netflix.maestro.models.definition.Metadata",
+      "displayedType" : "Metadata",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 28,
+        "endLine" : 69,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/triggerUuids" : {
+      "name" : "triggerUuids",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/triggerUuids",
+      "type" : "com.netflix.maestro.engine.dto.com.netflix.maestro.models.trigger.TriggerUuids",
+      "displayedType" : "TriggerUuids",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 32,
+        "endLine" : 71,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 24,
+        "endLine" : 60,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/internalId" : {
+      "name" : "internalId",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/internalId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 22,
+        "endLine" : 61,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/latestVersionId" : {
+      "name" : "latestVersionId",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/latestVersionId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 22,
+        "endLine" : 68,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/definition" : {
+      "name" : "definition",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/definition",
+      "type" : "com.netflix.maestro.engine.dto.com.netflix.maestro.models.definition.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 28,
+        "endLine" : 70,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/activatedBy" : {
+      "name" : "activatedBy",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/activatedBy",
+      "type" : "com.netflix.maestro.engine.dto.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 22,
+        "endLine" : 64,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/activeVersionId" : {
+      "name" : "activeVersionId",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/memberField/activeVersionId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 22,
+        "endLine" : 62,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/method/validate(com.netflix.maestro.engine.dto.MaestroWorkflow mw)" : {
+      "name" : "validate",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/method/validate(com.netflix.maestro.engine.dto.MaestroWorkflow mw)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 23,
+        "endLine" : 99,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mw",
+        "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/method/validate(com.netflix.maestro.engine.dto.MaestroWorkflow mw)/parameter/mw",
+        "type" : "com.netflix.maestro.engine.dto.MaestroWorkflow",
+        "displayedType" : "MaestroWorkflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 99,
+          "startColumn" : 48,
+          "endLine" : 99,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow/method/validate(com.netflix.maestro.engine.dto.MaestroWorkflow mw)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    },
+    "com.netflix.maestro.engine.dto.MaestroWorkflow/method/toDefinition()" : {
+      "name" : "toDefinition",
+      "key" : "com.netflix.maestro.engine.dto.MaestroWorkflow/method/toDefinition()",
+      "type" : "com.netflix.maestro.engine.dto.com.netflix.maestro.models.definition.WorkflowDefinition",
+      "displayedType" : "WorkflowDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 36,
+        "endLine" : 122,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dto.MaestroWorkflow"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/dto/MaestroWorkflow.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

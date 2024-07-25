@@ -394,8 +394,8 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             .initiator(new ManualInitiator())
             .currentPolicy(RunPolicy.START_FRESH_NEW_RUN)
             .build();
-    Optional<Details> errors =
-        actionHandler.runForeachBatch(
+    ForeachBatchContext batchContext =
+        new ForeachBatchContext(
             definition.getWorkflow(),
             123L,
             1L,
@@ -403,8 +403,9 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             "foreach-step",
             new ForeachArtifact(),
             Collections.singletonList(request),
-            Collections.singletonList(1L),
-            1);
+            Collections.singletonList(1L));
+    Optional<Details> errors = actionHandler.runForeachBatch(batchContext, 1);
+
     assertFalse(errors.isPresent());
     verify(instanceDao, times(1)).runWorkflowInstances(any(), any(), eq(1));
   }
@@ -421,8 +422,9 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             .initiator(new ManualInitiator())
             .currentPolicy(RunPolicy.START_FRESH_NEW_RUN)
             .build();
-    Optional<Details> errors =
-        actionHandler.runForeachBatch(
+
+    ForeachBatchContext batchContext =
+        new ForeachBatchContext(
             definition.getWorkflow(),
             123L,
             10L,
@@ -430,8 +432,9 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             "foreach-step",
             artifact,
             Collections.singletonList(request),
-            Collections.singletonList(5L),
-            1);
+            Collections.singletonList(5L));
+
+    Optional<Details> errors = actionHandler.runForeachBatch(batchContext, 1);
     assertFalse(errors.isPresent());
     ArgumentCaptor<List<WorkflowInstance>> captor = ArgumentCaptor.forClass(List.class);
     verify(instanceDao, times(1))
@@ -487,8 +490,8 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             .restartConfig(restartConfig)
             .build();
 
-    Optional<Details> errors =
-        actionHandler.runForeachBatch(
+    ForeachBatchContext batchContext =
+        new ForeachBatchContext(
             definition.getWorkflow(),
             123L,
             10L,
@@ -496,8 +499,8 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             "foreach-step",
             artifact,
             Collections.singletonList(runRequest),
-            Collections.singletonList(2L),
-            3);
+            Collections.singletonList(2L));
+    Optional<Details> errors = actionHandler.runForeachBatch(batchContext, 3);
     assertFalse(errors.isPresent());
 
     verify(instanceDao, times(1)).runWorkflowInstances(any(), any(), anyInt());
@@ -552,8 +555,8 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             .restartConfig(restartConfig)
             .build();
 
-    Optional<Details> errors =
-        actionHandler.runForeachBatch(
+    ForeachBatchContext batchContext =
+        new ForeachBatchContext(
             definition.getWorkflow(),
             123L,
             10L,
@@ -561,8 +564,8 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             "foreach-step",
             artifact,
             Collections.singletonList(runRequest),
-            Collections.singletonList(2L),
-            3);
+            Collections.singletonList(2L));
+    Optional<Details> errors = actionHandler.runForeachBatch(batchContext, 3);
     assertFalse(errors.isPresent());
 
     verify(instanceDao, times(1)).runWorkflowInstances(any(), any(), anyInt());
@@ -613,8 +616,8 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             .restartConfig(restartConfig)
             .build();
 
-    Optional<Details> errors =
-        actionHandler.runForeachBatch(
+    ForeachBatchContext batchContext =
+        new ForeachBatchContext(
             definition.getWorkflow(),
             123L,
             10L,
@@ -622,8 +625,8 @@ public class WorkflowActionHandlerTest extends MaestroEngineBaseTest {
             "foreach-step",
             artifact,
             Collections.singletonList(runRequest),
-            Collections.singletonList(2L),
-            3);
+            Collections.singletonList(2L));
+    Optional<Details> errors = actionHandler.runForeachBatch(batchContext, 3);
     assertFalse(errors.isPresent());
 
     verify(instanceDao, times(1)).runWorkflowInstances(any(), any(), anyInt());

@@ -1,0 +1,74 @@
+{
+  "name" : "NoOpMaestroJobEventPublisher",
+  "key" : "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 22,
+    "startColumn" : 8,
+    "endLine" : 22,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher/method/publish(com.netflix.maestro.engine.publisher.com.netflix.maestro.engine.jobevents.MaestroJobEvent maestroJob, long invisibleMs)" : {
+      "name" : "publish",
+      "key" : "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher/method/publish(com.netflix.maestro.engine.publisher.com.netflix.maestro.engine.jobevents.MaestroJobEvent maestroJob, long invisibleMs)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.publisher.com.netflix.maestro.models.error.Details>",
+      "displayedType" : "Optional<Details>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 28,
+        "endLine" : 31,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "maestroJob",
+        "key" : "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher/method/publish(com.netflix.maestro.engine.publisher.com.netflix.maestro.engine.jobevents.MaestroJobEvent maestroJob, long invisibleMs)/parameter/maestroJob",
+        "type" : "com.netflix.maestro.engine.publisher.com.netflix.maestro.engine.jobevents.MaestroJobEvent",
+        "displayedType" : "MaestroJobEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 31,
+          "startColumn" : 52,
+          "endLine" : 31,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher/method/publish(com.netflix.maestro.engine.publisher.com.netflix.maestro.engine.jobevents.MaestroJobEvent maestroJob, long invisibleMs)"
+      }, {
+        "name" : "invisibleMs",
+        "key" : "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher/method/publish(com.netflix.maestro.engine.publisher.com.netflix.maestro.engine.jobevents.MaestroJobEvent maestroJob, long invisibleMs)/parameter/invisibleMs",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 31,
+          "startColumn" : 69,
+          "endLine" : 31,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher/method/publish(com.netflix.maestro.engine.publisher.com.netflix.maestro.engine.jobevents.MaestroJobEvent maestroJob, long invisibleMs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/publisher/NoOpMaestroJobEventPublisher.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.publisher.MaestroJobEventPublisher" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

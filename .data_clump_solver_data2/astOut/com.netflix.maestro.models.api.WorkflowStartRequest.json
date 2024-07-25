@@ -1,0 +1,179 @@
+{
+  "name" : "WorkflowStartRequest",
+  "key" : "com.netflix.maestro.models.api.WorkflowStartRequest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/requestTime" : {
+      "name" : "requestTime",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/requestTime",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 32,
+        "endLine" : 55,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    },
+    "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/runtimeTags" : {
+      "name" : "runtimeTags",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/runtimeTags",
+      "type" : "java.util.List<com.netflix.maestro.models.api.com.netflix.maestro.models.definition.Tag>",
+      "displayedType" : "List<Tag>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 28,
+        "endLine" : 59,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    },
+    "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/runParams" : {
+      "name" : "runParams",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/runParams",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.api.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 40,
+        "endLine" : 63,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    },
+    "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/artifacts" : {
+      "name" : "artifacts",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/artifacts",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.api.com.netflix.maestro.models.artifact.Artifact>",
+      "displayedType" : "Map<String, Artifact>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 33,
+        "endLine" : 72,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    },
+    "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/persistFailedRun" : {
+      "name" : "persistFailedRun",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/persistFailedRun",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 19,
+        "endLine" : 74,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    },
+    "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/requestId" : {
+      "name" : "requestId",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/requestId",
+      "type" : "java.util.UUID",
+      "displayedType" : "UUID",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 16,
+        "endLine" : 57,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    },
+    "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/initiator" : {
+      "name" : "initiator",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/memberField/initiator",
+      "type" : "com.netflix.maestro.models.api.com.netflix.maestro.models.initiator.Initiator",
+      "displayedType" : "Initiator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 37,
+        "endLine" : 52,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.api.WorkflowStartRequest/method/setRunParams(java.util.Map<java.lang.String, com.netflix.maestro.models.api.com.netflix.maestro.models.parameter.ParamDefinition> input)" : {
+      "name" : "setRunParams",
+      "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/method/setRunParams(java.util.Map<java.lang.String, com.netflix.maestro.models.api.com.netflix.maestro.models.parameter.ParamDefinition> input)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 15,
+        "endLine" : 66,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.models.api.WorkflowStartRequest/method/setRunParams(java.util.Map<java.lang.String, com.netflix.maestro.models.api.com.netflix.maestro.models.parameter.ParamDefinition> input)/parameter/input",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.api.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 57,
+          "endLine" : 66,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.api.WorkflowStartRequest/method/setRunParams(java.util.Map<java.lang.String, com.netflix.maestro.models.api.com.netflix.maestro.models.parameter.ParamDefinition> input)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.WorkflowStartRequest"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/WorkflowStartRequest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

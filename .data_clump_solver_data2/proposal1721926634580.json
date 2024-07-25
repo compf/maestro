@@ -1,0 +1,41 @@
+{
+  "refactorings": {
+    "maestro-engine/src/main/java/com/netflix/maestro/engine/handlers/WorkflowActionHandler.java": [
+      {
+        "fromLine": 187,
+        "toLine": 191,
+        "oldContent": "   * @return the status of start foreach workflow instances.\n   */\n  public Optional<Details> runForeachBatch(\n      Workflow workflow,",
+        "newContent": "   * @return the status of start foreach workflow instances.\n   */\n  public Optional<Details> runForeachBatch(\n      ForeachBatchContext context,"
+      },
+      {
+        "fromLine": 197,
+        "toLine": 235,
+        "oldContent": "      List<Long> instanceIds,\n      int batchSize) {\n    if (ObjectHelper.isCollectionEmptyOrNull(requests)) {\n      return Optional.empty();\n    }\n    Checks.checkTrue(\n        requests.size() == instanceIds.size(),\n        \"Run request list size [%s] must match instance id list size [%s]\",\n        requests.size(),\n        instanceIds.size());\n    List<WorkflowInstance> instances;\n    if (artifact.isFreshRun()) {\n      instances =\n          createStartForeachInstances(\n              workflow,\n              internalId,\n              workflowVersionId,\n              artifact.getForeachRunId(),\n              runProperties,\n              requests,\n              instanceIds);\n    } else {\n      instances =\n          createRestartForeachInstances(\n              workflow,\n              internalId,\n              workflowVersionId,\n              runProperties,\n              foreachStepId,\n              artifact,\n              requests,\n              instanceIds);\n    }\n    if (ObjectHelper.isCollectionEmptyOrNull(instances)) {\n      return Optional.empty();\n    }\n    return instanceDao.runWorkflowInstances(workflow.getId(), instances, batchSize);\n  }",
+        "newContent": "      int batchSize) {\n    if (ObjectHelper.isCollectionEmptyOrNull(context.getRequests())) {\n      return Optional.empty();\n    }\n    Checks.checkTrue(\n        context.getRequests().size() == context.getInstanceIds().size(),\n        \"Run request list size [%s] must match instance id list size [%s]\",\n        context.getRequests().size(),\n        context.getInstanceIds().size());\n    List<WorkflowInstance> instances;\n    if (context.getArtifact().isFreshRun()) {\n      instances =\n          createStartForeachInstances(context);\n    } else {\n      instances =\n          createRestartForeachInstances(context);\n    }\n    if (ObjectHelper.isCollectionEmptyOrNull(instances)) {\n      return Optional.empty();\n    }\n    return instanceDao.runWorkflowInstances(context.getWorkflow().getId(), instances, batchSize);\n  }"
+      },
+      {
+        "fromLine": 253,
+        "toLine": 257,
+        "oldContent": "  }\n\n  private List<WorkflowInstance> createRestartForeachInstances(\n      Workflow workflow,",
+        "newContent": "  }\n\n  private List<WorkflowInstance> createRestartForeachInstances(\n      ForeachBatchContext context,"
+      },
+      {
+        "fromLine": 263,
+        "toLine": 271,
+        "oldContent": "      List<Long> instanceIds) {\n    long totalAncestorIterations =\n        ObjectHelper.valueOrDefault(artifact.getAncestorIterationCount(), 0L);\n    List<WorkflowInstance> instances = new ArrayList<>();\n\n    Iterator<Long> instanceIditerator = instanceIds.iterator();\n    for (RunRequest request : requests) {\n",
+        "newContent": "      List<Long> instanceIds) {\n    long totalAncestorIterations =\n        ObjectHelper.valueOrDefault(context.getArtifact().getAncestorIterationCount(), 0L);\n    List<WorkflowInstance> instances = new ArrayList<>();\n\n    Iterator<Long> instanceIditerator = context.getInstanceIds().iterator();\n    for (RunRequest request : context.getRequests()) {\n"
+      },
+      {
+        "fromLine": 273,
+        "toLine": 297,
+        "oldContent": "        RunRequest.RunRequestBuilder requestBuilder =\n            request.toBuilder().currentPolicy(RunPolicy.RESTART_FROM_BEGINNING);\n        if (!isRestartFromInlineRootMode(request, workflow)) {\n          requestBuilder.restartConfig(null);\n        }\n        WorkflowInstance instance =\n            workflowHelper.createWorkflowInstance(\n                workflow.toBuilder().build(),\n                internalId,\n                workflowVersionId,\n                runProperties,\n                requestBuilder.build());\n        instance.setWorkflowInstanceId(instanceId);\n        instance.setWorkflowRunId(artifact.getForeachRunId());\n        instances.add(instance);\n      } else {\n        WorkflowInstance instance =\n            instanceDao.getLatestWorkflowInstanceRun(workflow.getId(), instanceId);\n        if (!isRestartFromInlineRootMode(request, workflow)) {\n          request.updateForDownstreamIfNeeded(foreachStepId, instance);\n        }\n        workflowHelper.updateWorkflowInstance(instance, request);\n        instance.setWorkflowRunId(artifact.getForeachRunId());\n        instances.add(instance);",
+        "newContent": "        RunRequest.RunRequestBuilder requestBuilder =\n            request.toBuilder().currentPolicy(RunPolicy.RESTART_FROM_BEGINNING);\n        if (!isRestartFromInlineRootMode(request, context.getWorkflow())) {\n          requestBuilder.restartConfig(null);\n        }\n        WorkflowInstance instance =\n            workflowHelper.createWorkflowInstance(\n                context.getWorkflow().toBuilder().build(),\n                context.getInternalId(),\n                context.getWorkflowVersionId(),\n                context.getRunProperties(),\n                requestBuilder.build());\n        instance.setWorkflowInstanceId(instanceId);\n        instance.setWorkflowRunId(context.getArtifact().getForeachRunId());\n        instances.add(instance);\n      } else {\n        WorkflowInstance instance =\n            instanceDao.getLatestWorkflowInstanceRun(context.getWorkflow().getId(), instanceId);\n        if (!isRestartFromInlineRootMode(request, context.getWorkflow())) {\n          request.updateForDownstreamIfNeeded(context.getForeachStepId(), instance);\n        }\n        workflowHelper.updateWorkflowInstance(instance, request);\n        instance.setWorkflowRunId(context.getArtifact().getForeachRunId());\n        instances.add(instance);"
+      }
+    ]
+  },
+  "extractedClasses": {
+    "maestro-engine/src/main/java/com/netflix/maestro/engine/handlers/ForeachBatchContext.java": "package com.netflix.maestro.engine.handlers;\n\nimport com.netflix.maestro.common.Workflow;\nimport com.netflix.maestro.common.artifacts.Artifact;\nimport com.netflix.maestro.common.requests.RunRequest;\nimport java.util.List;\nimport java.util.Map;\n\npublic class ForeachBatchContext {\n    private final Workflow workflow;\n    private final String internalId;\n    private final String workflowVersionId;\n    private final Artifact artifact;\n    private final Map<String, Object> runProperties;\n    private final String foreachStepId;\n    private final List<RunRequest> requests;\n    private final List<Long> instanceIds;\n\n    public ForeachBatchContext(\n        Workflow workflow,\n        String internalId,\n        String workflowVersionId,\n        Artifact artifact,\n        Map<String, Object> runProperties,\n        String foreachStepId,\n        List<RunRequest> requests,\n        List<Long> instanceIds\n    ) {\n        this.workflow = workflow;\n        this.internalId = internalId;\n        this.workflowVersionId = workflowVersionId;\n        this.artifact = artifact;\n        this.runProperties = runProperties;\n        this.foreachStepId = foreachStepId;\n        this.requests = requests;\n        this.instanceIds = instanceIds;\n    }\n\n    // Getters for all fields\n}\n"
+  },
+  "tenperature": 0.1,
+  "date": "2024-07-25T16:57:14.575Z"
+}

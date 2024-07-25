@@ -1,0 +1,126 @@
+{
+  "name" : "TimeoutValidator",
+  "key" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 3,
+    "endLine" : 47,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : {
+    "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/memberField/IGNORE_INTERPOLATION_MAPPING" : {
+      "name" : "IGNORE_INTERPOLATION_MAPPING",
+      "key" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/memberField/IGNORE_INTERPOLATION_MAPPING",
+      "type" : "java.util.function.Function<com.netflix.maestro.validations.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.validations.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Function<ParamDefinition, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 63,
+        "endLine" : 50,
+        "endColumn" : 91
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator"
+    },
+    "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/memberField/DUMMY_EVALUATION_TIME" : {
+      "name" : "DUMMY_EVALUATION_TIME",
+      "key" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/memberField/DUMMY_EVALUATION_TIME",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 31,
+        "endLine" : 49,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator"
+    },
+    "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/memberField/DUMMY_EVALUATED_RESULT" : {
+      "name" : "DUMMY_EVALUATED_RESULT",
+      "key" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/memberField/DUMMY_EVALUATED_RESULT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 33,
+        "endLine" : 48,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration timeout, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration timeout, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timeout",
+        "key" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration timeout, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/timeout",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration",
+        "displayedType" : "Duration",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 37,
+          "endLine" : 62,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration timeout, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration timeout, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 73,
+          "endLine" : 62,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration timeout, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TimeoutConstraint.TimeoutValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/TimeoutConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.TimeoutConstraint, com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration>", "com.netflix.maestro.validations.TimeoutConstraint", "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Duration" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

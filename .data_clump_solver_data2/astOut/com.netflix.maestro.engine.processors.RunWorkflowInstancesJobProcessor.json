@@ -1,0 +1,127 @@
+{
+  "name" : "RunWorkflowInstancesJobProcessor",
+  "key" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 44,
+        "endLine" : 34,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor"
+    },
+    "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/memberField/workflowRunner" : {
+      "name" : "workflowRunner",
+      "key" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/memberField/workflowRunner",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.handlers.WorkflowRunner",
+      "displayedType" : "WorkflowRunner",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 32,
+        "endLine" : 35,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent> runWorkflowInstancesJobEventSupplier)" : {
+      "name" : "process",
+      "key" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent> runWorkflowInstancesJobEventSupplier)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 15,
+        "endLine" : 39,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runWorkflowInstancesJobEventSupplier",
+        "key" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent> runWorkflowInstancesJobEventSupplier)/parameter/runWorkflowInstancesJobEventSupplier",
+        "type" : "java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent>",
+        "displayedType" : "Supplier<RunWorkflowInstancesJobEvent>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 62,
+          "endLine" : 39,
+          "endColumn" : 98
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent> runWorkflowInstancesJobEventSupplier)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor"
+    },
+    "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/runWorkflowInstance(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "runWorkflowInstance",
+      "key" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/runWorkflowInstance(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 18,
+        "endLine" : 96,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/runWorkflowInstance(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 55,
+          "endLine" : 96,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor/method/runWorkflowInstance(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/processors/RunWorkflowInstancesJobProcessor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.processors.MaestroEventProcessor<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent>", "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

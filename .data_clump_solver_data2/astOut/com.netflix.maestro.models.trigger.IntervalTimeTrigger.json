@@ -1,0 +1,115 @@
+{
+  "name" : "IntervalTimeTrigger",
+  "key" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.trigger.IntervalTimeTrigger/memberField/interval" : {
+      "name" : "interval",
+      "key" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger/memberField/interval",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 18,
+        "endLine" : 30,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.IntervalTimeTrigger/memberField/start" : {
+      "name" : "start",
+      "key" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger/memberField/start",
+      "type" : "java.util.Date",
+      "displayedType" : "Date",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 16,
+        "endLine" : 34,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.trigger.IntervalTimeTrigger/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger/method/getType()",
+      "type" : "com.netflix.maestro.models.trigger.TimeTrigger.Type",
+      "displayedType" : "TimeTrigger.Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 27,
+        "endLine" : 37,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.IntervalTimeTrigger/method/getTimezone()" : {
+      "name" : "getTimezone",
+      "key" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger/method/getTimezone()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.IntervalTimeTrigger/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 17,
+        "endLine" : 47,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.IntervalTimeTrigger"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/trigger/IntervalTimeTrigger.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.trigger.TimeTriggerWithJitter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

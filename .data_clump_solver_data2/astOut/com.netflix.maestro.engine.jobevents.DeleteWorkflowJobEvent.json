@@ -1,0 +1,209 @@
+{
+  "name" : "DeleteWorkflowJobEvent",
+  "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/timestamp" : {
+      "name" : "timestamp",
+      "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/timestamp",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 16,
+        "endLine" : 42,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/internalId" : {
+      "name" : "internalId",
+      "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/internalId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 16,
+        "endLine" : 38,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/author" : {
+      "name" : "author",
+      "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/author",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 16,
+        "endLine" : 39,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 34,
+        "endLine" : 37,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/getType()",
+      "type" : "com.netflix.maestro.engine.jobevents.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 15,
+        "endLine" : 54,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)",
+      "type" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent",
+      "displayedType" : "DeleteWorkflowJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 40,
+        "endLine" : 45,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 54,
+          "endLine" : 45,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)"
+      }, {
+        "name" : "internalId",
+        "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)/parameter/internalId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 71,
+          "endLine" : 45,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)"
+      }, {
+        "name" : "author",
+        "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)/parameter/author",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 88,
+          "endLine" : 45,
+          "endColumn" : 94
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/create(java.lang.String workflowId, long internalId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/toMaestroEvent(java.lang.String clusterName)" : {
+      "name" : "toMaestroEvent",
+      "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/toMaestroEvent(java.lang.String clusterName)",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.events.MaestroEvent",
+      "displayedType" : "MaestroEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 23,
+        "endLine" : 59,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "clusterName",
+        "key" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/toMaestroEvent(java.lang.String clusterName)/parameter/clusterName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 45,
+          "endLine" : 59,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent/method/toMaestroEvent(java.lang.String clusterName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/jobevents/DeleteWorkflowJobEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.jobevents.MaestroJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,160 @@
+{
+  "name" : "SelJavaUUID",
+  "key" : "com.netflix.sel.type.SelJavaUUID",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 14,
+    "endLine" : 26,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.type.SelJavaUUID/memberField/rnd" : {
+      "name" : "rnd",
+      "key" : "com.netflix.sel.type.SelJavaUUID/memberField/rnd",
+      "type" : "java.util.Random",
+      "displayedType" : "Random",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 31,
+        "endLine" : 27,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJavaUUID"
+    },
+    "com.netflix.sel.type.SelJavaUUID/memberField/val" : {
+      "name" : "val",
+      "key" : "com.netflix.sel.type.SelJavaUUID/memberField/val",
+      "type" : "java.util.UUID",
+      "displayedType" : "UUID",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 22,
+        "endLine" : 29,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJavaUUID"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelJavaUUID/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)" : {
+      "name" : "call",
+      "key" : "com.netflix.sel.type.SelJavaUUID/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 18,
+        "endLine" : 45,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.sel.type.SelJavaUUID/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 30,
+          "endLine" : 45,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJavaUUID/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelJavaUUID/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 52,
+          "endLine" : 45,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJavaUUID/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJavaUUID"
+    },
+    "com.netflix.sel.type.SelJavaUUID/method/of(java.util.UUID d)" : {
+      "name" : "of",
+      "key" : "com.netflix.sel.type.SelJavaUUID/method/of(java.util.UUID d)",
+      "type" : "com.netflix.sel.type.SelJavaUUID",
+      "displayedType" : "SelJavaUUID",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 22,
+        "endLine" : 35,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "com.netflix.sel.type.SelJavaUUID/method/of(java.util.UUID d)/parameter/d",
+        "type" : "java.util.UUID",
+        "displayedType" : "UUID",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 30,
+          "endLine" : 35,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJavaUUID/method/of(java.util.UUID d)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJavaUUID"
+    },
+    "com.netflix.sel.type.SelJavaUUID/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelJavaUUID/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 19,
+        "endLine" : 40,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJavaUUID"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelJavaUUID.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.type.AbstractSelType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

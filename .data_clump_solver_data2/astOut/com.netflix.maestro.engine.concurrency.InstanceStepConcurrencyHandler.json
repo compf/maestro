@@ -1,0 +1,269 @@
+{
+  "name" : "InstanceStepConcurrencyHandler",
+  "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 8,
+    "endLine" : 20,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/memberField/NOOP_CONCURRENCY_HANDLER" : {
+      "name" : "NOOP_CONCURRENCY_HANDLER",
+      "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/memberField/NOOP_CONCURRENCY_HANDLER",
+      "type" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler",
+      "displayedType" : "InstanceStepConcurrencyHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 34,
+        "endLine" : 22,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/cleanUp(java.lang.String concurrencyId)" : {
+      "name" : "cleanUp",
+      "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/cleanUp(java.lang.String concurrencyId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 16,
+        "endLine" : 51,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "concurrencyId",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/cleanUp(java.lang.String concurrencyId)/parameter/concurrencyId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 31,
+          "endLine" : 51,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/cleanUp(java.lang.String concurrencyId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler"
+    },
+    "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/addInstance(com.netflix.maestro.engine.concurrency.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "addInstance",
+      "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/addInstance(com.netflix.maestro.engine.concurrency.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 19,
+        "endLine" : 40,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/addInstance(com.netflix.maestro.engine.concurrency.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.concurrency.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 42,
+          "endLine" : 40,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/addInstance(com.netflix.maestro.engine.concurrency.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler"
+    },
+    "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/unregisterStep(java.lang.String concurrencyId, java.lang.String uuid)" : {
+      "name" : "unregisterStep",
+      "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/unregisterStep(java.lang.String concurrencyId, java.lang.String uuid)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 16,
+        "endLine" : 33,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "concurrencyId",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/unregisterStep(java.lang.String concurrencyId, java.lang.String uuid)/parameter/concurrencyId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 33,
+          "startColumn" : 38,
+          "endLine" : 33,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/unregisterStep(java.lang.String concurrencyId, java.lang.String uuid)"
+      }, {
+        "name" : "uuid",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/unregisterStep(java.lang.String concurrencyId, java.lang.String uuid)/parameter/uuid",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 33,
+          "startColumn" : 60,
+          "endLine" : 33,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/unregisterStep(java.lang.String concurrencyId, java.lang.String uuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler"
+    },
+    "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/registerStep(java.lang.String concurrencyId, java.lang.String uuid)" : {
+      "name" : "registerStep",
+      "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/registerStep(java.lang.String concurrencyId, java.lang.String uuid)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.concurrency.com.netflix.maestro.models.error.Details>",
+      "displayedType" : "Optional<Details>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 29,
+        "endLine" : 25,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "concurrencyId",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/registerStep(java.lang.String concurrencyId, java.lang.String uuid)/parameter/concurrencyId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 49,
+          "endLine" : 25,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/registerStep(java.lang.String concurrencyId, java.lang.String uuid)"
+      }, {
+        "name" : "uuid",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/registerStep(java.lang.String concurrencyId, java.lang.String uuid)/parameter/uuid",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 71,
+          "endLine" : 25,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/registerStep(java.lang.String concurrencyId, java.lang.String uuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler"
+    },
+    "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)" : {
+      "name" : "removeInstance",
+      "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 16,
+        "endLine" : 48,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "concurrencyId",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)/parameter/concurrencyId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 38,
+          "endLine" : 48,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)"
+      }, {
+        "name" : "depth",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)/parameter/depth",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 57,
+          "endLine" : 48,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)"
+      }, {
+        "name" : "uuid",
+        "key" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)/parameter/uuid",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 71,
+          "endLine" : 48,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler/method/removeInstance(java.lang.String concurrencyId, int depth, java.lang.String uuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/concurrency/InstanceStepConcurrencyHandler.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,138 @@
+{
+  "name" : "WorkflowTimeline",
+  "key" : "com.netflix.maestro.models.timeline.WorkflowTimeline",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.timeline.WorkflowTimeline/memberField/timelineEvents" : {
+      "name" : "timelineEvents",
+      "key" : "com.netflix.maestro.models.timeline.WorkflowTimeline/memberField/timelineEvents",
+      "type" : "java.util.List<com.netflix.maestro.models.timeline.WorkflowTimeline$WorkflowTimelineEvent>",
+      "displayedType" : "List<WorkflowTimelineEvent>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 45,
+        "endLine" : 36,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.WorkflowTimeline"
+    },
+    "com.netflix.maestro.models.timeline.WorkflowTimeline/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.models.timeline.WorkflowTimeline/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 24,
+        "endLine" : 35,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.WorkflowTimeline"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/WorkflowTimeline.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent" : {
+      "name" : "WorkflowTimelineEvent",
+      "key" : "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 17,
+        "endLine" : 50,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent/memberField/timestamp" : {
+          "name" : "timestamp",
+          "key" : "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent/memberField/timestamp",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 53,
+            "startColumn" : 24,
+            "endLine" : 53,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent"
+        },
+        "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent/memberField/log" : {
+          "name" : "log",
+          "key" : "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent/memberField/log",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 52,
+            "startColumn" : 26,
+            "endLine" : 52,
+            "endColumn" : 29
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent"
+        },
+        "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent/memberField/author" : {
+          "name" : "author",
+          "key" : "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent/memberField/author",
+          "type" : "com.netflix.maestro.models.timeline.com.netflix.maestro.models.definition.User",
+          "displayedType" : "User",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 51,
+            "startColumn" : 24,
+            "endLine" : 51,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.WorkflowTimeline.WorkflowTimelineEvent"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/WorkflowTimeline.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.timeline.WorkflowTimeline",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

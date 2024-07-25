@@ -1,0 +1,218 @@
+{
+  "name" : "StepDependenciesDefinitionValidator",
+  "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 3,
+    "endLine" : 47,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepDependenciesDefinition",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/stepDependenciesDefinition",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition",
+        "displayedType" : "StepDependenciesDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 36,
+          "endLine" : 52,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 91,
+          "endLine" : 52,
+          "endColumn" : 98
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator"
+    },
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "nameParamIsAbsent",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 28,
+        "endLine" : 83,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepDependenciesDefinition",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/stepDependenciesDefinition",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition",
+        "displayedType" : "StepDependenciesDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 36,
+          "endLine" : 84,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 91,
+          "endLine" : 84,
+          "endColumn" : 98
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator"
+    },
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "definitionsAreNullOrEmpty",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 28,
+        "endLine" : 69,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepDependenciesDefinition",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/stepDependenciesDefinition",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition",
+        "displayedType" : "StepDependenciesDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 36,
+          "endLine" : 70,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 91,
+          "endLine" : 70,
+          "endColumn" : 98
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator"
+    },
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/moreThanOneRangeParamExists(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "moreThanOneRangeParamExists",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/moreThanOneRangeParamExists(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 28,
+        "endLine" : 97,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepDependenciesDefinition",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/moreThanOneRangeParamExists(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/stepDependenciesDefinition",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition",
+        "displayedType" : "StepDependenciesDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 36,
+          "endLine" : 98,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/moreThanOneRangeParamExists(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/moreThanOneRangeParamExists(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 91,
+          "endLine" : 98,
+          "endColumn" : 98
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator/method/moreThanOneRangeParamExists(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition stepDependenciesDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint.StepDependenciesDefinitionValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/StepDependenciesDefinitionConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.StepDependenciesDefinitionConstraint, com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition>", "com.netflix.maestro.validations.StepDependenciesDefinitionConstraint", "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

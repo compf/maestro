@@ -1,0 +1,218 @@
+{
+  "name" : "MapHelper",
+  "key" : "com.netflix.maestro.utils.MapHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 22,
+    "startColumn" : 14,
+    "endLine" : 22,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.utils.MapHelper/method/isEmptyOrNull(java.util.Map<?, ?> map)" : {
+      "name" : "isEmptyOrNull",
+      "key" : "com.netflix.maestro.utils.MapHelper/method/isEmptyOrNull(java.util.Map<?, ?> map)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 25,
+        "endLine" : 57,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "map",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/isEmptyOrNull(java.util.Map<?, ?> map)/parameter/map",
+        "type" : "java.util.Map<?, ?>",
+        "displayedType" : "Map<?, ?>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 49,
+          "endLine" : 57,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/isEmptyOrNull(java.util.Map<?, ?> map)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.MapHelper"
+    },
+    "com.netflix.maestro.utils.MapHelper/method/toListMapIgnoringDuplicateKeys(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)" : {
+      "name" : "toListMapIgnoringDuplicateKeys",
+      "key" : "com.netflix.maestro.utils.MapHelper/method/toListMapIgnoringDuplicateKeys(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)",
+      "type" : "java.util.stream.Collector<T, ?, java.util.Map<K, U>>",
+      "displayedType" : "Collector<T, ?, Map<K, U>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 54,
+        "endLine" : 42,
+        "endColumn" : 84
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "keyMapper",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/toListMapIgnoringDuplicateKeys(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)/parameter/keyMapper",
+        "type" : "java.util.function.Function<? super T, ? extends K>",
+        "displayedType" : "Function<? super T, ? extends K>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 40,
+          "endLine" : 43,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/toListMapIgnoringDuplicateKeys(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)"
+      }, {
+        "name" : "valueMapper",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/toListMapIgnoringDuplicateKeys(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)/parameter/valueMapper",
+        "type" : "java.util.function.Function<? super T, ? extends U>",
+        "displayedType" : "Function<? super T, ? extends U>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 84,
+          "endLine" : 43,
+          "endColumn" : 95
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/toListMapIgnoringDuplicateKeys(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.MapHelper"
+    },
+    "com.netflix.maestro.utils.MapHelper/method/toListMap(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)" : {
+      "name" : "toListMap",
+      "key" : "com.netflix.maestro.utils.MapHelper/method/toListMap(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)",
+      "type" : "java.util.stream.Collector<T, ?, java.util.Map<K, U>>",
+      "displayedType" : "Collector<T, ?, Map<K, U>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 54,
+        "endLine" : 26,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "keyMapper",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/toListMap(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)/parameter/keyMapper",
+        "type" : "java.util.function.Function<? super T, ? extends K>",
+        "displayedType" : "Function<? super T, ? extends K>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 27,
+          "startColumn" : 40,
+          "endLine" : 27,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/toListMap(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)"
+      }, {
+        "name" : "valueMapper",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/toListMap(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)/parameter/valueMapper",
+        "type" : "java.util.function.Function<? super T, ? extends U>",
+        "displayedType" : "Function<? super T, ? extends U>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 27,
+          "startColumn" : 84,
+          "endLine" : 27,
+          "endColumn" : 95
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/toListMap(java.util.function.Function<? super T, ? extends K> keyMapper, java.util.function.Function<? super T, ? extends U> valueMapper)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.MapHelper"
+    },
+    "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)" : {
+      "name" : "getOrDefault",
+      "key" : "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)",
+      "type" : "V",
+      "displayedType" : "V",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 26,
+        "endLine" : 48,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "map",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)/parameter/map",
+        "type" : "java.util.Map<K, V>",
+        "displayedType" : "Map<K, V>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 49,
+          "endLine" : 48,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)"
+      }, {
+        "name" : "key",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)/parameter/key",
+        "type" : "K",
+        "displayedType" : "K",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 56,
+          "endLine" : 48,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)"
+      }, {
+        "name" : "defaultValue",
+        "key" : "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)/parameter/defaultValue",
+        "type" : "V",
+        "displayedType" : "V",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 63,
+          "endLine" : 48,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.MapHelper/method/getOrDefault(java.util.Map<K, V> map, K key, V defaultValue)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.MapHelper"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/utils/MapHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,737 @@
+{
+  "name" : "ParamsManagerTest",
+  "key" : "com.netflix.maestro.engine.params.ParamsManagerTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 74,
+    "startColumn" : 8,
+    "endLine" : 74,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/paramsManager" : {
+      "name" : "paramsManager",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/paramsManager",
+      "type" : "com.netflix.maestro.engine.params.ParamsManager",
+      "displayedType" : "ParamsManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 25,
+        "endLine" : 76,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/workflowSummary" : {
+      "name" : "workflowSummary",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/workflowSummary",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.WorkflowSummary",
+      "displayedType" : "WorkflowSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 27,
+        "endLine" : 77,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/stepRuntime" : {
+      "name" : "stepRuntime",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/stepRuntime",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.steps.StepRuntime",
+      "displayedType" : "StepRuntime",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 23,
+        "endLine" : 83,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/defaultsManager" : {
+      "name" : "defaultsManager",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/defaultsManager",
+      "type" : "com.netflix.maestro.engine.params.DefaultParamManager",
+      "displayedType" : "DefaultParamManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 31,
+        "endLine" : 80,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/defaultParamManager" : {
+      "name" : "defaultParamManager",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/defaultParamManager",
+      "type" : "com.netflix.maestro.engine.params.DefaultParamManager",
+      "displayedType" : "DefaultParamManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 37,
+        "endLine" : 75,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/yamlMapper" : {
+      "name" : "yamlMapper",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/yamlMapper",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 24,
+        "endLine" : 78,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/workflow" : {
+      "name" : "workflow",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/workflow",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.definition.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 20,
+        "endLine" : 79,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/workflowInstance" : {
+      "name" : "workflowInstance",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/workflowInstance",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 28,
+        "endLine" : 84,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/step" : {
+      "name" : "step",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/step",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.models.definition.Step",
+      "displayedType" : "Step",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 16,
+        "endLine" : 82,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/runtimeSummary" : {
+      "name" : "runtimeSummary",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/memberField/runtimeSummary",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+      "displayedType" : "StepRuntimeSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 30,
+        "endLine" : 81,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateTimezonesWithTriggersAndTimeInitiator()" : {
+      "name" : "testCalculateTimezonesWithTriggersAndTimeInitiator",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateTimezonesWithTriggersAndTimeInitiator()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 541,
+        "startColumn" : 15,
+        "endLine" : 541,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testMergeStepRunParamFromWorkflowSummary()" : {
+      "name" : "testMergeStepRunParamFromWorkflowSummary",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testMergeStepRunParamFromWorkflowSummary()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 15,
+        "endLine" : 166,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateUserDefinedSelParams()" : {
+      "name" : "testCalculateUserDefinedSelParams",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateUserDefinedSelParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 970,
+        "startColumn" : 15,
+        "endLine" : 970,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartSubworkflowStepRunParamMerge()" : {
+      "name" : "testRestartSubworkflowStepRunParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartSubworkflowStepRunParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 883,
+        "startColumn" : 15,
+        "endLine" : 883,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigRunUnchangedParamMerge()" : {
+      "name" : "testRestartConfigRunUnchangedParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigRunUnchangedParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 636,
+        "startColumn" : 15,
+        "endLine" : 636,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigRunParamMerge()" : {
+      "name" : "testRestartConfigRunParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigRunParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 610,
+        "startColumn" : 15,
+        "endLine" : 610,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 15,
+        "endLine" : 92,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartWithSystemInjectedConstantStepParam()" : {
+      "name" : "testRestartWithSystemInjectedConstantStepParam",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartWithSystemInjectedConstantStepParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 244,
+        "startColumn" : 15,
+        "endLine" : 244,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStaticWorkflowParamMerge()" : {
+      "name" : "testStaticWorkflowParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStaticWorkflowParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 578,
+        "startColumn" : 15,
+        "endLine" : 578,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStaticStepParamMerge()" : {
+      "name" : "testStaticStepParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStaticStepParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 589,
+        "startColumn" : 15,
+        "endLine" : 589,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testMergeRunParamFromWorkflowSummaryWithUpstreamInitiator()" : {
+      "name" : "testMergeRunParamFromWorkflowSummaryWithUpstreamInitiator",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testMergeRunParamFromWorkflowSummaryWithUpstreamInitiator()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 15,
+        "endLine" : 178,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStepParamSanity()" : {
+      "name" : "testStepParamSanity",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStepParamSanity()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 15,
+        "endLine" : 151,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testGetSignalParamsEmpty()" : {
+      "name" : "testGetSignalParamsEmpty",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testGetSignalParamsEmpty()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 469,
+        "startColumn" : 15,
+        "endLine" : 469,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testSubRestartConfigRunUnchangedParamMerge()" : {
+      "name" : "testSubRestartConfigRunUnchangedParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testSubRestartConfigRunUnchangedParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 708,
+        "startColumn" : 15,
+        "endLine" : 708,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testSubRestartConfigRunChangedParamMerge()" : {
+      "name" : "testSubRestartConfigRunChangedParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testSubRestartConfigRunChangedParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 751,
+        "startColumn" : 15,
+        "endLine" : 751,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamSanity()" : {
+      "name" : "testWorkflowParamSanity",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamSanity()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 15,
+        "endLine" : 271,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigRunChangedParamMerge()" : {
+      "name" : "testRestartConfigRunChangedParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigRunChangedParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 666,
+        "startColumn" : 15,
+        "endLine" : 666,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 22,
+        "endLine" : 87,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsUpstreamInitiatorRestartMerge()" : {
+      "name" : "testWorkflowParamRunParamsUpstreamInitiatorRestartMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsUpstreamInitiatorRestartMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 357,
+        "startColumn" : 15,
+        "endLine" : 357,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsUpstreamInitiator()" : {
+      "name" : "testWorkflowParamRunParamsUpstreamInitiator",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsUpstreamInitiator()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 285,
+        "startColumn" : 15,
+        "endLine" : 285,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testGetStepDependencyParams()" : {
+      "name" : "testGetStepDependencyParams",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testGetStepDependencyParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 15,
+        "endLine" : 121,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsStartRestart()" : {
+      "name" : "testWorkflowParamRunParamsStartRestart",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsStartRestart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 407,
+        "startColumn" : 15,
+        "endLine" : 407,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsUpstreamMergeInitiator()" : {
+      "name" : "testWorkflowParamRunParamsUpstreamMergeInitiator",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testWorkflowParamRunParamsUpstreamMergeInitiator()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 311,
+        "startColumn" : 15,
+        "endLine" : 311,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateTimezonesWithTriggers()" : {
+      "name" : "testCalculateTimezonesWithTriggers",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateTimezonesWithTriggers()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 506,
+        "startColumn" : 15,
+        "endLine" : 506,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigStepRunParamMergeOrder()" : {
+      "name" : "testRestartConfigStepRunParamMergeOrder",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigStepRunParamMergeOrder()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 923,
+        "startColumn" : 15,
+        "endLine" : 923,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testMergeRunParamFromWorkflowSummaryWithStartRestart()" : {
+      "name" : "testMergeRunParamFromWorkflowSummaryWithStartRestart",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testMergeRunParamFromWorkflowSummaryWithStartRestart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 15,
+        "endLine" : 202,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateTimezonesNoTriggers()" : {
+      "name" : "testCalculateTimezonesNoTriggers",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testCalculateTimezonesNoTriggers()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 475,
+        "startColumn" : 15,
+        "endLine" : 475,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigStepRunParamMerge()" : {
+      "name" : "testRestartConfigStepRunParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartConfigStepRunParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 795,
+        "startColumn" : 15,
+        "endLine" : 795,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStepParamFromStepSummary()" : {
+      "name" : "testStepParamFromStepSummary",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testStepParamFromStepSummary()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 15,
+        "endLine" : 225,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    },
+    "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartForeachStepRunParamMerge()" : {
+      "name" : "testRestartForeachStepRunParamMerge",
+      "key" : "com.netflix.maestro.engine.params.ParamsManagerTest/method/testRestartForeachStepRunParamMerge()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 831,
+        "startColumn" : 15,
+        "endLine" : 831,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.ParamsManagerTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/params/ParamsManagerTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.params.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

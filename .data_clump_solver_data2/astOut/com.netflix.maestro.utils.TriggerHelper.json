@@ -1,0 +1,299 @@
+{
+  "name" : "TriggerHelper",
+  "key" : "com.netflix.maestro.utils.TriggerHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 14,
+    "endLine" : 39,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron)" : {
+      "name" : "buildCron",
+      "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron)",
+      "type" : "com.netflix.maestro.utils.org.quartz.CronExpression",
+      "displayedType" : "CronExpression",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 32,
+        "endLine" : 50,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cron",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron)/parameter/cron",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 49,
+          "endLine" : 50,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.TriggerHelper"
+    },
+    "com.netflix.maestro.utils.TriggerHelper/method/getDelayInSeconds(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTriggerWithJitter trigger, java.lang.String salt)" : {
+      "name" : "getDelayInSeconds",
+      "key" : "com.netflix.maestro.utils.TriggerHelper/method/getDelayInSeconds(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTriggerWithJitter trigger, java.lang.String salt)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 22,
+        "endLine" : 139,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trigger",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/getDelayInSeconds(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTriggerWithJitter trigger, java.lang.String salt)/parameter/trigger",
+        "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTriggerWithJitter",
+        "displayedType" : "TimeTriggerWithJitter",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 62,
+          "endLine" : 139,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/getDelayInSeconds(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTriggerWithJitter trigger, java.lang.String salt)"
+      }, {
+        "name" : "salt",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/getDelayInSeconds(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTriggerWithJitter trigger, java.lang.String salt)/parameter/salt",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 78,
+          "endLine" : 139,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/getDelayInSeconds(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTriggerWithJitter trigger, java.lang.String salt)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.TriggerHelper"
+    },
+    "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.util.TimeZone timezone)" : {
+      "name" : "buildCron",
+      "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.util.TimeZone timezone)",
+      "type" : "com.netflix.maestro.utils.org.quartz.CronExpression",
+      "displayedType" : "CronExpression",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 32,
+        "endLine" : 74,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cron",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.util.TimeZone timezone)/parameter/cron",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 49,
+          "endLine" : 74,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.util.TimeZone timezone)"
+      }, {
+        "name" : "timezone",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.util.TimeZone timezone)/parameter/timezone",
+        "type" : "java.util.TimeZone",
+        "displayedType" : "TimeZone",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 64,
+          "endLine" : 74,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.util.TimeZone timezone)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.TriggerHelper"
+    },
+    "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)" : {
+      "name" : "nextExecutionDate",
+      "key" : "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)",
+      "type" : "java.util.Optional<java.util.Date>",
+      "displayedType" : "Optional<Date>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 32,
+        "endLine" : 99,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trigger",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)/parameter/trigger",
+        "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger",
+        "displayedType" : "TimeTrigger",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 19,
+          "endLine" : 100,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)"
+      }, {
+        "name" : "startDate",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)/parameter/startDate",
+        "type" : "java.util.Date",
+        "displayedType" : "Date",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 33,
+          "endLine" : 100,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)"
+      }, {
+        "name" : "uniqueId",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)/parameter/uniqueId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 51,
+          "endLine" : 100,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/nextExecutionDate(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger, java.util.Date startDate, java.lang.String uniqueId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.TriggerHelper"
+    },
+    "com.netflix.maestro.utils.TriggerHelper/method/getCronTimeTrigger(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger)" : {
+      "name" : "getCronTimeTrigger",
+      "key" : "com.netflix.maestro.utils.TriggerHelper/method/getCronTimeTrigger(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger)",
+      "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.trigger.CronTimeTrigger",
+      "displayedType" : "CronTimeTrigger",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 34,
+        "endLine" : 118,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trigger",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/getCronTimeTrigger(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger)/parameter/trigger",
+        "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger",
+        "displayedType" : "TimeTrigger",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 65,
+          "endLine" : 118,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/getCronTimeTrigger(com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TimeTrigger trigger)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.TriggerHelper"
+    },
+    "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.lang.String timezone)" : {
+      "name" : "buildCron",
+      "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.lang.String timezone)",
+      "type" : "com.netflix.maestro.utils.org.quartz.CronExpression",
+      "displayedType" : "CronExpression",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 32,
+        "endLine" : 62,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cron",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.lang.String timezone)/parameter/cron",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 49,
+          "endLine" : 62,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.lang.String timezone)"
+      }, {
+        "name" : "timezone",
+        "key" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.lang.String timezone)/parameter/timezone",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 62,
+          "endLine" : 62,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.TriggerHelper/method/buildCron(java.lang.String cron, java.lang.String timezone)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.TriggerHelper"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/utils/TriggerHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

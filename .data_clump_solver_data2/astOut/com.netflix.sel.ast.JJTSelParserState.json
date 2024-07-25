@@ -1,0 +1,415 @@
+{
+  "name" : "JJTSelParserState",
+  "key" : "com.netflix.sel.ast.JJTSelParserState",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 4,
+    "startColumn" : 8,
+    "endLine" : 4,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.ast.JJTSelParserState/memberField/node_created" : {
+      "name" : "node_created",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/memberField/node_created",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 10,
+        "startColumn" : 19,
+        "endLine" : 10,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/memberField/sp" : {
+      "name" : "sp",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/memberField/sp",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 8,
+        "startColumn" : 15,
+        "endLine" : 8,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/memberField/mk" : {
+      "name" : "mk",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/memberField/mk",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 9,
+        "startColumn" : 15,
+        "endLine" : 9,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/memberField/marks" : {
+      "name" : "marks",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/memberField/marks",
+      "type" : "java.util.List<java.lang.Integer>",
+      "displayedType" : "java.util.List<Integer>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 6,
+        "startColumn" : 35,
+        "endLine" : 6,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/memberField/nodes" : {
+      "name" : "nodes",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/memberField/nodes",
+      "type" : "java.util.List<com.netflix.sel.ast.Node>",
+      "displayedType" : "java.util.List<Node>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 5,
+        "startColumn" : 32,
+        "endLine" : 5,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.ast.JJTSelParserState/method/pushNode(com.netflix.sel.ast.Node n)" : {
+      "name" : "pushNode",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/pushNode(com.netflix.sel.ast.Node n)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 15,
+        "endLine" : 42,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "com.netflix.sel.ast.JJTSelParserState/method/pushNode(com.netflix.sel.ast.Node n)/parameter/n",
+        "type" : "com.netflix.sel.ast.Node",
+        "displayedType" : "Node",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 29,
+          "endLine" : 42,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JJTSelParserState/method/pushNode(com.netflix.sel.ast.Node n)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, boolean condition)" : {
+      "name" : "closeNodeScope",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, boolean condition)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 15,
+        "endLine" : 101,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, boolean condition)/parameter/n",
+        "type" : "com.netflix.sel.ast.Node",
+        "displayedType" : "Node",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 35,
+          "endLine" : 101,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, boolean condition)"
+      }, {
+        "name" : "condition",
+        "key" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, boolean condition)/parameter/condition",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 46,
+          "endLine" : 101,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, boolean condition)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, int num)" : {
+      "name" : "closeNodeScope",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, int num)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 15,
+        "endLine" : 84,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, int num)/parameter/n",
+        "type" : "com.netflix.sel.ast.Node",
+        "displayedType" : "Node",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 35,
+          "endLine" : 84,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, int num)"
+      }, {
+        "name" : "num",
+        "key" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, int num)/parameter/num",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 42,
+          "endLine" : 84,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JJTSelParserState/method/closeNodeScope(com.netflix.sel.ast.Node n, int num)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/nodeCreated()" : {
+      "name" : "nodeCreated",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/nodeCreated()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 18,
+        "endLine" : 22,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/rootNode()" : {
+      "name" : "rootNode",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/rootNode()",
+      "type" : "com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 15,
+        "endLine" : 37,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/reset()" : {
+      "name" : "reset",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/reset()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 15,
+        "endLine" : 28,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/popNode()" : {
+      "name" : "popNode",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/popNode()",
+      "type" : "com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 15,
+        "endLine" : 49,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/peekNode()" : {
+      "name" : "peekNode",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/peekNode()",
+      "type" : "com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 15,
+        "endLine" : 57,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/clearNodeScope(com.netflix.sel.ast.Node n)" : {
+      "name" : "clearNodeScope",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/clearNodeScope(com.netflix.sel.ast.Node n)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "com.netflix.sel.ast.JJTSelParserState/method/clearNodeScope(com.netflix.sel.ast.Node n)/parameter/n",
+        "type" : "com.netflix.sel.ast.Node",
+        "displayedType" : "Node",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 35,
+          "endLine" : 67,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JJTSelParserState/method/clearNodeScope(com.netflix.sel.ast.Node n)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/openNodeScope(com.netflix.sel.ast.Node n)" : {
+      "name" : "openNodeScope",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/openNodeScope(com.netflix.sel.ast.Node n)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 15,
+        "endLine" : 74,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "com.netflix.sel.ast.JJTSelParserState/method/openNodeScope(com.netflix.sel.ast.Node n)/parameter/n",
+        "type" : "com.netflix.sel.ast.Node",
+        "displayedType" : "Node",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 34,
+          "endLine" : 74,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JJTSelParserState/method/openNodeScope(com.netflix.sel.ast.Node n)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    },
+    "com.netflix.sel.ast.JJTSelParserState/method/nodeArity()" : {
+      "name" : "nodeArity",
+      "key" : "com.netflix.sel.ast.JJTSelParserState/method/nodeArity()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 14,
+        "endLine" : 63,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JJTSelParserState"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/JJTSelParserState.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

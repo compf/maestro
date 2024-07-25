@@ -1,0 +1,2291 @@
+{
+  "name" : "MaestroRunStrategyDao",
+  "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 74,
+    "startColumn" : 8,
+    "endLine" : 74,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/INSERT_TERMINATED_WORKFLOW_INSTANCE_QUERY" : {
+      "name" : "INSERT_TERMINATED_WORKFLOW_INSTANCE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/INSERT_TERMINATED_WORKFLOW_INSTANCE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 31,
+        "endLine" : 97,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/INSERT_WORKFLOW_INSTANCE_QUERY" : {
+      "name" : "INSERT_WORKFLOW_INSTANCE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/INSERT_WORKFLOW_INSTANCE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 31,
+        "endLine" : 90,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/LAST_ONLY_TIMELINE_TEMPLATE" : {
+      "name" : "LAST_ONLY_TIMELINE_TEMPLATE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/LAST_ONLY_TIMELINE_TEMPLATE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 31,
+        "endLine" : 127,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/metrics" : {
+      "name" : "metrics",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/metrics",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.metrics.MaestroMetrics",
+      "displayedType" : "MaestroMetrics",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 32,
+        "endLine" : 152,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/CHECK_EXISTING_UUID_QUERY" : {
+      "name" : "CHECK_EXISTING_UUID_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/CHECK_EXISTING_UUID_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 136,
+        "startColumn" : 31,
+        "endLine" : 136,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_LATEST_WORKFLOW_INSTANCE_ID_QUERY" : {
+      "name" : "GET_LATEST_WORKFLOW_INSTANCE_ID_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_LATEST_WORKFLOW_INSTANCE_ID_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 31,
+        "endLine" : 79,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RUN_STRATEGY_QUERY_TEMPLATE" : {
+      "name" : "RUN_STRATEGY_QUERY_TEMPLATE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RUN_STRATEGY_QUERY_TEMPLATE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 31,
+        "endLine" : 101,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/ONE_STRING" : {
+      "name" : "ONE_STRING",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/ONE_STRING",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 31,
+        "endLine" : 75,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RUN_STRATEGY_USER" : {
+      "name" : "RUN_STRATEGY_USER",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RUN_STRATEGY_USER",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 29,
+        "endLine" : 147,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_RUNNING_INSTANCES_QUERY" : {
+      "name" : "GET_RUNNING_INSTANCES_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_RUNNING_INSTANCES_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 31,
+        "endLine" : 118,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/STOP_QUEUED_INSTANCES_QUERY" : {
+      "name" : "STOP_QUEUED_INSTANCES_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/STOP_QUEUED_INSTANCES_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 31,
+        "endLine" : 130,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/CHECK_EXISTING_UUIDS_QUERY" : {
+      "name" : "CHECK_EXISTING_UUIDS_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/CHECK_EXISTING_UUIDS_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 31,
+        "endLine" : 139,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/CHECK_LAST_RUN_FAILED_INSTANCES_QUERY" : {
+      "name" : "CHECK_LAST_RUN_FAILED_INSTANCES_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/CHECK_LAST_RUN_FAILED_INSTANCES_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 31,
+        "endLine" : 112,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/DO_NOTHING_CODE" : {
+      "name" : "DO_NOTHING_CODE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/DO_NOTHING_CODE",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 28,
+        "endLine" : 77,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_QUEUED_WORKFLOW_INSTANCES_QUERY" : {
+      "name" : "GET_QUEUED_WORKFLOW_INSTANCES_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_QUEUED_WORKFLOW_INSTANCES_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 31,
+        "endLine" : 105,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/EXIST_NON_TERMINAL_INSTANCE_QUERY" : {
+      "name" : "EXIST_NON_TERMINAL_INSTANCE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/EXIST_NON_TERMINAL_INSTANCE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 31,
+        "endLine" : 115,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/INSERT_STOPPED_WORKFLOW_INSTANCE_QUERY" : {
+      "name" : "INSERT_STOPPED_WORKFLOW_INSTANCE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/INSERT_STOPPED_WORKFLOW_INSTANCE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 31,
+        "endLine" : 94,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_LATEST_WORKFLOW_INSTANCE_RUN_ID_QUERY" : {
+      "name" : "GET_LATEST_WORKFLOW_INSTANCE_RUN_ID_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/GET_LATEST_WORKFLOW_INSTANCE_RUN_ID_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 31,
+        "endLine" : 85,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RESEND_JOB_EVENT_DELAY_IN_MILLISECONDS" : {
+      "name" : "RESEND_JOB_EVENT_DELAY_IN_MILLISECONDS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RESEND_JOB_EVENT_DELAY_IN_MILLISECONDS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 29,
+        "endLine" : 149,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/TWO_STRING" : {
+      "name" : "TWO_STRING",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/TWO_STRING",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 31,
+        "endLine" : 76,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/FIRST_ONLY_TIMELINE_TEMPLATE" : {
+      "name" : "FIRST_ONLY_TIMELINE_TEMPLATE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/FIRST_ONLY_TIMELINE_TEMPLATE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 31,
+        "endLine" : 124,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/UPDATE_LATEST_WORKFLOW_INSTANCE_ID_QUERY" : {
+      "name" : "UPDATE_LATEST_WORKFLOW_INSTANCE_ID_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/UPDATE_LATEST_WORKFLOW_INSTANCE_ID_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 31,
+        "endLine" : 82,
+        "endColumn" : 71
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/UPDATE_WORKFLOW_INSTANCE_FAILED_STATUS" : {
+      "name" : "UPDATE_WORKFLOW_INSTANCE_FAILED_STATUS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/UPDATE_WORKFLOW_INSTANCE_FAILED_STATUS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 31,
+        "endLine" : 142,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RUN_STRATEGY_TAG" : {
+      "name" : "RUN_STRATEGY_TAG",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/RUN_STRATEGY_TAG",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 31,
+        "endLine" : 146,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 42,
+        "endLine" : 151,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "completeInstanceInit",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 16,
+        "endLine" : 212,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 48,
+          "endLine" : 212,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "nextInstanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/nextInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 59,
+          "endLine" : 212,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 92,
+          "endLine" : 212,
+          "endColumn" : 100
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstanceInit(java.sql.Connection conn, long nextInstanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getNonTerminalInstance(java.sql.Connection conn, java.lang.String workflowId)" : {
+      "name" : "getNonTerminalInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getNonTerminalInstance(java.sql.Connection conn, java.lang.String workflowId)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+      "displayedType" : "InstanceRunUuid",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 374,
+        "startColumn" : 27,
+        "endLine" : 374,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getNonTerminalInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 374,
+          "startColumn" : 61,
+          "endLine" : 374,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getNonTerminalInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getNonTerminalInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 374,
+          "startColumn" : 74,
+          "endLine" : 374,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getNonTerminalInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)" : {
+      "name" : "getLatestRunId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 16,
+        "endLine" : 183,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 42,
+          "endLine" : 183,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 55,
+          "endLine" : 183,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 72,
+          "endLine" : 183,
+          "endColumn" : 90
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestRunId(java.sql.Connection conn, java.lang.String workflowId, long workflowInstanceId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)" : {
+      "name" : "startFirstOrLastOnlyInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 779,
+        "startColumn" : 17,
+        "endLine" : 779,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 780,
+          "startColumn" : 18,
+          "endLine" : 780,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      }, {
+        "name" : "instanceRunUuid",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/instanceRunUuid",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+        "displayedType" : "InstanceRunUuid",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 781,
+          "startColumn" : 23,
+          "endLine" : 781,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      }, {
+        "name" : "instances",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/instances",
+        "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance>",
+        "displayedType" : "List<WorkflowInstance>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 782,
+          "startColumn" : 30,
+          "endLine" : 782,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      }, {
+        "name" : "toTerminate",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/toTerminate",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+        "displayedType" : "InstanceRunUuid",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 783,
+          "startColumn" : 23,
+          "endLine" : 783,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOrLastOnlyInstances(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid instanceRunUuid, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/existLastRunFailedInstance(java.sql.Connection conn, java.lang.String workflowId)" : {
+      "name" : "existLastRunFailedInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/existLastRunFailedInstance(java.sql.Connection conn, java.lang.String workflowId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 617,
+        "startColumn" : 19,
+        "endLine" : 617,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/existLastRunFailedInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 617,
+          "startColumn" : 57,
+          "endLine" : 617,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/existLastRunFailedInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/existLastRunFailedInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 617,
+          "startColumn" : 70,
+          "endLine" : 617,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/existLastRunFailedInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId)" : {
+      "name" : "getLatestInstanceId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 16,
+        "endLine" : 166,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 47,
+          "endLine" : 166,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 60,
+          "endLine" : 166,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)" : {
+      "name" : "startLastOnlyInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 763,
+        "startColumn" : 17,
+        "endLine" : 763,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 764,
+          "startColumn" : 18,
+          "endLine" : 764,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 764,
+          "startColumn" : 31,
+          "endLine" : 764,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "instances",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/instances",
+        "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance>",
+        "displayedType" : "List<WorkflowInstance>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 764,
+          "startColumn" : 66,
+          "endLine" : 764,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyQueuedInstance(java.sql.Connection conn, java.lang.String workflowId)" : {
+      "name" : "stopLastOnlyQueuedInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyQueuedInstance(java.sql.Connection conn, java.lang.String workflowId)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 409,
+        "startColumn" : 15,
+        "endLine" : 409,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyQueuedInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 409,
+          "startColumn" : 53,
+          "endLine" : 409,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyQueuedInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyQueuedInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 409,
+          "startColumn" : 66,
+          "endLine" : 409,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyQueuedInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)" : {
+      "name" : "prepareStopInstanceStatement",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 305,
+        "startColumn" : 16,
+        "endLine" : 305,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "wfiStmt",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)/parameter/wfiStmt",
+        "type" : "java.sql.PreparedStatement",
+        "displayedType" : "PreparedStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 306,
+          "startColumn" : 25,
+          "endLine" : 306,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 306,
+          "startColumn" : 51,
+          "endLine" : 306,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)"
+      }, {
+        "name" : "timelineEvent",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)/parameter/timelineEvent",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent",
+        "displayedType" : "TimelineEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 306,
+          "startColumn" : 75,
+          "endLine" : 306,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareStopInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)" : {
+      "name" : "addStoppedInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 323,
+        "startColumn" : 15,
+        "endLine" : 323,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 324,
+          "startColumn" : 18,
+          "endLine" : 324,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 324,
+          "startColumn" : 41,
+          "endLine" : 324,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)"
+      }, {
+        "name" : "timelineEvent",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)/parameter/timelineEvent",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent",
+        "displayedType" : "TimelineEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 324,
+          "startColumn" : 65,
+          "endLine" : 324,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addStoppedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent timelineEvent)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)" : {
+      "name" : "getRunWorkflowInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.RunWorkflowInstancesJobEvent",
+      "displayedType" : "RunWorkflowInstancesJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 627,
+        "startColumn" : 40,
+        "endLine" : 627,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 628,
+          "startColumn" : 18,
+          "endLine" : 628,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 628,
+          "startColumn" : 31,
+          "endLine" : 628,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)"
+      }, {
+        "name" : "concurrency",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)/parameter/concurrency",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 628,
+          "startColumn" : 48,
+          "endLine" : 628,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)"
+      }, {
+        "name" : "limit",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)/parameter/limit",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 628,
+          "startColumn" : 66,
+          "endLine" : 628,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getRunWorkflowInstances(java.sql.Connection conn, java.lang.String workflowId, long concurrency, long limit)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)" : {
+      "name" : "dedupAndCheckIfAllDuplicated",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 705,
+        "startColumn" : 19,
+        "endLine" : 705,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 706,
+          "startColumn" : 18,
+          "endLine" : 706,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 706,
+          "startColumn" : 31,
+          "endLine" : 706,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)"
+      }, {
+        "name" : "uuids",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)/parameter/uuids",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 706,
+          "startColumn" : 55,
+          "endLine" : 706,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dedupAndCheckIfAllDuplicated(java.sql.Connection conn, java.lang.String workflowId, java.util.Set<java.lang.String> uuids)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)" : {
+      "name" : "completeInstancesInit",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 719,
+        "startColumn" : 16,
+        "endLine" : 719,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 720,
+          "startColumn" : 18,
+          "endLine" : 720,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "startingInstanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/startingInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 720,
+          "startColumn" : 29,
+          "endLine" : 720,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "uuids",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/uuids",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 720,
+          "startColumn" : 61,
+          "endLine" : 720,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "instances",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/instances",
+        "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance>",
+        "displayedType" : "List<WorkflowInstance>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 720,
+          "startColumn" : 91,
+          "endLine" : 720,
+          "endColumn" : 100
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/completeInstancesInit(java.sql.Connection conn, long startingInstanceId, java.util.Set<java.lang.String> uuids, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)" : {
+      "name" : "enqueueInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 733,
+        "startColumn" : 17,
+        "endLine" : 733,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 734,
+          "startColumn" : 18,
+          "endLine" : 734,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 734,
+          "startColumn" : 31,
+          "endLine" : 734,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "instances",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/instances",
+        "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance>",
+        "displayedType" : "List<WorkflowInstance>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 734,
+          "startColumn" : 66,
+          "endLine" : 734,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/enqueueInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "startLastOnlyInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 447,
+        "startColumn" : 15,
+        "endLine" : 447,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 48,
+          "endLine" : 447,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 71,
+          "endLine" : 447,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startLastOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)" : {
+      "name" : "startBatchWithRunStrategy",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 655,
+        "startColumn" : 16,
+        "endLine" : 655,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 656,
+          "startColumn" : 23,
+          "endLine" : 656,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "runStrategy",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/runStrategy",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy",
+        "displayedType" : "RunStrategy",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 657,
+          "startColumn" : 28,
+          "endLine" : 657,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "instances",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/instances",
+        "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance>",
+        "displayedType" : "List<WorkflowInstance>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 658,
+          "startColumn" : 30,
+          "endLine" : 658,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startBatchWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)" : {
+      "name" : "insertInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 286,
+        "startColumn" : 15,
+        "endLine" : 286,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 287,
+          "startColumn" : 18,
+          "endLine" : 287,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 287,
+          "startColumn" : 41,
+          "endLine" : 287,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      }, {
+        "name" : "withQueue",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/withQueue",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 287,
+          "startColumn" : 59,
+          "endLine" : 287,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      }, {
+        "name" : "toTerminate",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)/parameter/toTerminate",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+        "displayedType" : "InstanceRunUuid",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 287,
+          "startColumn" : 86,
+          "endLine" : 287,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/insertInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, boolean withQueue, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)" : {
+      "name" : "startFirstOnlyInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 757,
+        "startColumn" : 17,
+        "endLine" : 757,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 758,
+          "startColumn" : 18,
+          "endLine" : 758,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 758,
+          "startColumn" : 31,
+          "endLine" : 758,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      }, {
+        "name" : "instances",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)/parameter/instances",
+        "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance>",
+        "displayedType" : "List<WorkflowInstance>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 758,
+          "startColumn" : 66,
+          "endLine" : 758,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstances(java.sql.Connection conn, java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance> instances)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/isDuplicated(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "isDuplicated",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/isDuplicated(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 19,
+        "endLine" : 202,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/isDuplicated(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 43,
+          "endLine" : 202,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/isDuplicated(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/isDuplicated(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 66,
+          "endLine" : 202,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/isDuplicated(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)" : {
+      "name" : "getLastOnlyRunningInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+      "displayedType" : "InstanceRunUuid",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 429,
+        "startColumn" : 27,
+        "endLine" : 429,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 429,
+          "startColumn" : 65,
+          "endLine" : 429,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 429,
+          "startColumn" : 78,
+          "endLine" : 429,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/getLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareCreateInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "prepareCreateInstanceStatement",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareCreateInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 280,
+        "startColumn" : 16,
+        "endLine" : 280,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "wfiStmt",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareCreateInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/wfiStmt",
+        "type" : "java.sql.PreparedStatement",
+        "displayedType" : "PreparedStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 280,
+          "startColumn" : 65,
+          "endLine" : 280,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareCreateInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareCreateInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 280,
+          "startColumn" : 91,
+          "endLine" : 280,
+          "endColumn" : 99
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/prepareCreateInstanceStatement(java.sql.PreparedStatement wfiStmt, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/tryUpdateAncestorStatus(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "tryUpdateAncestorStatus",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/tryUpdateAncestorStatus(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 19,
+        "endLine" : 237,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/tryUpdateAncestorStatus(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 54,
+          "endLine" : 237,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/tryUpdateAncestorStatus(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/tryUpdateAncestorStatus(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 77,
+          "endLine" : 237,
+          "endColumn" : 85
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/tryUpdateAncestorStatus(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)" : {
+      "name" : "dequeueWithRunStrategy",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 554,
+        "startColumn" : 14,
+        "endLine" : 554,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 554,
+          "startColumn" : 53,
+          "endLine" : 554,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)"
+      }, {
+        "name" : "runStrategy",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)/parameter/runStrategy",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy",
+        "displayedType" : "RunStrategy",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 554,
+          "startColumn" : 86,
+          "endLine" : 554,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWithRunStrategy(java.lang.String workflowId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/createTerminateInstanceJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "createTerminateInstanceJobEvent",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/createTerminateInstanceJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent",
+      "displayedType" : "TerminateThenRunInstanceJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 263,
+        "startColumn" : 44,
+        "endLine" : 263,
+        "endColumn" : 75
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "toTerminate",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/createTerminateInstanceJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/toTerminate",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+        "displayedType" : "InstanceRunUuid",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 264,
+          "startColumn" : 23,
+          "endLine" : 264,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/createTerminateInstanceJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/createTerminateInstanceJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 264,
+          "startColumn" : 53,
+          "endLine" : 264,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/createTerminateInstanceJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid toTerminate, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)" : {
+      "name" : "updateLatestInstanceId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 475,
+        "startColumn" : 16,
+        "endLine" : 475,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 475,
+          "startColumn" : 50,
+          "endLine" : 475,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 475,
+          "startColumn" : 63,
+          "endLine" : 475,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)"
+      }, {
+        "name" : "latestInstanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)/parameter/latestInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 475,
+          "startColumn" : 80,
+          "endLine" : 475,
+          "endColumn" : 96
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/updateLatestInstanceId(java.sql.Connection conn, java.lang.String workflowId, long latestInstanceId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishInstanceStopJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, long markTime)" : {
+      "name" : "publishInstanceStopJobEvent",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishInstanceStopJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, long markTime)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 316,
+        "startColumn" : 16,
+        "endLine" : 316,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishInstanceStopJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, long markTime)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 316,
+          "startColumn" : 61,
+          "endLine" : 316,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishInstanceStopJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, long markTime)"
+      }, {
+        "name" : "markTime",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishInstanceStopJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, long markTime)/parameter/markTime",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 316,
+          "startColumn" : 76,
+          "endLine" : 316,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishInstanceStopJobEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, long markTime)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startWithRunStrategy(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)" : {
+      "name" : "startWithRunStrategy",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startWithRunStrategy(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 495,
+        "startColumn" : 14,
+        "endLine" : 495,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startWithRunStrategy(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 496,
+          "startColumn" : 33,
+          "endLine" : 496,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startWithRunStrategy(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)"
+      }, {
+        "name" : "runStrategy",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startWithRunStrategy(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)/parameter/runStrategy",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy",
+        "displayedType" : "RunStrategy",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 496,
+          "startColumn" : 64,
+          "endLine" : 496,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startWithRunStrategy(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.RunStrategy runStrategy)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishStartWorkflowJobEvent(java.lang.String workflowId)" : {
+      "name" : "publishStartWorkflowJobEvent",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishStartWorkflowJobEvent(java.lang.String workflowId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 250,
+        "startColumn" : 16,
+        "endLine" : 250,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishStartWorkflowJobEvent(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 250,
+          "startColumn" : 52,
+          "endLine" : 250,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/publishStartWorkflowJobEvent(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "startFirstOnlyInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 392,
+        "startColumn" : 15,
+        "endLine" : 392,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 392,
+          "startColumn" : 49,
+          "endLine" : 392,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 392,
+          "startColumn" : 72,
+          "endLine" : 392,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/startFirstOnlyInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)" : {
+      "name" : "dequeueWorkflowInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 579,
+        "startColumn" : 15,
+        "endLine" : 579,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 579,
+          "startColumn" : 47,
+          "endLine" : 579,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)"
+      }, {
+        "name" : "concurrency",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)/parameter/concurrency",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 579,
+          "startColumn" : 64,
+          "endLine" : 579,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)"
+      }, {
+        "name" : "strict",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)/parameter/strict",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 579,
+          "startColumn" : 85,
+          "endLine" : 579,
+          "endColumn" : 91
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/dequeueWorkflowInstances(java.lang.String workflowId, long concurrency, boolean strict)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/readInstanceRunUuidFromResult(java.sql.ResultSet result)" : {
+      "name" : "readInstanceRunUuidFromResult",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/readInstanceRunUuidFromResult(java.sql.ResultSet result)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+      "displayedType" : "InstanceRunUuid",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 369,
+        "startColumn" : 27,
+        "endLine" : 369,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "result",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/readInstanceRunUuidFromResult(java.sql.ResultSet result)/parameter/result",
+        "type" : "java.sql.ResultSet",
+        "displayedType" : "ResultSet",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 369,
+          "startColumn" : 67,
+          "endLine" : 369,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/readInstanceRunUuidFromResult(java.sql.ResultSet result)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)" : {
+      "name" : "stopLastOnlyRunningInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.InstanceRunUuid",
+      "displayedType" : "InstanceRunUuid",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 453,
+        "startColumn" : 27,
+        "endLine" : 453,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 66,
+          "endLine" : 453,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 79,
+          "endLine" : 453,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/stopLastOnlyRunningInstance(java.sql.Connection conn, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addTerminatedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "addTerminatedInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addTerminatedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 335,
+        "startColumn" : 15,
+        "endLine" : 335,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addTerminatedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 335,
+          "startColumn" : 48,
+          "endLine" : 335,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addTerminatedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addTerminatedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 335,
+          "startColumn" : 71,
+          "endLine" : 335,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao/method/addTerminatedInstance(java.sql.Connection conn, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/dao/MaestroRunStrategyDao.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.com.netflix.conductor.cockroachdb.dao.CockroachDBBaseDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

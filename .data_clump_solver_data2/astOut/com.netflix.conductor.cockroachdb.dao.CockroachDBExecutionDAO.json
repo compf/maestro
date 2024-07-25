@@ -1,0 +1,1792 @@
+{
+  "name" : "CockroachDBExecutionDAO",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_RUNNING_TASK_IDS_BY_NAME_STATEMENT" : {
+      "name" : "GET_RUNNING_TASK_IDS_BY_NAME_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_RUNNING_TASK_IDS_BY_NAME_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 31,
+        "endLine" : 63,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_WORKFLOW_INSTANCE_STATEMENT" : {
+      "name" : "REMOVE_WORKFLOW_INSTANCE_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_WORKFLOW_INSTANCE_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 31,
+        "endLine" : 70,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_TASKS_BY_WORKFLOW_INSTANCE_ID_STATEMENT" : {
+      "name" : "GET_TASKS_BY_WORKFLOW_INSTANCE_ID_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_TASKS_BY_WORKFLOW_INSTANCE_ID_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 31,
+        "endLine" : 58,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_WORKFLOW_INSTANCE_WITH_TASKS_STATEMENT" : {
+      "name" : "GET_WORKFLOW_INSTANCE_WITH_TASKS_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_WORKFLOW_INSTANCE_WITH_TASKS_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 31,
+        "endLine" : 74,
+        "endColumn" : 73
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_TASK_BY_TASK_ID_STATEMENT" : {
+      "name" : "GET_TASK_BY_TASK_ID_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_TASK_BY_TASK_ID_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 31,
+        "endLine" : 56,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/insertBatchSize" : {
+      "name" : "insertBatchSize",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/insertBatchSize",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 21,
+        "endLine" : 86,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/UPSERT_WORKFLOW_INSTANCE_STATEMENT" : {
+      "name" : "UPSERT_WORKFLOW_INSTANCE_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/UPSERT_WORKFLOW_INSTANCE_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 31,
+        "endLine" : 68,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/CREATE_TASK_STATEMENT" : {
+      "name" : "CREATE_TASK_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/CREATE_TASK_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/CREATE_EVENT_EXECUTION_STATEMENT" : {
+      "name" : "CREATE_EVENT_EXECUTION_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/CREATE_EVENT_EXECUTION_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 31,
+        "endLine" : 78,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/maxSearchSize" : {
+      "name" : "maxSearchSize",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/maxSearchSize",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 21,
+        "endLine" : 87,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/LOG" : {
+      "name" : "LOG",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/LOG",
+      "type" : "org.slf4j.Logger",
+      "displayedType" : "Logger",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 31,
+        "endLine" : 47,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/WORKFLOW_FLAG_COLUMN" : {
+      "name" : "WORKFLOW_FLAG_COLUMN",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/WORKFLOW_FLAG_COLUMN",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 31,
+        "endLine" : 49,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_TASKS_STATEMENT" : {
+      "name" : "REMOVE_TASKS_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_TASKS_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 31,
+        "endLine" : 61,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/indexDAO" : {
+      "name" : "indexDAO",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/indexDAO",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.IndexDAO",
+      "displayedType" : "IndexDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 26,
+        "endLine" : 85,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/CREATE_WORKFLOW_INSTANCE_STATEMENT" : {
+      "name" : "CREATE_WORKFLOW_INSTANCE_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/CREATE_WORKFLOW_INSTANCE_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 31,
+        "endLine" : 66,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/UPSERT_TASK_STATEMENT" : {
+      "name" : "UPSERT_TASK_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/UPSERT_TASK_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 31,
+        "endLine" : 54,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_WORKFLOW_INSTANCE_ONLY_STATEMENT" : {
+      "name" : "GET_WORKFLOW_INSTANCE_ONLY_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/GET_WORKFLOW_INSTANCE_ONLY_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 31,
+        "endLine" : 72,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_EVENT_EXECUTION_STATEMENT" : {
+      "name" : "REMOVE_EVENT_EXECUTION_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_EVENT_EXECUTION_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 31,
+        "endLine" : 82,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/UPSERT_EVENT_EXECUTION_STATEMENT" : {
+      "name" : "UPSERT_EVENT_EXECUTION_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/UPSERT_EVENT_EXECUTION_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 31,
+        "endLine" : 80,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_TASK_STATEMENT" : {
+      "name" : "REMOVE_TASK_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/memberField/REMOVE_TASK_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 31,
+        "endLine" : 60,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getReadOnlyTask(java.lang.String taskId)" : {
+      "name" : "getReadOnlyTask",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getReadOnlyTask(java.lang.String taskId)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+      "displayedType" : "Task",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 300,
+        "startColumn" : 16,
+        "endLine" : 300,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getReadOnlyTask(java.lang.String taskId)/parameter/taskId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 300,
+          "startColumn" : 39,
+          "endLine" : 300,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getReadOnlyTask(java.lang.String taskId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getInProgressTaskCount(java.lang.String taskDefName)" : {
+      "name" : "getInProgressTaskCount",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getInProgressTaskCount(java.lang.String taskDefName)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 542,
+        "startColumn" : 15,
+        "endLine" : 542,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskDefName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getInProgressTaskCount(java.lang.String taskDefName)/parameter/taskDefName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 542,
+          "startColumn" : 45,
+          "endLine" : 542,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getInProgressTaskCount(java.lang.String taskDefName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)" : {
+      "name" : "getTasks",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "List<Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 21,
+        "endLine" : 127,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)/parameter/taskName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 37,
+          "endLine" : 127,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)"
+      }, {
+        "name" : "startKey",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)/parameter/startKey",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 54,
+          "endLine" : 127,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)"
+      }, {
+        "name" : "count",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)/parameter/count",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 68,
+          "endLine" : 127,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.lang.String taskName, java.lang.String startKey, int count)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/workflowFromResult(java.sql.ResultSet result)" : {
+      "name" : "workflowFromResult",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/workflowFromResult(java.sql.ResultSet result)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 460,
+        "startColumn" : 20,
+        "endLine" : 460,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "result",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/workflowFromResult(java.sql.ResultSet result)/parameter/result",
+        "type" : "java.sql.ResultSet",
+        "displayedType" : "ResultSet",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 460,
+          "startColumn" : 49,
+          "endLine" : 460,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/workflowFromResult(java.sql.ResultSet result)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflow(java.lang.String workflowId)" : {
+      "name" : "removeWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflow(java.lang.String workflowId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 389,
+        "startColumn" : 18,
+        "endLine" : 389,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflow(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 389,
+          "startColumn" : 40,
+          "endLine" : 389,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflow(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowCount(java.lang.String workflowName)" : {
+      "name" : "getPendingWorkflowCount",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowCount(java.lang.String workflowName)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 533,
+        "startColumn" : 15,
+        "endLine" : 533,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowCount(java.lang.String workflowName)/parameter/workflowName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 533,
+          "startColumn" : 46,
+          "endLine" : 533,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowCount(java.lang.String workflowName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasksForWorkflow(java.lang.String workflowId)" : {
+      "name" : "getTasksForWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasksForWorkflow(java.lang.String workflowId)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "List<Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 21,
+        "endLine" : 333,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasksForWorkflow(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 333,
+          "startColumn" : 48,
+          "endLine" : 333,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasksForWorkflow(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getRunningWorkflowIds(java.lang.String workflowName, int version)" : {
+      "name" : "getRunningWorkflowIds",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getRunningWorkflowIds(java.lang.String workflowName, int version)",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 485,
+        "startColumn" : 23,
+        "endLine" : 485,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getRunningWorkflowIds(java.lang.String workflowName, int version)/parameter/workflowName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 485,
+          "startColumn" : 52,
+          "endLine" : 485,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getRunningWorkflowIds(java.lang.String workflowName, int version)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getRunningWorkflowIds(java.lang.String workflowName, int version)/parameter/version",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 485,
+          "startColumn" : 70,
+          "endLine" : 485,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getRunningWorkflowIds(java.lang.String workflowName, int version)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createTasks(java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task> tasks)" : {
+      "name" : "createTasks",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createTasks(java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task> tasks)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "List<Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 21,
+        "endLine" : 152,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tasks",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createTasks(java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task> tasks)/parameter/tasks",
+        "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task>",
+        "displayedType" : "List<Task>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 152,
+          "startColumn" : 44,
+          "endLine" : 152,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createTasks(java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task> tasks)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowsByType(java.lang.String workflowName, int version)" : {
+      "name" : "getPendingWorkflowsByType",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowsByType(java.lang.String workflowName, int version)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow>",
+      "displayedType" : "List<Workflow>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 508,
+        "startColumn" : 25,
+        "endLine" : 508,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowsByType(java.lang.String workflowName, int version)/parameter/workflowName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 508,
+          "startColumn" : 58,
+          "endLine" : 508,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowsByType(java.lang.String workflowName, int version)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowsByType(java.lang.String workflowName, int version)/parameter/version",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 508,
+          "startColumn" : 76,
+          "endLine" : 508,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingWorkflowsByType(java.lang.String workflowName, int version)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)" : {
+      "name" : "createOrUpdateWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 366,
+        "startColumn" : 18,
+        "endLine" : 366,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)/parameter/workflow",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 366,
+          "startColumn" : 50,
+          "endLine" : 366,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)"
+      }, {
+        "name" : "stmt",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)/parameter/stmt",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 366,
+          "startColumn" : 67,
+          "endLine" : 366,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)"
+      }, {
+        "name" : "methodName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 366,
+          "startColumn" : 80,
+          "endLine" : 366,
+          "endColumn" : 90
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createOrUpdateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow, java.lang.String stmt, java.lang.String methodName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/canSearchAcrossWorkflows()" : {
+      "name" : "canSearchAcrossWorkflows",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/canSearchAcrossWorkflows()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 574,
+        "startColumn" : 18,
+        "endLine" : 574,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksForTaskType(java.lang.String taskType)" : {
+      "name" : "getPendingTasksForTaskType",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksForTaskType(java.lang.String taskType)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "List<Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 325,
+        "startColumn" : 21,
+        "endLine" : 325,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskType",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksForTaskType(java.lang.String taskType)/parameter/taskType",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 325,
+          "startColumn" : 55,
+          "endLine" : 325,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksForTaskType(java.lang.String taskType)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId)" : {
+      "name" : "getWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 432,
+        "startColumn" : 19,
+        "endLine" : 432,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 432,
+          "startColumn" : 38,
+          "endLine" : 432,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "createWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 349,
+        "startColumn" : 17,
+        "endLine" : 349,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 349,
+          "startColumn" : 41,
+          "endLine" : 349,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/createWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addTask(java.sql.PreparedStatement statement, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "addTask",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addTask(java.sql.PreparedStatement statement, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 16,
+        "endLine" : 194,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "statement",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addTask(java.sql.PreparedStatement statement, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/statement",
+        "type" : "java.sql.PreparedStatement",
+        "displayedType" : "PreparedStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 42,
+          "endLine" : 194,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addTask(java.sql.PreparedStatement statement, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)"
+      }, {
+        "name" : "task",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addTask(java.sql.PreparedStatement statement, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 58,
+          "endLine" : 194,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addTask(java.sql.PreparedStatement statement, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchRunningWorkflowIdsByName(java.lang.String workflowName, int version)" : {
+      "name" : "searchRunningWorkflowIdsByName",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchRunningWorkflowIdsByName(java.lang.String workflowName, int version)",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 489,
+        "startColumn" : 24,
+        "endLine" : 489,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchRunningWorkflowIdsByName(java.lang.String workflowName, int version)/parameter/workflowName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 489,
+          "startColumn" : 62,
+          "endLine" : 489,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchRunningWorkflowIdsByName(java.lang.String workflowName, int version)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchRunningWorkflowIdsByName(java.lang.String workflowName, int version)/parameter/version",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 489,
+          "startColumn" : 80,
+          "endLine" : 489,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchRunningWorkflowIdsByName(java.lang.String workflowName, int version)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)" : {
+      "name" : "updateEventExecution",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 590,
+        "startColumn" : 15,
+        "endLine" : 590,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "eventExecution",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)/parameter/eventExecution",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution",
+        "displayedType" : "EventExecution",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 590,
+          "startColumn" : 51,
+          "endLine" : 590,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeTask(java.lang.String taskId)" : {
+      "name" : "removeTask",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeTask(java.lang.String taskId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 18,
+        "endLine" : 273,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeTask(java.lang.String taskId)/parameter/taskId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 273,
+          "startColumn" : 36,
+          "endLine" : 273,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeTask(java.lang.String taskId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, boolean includeTasks)" : {
+      "name" : "getWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, boolean includeTasks)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 437,
+        "startColumn" : 19,
+        "endLine" : 437,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, boolean includeTasks)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 437,
+          "startColumn" : 38,
+          "endLine" : 437,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, boolean includeTasks)"
+      }, {
+        "name" : "includeTasks",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, boolean includeTasks)/parameter/includeTasks",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 437,
+          "startColumn" : 58,
+          "endLine" : 437,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, boolean includeTasks)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)" : {
+      "name" : "addEventExecution",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 579,
+        "startColumn" : 18,
+        "endLine" : 579,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "eventExecution",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)/parameter/eventExecution",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution",
+        "displayedType" : "EventExecution",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 579,
+          "startColumn" : 51,
+          "endLine" : 579,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.util.List<java.lang.String> taskIds)" : {
+      "name" : "getTasks",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.util.List<java.lang.String> taskIds)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "List<Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 21,
+        "endLine" : 312,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskIds",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.util.List<java.lang.String> taskIds)/parameter/taskIds",
+        "type" : "java.util.List<java.lang.String>",
+        "displayedType" : "List<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 312,
+          "startColumn" : 43,
+          "endLine" : 312,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTasks(java.util.List<java.lang.String> taskIds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflowWithExpiry(java.lang.String workflowId, int ttlSeconds)" : {
+      "name" : "removeWorkflowWithExpiry",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflowWithExpiry(java.lang.String workflowId, int ttlSeconds)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 421,
+        "startColumn" : 18,
+        "endLine" : 421,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflowWithExpiry(java.lang.String workflowId, int ttlSeconds)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 421,
+          "startColumn" : 50,
+          "endLine" : 421,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflowWithExpiry(java.lang.String workflowId, int ttlSeconds)"
+      }, {
+        "name" : "ttlSeconds",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflowWithExpiry(java.lang.String workflowId, int ttlSeconds)/parameter/ttlSeconds",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 421,
+          "startColumn" : 66,
+          "endLine" : 421,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeWorkflowWithExpiry(java.lang.String workflowId, int ttlSeconds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, java.lang.String getStatement)" : {
+      "name" : "getWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, java.lang.String getStatement)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 445,
+        "startColumn" : 20,
+        "endLine" : 445,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, java.lang.String getStatement)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 445,
+          "startColumn" : 39,
+          "endLine" : 445,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, java.lang.String getStatement)"
+      }, {
+        "name" : "getStatement",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, java.lang.String getStatement)/parameter/getStatement",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 445,
+          "startColumn" : 58,
+          "endLine" : 445,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflow(java.lang.String workflowId, java.lang.String getStatement)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)" : {
+      "name" : "addOrUpdateEventExecution",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 600,
+        "startColumn" : 19,
+        "endLine" : 600,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stmt",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)/parameter/stmt",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 601,
+          "startColumn" : 14,
+          "endLine" : 601,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)"
+      }, {
+        "name" : "eventExecution",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)/parameter/eventExecution",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution",
+        "displayedType" : "EventExecution",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 601,
+          "startColumn" : 35,
+          "endLine" : 601,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)"
+      }, {
+        "name" : "methodName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 601,
+          "startColumn" : 58,
+          "endLine" : 601,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/addOrUpdateEventExecution(java.lang.String stmt, com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution, java.lang.String methodName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)" : {
+      "name" : "removeEventExecution",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 627,
+        "startColumn" : 15,
+        "endLine" : 627,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "eventExecution",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)/parameter/eventExecution",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution",
+        "displayedType" : "EventExecution",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 627,
+          "startColumn" : 51,
+          "endLine" : 627,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeEventExecution(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventExecution eventExecution)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)" : {
+      "name" : "getWorkflowsByCorrelationId",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow>",
+      "displayedType" : "List<Workflow>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 566,
+        "startColumn" : 25,
+        "endLine" : 566,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)/parameter/workflowName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 567,
+          "startColumn" : 14,
+          "endLine" : 567,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)"
+      }, {
+        "name" : "correlationId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)/parameter/correlationId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 567,
+          "startColumn" : 35,
+          "endLine" : 567,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)"
+      }, {
+        "name" : "includeTasks",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)/parameter/includeTasks",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 567,
+          "startColumn" : 58,
+          "endLine" : 567,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByCorrelationId(java.lang.String workflowName, java.lang.String correlationId, boolean includeTasks)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTask(java.lang.String taskId)" : {
+      "name" : "getTask",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTask(java.lang.String taskId)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+      "displayedType" : "Task",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 15,
+        "endLine" : 288,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTask(java.lang.String taskId)/parameter/taskId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 288,
+          "startColumn" : 30,
+          "endLine" : 288,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getTask(java.lang.String taskId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksByWorkflow(java.lang.String taskName, java.lang.String workflowId)" : {
+      "name" : "getPendingTasksByWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksByWorkflow(java.lang.String taskName, java.lang.String workflowId)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task>",
+      "displayedType" : "List<Task>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 21,
+        "endLine" : 109,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksByWorkflow(java.lang.String taskName, java.lang.String workflowId)/parameter/taskName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 54,
+          "endLine" : 109,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksByWorkflow(java.lang.String taskName, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksByWorkflow(java.lang.String taskName, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 109,
+          "startColumn" : 71,
+          "endLine" : 109,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getPendingTasksByWorkflow(java.lang.String taskName, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)" : {
+      "name" : "getWorkflowsByType",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow>",
+      "displayedType" : "List<Workflow>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 553,
+        "startColumn" : 25,
+        "endLine" : 553,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)/parameter/workflowName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 553,
+          "startColumn" : 51,
+          "endLine" : 553,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)"
+      }, {
+        "name" : "startTime",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)/parameter/startTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 553,
+          "startColumn" : 70,
+          "endLine" : 553,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)"
+      }, {
+        "name" : "endTime",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)/parameter/endTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 553,
+          "startColumn" : 86,
+          "endLine" : 553,
+          "endColumn" : 93
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/getWorkflowsByType(java.lang.String workflowName, java.lang.Long startTime, java.lang.Long endTime)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/exceedsInProgressLimit(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "exceedsInProgressLimit",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/exceedsInProgressLimit(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 18,
+        "endLine" : 229,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/exceedsInProgressLimit(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 229,
+          "startColumn" : 46,
+          "endLine" : 229,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/exceedsInProgressLimit(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeFromPendingWorkflow(java.lang.String workflowType, java.lang.String workflowId)" : {
+      "name" : "removeFromPendingWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeFromPendingWorkflow(java.lang.String workflowType, java.lang.String workflowId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 427,
+        "startColumn" : 15,
+        "endLine" : 427,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowType",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeFromPendingWorkflow(java.lang.String workflowType, java.lang.String workflowId)/parameter/workflowType",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 427,
+          "startColumn" : 48,
+          "endLine" : 427,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeFromPendingWorkflow(java.lang.String workflowType, java.lang.String workflowId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeFromPendingWorkflow(java.lang.String workflowType, java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 427,
+          "startColumn" : 69,
+          "endLine" : 427,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/removeFromPendingWorkflow(java.lang.String workflowType, java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "updateTask",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 15,
+        "endLine" : 201,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 201,
+          "startColumn" : 31,
+          "endLine" : 201,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchInProgressTaskIdsByName(java.lang.String taskDefName)" : {
+      "name" : "searchInProgressTaskIdsByName",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchInProgressTaskIdsByName(java.lang.String taskDefName)",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 24,
+        "endLine" : 141,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskDefName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchInProgressTaskIdsByName(java.lang.String taskDefName)/parameter/taskDefName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 141,
+          "startColumn" : 61,
+          "endLine" : 141,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/searchInProgressTaskIdsByName(java.lang.String taskDefName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "updateWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 358,
+        "startColumn" : 17,
+        "endLine" : 358,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 358,
+          "startColumn" : 41,
+          "endLine" : 358,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO/method/updateWorkflow(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/main/java/com/netflix/conductor/cockroachdb/dao/CockroachDBExecutionDAO.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.ExecutionDAO" ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

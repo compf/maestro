@@ -1,0 +1,80 @@
+{
+  "name" : "CockroachDBEventHandlerDAOTest",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 8,
+    "endLine" : 24,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest/memberField/dao" : {
+      "name" : "dao",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest/memberField/dao",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.EventHandlerDAO",
+      "displayedType" : "EventHandlerDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 27,
+        "endLine" : 26,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 15,
+        "endLine" : 29,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest/method/testEventHandlers()" : {
+      "name" : "testEventHandlers",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest/method/testEventHandlers()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 15,
+        "endLine" : 34,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAOTest"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/test/java/com/netflix/conductor/cockroachdb/dao/CockroachDBEventHandlerDAOTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

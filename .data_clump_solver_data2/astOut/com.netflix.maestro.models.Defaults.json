@@ -1,0 +1,502 @@
+{
+  "name" : "Defaults",
+  "key" : "com.netflix.maestro.models.Defaults",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 14,
+    "endLine" : 26,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_TIMEZONE" : {
+      "name" : "DEFAULT_TIMEZONE",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_TIMEZONE",
+      "type" : "java.util.TimeZone",
+      "displayedType" : "TimeZone",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 32,
+        "endLine" : 106,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FAILURE_MODE" : {
+      "name" : "DEFAULT_FAILURE_MODE",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FAILURE_MODE",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.definition.FailureMode",
+      "displayedType" : "FailureMode",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 35,
+        "endLine" : 90,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_BASE_ERROR_RETRY_BACKOFF_SECS" : {
+      "name" : "DEFAULT_BASE_ERROR_RETRY_BACKOFF_SECS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_BASE_ERROR_RETRY_BACKOFF_SECS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 29,
+        "endLine" : 46,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_SUBWORKFLOW_SYNC_FLAG" : {
+      "name" : "DEFAULT_SUBWORKFLOW_SYNC_FLAG",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_SUBWORKFLOW_SYNC_FLAG",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 31,
+        "endLine" : 112,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_STEP_INSTANCE_INITIAL_STATUS" : {
+      "name" : "DEFAULT_STEP_INSTANCE_INITIAL_STATUS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_STEP_INSTANCE_INITIAL_STATUS",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.Status",
+      "displayedType" : "StepInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 43,
+        "endLine" : 102,
+        "endColumn" : 79
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_SUBWORKFLOW_EXPLICIT_FLAG" : {
+      "name" : "DEFAULT_SUBWORKFLOW_EXPLICIT_FLAG",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_SUBWORKFLOW_EXPLICIT_FLAG",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 31,
+        "endLine" : 115,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_TAG_LIST" : {
+      "name" : "DEFAULT_TAG_LIST",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_TAG_LIST",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 31,
+        "endLine" : 99,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PLATFORM_RETRY_EXPONENT" : {
+      "name" : "DEFAULT_PLATFORM_RETRY_EXPONENT",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PLATFORM_RETRY_EXPONENT",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 28,
+        "endLine" : 52,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FIXED_BACK_OFF" : {
+      "name" : "DEFAULT_FIXED_BACK_OFF",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FIXED_BACK_OFF",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.definition.RetryPolicy#com.netflix.maestro.models.FixedBackoff",
+      "displayedType" : "RetryPolicy.FixedBackoff",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 48,
+        "endLine" : 72,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PARAM_MODE" : {
+      "name" : "DEFAULT_PARAM_MODE",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PARAM_MODE",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.parameter.ParamMode",
+      "displayedType" : "ParamMode",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 33,
+        "endLine" : 109,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FOREACH_STRICT_ORDERING_ENABLED" : {
+      "name" : "DEFAULT_FOREACH_STRICT_ORDERING_ENABLED",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FOREACH_STRICT_ORDERING_ENABLED",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 31,
+        "endLine" : 130,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_TIME_OUT_LIMIT_IN_MILLIS" : {
+      "name" : "DEFAULT_TIME_OUT_LIMIT_IN_MILLIS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_TIME_OUT_LIMIT_IN_MILLIS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 28,
+        "endLine" : 31,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FIXED_USER_RETRY_BACKOFF_SECS" : {
+      "name" : "DEFAULT_FIXED_USER_RETRY_BACKOFF_SECS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FIXED_USER_RETRY_BACKOFF_SECS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 29,
+        "endLine" : 40,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_STEP_CONCURRENCY" : {
+      "name" : "DEFAULT_STEP_CONCURRENCY",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_STEP_CONCURRENCY",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 28,
+        "endLine" : 118,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_EXPONENTIAL_BACK_OFF" : {
+      "name" : "DEFAULT_EXPONENTIAL_BACK_OFF",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_EXPONENTIAL_BACK_OFF",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.definition.RetryPolicy#com.netflix.maestro.models.ExponentialBackoff",
+      "displayedType" : "RetryPolicy.ExponentialBackoff",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 54,
+        "endLine" : 61,
+        "endColumn" : 82
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PLATFORM_RETRY_LIMIT" : {
+      "name" : "DEFAULT_PLATFORM_RETRY_LIMIT",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PLATFORM_RETRY_LIMIT",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 29,
+        "endLine" : 79,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FIXED_PLATFORM_RETRY_BACKOFF_SECS" : {
+      "name" : "DEFAULT_FIXED_PLATFORM_RETRY_BACKOFF_SECS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_FIXED_PLATFORM_RETRY_BACKOFF_SECS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 29,
+        "endLine" : 37,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_INSTANCE_STEP_CONCURRENCY" : {
+      "name" : "DEFAULT_INSTANCE_STEP_CONCURRENCY",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_INSTANCE_STEP_CONCURRENCY",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 28,
+        "endLine" : 127,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_RETRY_POLICY" : {
+      "name" : "DEFAULT_RETRY_POLICY",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_RETRY_POLICY",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.definition.RetryPolicy",
+      "displayedType" : "RetryPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 35,
+        "endLine" : 82,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PLATFORM_RETRY_LIMIT_SECS" : {
+      "name" : "DEFAULT_PLATFORM_RETRY_LIMIT_SECS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PLATFORM_RETRY_LIMIT_SECS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 29,
+        "endLine" : 58,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_BASE_PLATFORM_RETRY_BACKOFF_SECS" : {
+      "name" : "DEFAULT_BASE_PLATFORM_RETRY_BACKOFF_SECS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_BASE_PLATFORM_RETRY_BACKOFF_SECS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 29,
+        "endLine" : 55,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_ERROR_RETRY_LIMIT_SECS" : {
+      "name" : "DEFAULT_ERROR_RETRY_LIMIT_SECS",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_ERROR_RETRY_LIMIT_SECS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_RESTART_POLICY" : {
+      "name" : "DEFAULT_RESTART_POLICY",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_RESTART_POLICY",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.instance.RunPolicy",
+      "displayedType" : "RunPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 33,
+        "endLine" : 133,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_ERROR_RETRY_EXPONENT" : {
+      "name" : "DEFAULT_ERROR_RETRY_EXPONENT",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_ERROR_RETRY_EXPONENT",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 28,
+        "endLine" : 43,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_RUN_STRATEGY" : {
+      "name" : "DEFAULT_RUN_STRATEGY",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_RUN_STRATEGY",
+      "type" : "com.netflix.maestro.models.com.netflix.maestro.models.definition.RunStrategy",
+      "displayedType" : "RunStrategy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 35,
+        "endLine" : 93,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_WORKFLOW_ACTIVE_FLAG" : {
+      "name" : "DEFAULT_WORKFLOW_ACTIVE_FLAG",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_WORKFLOW_ACTIVE_FLAG",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 31,
+        "endLine" : 34,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PARALLELISM" : {
+      "name" : "DEFAULT_PARALLELISM",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_PARALLELISM",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 28,
+        "endLine" : 96,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    },
+    "com.netflix.maestro.models.Defaults/memberField/DEFAULT_USER_RETRY_LIMIT" : {
+      "name" : "DEFAULT_USER_RETRY_LIMIT",
+      "key" : "com.netflix.maestro.models.Defaults/memberField/DEFAULT_USER_RETRY_LIMIT",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 29,
+        "endLine" : 78,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Defaults"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/Defaults.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

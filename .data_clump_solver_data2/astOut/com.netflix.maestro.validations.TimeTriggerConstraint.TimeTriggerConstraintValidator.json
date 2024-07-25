@@ -1,0 +1,125 @@
+{
+  "name" : "TimeTriggerConstraintValidator",
+  "key" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 3,
+    "endLine" : 47,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : {
+    "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/memberField/timeTriggerValidator" : {
+      "name" : "timeTriggerValidator",
+      "key" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/memberField/timeTriggerValidator",
+      "type" : "com.netflix.maestro.validations.TimeTriggerValidator",
+      "displayedType" : "TimeTriggerValidator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 52,
+        "endLine" : 49,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PRIVATE", "TRANSIENT" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/initialize(com.netflix.maestro.validations.TimeTriggerConstraint constraint)" : {
+      "name" : "initialize",
+      "key" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/initialize(com.netflix.maestro.validations.TimeTriggerConstraint constraint)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "constraint",
+        "key" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/initialize(com.netflix.maestro.validations.TimeTriggerConstraint constraint)/parameter/constraint",
+        "type" : "com.netflix.maestro.validations.TimeTriggerConstraint",
+        "displayedType" : "TimeTriggerConstraint",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 50,
+          "endLine" : 52,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/initialize(com.netflix.maestro.validations.TimeTriggerConstraint constraint)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator"
+    },
+    "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger trigger, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger trigger, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 20,
+        "endLine" : 55,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "trigger",
+        "key" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger trigger, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/trigger",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger",
+        "displayedType" : "TimeTrigger",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 40,
+          "endLine" : 55,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger trigger, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger trigger, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 76,
+          "endLine" : 55,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger trigger, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TimeTriggerConstraint.TimeTriggerConstraintValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/TimeTriggerConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.TimeTriggerConstraint, com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger>", "com.netflix.maestro.validations.TimeTriggerConstraint", "com.netflix.maestro.validations.com.netflix.maestro.models.trigger.TimeTrigger" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

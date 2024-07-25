@@ -1,0 +1,124 @@
+{
+  "name" : "PropertiesConstraintTest",
+  "key" : "com.netflix.maestro.validations.PropertiesConstraintTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 8,
+    "endLine" : 26,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.PropertiesConstraintTest/method/isNull()" : {
+      "name" : "isNull",
+      "key" : "com.netflix.maestro.validations.PropertiesConstraintTest/method/isNull()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 15,
+        "endLine" : 36,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.PropertiesConstraintTest"
+    },
+    "com.netflix.maestro.validations.PropertiesConstraintTest/method/isStepConcurrencyOverLimit()" : {
+      "name" : "isStepConcurrencyOverLimit",
+      "key" : "com.netflix.maestro.validations.PropertiesConstraintTest/method/isStepConcurrencyOverLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 15,
+        "endLine" : 84,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.PropertiesConstraintTest"
+    },
+    "com.netflix.maestro.validations.PropertiesConstraintTest/method/isWorkflowConcurrencyOverLimit()" : {
+      "name" : "isWorkflowConcurrencyOverLimit",
+      "key" : "com.netflix.maestro.validations.PropertiesConstraintTest/method/isWorkflowConcurrencyOverLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 15,
+        "endLine" : 43,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.PropertiesConstraintTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/PropertiesConstraintTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.validations.BaseConstraintTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.PropertiesConstraintTest.TestProperties" : {
+      "name" : "TestProperties",
+      "key" : "com.netflix.maestro.validations.PropertiesConstraintTest.TestProperties",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 18,
+        "endLine" : 27,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.PropertiesConstraintTest.TestProperties/memberField/properties" : {
+          "name" : "properties",
+          "key" : "com.netflix.maestro.validations.PropertiesConstraintTest.TestProperties/memberField/properties",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Properties",
+          "displayedType" : "Properties",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 28,
+            "startColumn" : 38,
+            "endLine" : 28,
+            "endColumn" : 48
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.PropertiesConstraintTest.TestProperties"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/PropertiesConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.PropertiesConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

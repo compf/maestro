@@ -1,0 +1,313 @@
+{
+  "name" : "TaskHelperTest",
+  "key" : "com.netflix.maestro.engine.utils.TaskHelperTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.utils.TaskHelperTest/memberField/workflow" : {
+      "name" : "workflow",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/memberField/workflow",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 26,
+        "endLine" : 40,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/memberField/task" : {
+      "name" : "task",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/memberField/task",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.conductor.common.metadata.tasks.Task",
+      "displayedType" : "Task",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 22,
+        "endLine" : 39,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgress()" : {
+      "name" : "testCheckProgress",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgress()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 15,
+        "endLine" : 156,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressForRestart()" : {
+      "name" : "testCheckProgressForRestart",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressForRestart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 294,
+        "startColumn" : 15,
+        "endLine" : 294,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressWhileNotFinal()" : {
+      "name" : "testCheckProgressWhileNotFinal",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressWhileNotFinal()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 366,
+        "startColumn" : 15,
+        "endLine" : 366,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testIsUserDefinedTask()" : {
+      "name" : "testIsUserDefinedTask",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testIsUserDefinedTask()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 15,
+        "endLine" : 43,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testIsUserDefinedRealTask()" : {
+      "name" : "testIsUserDefinedRealTask",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testIsUserDefinedRealTask()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testComputeOverview()" : {
+      "name" : "testComputeOverview",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testComputeOverview()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 15,
+        "endLine" : 111,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testGetUserDefinedRealTaskMap()" : {
+      "name" : "testGetUserDefinedRealTaskMap",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testGetUserDefinedRealTaskMap()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 15,
+        "endLine" : 100,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressWithEmptyDag()" : {
+      "name" : "testCheckProgressWithEmptyDag",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressWithEmptyDag()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 358,
+        "startColumn" : 15,
+        "endLine" : 358,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressWithRetry()" : {
+      "name" : "testCheckProgressWithRetry",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressWithRetry()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 227,
+        "startColumn" : 15,
+        "endLine" : 227,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testGetTaskMap()" : {
+      "name" : "testGetTaskMap",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testGetTaskMap()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 15,
+        "endLine" : 79,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testIsRealTask()" : {
+      "name" : "testIsRealTask",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testIsRealTask()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testGetAllStepOutputData()" : {
+      "name" : "testGetAllStepOutputData",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testGetAllStepOutputData()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 15,
+        "endLine" : 88,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testToStepStatusMap()" : {
+      "name" : "testToStepStatusMap",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testToStepStatusMap()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 15,
+        "endLine" : 142,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressInvalid()" : {
+      "name" : "testCheckProgressInvalid",
+      "key" : "com.netflix.maestro.engine.utils.TaskHelperTest/method/testCheckProgressInvalid()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 329,
+        "startColumn" : 15,
+        "endLine" : 329,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.TaskHelperTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/utils/TaskHelperTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

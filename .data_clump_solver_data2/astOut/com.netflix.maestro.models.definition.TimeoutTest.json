@@ -1,0 +1,212 @@
+{
+  "name" : "TimeoutTest",
+  "key" : "com.netflix.maestro.models.definition.TimeoutTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.TimeoutTest/memberField/paramMapper" : {
+      "name" : "paramMapper",
+      "key" : "com.netflix.maestro.models.definition.TimeoutTest/memberField/paramMapper",
+      "type" : "java.util.function.Function<com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Function<ParamDefinition, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 61,
+        "endLine" : 30,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.TimeoutTest/method/testValidDuration()" : {
+      "name" : "testValidDuration",
+      "key" : "com.netflix.maestro.models.definition.TimeoutTest/method/testValidDuration()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 15,
+        "endLine" : 74,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest"
+    },
+    "com.netflix.maestro.models.definition.TimeoutTest/method/testGetTimeoutInMillis()" : {
+      "name" : "testGetTimeoutInMillis",
+      "key" : "com.netflix.maestro.models.definition.TimeoutTest/method/testGetTimeoutInMillis()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 15,
+        "endLine" : 62,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest"
+    },
+    "com.netflix.maestro.models.definition.TimeoutTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.models.definition.TimeoutTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 22,
+        "endLine" : 39,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest"
+    },
+    "com.netflix.maestro.models.definition.TimeoutTest/method/testRoundTripSerde()" : {
+      "name" : "testRoundTripSerde",
+      "key" : "com.netflix.maestro.models.definition.TimeoutTest/method/testRoundTripSerde()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest"
+    },
+    "com.netflix.maestro.models.definition.TimeoutTest/method/testInvalidDuration()" : {
+      "name" : "testInvalidDuration",
+      "key" : "com.netflix.maestro.models.definition.TimeoutTest/method/testInvalidDuration()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 15,
+        "endLine" : 129,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/models/definition/TimeoutTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.definition.com.netflix.maestro.MaestroBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.definition.TimeoutTest.Timeouts" : {
+      "name" : "Timeouts",
+      "key" : "com.netflix.maestro.models.definition.TimeoutTest.Timeouts",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 18,
+        "endLine" : 44,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.definition.TimeoutTest.Timeouts/memberField/timeout2" : {
+          "name" : "timeout2",
+          "key" : "com.netflix.maestro.models.definition.TimeoutTest.Timeouts/memberField/timeout2",
+          "type" : "com.netflix.maestro.models.definition.Duration",
+          "displayedType" : "Duration",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 46,
+            "startColumn" : 14,
+            "endLine" : 46,
+            "endColumn" : 22
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest.Timeouts"
+        },
+        "com.netflix.maestro.models.definition.TimeoutTest.Timeouts/memberField/timeout1" : {
+          "name" : "timeout1",
+          "key" : "com.netflix.maestro.models.definition.TimeoutTest.Timeouts/memberField/timeout1",
+          "type" : "com.netflix.maestro.models.definition.Duration",
+          "displayedType" : "Duration",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 45,
+            "startColumn" : 14,
+            "endLine" : 45,
+            "endColumn" : 22
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest.Timeouts"
+        },
+        "com.netflix.maestro.models.definition.TimeoutTest.Timeouts/memberField/timeout3" : {
+          "name" : "timeout3",
+          "key" : "com.netflix.maestro.models.definition.TimeoutTest.Timeouts/memberField/timeout3",
+          "type" : "com.netflix.maestro.models.definition.Duration",
+          "displayedType" : "Duration",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 47,
+            "startColumn" : 14,
+            "endLine" : 47,
+            "endColumn" : 22
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TimeoutTest.Timeouts"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/models/definition/TimeoutTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.TimeoutTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,88 @@
+{
+  "name" : "WorkflowDeletionChangeEvent",
+  "key" : "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 14,
+    "endLine" : 45,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent/memberField/internalId" : {
+      "name" : "internalId",
+      "key" : "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent/memberField/internalId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 22,
+        "endLine" : 46,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.events.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 15,
+        "endLine" : 49,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowDeletionChangeEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.events.WorkflowChangeEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent.WorkflowDeletionChangeEventBuilderImpl" : {
+      "name" : "WorkflowDeletionChangeEventBuilderImpl",
+      "key" : "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent.WorkflowDeletionChangeEventBuilderImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 16,
+        "endLine" : 56,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowDeletionChangeEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.models.events.com.netflix.maestro.models.events.WorkflowDeletionChangeEvent.WorkflowDeletionChangeEventBuilder<com.netflix.maestro.models.events.WorkflowDeletionChangeEvent, com.netflix.maestro.models.events.WorkflowDeletionChangeEvent$WorkflowDeletionChangeEventBuilderImpl>", "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent", "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent", "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent$WorkflowDeletionChangeEventBuilderImpl" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.events.WorkflowDeletionChangeEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

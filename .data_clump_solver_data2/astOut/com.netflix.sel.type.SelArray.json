@@ -1,0 +1,343 @@
+{
+  "name" : "SelArray",
+  "key" : "com.netflix.sel.type.SelArray",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 14,
+    "endLine" : 20,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.type.SelArray/memberField/val" : {
+      "name" : "val",
+      "key" : "com.netflix.sel.type.SelArray/memberField/val",
+      "type" : "com.netflix.sel.type.SelType[]",
+      "displayedType" : "SelType[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 21,
+        "startColumn" : 21,
+        "endLine" : 21,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/memberField/type" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelArray/memberField/type",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 26,
+        "endLine" : 22,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelArray/method/get(int idx)" : {
+      "name" : "get",
+      "key" : "com.netflix.sel.type.SelArray/method/get(int idx)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 18,
+        "endLine" : 97,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "idx",
+        "key" : "com.netflix.sel.type.SelArray/method/get(int idx)/parameter/idx",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 97,
+          "startColumn" : 26,
+          "endLine" : 97,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/get(int idx)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelArray/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 19,
+        "endLine" : 107,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/set(int idx, com.netflix.sel.type.SelType obj)" : {
+      "name" : "set",
+      "key" : "com.netflix.sel.type.SelArray/method/set(int idx, com.netflix.sel.type.SelType obj)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 15,
+        "endLine" : 93,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "idx",
+        "key" : "com.netflix.sel.type.SelArray/method/set(int idx, com.netflix.sel.type.SelType obj)/parameter/idx",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 23,
+          "endLine" : 93,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/set(int idx, com.netflix.sel.type.SelType obj)"
+      }, {
+        "name" : "obj",
+        "key" : "com.netflix.sel.type.SelArray/method/set(int idx, com.netflix.sel.type.SelType obj)/parameter/obj",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 36,
+          "endLine" : 93,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/set(int idx, com.netflix.sel.type.SelType obj)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/of(java.lang.Object o, com.netflix.sel.type.SelTypes type)" : {
+      "name" : "of",
+      "key" : "com.netflix.sel.type.SelArray/method/of(java.lang.Object o, com.netflix.sel.type.SelTypes type)",
+      "type" : "com.netflix.sel.type.SelArray",
+      "displayedType" : "SelArray",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 19,
+        "endLine" : 62,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "o",
+        "key" : "com.netflix.sel.type.SelArray/method/of(java.lang.Object o, com.netflix.sel.type.SelTypes type)/parameter/o",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 29,
+          "endLine" : 62,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/of(java.lang.Object o, com.netflix.sel.type.SelTypes type)"
+      }, {
+        "name" : "type",
+        "key" : "com.netflix.sel.type.SelArray/method/of(java.lang.Object o, com.netflix.sel.type.SelTypes type)/parameter/type",
+        "type" : "com.netflix.sel.type.SelTypes",
+        "displayedType" : "SelTypes",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 41,
+          "endLine" : 62,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/of(java.lang.Object o, com.netflix.sel.type.SelTypes type)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)" : {
+      "name" : "assignOps",
+      "key" : "com.netflix.sel.type.SelArray/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)",
+      "type" : "com.netflix.sel.type.SelArray",
+      "displayedType" : "SelArray",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 19,
+        "endLine" : 112,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "com.netflix.sel.type.SelArray/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/op",
+        "type" : "com.netflix.sel.type.com.netflix.sel.visitor.SelOp",
+        "displayedType" : "SelOp",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 35,
+          "endLine" : 112,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      }, {
+        "name" : "rhs",
+        "key" : "com.netflix.sel.type.SelArray/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/rhs",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 47,
+          "endLine" : 112,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/unbox()" : {
+      "name" : "unbox",
+      "key" : "com.netflix.sel.type.SelArray/method/unbox()",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 17,
+        "endLine" : 123,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/getInternalVal()" : {
+      "name" : "getInternalVal",
+      "key" : "com.netflix.sel.type.SelArray/method/getInternalVal()",
+      "type" : "com.netflix.sel.type.SelType[]",
+      "displayedType" : "SelType[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 20,
+        "endLine" : 102,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.type.SelArray/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 17,
+        "endLine" : 163,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    },
+    "com.netflix.sel.type.SelArray/method/field(com.netflix.sel.type.SelString field)" : {
+      "name" : "field",
+      "key" : "com.netflix.sel.type.SelArray/method/field(com.netflix.sel.type.SelString field)",
+      "type" : "com.netflix.sel.type.SelLong",
+      "displayedType" : "SelLong",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 18,
+        "endLine" : 154,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "field",
+        "key" : "com.netflix.sel.type.SelArray/method/field(com.netflix.sel.type.SelString field)/parameter/field",
+        "type" : "com.netflix.sel.type.SelString",
+        "displayedType" : "SelString",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 34,
+          "endLine" : 154,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelArray/method/field(com.netflix.sel.type.SelString field)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelArray"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelArray.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.type.AbstractSelType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

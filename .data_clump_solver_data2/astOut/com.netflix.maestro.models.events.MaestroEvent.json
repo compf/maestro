@@ -1,0 +1,98 @@
+{
+  "name" : "MaestroEvent",
+  "key" : "com.netflix.maestro.models.events.MaestroEvent",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 56,
+    "startColumn" : 8,
+    "endLine" : 56,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.models.events.MaestroEvent/method/getSyncTime()" : {
+      "name" : "getSyncTime",
+      "key" : "com.netflix.maestro.models.events.MaestroEvent/method/getSyncTime()",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 8,
+        "endLine" : 69,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.MaestroEvent"
+    },
+    "com.netflix.maestro.models.events.MaestroEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.events.MaestroEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.events.MaestroEvent$Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 8,
+        "endLine" : 66,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.MaestroEvent"
+    },
+    "com.netflix.maestro.models.events.MaestroEvent/method/getWorkflowId()" : {
+      "name" : "getWorkflowId",
+      "key" : "com.netflix.maestro.models.events.MaestroEvent/method/getWorkflowId()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 10,
+        "endLine" : 59,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.MaestroEvent"
+    },
+    "com.netflix.maestro.models.events.MaestroEvent/method/getClusterName()" : {
+      "name" : "getClusterName",
+      "key" : "com.netflix.maestro.models.events.MaestroEvent/method/getClusterName()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 10,
+        "endLine" : 62,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.MaestroEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/MaestroEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

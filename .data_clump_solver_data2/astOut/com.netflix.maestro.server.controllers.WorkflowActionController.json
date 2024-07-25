@@ -1,0 +1,286 @@
+{
+  "name" : "WorkflowActionController",
+  "key" : "com.netflix.maestro.server.controllers.WorkflowActionController",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.server.controllers.WorkflowActionController/memberField/actionHandler" : {
+      "name" : "actionHandler",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/memberField/actionHandler",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.engine.handlers.WorkflowActionHandler",
+      "displayedType" : "WorkflowActionHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 39,
+        "endLine" : 52,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowActionController"
+    },
+    "com.netflix.maestro.server.controllers.WorkflowActionController/memberField/callerBuilder" : {
+      "name" : "callerBuilder",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/memberField/callerBuilder",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User#com.netflix.maestro.server.controllers.UserBuilder",
+      "displayedType" : "User.UserBuilder",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 34,
+        "endLine" : 53,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowActionController"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.server.controllers.WorkflowActionController/method/validateWorkflow(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowCreateRequest request)" : {
+      "name" : "validateWorkflow",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/validateWorkflow(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowCreateRequest request)",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.timeline.TimelineEvent",
+      "displayedType" : "TimelineEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 24,
+        "endLine" : 91,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "request",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/validateWorkflow(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowCreateRequest request)/parameter/request",
+        "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowCreateRequest",
+        "displayedType" : "WorkflowCreateRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 33,
+          "endLine" : 96,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/validateWorkflow(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowCreateRequest request)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowActionController"
+    },
+    "com.netflix.maestro.server.controllers.WorkflowActionController/method/deactivateWorkflow(java.lang.String workflowId)" : {
+      "name" : "deactivateWorkflow",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/deactivateWorkflow(java.lang.String workflowId)",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowActionResponse",
+      "displayedType" : "WorkflowActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 33,
+        "endLine" : 107,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/deactivateWorkflow(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 58,
+          "endLine" : 108,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/deactivateWorkflow(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowActionController"
+    },
+    "com.netflix.maestro.server.controllers.WorkflowActionController/method/toRunRequest(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request, com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User caller)" : {
+      "name" : "toRunRequest",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/toRunRequest(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request, com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User caller)",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.engine.execution.RunRequest",
+      "displayedType" : "RunRequest",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 22,
+        "endLine" : 77,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "request",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/toRunRequest(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request, com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User caller)/parameter/request",
+        "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest",
+        "displayedType" : "WorkflowStartRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 56,
+          "endLine" : 77,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/toRunRequest(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request, com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User caller)"
+      }, {
+        "name" : "caller",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/toRunRequest(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request, com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User caller)/parameter/caller",
+        "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 70,
+          "endLine" : 77,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/toRunRequest(com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request, com.netflix.maestro.server.controllers.com.netflix.maestro.models.definition.User caller)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowActionController"
+    },
+    "com.netflix.maestro.server.controllers.WorkflowActionController/method/activateWorkflowVersion(java.lang.String workflowId, java.lang.String version)" : {
+      "name" : "activateWorkflowVersion",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/activateWorkflowVersion(java.lang.String workflowId, java.lang.String version)",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowActionResponse",
+      "displayedType" : "WorkflowActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 33,
+        "endLine" : 118,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/activateWorkflowVersion(java.lang.String workflowId, java.lang.String version)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 119,
+          "startColumn" : 58,
+          "endLine" : 119,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/activateWorkflowVersion(java.lang.String workflowId, java.lang.String version)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/activateWorkflowVersion(java.lang.String workflowId, java.lang.String version)/parameter/version",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 55,
+          "endLine" : 120,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/activateWorkflowVersion(java.lang.String workflowId, java.lang.String version)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowActionController"
+    },
+    "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)" : {
+      "name" : "startWorkflowInstance",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartResponse",
+      "displayedType" : "WorkflowStartResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 32,
+        "endLine" : 68,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 58,
+          "endLine" : 69,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)/parameter/version",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 55,
+          "endLine" : 70,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)"
+      }, {
+        "name" : "request",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)/parameter/request",
+        "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest",
+        "displayedType" : "WorkflowStartRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 57,
+          "endLine" : 71,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowActionController/method/startWorkflowInstance(java.lang.String workflowId, java.lang.String version, com.netflix.maestro.server.controllers.com.netflix.maestro.models.api.WorkflowStartRequest request)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowActionController"
+    }
+  },
+  "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/controllers/WorkflowActionController.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

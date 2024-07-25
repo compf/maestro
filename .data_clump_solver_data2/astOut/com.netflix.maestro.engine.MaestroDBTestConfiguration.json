@@ -1,0 +1,98 @@
+{
+  "name" : "MaestroDBTestConfiguration",
+  "key" : "com.netflix.maestro.engine.MaestroDBTestConfiguration",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 19,
+    "startColumn" : 8,
+    "endLine" : 19,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/getConnectionPoolMinIdle()" : {
+      "name" : "getConnectionPoolMinIdle",
+      "key" : "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/getConnectionPoolMinIdle()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 14,
+        "endLine" : 37,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroDBTestConfiguration"
+    },
+    "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/isFollowerReadsEnabled()" : {
+      "name" : "isFollowerReadsEnabled",
+      "key" : "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/isFollowerReadsEnabled()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 18,
+        "endLine" : 22,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroDBTestConfiguration"
+    },
+    "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/getConnectionPoolMaxSize()" : {
+      "name" : "getConnectionPoolMaxSize",
+      "key" : "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/getConnectionPoolMaxSize()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 14,
+        "endLine" : 32,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroDBTestConfiguration"
+    },
+    "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/getJdbcUrl()" : {
+      "name" : "getJdbcUrl",
+      "key" : "com.netflix.maestro.engine.MaestroDBTestConfiguration/method/getJdbcUrl()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 17,
+        "endLine" : 27,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroDBTestConfiguration"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/MaestroDBTestConfiguration.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.com.netflix.conductor.cockroachdb.CockroachDBConfiguration" ],
+  "extends_" : [ "com.netflix.maestro.engine.com.netflix.conductor.core.config.SystemPropertiesConfiguration" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

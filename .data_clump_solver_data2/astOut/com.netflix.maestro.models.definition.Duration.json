@@ -1,0 +1,118 @@
+{
+  "name" : "Duration",
+  "key" : "com.netflix.maestro.models.definition.Duration",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.Duration/memberField/value" : {
+      "name" : "value",
+      "key" : "com.netflix.maestro.models.definition.Duration/memberField/value",
+      "type" : "com.fasterxml.jackson.databind.JsonNode",
+      "displayedType" : "JsonNode",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 46,
+        "endLine" : 34,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Duration"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/Duration.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.definition.Duration.DurationDeserializer" : {
+      "name" : "DurationDeserializer",
+      "key" : "com.netflix.maestro.models.definition.Duration.DurationDeserializer",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 10,
+        "endLine" : 37,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.models.definition.Duration.DurationDeserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)" : {
+          "name" : "deserialize",
+          "key" : "com.netflix.maestro.models.definition.Duration.DurationDeserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)",
+          "type" : "com.netflix.maestro.models.definition.Duration",
+          "displayedType" : "Duration",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 39,
+            "startColumn" : 21,
+            "endLine" : 39,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "p",
+            "key" : "com.netflix.maestro.models.definition.Duration.DurationDeserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)/parameter/p",
+            "type" : "com.fasterxml.jackson.core.JsonParser",
+            "displayedType" : "JsonParser",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 39,
+              "startColumn" : 44,
+              "endLine" : 39,
+              "endColumn" : 45
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.Duration.DurationDeserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)"
+          }, {
+            "name" : "ctxt",
+            "key" : "com.netflix.maestro.models.definition.Duration.DurationDeserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)/parameter/ctxt",
+            "type" : "com.fasterxml.jackson.databind.DeserializationContext",
+            "displayedType" : "DeserializationContext",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 39,
+              "startColumn" : 70,
+              "endLine" : 39,
+              "endColumn" : 74
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.definition.Duration.DurationDeserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Duration.DurationDeserializer"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/Duration.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.fasterxml.jackson.databind.JsonDeserializer<com.netflix.maestro.models.definition.Duration>", "com.netflix.maestro.models.definition.Duration" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.Duration",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,1466 @@
+{
+  "name" : "JavaCharStream",
+  "key" : "com.netflix.sel.ast.JavaCharStream",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 9,
+    "startColumn" : 8,
+    "endLine" : 9,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.ast.JavaCharStream/memberField/staticFlag" : {
+      "name" : "staticFlag",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/staticFlag",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 11,
+        "startColumn" : 31,
+        "endLine" : 11,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/prevCharIsLF" : {
+      "name" : "prevCharIsLF",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/prevCharIsLF",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 21,
+        "endLine" : 72,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/inBuf" : {
+      "name" : "inBuf",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/inBuf",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/bufcolumn" : {
+      "name" : "bufcolumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/bufcolumn",
+      "type" : "int[]",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/nextCharInd" : {
+      "name" : "nextCharInd",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/nextCharInd",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/tabSize" : {
+      "name" : "tabSize",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/tabSize",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 17,
+        "endLine" : 81,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/line" : {
+      "name" : "line",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/line",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 17,
+        "endLine" : 69,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/inputStream" : {
+      "name" : "inputStream",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/inputStream",
+      "type" : "java.io.Reader",
+      "displayedType" : "java.io.Reader",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 28,
+        "endLine" : 74,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/bufline" : {
+      "name" : "bufline",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/bufline",
+      "type" : "int[]",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 17,
+        "endLine" : 65,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/maxNextCharInd" : {
+      "name" : "maxNextCharInd",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/maxNextCharInd",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/tokenBegin" : {
+      "name" : "tokenBegin",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/tokenBegin",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 7,
+        "endLine" : 64,
+        "endColumn" : 17
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/trackLineColumn" : {
+      "name" : "trackLineColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/trackLineColumn",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 21,
+        "endLine" : 82,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/nextCharBuf" : {
+      "name" : "nextCharBuf",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/nextCharBuf",
+      "type" : "char[]",
+      "displayedType" : "char[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 20,
+        "endLine" : 76,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/prevCharIsCR" : {
+      "name" : "prevCharIsCR",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/prevCharIsCR",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 21,
+        "endLine" : 71,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/buffer" : {
+      "name" : "buffer",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/buffer",
+      "type" : "char[]",
+      "displayedType" : "char[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 20,
+        "endLine" : 77,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/available" : {
+      "name" : "available",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/available",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 7,
+        "endLine" : 63,
+        "endColumn" : 16
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/bufpos" : {
+      "name" : "bufpos",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/bufpos",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 14,
+        "endLine" : 60,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/column" : {
+      "name" : "column",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/column",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 17,
+        "endLine" : 68,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/memberField/bufsize" : {
+      "name" : "bufsize",
+      "key" : "com.netflix.sel.ast.JavaCharStream/memberField/bufsize",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 7,
+        "endLine" : 62,
+        "endColumn" : 14
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.ast.JavaCharStream/method/adjustBeginLineColumn(int newLine, int newCol)" : {
+      "name" : "adjustBeginLineColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/adjustBeginLineColumn(int newLine, int newCol)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 519,
+        "startColumn" : 15,
+        "endLine" : 519,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "newLine",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/adjustBeginLineColumn(int newLine, int newCol)/parameter/newLine",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 519,
+          "startColumn" : 41,
+          "endLine" : 519,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/adjustBeginLineColumn(int newLine, int newCol)"
+      }, {
+        "name" : "newCol",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/adjustBeginLineColumn(int newLine, int newCol)/parameter/newCol",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 519,
+          "startColumn" : 54,
+          "endLine" : 519,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/adjustBeginLineColumn(int newLine, int newCol)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 470,
+        "startColumn" : 15,
+        "endLine" : 470,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)/parameter/dstream",
+        "type" : "java.io.InputStream",
+        "displayedType" : "java.io.InputStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 470,
+          "startColumn" : 42,
+          "endLine" : 470,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)"
+      }, {
+        "name" : "startline",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)/parameter/startline",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 470,
+          "startColumn" : 55,
+          "endLine" : 470,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)"
+      }, {
+        "name" : "startcolumn",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)/parameter/startcolumn",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 470,
+          "startColumn" : 70,
+          "endLine" : 470,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 475,
+        "startColumn" : 15,
+        "endLine" : 475,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding)/parameter/dstream",
+        "type" : "java.io.InputStream",
+        "displayedType" : "java.io.InputStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 475,
+          "startColumn" : 42,
+          "endLine" : 475,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding)"
+      }, {
+        "name" : "encoding",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding)/parameter/encoding",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 475,
+          "startColumn" : 58,
+          "endLine" : 475,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 394,
+        "startColumn" : 15,
+        "endLine" : 394,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)/parameter/dstream",
+        "type" : "java.io.Reader",
+        "displayedType" : "java.io.Reader",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 394,
+          "startColumn" : 37,
+          "endLine" : 394,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)"
+      }, {
+        "name" : "startline",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)/parameter/startline",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 394,
+          "startColumn" : 50,
+          "endLine" : 394,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)"
+      }, {
+        "name" : "startcolumn",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)/parameter/startcolumn",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 394,
+          "startColumn" : 65,
+          "endLine" : 394,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/backup(int amount)" : {
+      "name" : "backup",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/backup(int amount)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 15,
+        "endLine" : 346,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "amount",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/backup(int amount)/parameter/amount",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 346,
+          "startColumn" : 26,
+          "endLine" : 346,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/backup(int amount)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 459,
+        "startColumn" : 15,
+        "endLine" : 459,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)/parameter/dstream",
+        "type" : "java.io.InputStream",
+        "displayedType" : "java.io.InputStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 459,
+          "startColumn" : 42,
+          "endLine" : 459,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "startline",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)/parameter/startline",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 459,
+          "startColumn" : 55,
+          "endLine" : 459,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "startcolumn",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)/parameter/startcolumn",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 459,
+          "startColumn" : 70,
+          "endLine" : 459,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "buffersize",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)/parameter/buffersize",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 459,
+          "startColumn" : 87,
+          "endLine" : 459,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, int startline, int startcolumn, int buffersize)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getBeginLine()" : {
+      "name" : "getBeginLine",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getBeginLine()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 341,
+        "startColumn" : 14,
+        "endLine" : 341,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/setTabSize(int i)" : {
+      "name" : "setTabSize",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/setTabSize(int i)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 15,
+        "endLine" : 84,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/setTabSize(int i)/parameter/i",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 30,
+          "endLine" : 84,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/setTabSize(int i)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 464,
+        "startColumn" : 15,
+        "endLine" : 464,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)/parameter/dstream",
+        "type" : "java.io.InputStream",
+        "displayedType" : "java.io.InputStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 464,
+          "startColumn" : 42,
+          "endLine" : 464,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)"
+      }, {
+        "name" : "encoding",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)/parameter/encoding",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 464,
+          "startColumn" : 58,
+          "endLine" : 464,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)"
+      }, {
+        "name" : "startline",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)/parameter/startline",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 464,
+          "startColumn" : 72,
+          "endLine" : 464,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)"
+      }, {
+        "name" : "startcolumn",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)/parameter/startcolumn",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 464,
+          "startColumn" : 87,
+          "endLine" : 464,
+          "endColumn" : 98
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getEndLine()" : {
+      "name" : "getEndLine",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getEndLine()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 327,
+        "startColumn" : 14,
+        "endLine" : 327,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 399,
+        "startColumn" : 15,
+        "endLine" : 399,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream)/parameter/dstream",
+        "type" : "java.io.Reader",
+        "displayedType" : "java.io.Reader",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 399,
+          "startColumn" : 37,
+          "endLine" : 399,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/setTrackLineColumn(boolean tlc)" : {
+      "name" : "setTrackLineColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/setTrackLineColumn(boolean tlc)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 558,
+        "startColumn" : 8,
+        "endLine" : 558,
+        "endColumn" : 26
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tlc",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/setTrackLineColumn(boolean tlc)/parameter/tlc",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 558,
+          "startColumn" : 35,
+          "endLine" : 558,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/setTrackLineColumn(boolean tlc)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/readChar()" : {
+      "name" : "readChar",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/readChar()",
+      "type" : "char",
+      "displayedType" : "char",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 223,
+        "startColumn" : 15,
+        "endLine" : 223,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 376,
+        "startColumn" : 15,
+        "endLine" : 376,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)/parameter/dstream",
+        "type" : "java.io.Reader",
+        "displayedType" : "java.io.Reader",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 376,
+          "startColumn" : 37,
+          "endLine" : 376,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "startline",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)/parameter/startline",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 376,
+          "startColumn" : 50,
+          "endLine" : 376,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "startcolumn",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)/parameter/startcolumn",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 376,
+          "startColumn" : 65,
+          "endLine" : 376,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "buffersize",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)/parameter/buffersize",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 376,
+          "startColumn" : 82,
+          "endLine" : 376,
+          "endColumn" : 92
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.Reader dstream, int startline, int startcolumn, int buffersize)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 446,
+        "startColumn" : 15,
+        "endLine" : 446,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)/parameter/dstream",
+        "type" : "java.io.InputStream",
+        "displayedType" : "java.io.InputStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 27,
+          "endLine" : 447,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "encoding",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)/parameter/encoding",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 43,
+          "endLine" : 447,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "startline",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)/parameter/startline",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 57,
+          "endLine" : 447,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "startcolumn",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)/parameter/startcolumn",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 72,
+          "endLine" : 447,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)"
+      }, {
+        "name" : "buffersize",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)/parameter/buffersize",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 447,
+          "startColumn" : 89,
+          "endLine" : 447,
+          "endColumn" : 99
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream, java.lang.String encoding, int startline, int startcolumn, int buffersize)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/BeginToken()" : {
+      "name" : "BeginToken",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/BeginToken()",
+      "type" : "char",
+      "displayedType" : "char",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 15,
+        "endLine" : 163,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/UpdateLineColumn(char c)" : {
+      "name" : "UpdateLineColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/UpdateLineColumn(char c)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 18,
+        "endLine" : 190,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/UpdateLineColumn(char c)/parameter/c",
+        "type" : "char",
+        "displayedType" : "char",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 190,
+          "startColumn" : 40,
+          "endLine" : 190,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/UpdateLineColumn(char c)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getEndColumn()" : {
+      "name" : "getEndColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getEndColumn()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 322,
+        "startColumn" : 14,
+        "endLine" : 322,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getTabSize()" : {
+      "name" : "getTabSize",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getTabSize()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 14,
+        "endLine" : 88,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getColumn()" : {
+      "name" : "getColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getColumn()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 308,
+        "startColumn" : 14,
+        "endLine" : 308,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/GetSuffix(int len)" : {
+      "name" : "GetSuffix",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/GetSuffix(int len)",
+      "type" : "char[]",
+      "displayedType" : "char[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 498,
+        "startColumn" : 17,
+        "endLine" : 498,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "len",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/GetSuffix(int len)/parameter/len",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 498,
+          "startColumn" : 31,
+          "endLine" : 498,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/GetSuffix(int len)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 481,
+        "startColumn" : 15,
+        "endLine" : 481,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dstream",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream)/parameter/dstream",
+        "type" : "java.io.InputStream",
+        "displayedType" : "java.io.InputStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 481,
+          "startColumn" : 42,
+          "endLine" : 481,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ReInit(java.io.InputStream dstream)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ReadByte()" : {
+      "name" : "ReadByte",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ReadByte()",
+      "type" : "char",
+      "displayedType" : "char",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 18,
+        "endLine" : 154,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/ExpandBuff(boolean wrapAround)" : {
+      "name" : "ExpandBuff",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/ExpandBuff(boolean wrapAround)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 18,
+        "endLine" : 92,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "wrapAround",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/ExpandBuff(boolean wrapAround)/parameter/wrapAround",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 37,
+          "endLine" : 92,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/ExpandBuff(boolean wrapAround)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/AdjustBuffSize()" : {
+      "name" : "AdjustBuffSize",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/AdjustBuffSize()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 179,
+        "startColumn" : 18,
+        "endLine" : 179,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getBeginColumn()" : {
+      "name" : "getBeginColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getBeginColumn()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 334,
+        "startColumn" : 14,
+        "endLine" : 334,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getLine()" : {
+      "name" : "getLine",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getLine()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 317,
+        "startColumn" : 14,
+        "endLine" : 317,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/hexval(char c)" : {
+      "name" : "hexval",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/hexval(char c)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 13,
+        "startColumn" : 20,
+        "endLine" : 13,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "c",
+        "key" : "com.netflix.sel.ast.JavaCharStream/method/hexval(char c)/parameter/c",
+        "type" : "char",
+        "displayedType" : "char",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 13,
+          "startColumn" : 32,
+          "endLine" : 13,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.JavaCharStream/method/hexval(char c)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/FillBuff()" : {
+      "name" : "FillBuff",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/FillBuff()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 18,
+        "endLine" : 132,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/getTrackLineColumn()" : {
+      "name" : "getTrackLineColumn",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/getTrackLineColumn()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 554,
+        "startColumn" : 11,
+        "endLine" : 554,
+        "endColumn" : 29
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/Done()" : {
+      "name" : "Done",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/Done()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 511,
+        "startColumn" : 15,
+        "endLine" : 511,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    },
+    "com.netflix.sel.ast.JavaCharStream/method/GetImage()" : {
+      "name" : "GetImage",
+      "key" : "com.netflix.sel.ast.JavaCharStream/method/GetImage()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 488,
+        "startColumn" : 17,
+        "endLine" : 488,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.JavaCharStream"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/JavaCharStream.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

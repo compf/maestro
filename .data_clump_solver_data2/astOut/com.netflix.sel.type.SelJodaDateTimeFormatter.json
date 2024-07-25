@@ -1,0 +1,209 @@
+{
+  "name" : "SelJodaDateTimeFormatter",
+  "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 21,
+    "startColumn" : 14,
+    "endLine" : 21,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.type.SelJodaDateTimeFormatter/memberField/val" : {
+      "name" : "val",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/memberField/val",
+      "type" : "com.netflix.sel.type.org.joda.time.format.DateTimeFormatter",
+      "displayedType" : "DateTimeFormatter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 29,
+        "endLine" : 22,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelJodaDateTimeFormatter/method/getInternalVal()" : {
+      "name" : "getInternalVal",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/getInternalVal()",
+      "type" : "com.netflix.sel.type.org.joda.time.format.DateTimeFormatter",
+      "displayedType" : "DateTimeFormatter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 28,
+        "endLine" : 48,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeFormatter/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)" : {
+      "name" : "assignOps",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)",
+      "type" : "com.netflix.sel.type.SelJodaDateTimeFormatter",
+      "displayedType" : "SelJodaDateTimeFormatter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 35,
+        "endLine" : 38,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/op",
+        "type" : "com.netflix.sel.type.com.netflix.sel.visitor.SelOp",
+        "displayedType" : "SelOp",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 51,
+          "endLine" : 38,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      }, {
+        "name" : "rhs",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/rhs",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 63,
+          "endLine" : 38,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeFormatter/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 19,
+        "endLine" : 33,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeFormatter/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)" : {
+      "name" : "call",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 18,
+        "endLine" : 53,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 30,
+          "endLine" : 53,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 52,
+          "endLine" : 53,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeFormatter/method/of(com.netflix.sel.type.org.joda.time.format.DateTimeFormatter fmt)" : {
+      "name" : "of",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/of(com.netflix.sel.type.org.joda.time.format.DateTimeFormatter fmt)",
+      "type" : "com.netflix.sel.type.SelJodaDateTimeFormatter",
+      "displayedType" : "SelJodaDateTimeFormatter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 35,
+        "endLine" : 28,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fmt",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/of(com.netflix.sel.type.org.joda.time.format.DateTimeFormatter fmt)/parameter/fmt",
+        "type" : "com.netflix.sel.type.org.joda.time.format.DateTimeFormatter",
+        "displayedType" : "DateTimeFormatter",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 28,
+          "startColumn" : 56,
+          "endLine" : 28,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter/method/of(com.netflix.sel.type.org.joda.time.format.DateTimeFormatter fmt)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeFormatter"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelJodaDateTimeFormatter.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.type.AbstractSelType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

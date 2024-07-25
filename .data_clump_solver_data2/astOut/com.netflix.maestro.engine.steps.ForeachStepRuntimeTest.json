@@ -1,0 +1,428 @@
+{
+  "name" : "ForeachStepRuntimeTest",
+  "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 67,
+    "startColumn" : 8,
+    "endLine" : 67,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/INSTANCE_ID" : {
+      "name" : "INSTANCE_ID",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/INSTANCE_ID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 29,
+        "endLine" : 69,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/stepInstanceActionDao" : {
+      "name" : "stepInstanceActionDao",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/stepInstanceActionDao",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao",
+      "displayedType" : "MaestroStepInstanceActionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 46,
+        "endLine" : 78,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/workflowInstanceDao" : {
+      "name" : "workflowInstanceDao",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/workflowInstanceDao",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 38,
+        "endLine" : 76,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/RUN_ID" : {
+      "name" : "RUN_ID",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/RUN_ID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 29,
+        "endLine" : 70,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 40,
+        "endLine" : 77,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/instanceStepConcurrencyHandler" : {
+      "name" : "instanceStepConcurrencyHandler",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/instanceStepConcurrencyHandler",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler",
+      "displayedType" : "InstanceStepConcurrencyHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 48,
+        "endLine" : 79,
+        "endColumn" : 78
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/foreachProperties" : {
+      "name" : "foreachProperties",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/foreachProperties",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.properties.ForeachStepRuntimeProperties",
+      "displayedType" : "ForeachStepRuntimeProperties",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 46,
+        "endLine" : 80,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/foreachStepRuntime" : {
+      "name" : "foreachStepRuntime",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/foreachStepRuntime",
+      "type" : "com.netflix.maestro.engine.steps.ForeachStepRuntime",
+      "displayedType" : "ForeachStepRuntime",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 30,
+        "endLine" : 74,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/WORKFLOW_ID" : {
+      "name" : "WORKFLOW_ID",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/WORKFLOW_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 31,
+        "endLine" : 68,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/STEP_ID" : {
+      "name" : "STEP_ID",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/STEP_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 31,
+        "endLine" : 71,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/STEP_ATTEMPT_ID" : {
+      "name" : "STEP_ATTEMPT_ID",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/STEP_ATTEMPT_ID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 29,
+        "endLine" : 72,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/workflowActionHandler" : {
+      "name" : "workflowActionHandler",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/workflowActionHandler",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.handlers.WorkflowActionHandler",
+      "displayedType" : "WorkflowActionHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 39,
+        "endLine" : 75,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/workflowSummary" : {
+      "name" : "workflowSummary",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/memberField/workflowSummary",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary",
+      "displayedType" : "WorkflowSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 27,
+        "endLine" : 81,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsNotManyUneven()" : {
+      "name" : "testGetAggregatedRollupFromIterationsNotManyUneven",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsNotManyUneven()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 164,
+        "startColumn" : 15,
+        "endLine" : 164,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testForeachCreateArtifactWithRestartFromSpecificAlongRestartPath()" : {
+      "name" : "testForeachCreateArtifactWithRestartFromSpecificAlongRestartPath",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testForeachCreateArtifactWithRestartFromSpecificAlongRestartPath()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 327,
+        "startColumn" : 15,
+        "endLine" : 327,
+        "endColumn" : 79
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testInitializeForeachArtifactRollup()" : {
+      "name" : "testInitializeForeachArtifactRollup",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testInitializeForeachArtifactRollup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 231,
+        "startColumn" : 15,
+        "endLine" : 231,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/setup()" : {
+      "name" : "setup",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/setup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 15,
+        "endLine" : 84,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testForeachCreateArtifactWithRestartFromSpecificNotAlongRestartPath()" : {
+      "name" : "testForeachCreateArtifactWithRestartFromSpecificNotAlongRestartPath",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testForeachCreateArtifactWithRestartFromSpecificNotAlongRestartPath()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 279,
+        "startColumn" : 15,
+        "endLine" : 279,
+        "endColumn" : 82
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsEmpty()" : {
+      "name" : "testGetAggregatedRollupFromIterationsEmpty",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsEmpty()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 201,
+        "startColumn" : 15,
+        "endLine" : 201,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsNull()" : {
+      "name" : "testGetAggregatedRollupFromIterationsNull",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsNull()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 186,
+        "startColumn" : 15,
+        "endLine" : 186,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsManyUneven()" : {
+      "name" : "testGetAggregatedRollupFromIterationsManyUneven",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsManyUneven()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 15,
+        "endLine" : 113,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsManyEven()" : {
+      "name" : "testGetAggregatedRollupFromIterationsManyEven",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsManyEven()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 15,
+        "endLine" : 144,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    },
+    "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsStepEmpty()" : {
+      "name" : "testGetAggregatedRollupFromIterationsStepEmpty",
+      "key" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest/method/testGetAggregatedRollupFromIterationsStepEmpty()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 216,
+        "startColumn" : 15,
+        "endLine" : 216,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.ForeachStepRuntimeTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/steps/ForeachStepRuntimeTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

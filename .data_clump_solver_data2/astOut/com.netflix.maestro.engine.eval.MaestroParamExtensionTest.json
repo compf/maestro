@@ -1,0 +1,417 @@
+{
+  "name" : "MaestroParamExtensionTest",
+  "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 8,
+    "endLine" : 51,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 32,
+        "endLine" : 55,
+        "endColumn" : 47
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/allStepOutputData" : {
+      "name" : "allStepOutputData",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/allStepOutputData",
+      "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.Object>>",
+      "displayedType" : "Map<String, Map<String, Object>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 42,
+        "endLine" : 57,
+        "endColumn" : 59
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/paramExtension" : {
+      "name" : "paramExtension",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/paramExtension",
+      "type" : "com.netflix.maestro.engine.eval.MaestroParamExtension",
+      "displayedType" : "MaestroParamExtension",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 25,
+        "endLine" : 59,
+        "endColumn" : 39
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/signalDependenciesParams" : {
+      "name" : "signalDependenciesParams",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/signalDependenciesParams",
+      "type" : "java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter>>>",
+      "displayedType" : "Map<String, List<Map<String, Parameter>>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 51,
+        "endLine" : 58,
+        "endColumn" : 75
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/TEST_STEP_RUNTIME_SUMMARY" : {
+      "name" : "TEST_STEP_RUNTIME_SUMMARY",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/TEST_STEP_RUNTIME_SUMMARY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/instanceWrapper" : {
+      "name" : "instanceWrapper",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/memberField/instanceWrapper",
+      "type" : "com.netflix.maestro.engine.eval.InstanceWrapper",
+      "displayedType" : "InstanceWrapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 25,
+        "endLine" : 56,
+        "endColumn" : 40
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromSignal()" : {
+      "name" : "testGetFromSignal",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromSignal()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 15,
+        "endLine" : 84,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromForeach()" : {
+      "name" : "testGetFromForeach",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromForeach()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 15,
+        "endLine" : 126,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromSignalDependency()" : {
+      "name" : "testInvalidGetFromSignalDependency",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromSignalDependency()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 388,
+        "startColumn" : 15,
+        "endLine" : 388,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromStep()" : {
+      "name" : "testInvalidGetFromStep",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromStep()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 15,
+        "endLine" : 138,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromSignalOrDefault()" : {
+      "name" : "testGetFromSignalOrDefault",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromSignalOrDefault()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 15,
+        "endLine" : 102,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromStepThrowsErrorWhenInvokedFromWorkflowExecContext()" : {
+      "name" : "testGetFromStepThrowsErrorWhenInvokedFromWorkflowExecContext",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromStepThrowsErrorWhenInvokedFromWorkflowExecContext()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 336,
+        "startColumn" : 15,
+        "endLine" : 336,
+        "endColumn" : 75
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromForeach()" : {
+      "name" : "testInvalidGetFromForeach",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromForeach()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 226,
+        "startColumn" : 15,
+        "endLine" : 226,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromInstance()" : {
+      "name" : "testInvalidGetFromInstance",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 351,
+        "startColumn" : 15,
+        "endLine" : 351,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 15,
+        "endLine" : 62,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromInstance()" : {
+      "name" : "testGetFromInstance",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 283,
+        "startColumn" : 15,
+        "endLine" : 283,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testNextUniqueId()" : {
+      "name" : "testNextUniqueId",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testNextUniqueId()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 268,
+        "startColumn" : 15,
+        "endLine" : 268,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetExecutionEnvironment()" : {
+      "name" : "testGetExecutionEnvironment",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetExecutionEnvironment()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 15,
+        "endLine" : 346,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromSignal()" : {
+      "name" : "testInvalidGetFromSignal",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testInvalidGetFromSignal()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 15,
+        "endLine" : 165,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromStep()" : {
+      "name" : "testGetFromStep",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromStep()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 15,
+        "endLine" : 75,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromCurrentStep()" : {
+      "name" : "testGetFromCurrentStep",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromCurrentStep()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 310,
+        "startColumn" : 15,
+        "endLine" : 310,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromSignalDependency()" : {
+      "name" : "testGetFromSignalDependency",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest/method/testGetFromSignalDependency()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 378,
+        "startColumn" : 15,
+        "endLine" : 378,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtensionTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/eval/MaestroParamExtensionTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.eval.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

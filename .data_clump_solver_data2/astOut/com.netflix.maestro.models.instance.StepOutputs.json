@@ -1,0 +1,80 @@
+{
+  "name" : "StepOutputs",
+  "key" : "com.netflix.maestro.models.instance.StepOutputs",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 8,
+    "endLine" : 27,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.models.instance.StepOutputs/method/asSignalStepOutputs()" : {
+      "name" : "asSignalStepOutputs",
+      "key" : "com.netflix.maestro.models.instance.StepOutputs/method/asSignalStepOutputs()",
+      "type" : "com.netflix.maestro.models.instance.SignalStepOutputs",
+      "displayedType" : "SignalStepOutputs",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 29,
+        "endLine" : 33,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepOutputs"
+    },
+    "com.netflix.maestro.models.instance.StepOutputs/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.instance.StepOutputs/method/getType()",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepOutputsDefinition#com.netflix.maestro.models.instance.StepOutputType",
+      "displayedType" : "StepOutputsDefinition.StepOutputType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 40,
+        "endLine" : 29,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepOutputs"
+    },
+    "com.netflix.maestro.models.instance.StepOutputs/method/getInfo()" : {
+      "name" : "getInfo",
+      "key" : "com.netflix.maestro.models.instance.StepOutputs/method/getInfo()",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.timeline.TimelineLogEvent",
+      "displayedType" : "TimelineLogEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 20,
+        "endLine" : 31,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepOutputs"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/StepOutputs.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

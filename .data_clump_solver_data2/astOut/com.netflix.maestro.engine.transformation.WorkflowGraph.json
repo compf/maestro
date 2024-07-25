@@ -1,0 +1,529 @@
+{
+  "name" : "WorkflowGraph",
+  "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 7,
+    "endLine" : 42,
+    "endColumn" : 12
+  },
+  "modifiers" : [ "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/memberField/stepMap" : {
+      "name" : "stepMap",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/memberField/stepMap",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step>",
+      "displayedType" : "Map<String, Step>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 35,
+        "endLine" : 64,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/memberField/endNodeIds" : {
+      "name" : "endNodeIds",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/memberField/endNodeIds",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 38,
+        "endLine" : 63,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/memberField/startNodes" : {
+      "name" : "startNodes",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/memberField/startNodes",
+      "type" : "java.util.Set<com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode>",
+      "displayedType" : "Set<GraphNode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 32,
+        "endLine" : 62,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeNodeMap(java.lang.String workflowId, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step> stepMap)" : {
+      "name" : "computeNodeMap",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeNodeMap(java.lang.String workflowId, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step> stepMap)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode>",
+      "displayedType" : "Map<String, GraphNode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 270,
+        "startColumn" : 41,
+        "endLine" : 270,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeNodeMap(java.lang.String workflowId, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step> stepMap)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 271,
+          "startColumn" : 14,
+          "endLine" : 271,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeNodeMap(java.lang.String workflowId, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step> stepMap)"
+      }, {
+        "name" : "stepMap",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeNodeMap(java.lang.String workflowId, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step> stepMap)/parameter/stepMap",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step>",
+        "displayedType" : "Map<String, Step>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 271,
+          "startColumn" : 44,
+          "endLine" : 271,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeNodeMap(java.lang.String workflowId, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step> stepMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getJoinStepIds(java.lang.String stepId)" : {
+      "name" : "getJoinStepIds",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getJoinStepIds(java.lang.String stepId)",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 24,
+        "endLine" : 116,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getJoinStepIds(java.lang.String stepId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 46,
+          "endLine" : 116,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getJoinStepIds(java.lang.String stepId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computePaths(com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)" : {
+      "name" : "computePaths",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computePaths(com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)",
+      "type" : "java.util.List<java.util.List<T>>",
+      "displayedType" : "List<List<T>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 21,
+        "endLine" : 73,
+        "endColumn" : 33
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "translator",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computePaths(com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)/parameter/translator",
+        "type" : "com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T>",
+        "displayedType" : "Translator<Step, T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 54,
+          "endLine" : 73,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computePaths(com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getPath(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode start, com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)" : {
+      "name" : "getPath",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getPath(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode start, com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)",
+      "type" : "java.util.List<T>",
+      "displayedType" : "List<T>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 23,
+        "endLine" : 86,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "start",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getPath(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode start, com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)/parameter/start",
+        "type" : "com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode",
+        "displayedType" : "GraphNode",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 41,
+          "endLine" : 86,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getPath(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode start, com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)"
+      }, {
+        "name" : "translator",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getPath(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode start, com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)/parameter/translator",
+        "type" : "com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T>",
+        "displayedType" : "Translator<Step, T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 68,
+          "endLine" : 86,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/getPath(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode start, com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, T> translator)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/method/build(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition> runtimeDag)" : {
+      "name" : "build",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/build(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition> runtimeDag)",
+      "type" : "com.netflix.maestro.engine.transformation.WorkflowGraph",
+      "displayedType" : "WorkflowGraph",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 24,
+        "endLine" : 128,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/build(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition> runtimeDag)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 39,
+          "endLine" : 128,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/build(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition> runtimeDag)"
+      }, {
+        "name" : "runtimeDag",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/build(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition> runtimeDag)/parameter/runtimeDag",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition>",
+        "displayedType" : "Map<String, StepTransition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 77,
+          "endLine" : 128,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/build(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition> runtimeDag)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)" : {
+      "name" : "computeDag",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition>",
+      "displayedType" : "Map<String, StepTransition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 45,
+        "endLine" : 175,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 16,
+          "endLine" : 176,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)"
+      }, {
+        "name" : "startStepIds",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)/parameter/startStepIds",
+        "type" : "java.util.List<java.lang.String>",
+        "displayedType" : "List<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 39,
+          "endLine" : 176,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)"
+      }, {
+        "name" : "endStepIds",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)/parameter/endStepIds",
+        "type" : "java.util.List<java.lang.String>",
+        "displayedType" : "List<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 66,
+          "endLine" : 176,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/computeDag(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Workflow workflow, java.util.List<java.lang.String> startStepIds, java.util.List<java.lang.String> endStepIds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    },
+    "com.netflix.maestro.engine.transformation.WorkflowGraph/method/containsCycleInDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode> nodeMap)" : {
+      "name" : "containsCycleInDag",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/containsCycleInDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode> nodeMap)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 26,
+        "endLine" : 246,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "nodeMap",
+        "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/containsCycleInDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode> nodeMap)/parameter/nodeMap",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode>",
+        "displayedType" : "Map<String, GraphNode>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 246,
+          "startColumn" : 68,
+          "endLine" : 246,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph/method/containsCycleInDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode> nodeMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/transformation/WorkflowGraph.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode" : {
+      "name" : "GraphNode",
+      "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 24,
+        "endLine" : 44,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "fields" : {
+        "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/memberField/parents" : {
+          "name" : "parents",
+          "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/memberField/parents",
+          "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode>",
+          "displayedType" : "Map<String, GraphNode>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 45,
+            "startColumn" : 42,
+            "endLine" : 45,
+            "endColumn" : 49
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode"
+        },
+        "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/memberField/children" : {
+          "name" : "children",
+          "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/memberField/children",
+          "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode>",
+          "displayedType" : "Map<String, GraphNode>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 46,
+            "startColumn" : 42,
+            "endLine" : 46,
+            "endColumn" : 50
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode"
+        },
+        "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/memberField/stepId" : {
+          "name" : "stepId",
+          "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/memberField/stepId",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 47,
+            "startColumn" : 26,
+            "endLine" : 47,
+            "endColumn" : 32
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addParent(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)" : {
+          "name" : "addParent",
+          "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addParent(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)",
+          "type" : "void",
+          "displayedType" : "void",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 57,
+            "startColumn" : 18,
+            "endLine" : 57,
+            "endColumn" : 27
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "node",
+            "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addParent(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)/parameter/node",
+            "type" : "com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode",
+            "displayedType" : "GraphNode",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 57,
+              "startColumn" : 38,
+              "endLine" : 57,
+              "endColumn" : 42
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addParent(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode"
+        },
+        "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addChild(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)" : {
+          "name" : "addChild",
+          "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addChild(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)",
+          "type" : "void",
+          "displayedType" : "void",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 53,
+            "startColumn" : 18,
+            "endLine" : 53,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "node",
+            "key" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addChild(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)/parameter/node",
+            "type" : "com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode",
+            "displayedType" : "GraphNode",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 53,
+              "startColumn" : 37,
+              "endLine" : 53,
+              "endColumn" : 41
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode/method/addChild(com.netflix.maestro.engine.transformation.WorkflowGraph$GraphNode node)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph.GraphNode"
+        }
+      },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/transformation/WorkflowGraph.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.transformation.WorkflowGraph",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

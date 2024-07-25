@@ -1,0 +1,683 @@
+{
+  "name" : "SimpleNode",
+  "key" : "com.netflix.sel.ast.SimpleNode",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 5,
+    "startColumn" : 8,
+    "endLine" : 5,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.ast.SimpleNode/memberField/parent" : {
+      "name" : "parent",
+      "key" : "com.netflix.sel.ast.SimpleNode/memberField/parent",
+      "type" : "com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 7,
+        "startColumn" : 18,
+        "endLine" : 7,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/memberField/lastToken" : {
+      "name" : "lastToken",
+      "key" : "com.netflix.sel.ast.SimpleNode/memberField/lastToken",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 13,
+        "startColumn" : 19,
+        "endLine" : 13,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/memberField/id" : {
+      "name" : "id",
+      "key" : "com.netflix.sel.ast.SimpleNode/memberField/id",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 9,
+        "startColumn" : 17,
+        "endLine" : 9,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/memberField/firstToken" : {
+      "name" : "firstToken",
+      "key" : "com.netflix.sel.ast.SimpleNode/memberField/firstToken",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 12,
+        "startColumn" : 19,
+        "endLine" : 12,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/memberField/children" : {
+      "name" : "children",
+      "key" : "com.netflix.sel.ast.SimpleNode/memberField/children",
+      "type" : "com.netflix.sel.ast.Node[]",
+      "displayedType" : "Node[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 8,
+        "startColumn" : 20,
+        "endLine" : 8,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/memberField/parser" : {
+      "name" : "parser",
+      "key" : "com.netflix.sel.ast.SimpleNode/memberField/parser",
+      "type" : "com.netflix.sel.ast.SelParser",
+      "displayedType" : "SelParser",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 11,
+        "startColumn" : 23,
+        "endLine" : 11,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/memberField/value" : {
+      "name" : "value",
+      "key" : "com.netflix.sel.ast.SimpleNode/memberField/value",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 10,
+        "startColumn" : 20,
+        "endLine" : 10,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.ast.SimpleNode/method/jjtSetLastToken(com.netflix.sel.ast.Token token)" : {
+      "name" : "jjtSetLastToken",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetLastToken(com.netflix.sel.ast.Token token)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 15,
+        "endLine" : 75,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "token",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetLastToken(com.netflix.sel.ast.Token token)/parameter/token",
+        "type" : "com.netflix.sel.ast.Token",
+        "displayedType" : "Token",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 37,
+          "endLine" : 75,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtSetLastToken(com.netflix.sel.ast.Token token)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtGetParent()" : {
+      "name" : "jjtGetParent",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtGetParent()",
+      "type" : "com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 15,
+        "endLine" : 32,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtGetNumChildren()" : {
+      "name" : "jjtGetNumChildren",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtGetNumChildren()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 14,
+        "endLine" : 51,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtSetFirstToken(com.netflix.sel.ast.Token token)" : {
+      "name" : "jjtSetFirstToken",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetFirstToken(com.netflix.sel.ast.Token token)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "token",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetFirstToken(com.netflix.sel.ast.Token token)/parameter/token",
+        "type" : "com.netflix.sel.ast.Token",
+        "displayedType" : "Token",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 38,
+          "endLine" : 67,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtSetFirstToken(com.netflix.sel.ast.Token token)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtGetLastToken()" : {
+      "name" : "jjtGetLastToken",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtGetLastToken()",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 16,
+        "endLine" : 71,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)" : {
+      "name" : "jjtAccept",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visitor",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/visitor",
+        "type" : "com.netflix.sel.ast.SelParserVisitor",
+        "displayedType" : "SelParserVisitor",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 44,
+          "endLine" : 80,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 60,
+          "endLine" : 80,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtSetValue(java.lang.Object value)" : {
+      "name" : "jjtSetValue",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetValue(java.lang.Object value)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 15,
+        "endLine" : 55,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetValue(java.lang.Object value)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 34,
+          "endLine" : 55,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtSetValue(java.lang.Object value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/getId()" : {
+      "name" : "getId",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/getId()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 14,
+        "endLine" : 123,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/toString(java.lang.String prefix)" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/toString(java.lang.String prefix)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 17,
+        "endLine" : 104,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "prefix",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/toString(java.lang.String prefix)/parameter/prefix",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 33,
+          "endLine" : 104,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/toString(java.lang.String prefix)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtGetValue()" : {
+      "name" : "jjtGetValue",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtGetValue()",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 17,
+        "endLine" : 59,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtGetFirstToken()" : {
+      "name" : "jjtGetFirstToken",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtGetFirstToken()",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 16,
+        "endLine" : 63,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtClose()" : {
+      "name" : "jjtClose",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtClose()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 15,
+        "endLine" : 26,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/dump(java.lang.String prefix)" : {
+      "name" : "dump",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/dump(java.lang.String prefix)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 15,
+        "endLine" : 111,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "prefix",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/dump(java.lang.String prefix)/parameter/prefix",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 27,
+          "endLine" : 111,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/dump(java.lang.String prefix)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtOpen()" : {
+      "name" : "jjtOpen",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtOpen()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 15,
+        "endLine" : 24,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtAddChild(com.netflix.sel.ast.Node n, int i)" : {
+      "name" : "jjtAddChild",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtAddChild(com.netflix.sel.ast.Node n, int i)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 15,
+        "endLine" : 36,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtAddChild(com.netflix.sel.ast.Node n, int i)/parameter/n",
+        "type" : "com.netflix.sel.ast.Node",
+        "displayedType" : "Node",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 32,
+          "endLine" : 36,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtAddChild(com.netflix.sel.ast.Node n, int i)"
+      }, {
+        "name" : "i",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtAddChild(com.netflix.sel.ast.Node n, int i)/parameter/i",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 39,
+          "endLine" : 36,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtAddChild(com.netflix.sel.ast.Node n, int i)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/childrenAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)" : {
+      "name" : "childrenAccept",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/childrenAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 17,
+        "endLine" : 85,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visitor",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/childrenAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/visitor",
+        "type" : "com.netflix.sel.ast.SelParserVisitor",
+        "displayedType" : "SelParserVisitor",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 49,
+          "endLine" : 85,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/childrenAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/childrenAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 65,
+          "endLine" : 85,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/childrenAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtSetParent(com.netflix.sel.ast.Node n)" : {
+      "name" : "jjtSetParent",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetParent(com.netflix.sel.ast.Node n)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 15,
+        "endLine" : 28,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "n",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtSetParent(com.netflix.sel.ast.Node n)/parameter/n",
+        "type" : "com.netflix.sel.ast.Node",
+        "displayedType" : "Node",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 28,
+          "startColumn" : 33,
+          "endLine" : 28,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtSetParent(com.netflix.sel.ast.Node n)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/jjtGetChild(int i)" : {
+      "name" : "jjtGetChild",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/jjtGetChild(int i)",
+      "type" : "com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "com.netflix.sel.ast.SimpleNode/method/jjtGetChild(int i)/parameter/i",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 31,
+          "endLine" : 47,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SimpleNode/method/jjtGetChild(int i)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    },
+    "com.netflix.sel.ast.SimpleNode/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.ast.SimpleNode/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 17,
+        "endLine" : 100,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SimpleNode"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/SimpleNode.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.sel.ast.Node" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

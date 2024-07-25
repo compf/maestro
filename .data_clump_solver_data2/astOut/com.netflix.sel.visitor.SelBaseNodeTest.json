@@ -1,0 +1,344 @@
+{
+  "name" : "SelBaseNodeTest",
+  "key" : "com.netflix.sel.visitor.SelBaseNodeTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.visitor.SelBaseNodeTest/memberField/dataNode" : {
+      "name" : "dataNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/memberField/dataNode",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 16,
+        "endLine" : 31,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/memberField/noneNode" : {
+      "name" : "noneNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/memberField/noneNode",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 16,
+        "endLine" : 32,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/memberField/visited" : {
+      "name" : "visited",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/memberField/visited",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 17,
+        "endLine" : 34,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/memberField/returnNode" : {
+      "name" : "returnNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/memberField/returnNode",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 16,
+        "endLine" : 30,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/memberField/root" : {
+      "name" : "root",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/memberField/root",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.ASTExecute",
+      "displayedType" : "ASTExecute",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 22,
+        "endLine" : 27,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/memberField/breakNode" : {
+      "name" : "breakNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/memberField/breakNode",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 16,
+        "endLine" : 28,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/memberField/continueNode" : {
+      "name" : "continueNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/memberField/continueNode",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.Node",
+      "displayedType" : "Node",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 16,
+        "endLine" : 29,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedSomeDataNodeAndContinue()" : {
+      "name" : "testVisitedSomeDataNodeAndContinue",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedSomeDataNodeAndContinue()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 15,
+        "endLine" : 133,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedAllDataNode()" : {
+      "name" : "testVisitedAllDataNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedAllDataNode()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 15,
+        "endLine" : 113,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedSomeDataNodeAndReturn()" : {
+      "name" : "testVisitedSomeDataNodeAndReturn",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedSomeDataNodeAndReturn()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 15,
+        "endLine" : 143,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedNoneDataNode()" : {
+      "name" : "testVisitedNoneDataNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedNoneDataNode()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 15,
+        "endLine" : 153,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testToStringWithValue()" : {
+      "name" : "testToStringWithValue",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testToStringWithValue()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 15,
+        "endLine" : 168,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedReturnNode()" : {
+      "name" : "testVisitedReturnNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedReturnNode()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 15,
+        "endLine" : 103,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedBreakNode()" : {
+      "name" : "testVisitedBreakNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedBreakNode()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 15,
+        "endLine" : 83,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedSomeDataNodeAndBreak()" : {
+      "name" : "testVisitedSomeDataNodeAndBreak",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedSomeDataNodeAndBreak()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 15,
+        "endLine" : 123,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testToString()" : {
+      "name" : "testToString",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testToString()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 15,
+        "endLine" : 163,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 15,
+        "endLine" : 37,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    },
+    "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedContinueNode()" : {
+      "name" : "testVisitedContinueNode",
+      "key" : "com.netflix.sel.visitor.SelBaseNodeTest/method/testVisitedContinueNode()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 15,
+        "endLine" : 93,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNodeTest"
+    }
+  },
+  "file_path" : "netflix-sel/src/test/java/com/netflix/sel/visitor/SelBaseNodeTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

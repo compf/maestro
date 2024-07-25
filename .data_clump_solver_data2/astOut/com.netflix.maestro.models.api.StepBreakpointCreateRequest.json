@@ -1,0 +1,154 @@
+{
+  "name" : "StepBreakpointCreateRequest",
+  "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 45,
+    "startColumn" : 8,
+    "endLine" : 45,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/stepAttemptId" : {
+      "name" : "stepAttemptId",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/stepAttemptId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 22,
+        "endLine" : 51,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest"
+    },
+    "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 33,
+        "endLine" : 47,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest"
+    },
+    "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowRun" : {
+      "name" : "workflowRun",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowRun",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 24,
+        "endLine" : 50,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest"
+    },
+    "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowInstanceId" : {
+      "name" : "workflowInstanceId",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowInstanceId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 22,
+        "endLine" : 49,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest"
+    },
+    "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 33,
+        "endLine" : 46,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest"
+    },
+    "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowVersion" : {
+      "name" : "workflowVersion",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest/memberField/workflowVersion",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 24,
+        "endLine" : 48,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/StepBreakpointCreateRequest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.api.StepBreakpointCreateRequest.StepBreakpointCreateRequestBuilder" : {
+      "name" : "StepBreakpointCreateRequestBuilder",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest.StepBreakpointCreateRequestBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 23,
+        "endLine" : 56,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/StepBreakpointCreateRequest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.api.StepBreakpointCreateRequest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

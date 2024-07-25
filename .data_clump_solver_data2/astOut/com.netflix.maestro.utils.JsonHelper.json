@@ -1,0 +1,194 @@
+{
+  "name" : "JsonHelper",
+  "key" : "com.netflix.maestro.utils.JsonHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 14,
+    "endLine" : 24,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.utils.JsonHelper/method/objectMapperIgnoringUnknown()" : {
+      "name" : "objectMapperIgnoringUnknown",
+      "key" : "com.netflix.maestro.utils.JsonHelper/method/objectMapperIgnoringUnknown()",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 30,
+        "endLine" : 40,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.JsonHelper"
+    },
+    "com.netflix.maestro.utils.JsonHelper/method/objectMapper()" : {
+      "name" : "objectMapper",
+      "key" : "com.netflix.maestro.utils.JsonHelper/method/objectMapper()",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 30,
+        "endLine" : 28,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.JsonHelper"
+    },
+    "com.netflix.maestro.utils.JsonHelper/method/objectMapperForClient()" : {
+      "name" : "objectMapperForClient",
+      "key" : "com.netflix.maestro.utils.JsonHelper/method/objectMapperForClient()",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 30,
+        "endLine" : 35,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.JsonHelper"
+    },
+    "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)" : {
+      "name" : "fromJson",
+      "key" : "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 23,
+        "endLine" : 64,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mapper",
+        "key" : "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)/parameter/mapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 45,
+          "endLine" : 64,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)"
+      }, {
+        "name" : "json",
+        "key" : "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)/parameter/json",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 60,
+          "endLine" : 64,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)/parameter/clazz",
+        "type" : "java.lang.Class<T>",
+        "displayedType" : "Class<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 75,
+          "endLine" : 64,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.JsonHelper/method/fromJson(com.fasterxml.jackson.databind.ObjectMapper mapper, java.lang.String json, java.lang.Class<T> clazz)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.JsonHelper"
+    },
+    "com.netflix.maestro.utils.JsonHelper/method/objectMapperWithYaml()" : {
+      "name" : "objectMapperWithYaml",
+      "key" : "com.netflix.maestro.utils.JsonHelper/method/objectMapperWithYaml()",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 30,
+        "endLine" : 48,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.JsonHelper"
+    },
+    "com.netflix.maestro.utils.JsonHelper/method/configureMapper(com.fasterxml.jackson.databind.ObjectMapper mapper)" : {
+      "name" : "configureMapper",
+      "key" : "com.netflix.maestro.utils.JsonHelper/method/configureMapper(com.fasterxml.jackson.databind.ObjectMapper mapper)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 23,
+        "endLine" : 54,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "mapper",
+        "key" : "com.netflix.maestro.utils.JsonHelper/method/configureMapper(com.fasterxml.jackson.databind.ObjectMapper mapper)/parameter/mapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 52,
+          "endLine" : 54,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.JsonHelper/method/configureMapper(com.fasterxml.jackson.databind.ObjectMapper mapper)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.JsonHelper"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/utils/JsonHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

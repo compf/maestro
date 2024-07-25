@@ -1,0 +1,62 @@
+{
+  "name" : "TemplateStep",
+  "key" : "com.netflix.maestro.models.definition.TemplateStep",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 14,
+    "endLine" : 37,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.TemplateStep/memberField/subType" : {
+      "name" : "subType",
+      "key" : "com.netflix.maestro.models.definition.TemplateStep/memberField/subType",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 18,
+        "endLine" : 41,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TemplateStep"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.TemplateStep/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.definition.TemplateStep/method/getType()",
+      "type" : "com.netflix.maestro.models.definition.StepType",
+      "displayedType" : "StepType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 19,
+        "endLine" : 45,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TemplateStep"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/TemplateStep.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.definition.AbstractStep" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

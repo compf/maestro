@@ -1,0 +1,293 @@
+{
+  "name" : "WorkflowRuntimeOverview",
+  "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/totalStepCount" : {
+      "name" : "totalStepCount",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/totalStepCount",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 16,
+        "endLine" : 40,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/rollupOverview" : {
+      "name" : "rollupOverview",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/rollupOverview",
+      "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 34,
+        "endLine" : 48,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/stepOverview" : {
+      "name" : "stepOverview",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/stepOverview",
+      "type" : "java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary>",
+      "displayedType" : "EnumMap<StepInstance.Status, WorkflowStepStatusSummary>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 67,
+        "endLine" : 41,
+        "endColumn" : 79
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/runStatus" : {
+      "name" : "runStatus",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/memberField/runStatus",
+      "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+      "displayedType" : "WorkflowInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 45,
+        "endLine" : 54,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/decodeStepOverview(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepTransition> runtimeDag)" : {
+      "name" : "decodeStepOverview",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/decodeStepOverview(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepTransition> runtimeDag)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.instance.StepRuntimeState>",
+      "displayedType" : "Map<String, StepRuntimeState>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 40,
+        "endLine" : 108,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeDag",
+        "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/decodeStepOverview(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepTransition> runtimeDag)/parameter/runtimeDag",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepTransition>",
+        "displayedType" : "Map<String, StepTransition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 87,
+          "endLine" : 108,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/decodeStepOverview(java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepTransition> runtimeDag)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/isSame(com.netflix.maestro.models.instance.WorkflowRuntimeOverview one, com.netflix.maestro.models.instance.WorkflowRuntimeOverview another)" : {
+      "name" : "isSame",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/isSame(com.netflix.maestro.models.instance.WorkflowRuntimeOverview one, com.netflix.maestro.models.instance.WorkflowRuntimeOverview another)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 25,
+        "endLine" : 69,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "one",
+        "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/isSame(com.netflix.maestro.models.instance.WorkflowRuntimeOverview one, com.netflix.maestro.models.instance.WorkflowRuntimeOverview another)/parameter/one",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+        "displayedType" : "WorkflowRuntimeOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 56,
+          "endLine" : 69,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/isSame(com.netflix.maestro.models.instance.WorkflowRuntimeOverview one, com.netflix.maestro.models.instance.WorkflowRuntimeOverview another)"
+      }, {
+        "name" : "another",
+        "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/isSame(com.netflix.maestro.models.instance.WorkflowRuntimeOverview one, com.netflix.maestro.models.instance.WorkflowRuntimeOverview another)/parameter/another",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+        "displayedType" : "WorkflowRuntimeOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 85,
+          "endLine" : 69,
+          "endColumn" : 92
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/isSame(com.netflix.maestro.models.instance.WorkflowRuntimeOverview one, com.netflix.maestro.models.instance.WorkflowRuntimeOverview another)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/getCreatedStepCount()" : {
+      "name" : "getCreatedStepCount",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/getCreatedStepCount()",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 16,
+        "endLine" : 91,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)" : {
+      "name" : "of",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)",
+      "type" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+      "displayedType" : "WorkflowRuntimeOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 41,
+        "endLine" : 57,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "totalStepCount",
+        "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)/parameter/totalStepCount",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 12,
+          "endLine" : 58,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)"
+      }, {
+        "name" : "stepOverview",
+        "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)/parameter/stepOverview",
+        "type" : "java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary>",
+        "displayedType" : "EnumMap<StepInstance.Status, WorkflowStepStatusSummary>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 63,
+          "endLine" : 59,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)"
+      }, {
+        "name" : "rollupOverview",
+        "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)/parameter/rollupOverview",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 30,
+          "endLine" : 60,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/of(long totalStepCount, java.util.EnumMap<com.netflix.maestro.models.instance.StepInstance.Status, com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepOverview, com.netflix.maestro.models.instance.WorkflowRollupOverview rollupOverview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/existsNotCreatedStep()" : {
+      "name" : "existsNotCreatedStep",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/existsNotCreatedStep()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 18,
+        "endLine" : 82,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    },
+    "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/existsCreatedStep()" : {
+      "name" : "existsCreatedStep",
+      "key" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview/method/existsCreatedStep()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 18,
+        "endLine" : 87,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowRuntimeOverview"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/WorkflowRuntimeOverview.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

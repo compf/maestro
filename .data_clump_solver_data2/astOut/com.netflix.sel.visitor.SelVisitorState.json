@@ -1,0 +1,409 @@
+{
+  "name" : "SelVisitorState",
+  "key" : "com.netflix.sel.visitor.SelVisitorState",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 7,
+    "endLine" : 28,
+    "endColumn" : 12
+  },
+  "modifiers" : [ "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.visitor.SelVisitorState/memberField/inputTab" : {
+      "name" : "inputTab",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/memberField/inputTab",
+      "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+      "displayedType" : "Map<String, Object>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 31,
+        "endLine" : 35,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/memberField/visited" : {
+      "name" : "visited",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/memberField/visited",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 8,
+        "endLine" : 33,
+        "endColumn" : 15
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/memberField/symtab" : {
+      "name" : "symtab",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/memberField/symtab",
+      "type" : "java.util.Map<java.lang.String, com.netflix.sel.visitor.com.netflix.sel.type.SelType>",
+      "displayedType" : "Map<String, SelType>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 38,
+        "endLine" : 30,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/memberField/stack" : {
+      "name" : "stack",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/memberField/stack",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelType[]",
+      "displayedType" : "SelType[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 27,
+        "endLine" : 31,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/memberField/top" : {
+      "name" : "top",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/memberField/top",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 15,
+        "endLine" : 32,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.visitor.SelVisitorState/method/isStackEmpty()" : {
+      "name" : "isStackEmpty",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/isStackEmpty()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 11,
+        "endLine" : 67,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/resetWithInput(java.util.Map<java.lang.String, java.lang.Object> input, com.netflix.sel.visitor.com.netflix.sel.ext.Extension ext)" : {
+      "name" : "resetWithInput",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/resetWithInput(java.util.Map<java.lang.String, java.lang.Object> input, com.netflix.sel.visitor.com.netflix.sel.ext.Extension ext)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 8,
+        "endLine" : 54,
+        "endColumn" : 22
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/resetWithInput(java.util.Map<java.lang.String, java.lang.Object> input, com.netflix.sel.visitor.com.netflix.sel.ext.Extension ext)/parameter/input",
+        "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+        "displayedType" : "Map<String, Object>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 43,
+          "endLine" : 54,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/resetWithInput(java.util.Map<java.lang.String, java.lang.Object> input, com.netflix.sel.visitor.com.netflix.sel.ext.Extension ext)"
+      }, {
+        "name" : "ext",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/resetWithInput(java.util.Map<java.lang.String, java.lang.Object> input, com.netflix.sel.visitor.com.netflix.sel.ext.Extension ext)/parameter/ext",
+        "type" : "com.netflix.sel.visitor.com.netflix.sel.ext.Extension",
+        "displayedType" : "Extension",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 60,
+          "endLine" : 54,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/resetWithInput(java.util.Map<java.lang.String, java.lang.Object> input, com.netflix.sel.visitor.com.netflix.sel.ext.Extension ext)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/push(com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)" : {
+      "name" : "push",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/push(com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 8,
+        "endLine" : 71,
+        "endColumn" : 12
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "obj",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/push(com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)/parameter/obj",
+        "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 21,
+          "endLine" : 71,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/push(com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/get(java.lang.String key)" : {
+      "name" : "get",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/get(java.lang.String key)",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 11,
+        "endLine" : 85,
+        "endColumn" : 14
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/get(java.lang.String key)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 22,
+          "endLine" : 85,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/get(java.lang.String key)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/pop()" : {
+      "name" : "pop",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/pop()",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 11,
+        "endLine" : 75,
+        "endColumn" : 14
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/createIfMissing(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelTypes type)" : {
+      "name" : "createIfMissing",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/createIfMissing(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelTypes type)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 8,
+        "endLine" : 98,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/createIfMissing(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelTypes type)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 31,
+          "endLine" : 98,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/createIfMissing(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelTypes type)"
+      }, {
+        "name" : "type",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/createIfMissing(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelTypes type)/parameter/type",
+        "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelTypes",
+        "displayedType" : "SelTypes",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 45,
+          "endLine" : 98,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/createIfMissing(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelTypes type)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/put(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)" : {
+      "name" : "put",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/put(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 8,
+        "endLine" : 110,
+        "endColumn" : 11
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/put(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 19,
+          "endLine" : 110,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/put(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)"
+      }, {
+        "name" : "obj",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/put(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)/parameter/obj",
+        "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 32,
+          "endLine" : 110,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/put(java.lang.String key, com.netflix.sel.visitor.com.netflix.sel.type.SelType obj)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/readWithOffset(int offset)" : {
+      "name" : "readWithOffset",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/readWithOffset(int offset)",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 11,
+        "endLine" : 81,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "offset",
+        "key" : "com.netflix.sel.visitor.SelVisitorState/method/readWithOffset(int offset)/parameter/offset",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 30,
+          "endLine" : 81,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelVisitorState/method/readWithOffset(int offset)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    },
+    "com.netflix.sel.visitor.SelVisitorState/method/clear()" : {
+      "name" : "clear",
+      "key" : "com.netflix.sel.visitor.SelVisitorState/method/clear()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 8,
+        "endLine" : 42,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelVisitorState"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/visitor/SelVisitorState.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

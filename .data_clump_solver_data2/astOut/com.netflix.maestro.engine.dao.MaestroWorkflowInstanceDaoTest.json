@@ -1,0 +1,839 @@
+{
+  "name" : "MaestroWorkflowInstanceDaoTest",
+  "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 71,
+    "startColumn" : 8,
+    "endLine" : 71,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/TEST_WORKFLOW_ID" : {
+      "name" : "TEST_WORKFLOW_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/TEST_WORKFLOW_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 31,
+        "endLine" : 72,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 38,
+        "endLine" : 77,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/runStrategyDao" : {
+      "name" : "runStrategyDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/runStrategyDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao",
+      "displayedType" : "MaestroRunStrategyDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 33,
+        "endLine" : 78,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/TEST_WORKFLOW_INSTANCE" : {
+      "name" : "TEST_WORKFLOW_INSTANCE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/TEST_WORKFLOW_INSTANCE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 31,
+        "endLine" : 73,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/wfi" : {
+      "name" : "wfi",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/wfi",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 28,
+        "endLine" : 79,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/TEST_CALLER" : {
+      "name" : "TEST_CALLER",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/TEST_CALLER",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 29,
+        "endLine" : 75,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.publisher.NoOpMaestroJobEventPublisher",
+      "displayedType" : "NoOpMaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 46,
+        "endLine" : 80,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateRunningInstancesNoOp()" : {
+      "name" : "testTerminateRunningInstancesNoOp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateRunningInstancesNoOp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 15,
+        "endLine" : 264,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateQueuedInstancesNoOp()" : {
+      "name" : "testTerminateQueuedInstancesNoOp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateQueuedInstancesNoOp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 15,
+        "endLine" : 197,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testRunWorkflowInstancesToUpdateAncestorRuns()" : {
+      "name" : "testRunWorkflowInstancesToUpdateAncestorRuns",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testRunWorkflowInstancesToUpdateAncestorRuns()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 365,
+        "startColumn" : 15,
+        "endLine" : 365,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetLatestWorkflowInstanceStatus()" : {
+      "name" : "testGetLatestWorkflowInstanceStatus",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetLatestWorkflowInstanceStatus()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 783,
+        "startColumn" : 15,
+        "endLine" : 783,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 15,
+        "endLine" : 83,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryUnblockFailedWorkflowInstanceNoop()" : {
+      "name" : "testTryUnblockFailedWorkflowInstanceNoop",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryUnblockFailedWorkflowInstanceNoop()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 638,
+        "startColumn" : 15,
+        "endLine" : 638,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testUpdateRuntimeOverview()" : {
+      "name" : "testUpdateRuntimeOverview",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testUpdateRuntimeOverview()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 438,
+        "startColumn" : 15,
+        "endLine" : 438,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testExistWorkflowIdInInstances()" : {
+      "name" : "testExistWorkflowIdInInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testExistWorkflowIdInInstances()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 830,
+        "startColumn" : 15,
+        "endLine" : 830,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateQueuedInstances()" : {
+      "name" : "testTerminateQueuedInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateQueuedInstances()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 15,
+        "endLine" : 163,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testInvalidWorkflowInstanceUpdate()" : {
+      "name" : "testInvalidWorkflowInstanceUpdate",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testInvalidWorkflowInstanceUpdate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 461,
+        "startColumn" : 15,
+        "endLine" : 461,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testWorkflowInstanceMetadataForWorkflowInstancesLatestRun()" : {
+      "name" : "testWorkflowInstanceMetadataForWorkflowInstancesLatestRun",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testWorkflowInstanceMetadataForWorkflowInstancesLatestRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 544,
+        "startColumn" : 15,
+        "endLine" : 544,
+        "endColumn" : 72
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetRunningForeachIterationOverview()" : {
+      "name" : "testGetRunningForeachIterationOverview",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetRunningForeachIterationOverview()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 711,
+        "startColumn" : 15,
+        "endLine" : 711,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetLargestForeachRunIdFromAncestors()" : {
+      "name" : "testGetLargestForeachRunIdFromAncestors",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetLargestForeachRunIdFromAncestors()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 813,
+        "startColumn" : 15,
+        "endLine" : 813,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testRunWorkflowInstances()" : {
+      "name" : "testRunWorkflowInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testRunWorkflowInstances()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 15,
+        "endLine" : 273,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetNonExistingWorkflowInstanceRun()" : {
+      "name" : "testGetNonExistingWorkflowInstanceRun",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetNonExistingWorkflowInstanceRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 684,
+        "startColumn" : 15,
+        "endLine" : 684,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryTerminateQueuedInstance()" : {
+      "name" : "testTryTerminateQueuedInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryTerminateQueuedInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 15,
+        "endLine" : 127,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetRestartedForeachIterationOverview()" : {
+      "name" : "testGetRestartedForeachIterationOverview",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetRestartedForeachIterationOverview()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 728,
+        "startColumn" : 15,
+        "endLine" : 728,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceRun()" : {
+      "name" : "testGetWorkflowInstanceRun",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 516,
+        "startColumn" : 15,
+        "endLine" : 516,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetBatchForeachLatestRunRollupForIterations()" : {
+      "name" : "testGetBatchForeachLatestRunRollupForIterations",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetBatchForeachLatestRunRollupForIterations()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 874,
+        "startColumn" : 15,
+        "endLine" : 874,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceLatestRuns()" : {
+      "name" : "testGetWorkflowInstanceLatestRuns",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceLatestRuns()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 564,
+        "startColumn" : 15,
+        "endLine" : 564,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetMinMaxInstanceId()" : {
+      "name" : "testGetMinMaxInstanceId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetMinMaxInstanceId()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 971,
+        "startColumn" : 15,
+        "endLine" : 971,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/cleanupForGetWorkflowInstancesLatestRun()" : {
+      "name" : "cleanupForGetWorkflowInstancesLatestRun",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/cleanupForGetWorkflowInstancesLatestRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 835,
+        "startColumn" : 16,
+        "endLine" : 835,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testUpdateWorkflowInstanceToBegin()" : {
+      "name" : "testUpdateWorkflowInstanceToBegin",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testUpdateWorkflowInstanceToBegin()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 414,
+        "startColumn" : 15,
+        "endLine" : 414,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/tearDown()" : {
+      "name" : "tearDown",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/tearDown()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 15,
+        "endLine" : 116,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateRunningInstances()" : {
+      "name" : "testTerminateRunningInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTerminateRunningInstances()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 15,
+        "endLine" : 211,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testRunWorkflowInstancesRetry()" : {
+      "name" : "testRunWorkflowInstancesRetry",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testRunWorkflowInstancesRetry()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 337,
+        "startColumn" : 15,
+        "endLine" : 337,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryUnblockFailedWorkflowInstances()" : {
+      "name" : "testTryUnblockFailedWorkflowInstances",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryUnblockFailedWorkflowInstances()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 652,
+        "startColumn" : 15,
+        "endLine" : 652,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetLatestWorkflowInstanceRun()" : {
+      "name" : "testGetLatestWorkflowInstanceRun",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetLatestWorkflowInstanceRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 525,
+        "startColumn" : 15,
+        "endLine" : 525,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceStatus()" : {
+      "name" : "testGetWorkflowInstanceStatus",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceStatus()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 798,
+        "startColumn" : 15,
+        "endLine" : 798,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testUpdateWorkflowInstanceToEnd()" : {
+      "name" : "testUpdateWorkflowInstanceToEnd",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testUpdateWorkflowInstanceToEnd()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 390,
+        "startColumn" : 15,
+        "endLine" : 390,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/initializeForGetWorkflowInstancesLatestRun()" : {
+      "name" : "initializeForGetWorkflowInstancesLatestRun",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/initializeForGetWorkflowInstancesLatestRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 842,
+        "startColumn" : 16,
+        "endLine" : 842,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryTerminateQueuedInstanceNoOp()" : {
+      "name" : "testTryTerminateQueuedInstanceNoOp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryTerminateQueuedInstanceNoOp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 15,
+        "endLine" : 143,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)" : {
+      "name" : "checkSingletonStats",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 775,
+        "startColumn" : 16,
+        "endLine" : 775,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stats",
+        "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)/parameter/stats",
+        "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview>",
+        "displayedType" : "List<ForeachIterationOverview>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 776,
+          "startColumn" : 38,
+          "endLine" : 776,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 776,
+          "startColumn" : 50,
+          "endLine" : 776,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)/parameter/status",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 776,
+          "startColumn" : 86,
+          "endLine" : 776,
+          "endColumn" : 92
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/checkSingletonStats(java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.ForeachIterationOverview> stats, long instanceId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.dao.Status status)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstance()" : {
+      "name" : "testGetWorkflowInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 501,
+        "startColumn" : 15,
+        "endLine" : 501,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceView()" : {
+      "name" : "testGetWorkflowInstanceView",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testGetWorkflowInstanceView()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 478,
+        "startColumn" : 15,
+        "endLine" : 478,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryUnblockFailedWorkflowInstance()" : {
+      "name" : "testTryUnblockFailedWorkflowInstance",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest/method/testTryUnblockFailedWorkflowInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 624,
+        "startColumn" : 15,
+        "endLine" : 624,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDaoTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/dao/MaestroWorkflowInstanceDaoTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.MaestroDaoBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,166 @@
+{
+  "name" : "SelParserValidationVisitorTest",
+  "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.visitor.SelParserValidationVisitorTest/memberField/visitor" : {
+      "name" : "visitor",
+      "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/memberField/visitor",
+      "type" : "com.netflix.sel.visitor.SelParserValidationVisitor",
+      "displayedType" : "SelParserValidationVisitor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 38,
+        "endLine" : 27,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserValidationVisitorTest/memberField/selParser" : {
+      "name" : "selParser",
+      "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/memberField/selParser",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.SelParser",
+      "displayedType" : "SelParser",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 21,
+        "endLine" : 28,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testInvalidExpr()" : {
+      "name" : "testInvalidExpr",
+      "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testInvalidExpr()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 15,
+        "endLine" : 57,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/run(java.lang.String expr)" : {
+      "name" : "run",
+      "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/run(java.lang.String expr)",
+      "type" : "java.util.Map<java.lang.String, java.lang.Boolean>",
+      "displayedType" : "Map<String, Boolean>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 32,
+        "endLine" : 30,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/run(java.lang.String expr)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 30,
+          "startColumn" : 43,
+          "endLine" : 30,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/run(java.lang.String expr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testGetParamVarName()" : {
+      "name" : "testGetParamVarName",
+      "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testGetParamVarName()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 15,
+        "endLine" : 45,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testGetParamsVarName()" : {
+      "name" : "testGetParamsVarName",
+      "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testGetParamsVarName()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testGetLocalVarName()" : {
+      "name" : "testGetLocalVarName",
+      "key" : "com.netflix.sel.visitor.SelParserValidationVisitorTest/method/testGetLocalVarName()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 15,
+        "endLine" : 39,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserValidationVisitorTest"
+    }
+  },
+  "file_path" : "netflix-sel/src/test/java/com/netflix/sel/visitor/SelParserValidationVisitorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

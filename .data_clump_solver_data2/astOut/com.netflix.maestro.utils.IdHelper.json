@@ -1,0 +1,340 @@
+{
+  "name" : "IdHelper",
+  "key" : "com.netflix.maestro.utils.IdHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 14,
+    "endLine" : 26,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.utils.IdHelper/memberField/BASE" : {
+      "name" : "BASE",
+      "key" : "com.netflix.maestro.utils.IdHelper/memberField/BASE",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 28,
+        "endLine" : 30,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/memberField/BASE62_CHARS" : {
+      "name" : "BASE62_CHARS",
+      "key" : "com.netflix.maestro.utils.IdHelper/memberField/BASE62_CHARS",
+      "type" : "char[]",
+      "displayedType" : "char[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 31,
+        "endLine" : 28,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.utils.IdHelper/method/toTriggerUuids(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Workflow workflow)" : {
+      "name" : "toTriggerUuids",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/toTriggerUuids(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Workflow workflow)",
+      "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.trigger.TriggerUuids",
+      "displayedType" : "TriggerUuids",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 30,
+        "endLine" : 51,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/toTriggerUuids(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 54,
+          "endLine" : 51,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/toTriggerUuids(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/method/createUuid(java.lang.String input)" : {
+      "name" : "createUuid",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/createUuid(java.lang.String input)",
+      "type" : "java.util.UUID",
+      "displayedType" : "UUID",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 22,
+        "endLine" : 43,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/createUuid(java.lang.String input)/parameter/input",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 40,
+          "endLine" : 43,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/createUuid(java.lang.String input)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/method/getOrCreateUuid(java.util.UUID uuid)" : {
+      "name" : "getOrCreateUuid",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/getOrCreateUuid(java.util.UUID uuid)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 24,
+        "endLine" : 35,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "uuid",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/getOrCreateUuid(java.util.UUID uuid)/parameter/uuid",
+        "type" : "java.util.UUID",
+        "displayedType" : "UUID",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 55,
+          "endLine" : 35,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/getOrCreateUuid(java.util.UUID uuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/method/hashKey(long value)" : {
+      "name" : "hashKey",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/hashKey(long value)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 24,
+        "endLine" : 72,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/hashKey(long value)/parameter/value",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 37,
+          "endLine" : 72,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/hashKey(long value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/method/getInlineWorkflowPrefixId(long workflowInternalId)" : {
+      "name" : "getInlineWorkflowPrefixId",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/getInlineWorkflowPrefixId(long workflowInternalId)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 24,
+        "endLine" : 85,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowInternalId",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/getInlineWorkflowPrefixId(long workflowInternalId)/parameter/workflowInternalId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 55,
+          "endLine" : 85,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/getInlineWorkflowPrefixId(long workflowInternalId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/method/isInlineWorkflowId(java.lang.String workflowId)" : {
+      "name" : "isInlineWorkflowId",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/isInlineWorkflowId(java.lang.String workflowId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 25,
+        "endLine" : 91,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/isInlineWorkflowId(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 51,
+          "endLine" : 91,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/isInlineWorkflowId(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/method/rangeKey(long value)" : {
+      "name" : "rangeKey",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/rangeKey(long value)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 24,
+        "endLine" : 80,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/rangeKey(long value)/parameter/value",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 38,
+          "endLine" : 80,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/rangeKey(long value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    },
+    "com.netflix.maestro.utils.IdHelper/method/encodeBase62(long value, boolean isOrdered)" : {
+      "name" : "encodeBase62",
+      "key" : "com.netflix.maestro.utils.IdHelper/method/encodeBase62(long value, boolean isOrdered)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 25,
+        "endLine" : 107,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/encodeBase62(long value, boolean isOrdered)/parameter/value",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 43,
+          "endLine" : 107,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/encodeBase62(long value, boolean isOrdered)"
+      }, {
+        "name" : "isOrdered",
+        "key" : "com.netflix.maestro.utils.IdHelper/method/encodeBase62(long value, boolean isOrdered)/parameter/isOrdered",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 58,
+          "endLine" : 107,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.IdHelper/method/encodeBase62(long value, boolean isOrdered)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.IdHelper"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/utils/IdHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,526 @@
+{
+  "name" : "MaestroTracingManager",
+  "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 17,
+    "endLine" : 30,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/samplerFunctionAlways" : {
+      "name" : "samplerFunctionAlways",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/samplerFunctionAlways",
+      "type" : "com.netflix.maestro.engine.tracing.brave.sampler.SamplerFunction<java.lang.Object>",
+      "displayedType" : "SamplerFunction<Object>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 41,
+        "endLine" : 36,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/samplerFunctionAlwaysArg" : {
+      "name" : "samplerFunctionAlwaysArg",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/samplerFunctionAlwaysArg",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 24,
+        "endLine" : 37,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/RUN_SPAN_NAME" : {
+      "name" : "RUN_SPAN_NAME",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/RUN_SPAN_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 31,
+        "endLine" : 33,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/tracer" : {
+      "name" : "tracer",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/tracer",
+      "type" : "com.netflix.maestro.engine.tracing.brave.Tracer",
+      "displayedType" : "Tracer",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 24,
+        "endLine" : 35,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/INIT_SPAN_NAME" : {
+      "name" : "INIT_SPAN_NAME",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/memberField/INIT_SPAN_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 31,
+        "endLine" : 32,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/start(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation)" : {
+      "name" : "start",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/start(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 8,
+        "endLine" : 151,
+        "endColumn" : 13
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tracingContext",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/start(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation)/parameter/tracingContext",
+        "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+        "displayedType" : "MaestroTracingContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 36,
+          "endLine" : 151,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/start(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation)"
+      }, {
+        "name" : "annotation",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/start(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation)/parameter/annotation",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 59,
+          "endLine" : 151,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/start(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)" : {
+      "name" : "finish",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 8,
+        "endLine" : 172,
+        "endColumn" : 14
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tracingContext",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)/parameter/tracingContext",
+        "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+        "displayedType" : "MaestroTracingContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 37,
+          "endLine" : 172,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)"
+      }, {
+        "name" : "annotation",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)/parameter/annotation",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 60,
+          "endLine" : 172,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)"
+      }, {
+        "name" : "throwable",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)/parameter/throwable",
+        "type" : "java.lang.Throwable",
+        "displayedType" : "Throwable",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 82,
+          "endLine" : 172,
+          "endColumn" : 91
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/finish(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String annotation, java.lang.Throwable throwable)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/getSpan(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext)" : {
+      "name" : "getSpan",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/getSpan(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext)",
+      "type" : "com.netflix.maestro.engine.tracing.brave.Span",
+      "displayedType" : "Span",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 16,
+        "endLine" : 121,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tracingContext",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/getSpan(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext)/parameter/tracingContext",
+        "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+        "displayedType" : "MaestroTracingContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 46,
+          "endLine" : 121,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/getSpan(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/initTracingContext(com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "initTracingContext",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/initTracingContext(com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+      "displayedType" : "MaestroTracingContext",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 32,
+        "endLine" : 59,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowSummary",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/initTracingContext(com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/workflowSummary",
+        "type" : "com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 23,
+          "endLine" : 60,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/initTracingContext(com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/initTracingContext(com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 59,
+          "endLine" : 60,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/initTracingContext(com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status)" : {
+      "name" : "handleStepStatus",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 15,
+        "endLine" : 145,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tracingContext",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status)/parameter/tracingContext",
+        "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+        "displayedType" : "MaestroTracingContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 54,
+          "endLine" : 145,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status)/parameter/status",
+        "type" : "com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 90,
+          "endLine" : 145,
+          "endColumn" : 96
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)" : {
+      "name" : "handleStepStatus",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 15,
+        "endLine" : 130,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tracingContext",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)/parameter/tracingContext",
+        "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+        "displayedType" : "MaestroTracingContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 29,
+          "endLine" : 131,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)/parameter/status",
+        "type" : "com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 65,
+          "endLine" : 131,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)"
+      }, {
+        "name" : "throwable",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)/parameter/throwable",
+        "type" : "java.lang.Throwable",
+        "displayedType" : "Throwable",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 83,
+          "endLine" : 131,
+          "endColumn" : 92
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/handleStepStatus(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.tracing.Status status, java.lang.Throwable throwable)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/annotate(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String value)" : {
+      "name" : "annotate",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/annotate(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String value)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 8,
+        "endLine" : 104,
+        "endColumn" : 16
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tracingContext",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/annotate(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String value)/parameter/tracingContext",
+        "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+        "displayedType" : "MaestroTracingContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 39,
+          "endLine" : 104,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/annotate(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/annotate(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String value)/parameter/value",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 62,
+          "endLine" : 104,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/annotate(com.netflix.maestro.engine.tracing.MaestroTracingContext tracingContext, java.lang.String value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "tagInitSpan",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 24,
+        "endLine" : 53,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "initSpan",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/initSpan",
+        "type" : "com.netflix.maestro.engine.tracing.brave.Span",
+        "displayedType" : "Span",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 12,
+          "endLine" : 54,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "workflowSummary",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/workflowSummary",
+        "type" : "com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 38,
+          "endLine" : 54,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 74,
+          "endLine" : 54,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager/method/tagInitSpan(com.netflix.maestro.engine.tracing.brave.Span initSpan, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.tracing.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingManager"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/tracing/MaestroTracingManager.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

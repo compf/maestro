@@ -1,0 +1,1004 @@
+{
+  "name" : "MaestroBaseTest",
+  "key" : "com.netflix.maestro.MaestroBaseTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.MaestroBaseTest/memberField/MAPPER" : {
+      "name" : "MAPPER",
+      "key" : "com.netflix.maestro.MaestroBaseTest/memberField/MAPPER",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 39,
+        "endLine" : 48,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PROTECTED", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.MaestroBaseTest/method/loadJson(java.lang.String fileName)" : {
+      "name" : "loadJson",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/loadJson(java.lang.String fileName)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 20,
+        "endLine" : 72,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fileName",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/loadJson(java.lang.String fileName)/parameter/fileName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 36,
+          "endLine" : 72,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/loadJson(java.lang.String fileName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long value)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long value)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.LongParameter",
+      "displayedType" : "LongParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 24,
+        "endLine" : 123,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long value)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 123,
+          "startColumn" : 42,
+          "endLine" : 123,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long value)/parameter/value",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 123,
+          "startColumn" : 52,
+          "endLine" : 123,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)" : {
+      "name" : "twoItemMap",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)",
+      "type" : "java.util.Map<java.lang.String, T>",
+      "displayedType" : "Map<String, T>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 32,
+        "endLine" : 202,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key1",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)/parameter/key1",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 50,
+          "endLine" : 202,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)"
+      }, {
+        "name" : "val1",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)/parameter/val1",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 58,
+          "endLine" : 202,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)"
+      }, {
+        "name" : "key2",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)/parameter/key2",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 71,
+          "endLine" : 202,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)"
+      }, {
+        "name" : "val2",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)/parameter/val2",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 202,
+          "startColumn" : 79,
+          "endLine" : 202,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/twoItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String[] values)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String[] values)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.StringArrayParameter",
+      "displayedType" : "StringArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 31,
+        "endLine" : 153,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String[] values)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 49,
+          "endLine" : 153,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String[] values)"
+      }, {
+        "name" : "values",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String[] values)/parameter/values",
+        "type" : "java.lang.String[]",
+        "displayedType" : "String[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 63,
+          "endLine" : 153,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String[] values)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/singletonMap(java.lang.String key, T val)" : {
+      "name" : "singletonMap",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonMap(java.lang.String key, T val)",
+      "type" : "java.util.Map<java.lang.String, T>",
+      "displayedType" : "Map<String, T>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 196,
+        "startColumn" : 32,
+        "endLine" : 196,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonMap(java.lang.String key, T val)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 196,
+          "startColumn" : 52,
+          "endLine" : 196,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/singletonMap(java.lang.String key, T val)"
+      }, {
+        "name" : "val",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonMap(java.lang.String key, T val)/parameter/val",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 196,
+          "startColumn" : 59,
+          "endLine" : 196,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/singletonMap(java.lang.String key, T val)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status status, T val)" : {
+      "name" : "singletonEnumMap",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status status, T val)",
+      "type" : "java.util.EnumMap<com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status, T>",
+      "displayedType" : "EnumMap<WorkflowInstance.Status, T>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 189,
+        "startColumn" : 53,
+        "endLine" : 189,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status status, T val)/parameter/status",
+        "type" : "com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 190,
+          "startColumn" : 31,
+          "endLine" : 190,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status status, T val)"
+      }, {
+        "name" : "val",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status status, T val)/parameter/val",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 190,
+          "startColumn" : 41,
+          "endLine" : 190,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.Status status, T val)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status status, T val)" : {
+      "name" : "singletonEnumMap",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status status, T val)",
+      "type" : "java.util.EnumMap<com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status, T>",
+      "displayedType" : "EnumMap<StepInstance.Status, T>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 49,
+        "endLine" : 182,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status status, T val)/parameter/status",
+        "type" : "com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 27,
+          "endLine" : 183,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status status, T val)"
+      }, {
+        "name" : "val",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status status, T val)/parameter/val",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 37,
+          "endLine" : 183,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/singletonEnumMap(com.netflix.maestro.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.Status status, T val)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double[] values)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double[] values)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.DoubleArrayParameter",
+      "displayedType" : "DoubleArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 31,
+        "endLine" : 113,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double[] values)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 49,
+          "endLine" : 113,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double[] values)"
+      }, {
+        "name" : "values",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double[] values)/parameter/values",
+        "type" : "double[]",
+        "displayedType" : "double[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 63,
+          "endLine" : 113,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double[] values)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.util.Map<java.lang.String, java.lang.String> values)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.util.Map<java.lang.String, java.lang.String> values)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.StringMapParameter",
+      "displayedType" : "StringMapParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 29,
+        "endLine" : 163,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.util.Map<java.lang.String, java.lang.String> values)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 47,
+          "endLine" : 163,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.util.Map<java.lang.String, java.lang.String> values)"
+      }, {
+        "name" : "values",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.util.Map<java.lang.String, java.lang.String> values)/parameter/values",
+        "type" : "java.util.Map<java.lang.String, java.lang.String>",
+        "displayedType" : "Map<String, String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 72,
+          "endLine" : 163,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.util.Map<java.lang.String, java.lang.String> values)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double value)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double value)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.DoubleParameter",
+      "displayedType" : "DoubleParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 26,
+        "endLine" : 133,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double value)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 44,
+          "endLine" : 133,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double value)/parameter/value",
+        "type" : "double",
+        "displayedType" : "double",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 56,
+          "endLine" : 133,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, double value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String value)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String value)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.StringParameter",
+      "displayedType" : "StringParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 26,
+        "endLine" : 173,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String value)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 44,
+          "endLine" : 173,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String value)/parameter/value",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 56,
+          "endLine" : 173,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, java.lang.String value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean[] values)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean[] values)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.BooleanArrayParameter",
+      "displayedType" : "BooleanArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 32,
+        "endLine" : 93,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean[] values)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 50,
+          "endLine" : 93,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean[] values)"
+      }, {
+        "name" : "values",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean[] values)/parameter/values",
+        "type" : "boolean[]",
+        "displayedType" : "boolean[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 65,
+          "endLine" : 93,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean[] values)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 22,
+        "endLine" : 58,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/destroy()" : {
+      "name" : "destroy",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/destroy()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 22,
+        "endLine" : 62,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, java.lang.Class<T> clazz)" : {
+      "name" : "loadObject",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, java.lang.Class<T> clazz)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 19,
+        "endLine" : 64,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fileName",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, java.lang.Class<T> clazz)/parameter/fileName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 37,
+          "endLine" : 64,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, java.lang.Class<T> clazz)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, java.lang.Class<T> clazz)/parameter/clazz",
+        "type" : "java.lang.Class<T>",
+        "displayedType" : "Class<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 56,
+          "endLine" : 64,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, java.lang.Class<T> clazz)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long[] values)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long[] values)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.LongArrayParameter",
+      "displayedType" : "LongArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 29,
+        "endLine" : 143,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long[] values)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 47,
+          "endLine" : 143,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long[] values)"
+      }, {
+        "name" : "values",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long[] values)/parameter/values",
+        "type" : "long[]",
+        "displayedType" : "long[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 59,
+          "endLine" : 143,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, long[] values)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/toParameters(java.util.Map<java.lang.String, com.netflix.maestro.com.netflix.maestro.models.parameter.ParamDefinition> paramDefinitions)" : {
+      "name" : "toParameters",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/toParameters(java.util.Map<java.lang.String, com.netflix.maestro.com.netflix.maestro.models.parameter.ParamDefinition> paramDefinitions)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 33,
+        "endLine" : 86,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "paramDefinitions",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/toParameters(java.util.Map<java.lang.String, com.netflix.maestro.com.netflix.maestro.models.parameter.ParamDefinition> paramDefinitions)/parameter/paramDefinitions",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 75,
+          "endLine" : 86,
+          "endColumn" : 91
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/toParameters(java.util.Map<java.lang.String, com.netflix.maestro.com.netflix.maestro.models.parameter.ParamDefinition> paramDefinitions)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, com.fasterxml.jackson.core.type.TypeReference<T> ref)" : {
+      "name" : "loadObject",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, com.fasterxml.jackson.core.type.TypeReference<T> ref)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 19,
+        "endLine" : 68,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fileName",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, com.fasterxml.jackson.core.type.TypeReference<T> ref)/parameter/fileName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 37,
+          "endLine" : 68,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, com.fasterxml.jackson.core.type.TypeReference<T> ref)"
+      }, {
+        "name" : "ref",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, com.fasterxml.jackson.core.type.TypeReference<T> ref)/parameter/ref",
+        "type" : "com.fasterxml.jackson.core.type.TypeReference<T>",
+        "displayedType" : "TypeReference<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 64,
+          "endLine" : 68,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/loadObject(java.lang.String fileName, com.fasterxml.jackson.core.type.TypeReference<T> ref)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean value)" : {
+      "name" : "buildParam",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean value)",
+      "type" : "com.netflix.maestro.com.netflix.maestro.models.parameter.BooleanParameter",
+      "displayedType" : "BooleanParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 27,
+        "endLine" : 103,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean value)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 45,
+          "endLine" : 103,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean value)/parameter/value",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 58,
+          "endLine" : 103,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/buildParam(java.lang.String key, boolean value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    },
+    "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)" : {
+      "name" : "threeItemMap",
+      "key" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)",
+      "type" : "java.util.Map<java.lang.String, T>",
+      "displayedType" : "Map<String, T>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 209,
+        "startColumn" : 32,
+        "endLine" : 209,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key1",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)/parameter/key1",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 14,
+          "endLine" : 210,
+          "endColumn" : 18
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)"
+      }, {
+        "name" : "val1",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)/parameter/val1",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 22,
+          "endLine" : 210,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)"
+      }, {
+        "name" : "key2",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)/parameter/key2",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 35,
+          "endLine" : 210,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)"
+      }, {
+        "name" : "val2",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)/parameter/val2",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 43,
+          "endLine" : 210,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)"
+      }, {
+        "name" : "key3",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)/parameter/key3",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 56,
+          "endLine" : 210,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)"
+      }, {
+        "name" : "val3",
+        "key" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)/parameter/val3",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 64,
+          "endLine" : 210,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.MaestroBaseTest/method/threeItemMap(java.lang.String key1, T val1, java.lang.String key2, T val2, java.lang.String key3, T val3)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.MaestroBaseTest"
+    }
+  },
+  "file_path" : "maestro-common/src/testFixtures/java/com/netflix/maestro/MaestroBaseTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,95 @@
+{
+  "name" : "MaestroInterceptorMvcConfig",
+  "key" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 8,
+    "endLine" : 27,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/memberField/userInfoInterceptor" : {
+      "name" : "userInfoInterceptor",
+      "key" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/memberField/userInfoInterceptor",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.interceptor.UserInfoInterceptor",
+      "displayedType" : "UserInfoInterceptor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 37,
+        "endLine" : 28,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/method/addInterceptors(com.netflix.maestro.server.config.org.springframework.web.servlet.config.annotation.InterceptorRegistry registry)" : {
+      "name" : "addInterceptors",
+      "key" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/method/addInterceptors(com.netflix.maestro.server.config.org.springframework.web.servlet.config.annotation.InterceptorRegistry registry)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 15,
+        "endLine" : 36,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "registry",
+        "key" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/method/addInterceptors(com.netflix.maestro.server.config.org.springframework.web.servlet.config.annotation.InterceptorRegistry registry)/parameter/registry",
+        "type" : "com.netflix.maestro.server.config.org.springframework.web.servlet.config.annotation.InterceptorRegistry",
+        "displayedType" : "InterceptorRegistry",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 51,
+          "endLine" : 36,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/method/addInterceptors(com.netflix.maestro.server.config.org.springframework.web.servlet.config.annotation.InterceptorRegistry registry)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig"
+    },
+    "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/method/callerBuilder()" : {
+      "name" : "callerBuilder",
+      "key" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig/method/callerBuilder()",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.models.definition.User#com.netflix.maestro.server.config.UserBuilder",
+      "displayedType" : "User.UserBuilder",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 27,
+        "endLine" : 43,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.MaestroInterceptorMvcConfig"
+    }
+  },
+  "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/config/MaestroInterceptorMvcConfig.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.server.config.org.springframework.web.servlet.config.annotation.WebMvcConfigurer" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

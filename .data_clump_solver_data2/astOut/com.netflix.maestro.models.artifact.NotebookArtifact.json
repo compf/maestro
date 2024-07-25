@@ -1,0 +1,114 @@
+{
+  "name" : "NotebookArtifact",
+  "key" : "com.netflix.maestro.models.artifact.NotebookArtifact",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.artifact.NotebookArtifact/memberField/outputGenerated" : {
+      "name" : "outputGenerated",
+      "key" : "com.netflix.maestro.models.artifact.NotebookArtifact/memberField/outputGenerated",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 19,
+        "endLine" : 34,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.NotebookArtifact"
+    },
+    "com.netflix.maestro.models.artifact.NotebookArtifact/memberField/uploadedParamsPath" : {
+      "name" : "uploadedParamsPath",
+      "key" : "com.netflix.maestro.models.artifact.NotebookArtifact/memberField/uploadedParamsPath",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 18,
+        "endLine" : 33,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.NotebookArtifact"
+    },
+    "com.netflix.maestro.models.artifact.NotebookArtifact/memberField/outputPath" : {
+      "name" : "outputPath",
+      "key" : "com.netflix.maestro.models.artifact.NotebookArtifact/memberField/outputPath",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 18,
+        "endLine" : 32,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.NotebookArtifact"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.artifact.NotebookArtifact/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.artifact.NotebookArtifact/method/getType()",
+      "type" : "com.netflix.maestro.models.artifact.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 15,
+        "endLine" : 43,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.NotebookArtifact"
+    },
+    "com.netflix.maestro.models.artifact.NotebookArtifact/method/asNotebook()" : {
+      "name" : "asNotebook",
+      "key" : "com.netflix.maestro.models.artifact.NotebookArtifact/method/asNotebook()",
+      "type" : "com.netflix.maestro.models.artifact.NotebookArtifact",
+      "displayedType" : "NotebookArtifact",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 27,
+        "endLine" : 38,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.NotebookArtifact"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/artifact/NotebookArtifact.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.artifact.Artifact" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

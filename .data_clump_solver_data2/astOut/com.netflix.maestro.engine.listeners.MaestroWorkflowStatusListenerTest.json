@@ -1,0 +1,489 @@
+{
+  "name" : "MaestroWorkflowStatusListenerTest",
+  "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 55,
+    "startColumn" : 8,
+    "endLine" : 55,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 44,
+        "endLine" : 56,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/maestroTask" : {
+      "name" : "maestroTask",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/maestroTask",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.tasks.MaestroTask",
+      "displayedType" : "MaestroTask",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 29,
+        "endLine" : 60,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 40,
+        "endLine" : 57,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/statusListener" : {
+      "name" : "statusListener",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/statusListener",
+      "type" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener",
+      "displayedType" : "MaestroWorkflowStatusListener",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 33,
+        "endLine" : 62,
+        "endColumn" : 47
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 42,
+        "endLine" : 58,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/workflow" : {
+      "name" : "workflow",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/memberField/workflow",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 26,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowCompleted()" : {
+      "name" : "testWorkflowCompleted",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowCompleted()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 103,
+        "startColumn" : 15,
+        "endLine" : 103,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedComplete()" : {
+      "name" : "testWorkflowFinalizedComplete",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedComplete()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 15,
+        "endLine" : 151,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowTerminated()" : {
+      "name" : "testWorkflowTerminated",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowTerminated()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 117,
+        "startColumn" : 15,
+        "endLine" : 117,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedFailed()" : {
+      "name" : "testWorkflowFinalizedFailed",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedFailed()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 217,
+        "startColumn" : 15,
+        "endLine" : 217,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testInvalidStatusOnWorkflowFinalized()" : {
+      "name" : "testInvalidStatusOnWorkflowFinalized",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testInvalidStatusOnWorkflowFinalized()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 419,
+        "startColumn" : 15,
+        "endLine" : 419,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedTerminated()" : {
+      "name" : "testWorkflowFinalizedTerminated",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedTerminated()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 266,
+        "startColumn" : 15,
+        "endLine" : 266,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedTerminatedForKilled()" : {
+      "name" : "testWorkflowFinalizedTerminatedForKilled",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedTerminatedForKilled()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 289,
+        "startColumn" : 15,
+        "endLine" : 289,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testPublishErrorOnWorkflowFinalized()" : {
+      "name" : "testPublishErrorOnWorkflowFinalized",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testPublishErrorOnWorkflowFinalized()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 489,
+        "startColumn" : 15,
+        "endLine" : 489,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedNotCreatedTasks()" : {
+      "name" : "testWorkflowFinalizedNotCreatedTasks",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedNotCreatedTasks()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 382,
+        "startColumn" : 15,
+        "endLine" : 382,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedCompleteOutOfSync()" : {
+      "name" : "testWorkflowFinalizedCompleteOutOfSync",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedCompleteOutOfSync()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 15,
+        "endLine" : 183,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/after()" : {
+      "name" : "after",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/after()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 15,
+        "endLine" : 98,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testNonTerminalStatusOnWorkflowFinalizedError()" : {
+      "name" : "testNonTerminalStatusOnWorkflowFinalizedError",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testNonTerminalStatusOnWorkflowFinalizedError()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 516,
+        "startColumn" : 15,
+        "endLine" : 516,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedForDedup()" : {
+      "name" : "testWorkflowFinalizedForDedup",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedForDedup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 312,
+        "startColumn" : 15,
+        "endLine" : 312,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowTimedOut()" : {
+      "name" : "testWorkflowTimedOut",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowTimedOut()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 15,
+        "endLine" : 134,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testDaoErrorOnWorkflowFinalized()" : {
+      "name" : "testDaoErrorOnWorkflowFinalized",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testDaoErrorOnWorkflowFinalized()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 464,
+        "startColumn" : 15,
+        "endLine" : 464,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedTimedOut()" : {
+      "name" : "testWorkflowFinalizedTimedOut",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedTimedOut()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 243,
+        "startColumn" : 15,
+        "endLine" : 243,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedCancelInternallyFailedTasks()" : {
+      "name" : "testWorkflowFinalizedCancelInternallyFailedTasks",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testWorkflowFinalizedCancelInternallyFailedTasks()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 333,
+        "startColumn" : 15,
+        "endLine" : 333,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testInconsistentStatsOnWorkflowFinalized()" : {
+      "name" : "testInconsistentStatsOnWorkflowFinalized",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testInconsistentStatsOnWorkflowFinalized()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 542,
+        "startColumn" : 15,
+        "endLine" : 542,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testNonRetryableErrorOnWorkflowFinalized()" : {
+      "name" : "testNonRetryableErrorOnWorkflowFinalized",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest/method/testNonRetryableErrorOnWorkflowFinalized()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 573,
+        "startColumn" : 15,
+        "endLine" : 573,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListenerTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/listeners/MaestroWorkflowStatusListenerTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

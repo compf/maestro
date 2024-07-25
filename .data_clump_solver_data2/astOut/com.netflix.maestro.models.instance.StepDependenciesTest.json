@@ -1,0 +1,151 @@
+{
+  "name" : "StepDependenciesTest",
+  "key" : "com.netflix.maestro.models.instance.StepDependenciesTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.StepDependenciesTest/memberField/mapParameter" : {
+      "name" : "mapParameter",
+      "key" : "com.netflix.maestro.models.instance.StepDependenciesTest/memberField/mapParameter",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.MapParameter",
+      "displayedType" : "MapParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 24,
+        "endLine" : 36,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependenciesTest"
+    },
+    "com.netflix.maestro.models.instance.StepDependenciesTest/memberField/stepDependencies" : {
+      "name" : "stepDependencies",
+      "key" : "com.netflix.maestro.models.instance.StepDependenciesTest/memberField/stepDependencies",
+      "type" : "com.netflix.maestro.models.instance.StepDependencies",
+      "displayedType" : "StepDependencies",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 28,
+        "endLine" : 37,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependenciesTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.instance.StepDependenciesTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.models.instance.StepDependenciesTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 22,
+        "endLine" : 40,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependenciesTest"
+    },
+    "com.netflix.maestro.models.instance.StepDependenciesTest/method/shouldByPassStepDependencies()" : {
+      "name" : "shouldByPassStepDependencies",
+      "key" : "com.netflix.maestro.models.instance.StepDependenciesTest/method/shouldByPassStepDependencies()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 15,
+        "endLine" : 99,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependenciesTest"
+    },
+    "com.netflix.maestro.models.instance.StepDependenciesTest/method/shouldInitializeWithPendingStatus()" : {
+      "name" : "shouldInitializeWithPendingStatus",
+      "key" : "com.netflix.maestro.models.instance.StepDependenciesTest/method/shouldInitializeWithPendingStatus()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 15,
+        "endLine" : 83,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependenciesTest"
+    },
+    "com.netflix.maestro.models.instance.StepDependenciesTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.models.instance.StepDependenciesTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 15,
+        "endLine" : 45,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependenciesTest"
+    },
+    "com.netflix.maestro.models.instance.StepDependenciesTest/method/shouldSerDe()" : {
+      "name" : "shouldSerDe",
+      "key" : "com.netflix.maestro.models.instance.StepDependenciesTest/method/shouldSerDe()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 15,
+        "endLine" : 70,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependenciesTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/models/instance/StepDependenciesTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.instance.com.netflix.maestro.MaestroBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

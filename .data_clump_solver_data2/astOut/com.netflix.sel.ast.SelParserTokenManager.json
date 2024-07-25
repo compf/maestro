@@ -1,0 +1,2192 @@
+{
+  "name" : "SelParserTokenManager",
+  "key" : "com.netflix.sel.ast.SelParserTokenManager",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 7,
+    "startColumn" : 8,
+    "endLine" : 7,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjmatchedPos" : {
+      "name" : "jjmatchedPos",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjmatchedPos",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1422,
+        "startColumn" : 7,
+        "endLine" : 1422,
+        "endColumn" : 19
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/curChar" : {
+      "name" : "curChar",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/curChar",
+      "type" : "char",
+      "displayedType" : "char",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1659,
+        "startColumn" : 18,
+        "endLine" : 1659,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoMore" : {
+      "name" : "jjtoMore",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoMore",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1646,
+        "startColumn" : 23,
+        "endLine" : 1646,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjround" : {
+      "name" : "jjround",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjround",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1421,
+        "startColumn" : 7,
+        "endLine" : 1421,
+        "endColumn" : 14
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec6" : {
+      "name" : "jjbitVec6",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec6",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 739,
+        "startColumn" : 23,
+        "endLine" : 739,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec5" : {
+      "name" : "jjbitVec5",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec5",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 736,
+        "startColumn" : 23,
+        "endLine" : 736,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec8" : {
+      "name" : "jjbitVec8",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec8",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 741,
+        "startColumn" : 23,
+        "endLine" : 741,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjnewLexState" : {
+      "name" : "jjnewLexState",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjnewLexState",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1626,
+        "startColumn" : 29,
+        "endLine" : 1626,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjrounds" : {
+      "name" : "jjrounds",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjrounds",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1651,
+        "startColumn" : 23,
+        "endLine" : 1651,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec7" : {
+      "name" : "jjbitVec7",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec7",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 740,
+        "startColumn" : 23,
+        "endLine" : 740,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec2" : {
+      "name" : "jjbitVec2",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec2",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 731,
+        "startColumn" : 23,
+        "endLine" : 731,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec4" : {
+      "name" : "jjbitVec4",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec4",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 735,
+        "startColumn" : 23,
+        "endLine" : 735,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/curLexState" : {
+      "name" : "curLexState",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/curLexState",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1418,
+        "startColumn" : 7,
+        "endLine" : 1418,
+        "endColumn" : 18
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec3" : {
+      "name" : "jjbitVec3",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec3",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 732,
+        "startColumn" : 23,
+        "endLine" : 732,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/lexStateNames" : {
+      "name" : "lexStateNames",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/lexStateNames",
+      "type" : "java.lang.String[]",
+      "displayedType" : "String[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1621,
+        "startColumn" : 32,
+        "endLine" : 1621,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec0" : {
+      "name" : "jjbitVec0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjbitVec0",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 728,
+        "startColumn" : 23,
+        "endLine" : 728,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoToken" : {
+      "name" : "jjtoToken",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoToken",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1637,
+        "startColumn" : 23,
+        "endLine" : 1637,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/defaultLexState" : {
+      "name" : "defaultLexState",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/defaultLexState",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1419,
+        "startColumn" : 7,
+        "endLine" : 1419,
+        "endColumn" : 22
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjstateSet" : {
+      "name" : "jjstateSet",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjstateSet",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1652,
+        "startColumn" : 23,
+        "endLine" : 1652,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjstrLiteralImages" : {
+      "name" : "jjstrLiteralImages",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjstrLiteralImages",
+      "type" : "java.lang.String[]",
+      "displayedType" : "String[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1272,
+        "startColumn" : 32,
+        "endLine" : 1272,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/debugStream" : {
+      "name" : "debugStream",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/debugStream",
+      "type" : "java.io.PrintStream",
+      "displayedType" : "java.io.PrintStream",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 10,
+        "startColumn" : 30,
+        "endLine" : 10,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoSpecial" : {
+      "name" : "jjtoSpecial",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoSpecial",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1643,
+        "startColumn" : 23,
+        "endLine" : 1643,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjmatchedKind" : {
+      "name" : "jjmatchedKind",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjmatchedKind",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1423,
+        "startColumn" : 7,
+        "endLine" : 1423,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/lengthOfMatch" : {
+      "name" : "lengthOfMatch",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/lengthOfMatch",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1657,
+        "startColumn" : 15,
+        "endLine" : 1657,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/input_stream" : {
+      "name" : "input_stream",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/input_stream",
+      "type" : "com.netflix.sel.ast.JavaCharStream",
+      "displayedType" : "JavaCharStream",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1649,
+        "startColumn" : 28,
+        "endLine" : 1649,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/image" : {
+      "name" : "image",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/image",
+      "type" : "java.lang.StringBuilder",
+      "displayedType" : "StringBuilder",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1655,
+        "startColumn" : 25,
+        "endLine" : 1655,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjimage" : {
+      "name" : "jjimage",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjimage",
+      "type" : "java.lang.StringBuilder",
+      "displayedType" : "StringBuilder",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1654,
+        "startColumn" : 31,
+        "endLine" : 1654,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoSkip" : {
+      "name" : "jjtoSkip",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjtoSkip",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1640,
+        "startColumn" : 23,
+        "endLine" : 1640,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjnewStateCnt" : {
+      "name" : "jjnewStateCnt",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjnewStateCnt",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1420,
+        "startColumn" : 7,
+        "endLine" : 1420,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjimageLen" : {
+      "name" : "jjimageLen",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjimageLen",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1656,
+        "startColumn" : 15,
+        "endLine" : 1656,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/memberField/jjnextStates" : {
+      "name" : "jjnextStates",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/memberField/jjnextStates",
+      "type" : "int[]",
+      "displayedType" : "int[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1236,
+        "startColumn" : 22,
+        "endLine" : 1236,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjFillToken()" : {
+      "name" : "jjFillToken",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjFillToken()",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1395,
+        "startColumn" : 19,
+        "endLine" : 1395,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/SkipLexicalActions(com.netflix.sel.ast.Token matchedToken)" : {
+      "name" : "SkipLexicalActions",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/SkipLexicalActions(com.netflix.sel.ast.Token matchedToken)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1531,
+        "startColumn" : 8,
+        "endLine" : 1531,
+        "endColumn" : 26
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "matchedToken",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/SkipLexicalActions(com.netflix.sel.ast.Token matchedToken)/parameter/matchedToken",
+        "type" : "com.netflix.sel.ast.Token",
+        "displayedType" : "Token",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1531,
+          "startColumn" : 33,
+          "endLine" : 1531,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/SkipLexicalActions(com.netflix.sel.ast.Token matchedToken)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)" : {
+      "name" : "jjMoveStringLiteralDfa4_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 453,
+        "startColumn" : 15,
+        "endLine" : 453,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 46,
+          "endLine" : 453,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 57,
+          "endLine" : 453,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "old1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)/parameter/old1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 71,
+          "endLine" : 453,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "active1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)/parameter/active1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 453,
+          "startColumn" : 82,
+          "endLine" : 453,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa4_0(long old0, long active0, long old1, long active1)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/setDebugStream(java.io.PrintStream ds)" : {
+      "name" : "setDebugStream",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/setDebugStream(java.io.PrintStream ds)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 13,
+        "startColumn" : 15,
+        "endLine" : 13,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ds",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/setDebugStream(java.io.PrintStream ds)/parameter/ds",
+        "type" : "java.io.PrintStream",
+        "displayedType" : "java.io.PrintStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 13,
+          "startColumn" : 50,
+          "endLine" : 13,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/setDebugStream(java.io.PrintStream ds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)" : {
+      "name" : "jjStopStringLiteralDfa_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 17,
+        "startColumn" : 21,
+        "endLine" : 17,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)/parameter/pos",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 17,
+          "startColumn" : 50,
+          "endLine" : 17,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 17,
+          "startColumn" : 60,
+          "endLine" : 17,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)"
+      }, {
+        "name" : "active1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)/parameter/active1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 17,
+          "startColumn" : 74,
+          "endLine" : 17,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopStringLiteralDfa_0(int pos, long active0, long active1)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)" : {
+      "name" : "jjMoveStringLiteralDfa3_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 393,
+        "startColumn" : 15,
+        "endLine" : 393,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 46,
+          "endLine" : 393,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 57,
+          "endLine" : 393,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "old1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)/parameter/old1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 71,
+          "endLine" : 393,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "active1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)/parameter/active1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 82,
+          "endLine" : 393,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa3_0(long old0, long active0, long old1, long active1)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream, int lexState)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream, int lexState)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1606,
+        "startColumn" : 15,
+        "endLine" : 1606,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stream",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream, int lexState)/parameter/stream",
+        "type" : "com.netflix.sel.ast.JavaCharStream",
+        "displayedType" : "JavaCharStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1606,
+          "startColumn" : 37,
+          "endLine" : 1606,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream, int lexState)"
+      }, {
+        "name" : "lexState",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream, int lexState)/parameter/lexState",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1606,
+          "startColumn" : 49,
+          "endLine" : 1606,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream, int lexState)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)" : {
+      "name" : "jjMoveStringLiteralDfa2_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 329,
+        "startColumn" : 15,
+        "endLine" : 329,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 329,
+          "startColumn" : 46,
+          "endLine" : 329,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 329,
+          "startColumn" : 57,
+          "endLine" : 329,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "old1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)/parameter/old1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 329,
+          "startColumn" : 71,
+          "endLine" : 329,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)"
+      }, {
+        "name" : "active1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)/parameter/active1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 329,
+          "startColumn" : 82,
+          "endLine" : 329,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa2_0(long old0, long active0, long old1, long active1)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa7_0(long old0, long active0)" : {
+      "name" : "jjMoveStringLiteralDfa7_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa7_0(long old0, long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 605,
+        "startColumn" : 15,
+        "endLine" : 605,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa7_0(long old0, long active0)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 605,
+          "startColumn" : 46,
+          "endLine" : 605,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa7_0(long old0, long active0)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa7_0(long old0, long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 605,
+          "startColumn" : 57,
+          "endLine" : 605,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa7_0(long old0, long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjStopAtPos(int pos, int kind)" : {
+      "name" : "jjStopAtPos",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopAtPos(int pos, int kind)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 15,
+        "endLine" : 122,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopAtPos(int pos, int kind)/parameter/pos",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 31,
+          "endLine" : 122,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopAtPos(int pos, int kind)"
+      }, {
+        "name" : "kind",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopAtPos(int pos, int kind)/parameter/kind",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 40,
+          "endLine" : 122,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStopAtPos(int pos, int kind)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveNfa_0(int startState, int curPos)" : {
+      "name" : "jjMoveNfa_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveNfa_0(int startState, int curPos)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 743,
+        "startColumn" : 15,
+        "endLine" : 743,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "startState",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveNfa_0(int startState, int curPos)/parameter/startState",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 743,
+          "startColumn" : 31,
+          "endLine" : 743,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveNfa_0(int startState, int curPos)"
+      }, {
+        "name" : "curPos",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveNfa_0(int startState, int curPos)/parameter/curPos",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 743,
+          "startColumn" : 47,
+          "endLine" : 743,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveNfa_0(int startState, int curPos)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddTwoStates(int state1, int state2)" : {
+      "name" : "jjCheckNAddTwoStates",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddTwoStates(int state1, int state2)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1564,
+        "startColumn" : 16,
+        "endLine" : 1564,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "state1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddTwoStates(int state1, int state2)/parameter/state1",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1564,
+          "startColumn" : 41,
+          "endLine" : 1564,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddTwoStates(int state1, int state2)"
+      }, {
+        "name" : "state2",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddTwoStates(int state1, int state2)/parameter/state2",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1564,
+          "startColumn" : 53,
+          "endLine" : 1564,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddTwoStates(int state1, int state2)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)" : {
+      "name" : "jjStartNfa_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 21,
+        "endLine" : 118,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)/parameter/pos",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 38,
+          "endLine" : 118,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 48,
+          "endLine" : 118,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)"
+      }, {
+        "name" : "active1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)/parameter/active1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 62,
+          "endLine" : 118,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfa_0(int pos, long active0, long active1)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_2(long active0)" : {
+      "name" : "jjMoveStringLiteralDfa1_2",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_2(long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1195,
+        "startColumn" : 15,
+        "endLine" : 1195,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_2(long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1195,
+          "startColumn" : 46,
+          "endLine" : 1195,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_2(long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_0(long active0, long active1)" : {
+      "name" : "jjMoveStringLiteralDfa1_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_0(long active0, long active1)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 237,
+        "startColumn" : 15,
+        "endLine" : 237,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_0(long active0, long active1)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 46,
+          "endLine" : 237,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_0(long active0, long active1)"
+      }, {
+        "name" : "active1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_0(long active0, long active1)/parameter/active1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 237,
+          "startColumn" : 60,
+          "endLine" : 237,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_0(long active0, long active1)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/getNextToken()" : {
+      "name" : "getNextToken",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/getNextToken()",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1426,
+        "startColumn" : 16,
+        "endLine" : 1426,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddStates(int start, int end)" : {
+      "name" : "jjCheckNAddStates",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddStates(int start, int end)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1569,
+        "startColumn" : 16,
+        "endLine" : 1569,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "start",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddStates(int start, int end)/parameter/start",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1569,
+          "startColumn" : 38,
+          "endLine" : 1569,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddStates(int start, int end)"
+      }, {
+        "name" : "end",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddStates(int start, int end)/parameter/end",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1569,
+          "startColumn" : 49,
+          "endLine" : 1569,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAddStates(int start, int end)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa8_0(long old0, long active0)" : {
+      "name" : "jjMoveStringLiteralDfa8_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa8_0(long old0, long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 631,
+        "startColumn" : 15,
+        "endLine" : 631,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa8_0(long old0, long active0)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 631,
+          "startColumn" : 46,
+          "endLine" : 631,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa8_0(long old0, long active0)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa8_0(long old0, long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 631,
+          "startColumn" : 57,
+          "endLine" : 631,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa8_0(long old0, long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)" : {
+      "name" : "jjCanMove_1",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1253,
+        "startColumn" : 32,
+        "endLine" : 1253,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "hiByte",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)/parameter/hiByte",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1253,
+          "startColumn" : 48,
+          "endLine" : 1253,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "i1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)/parameter/i1",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1253,
+          "startColumn" : 60,
+          "endLine" : 1253,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "i2",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)/parameter/i2",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1253,
+          "startColumn" : 68,
+          "endLine" : 1253,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "l1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)/parameter/l1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1253,
+          "startColumn" : 77,
+          "endLine" : 1253,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "l2",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)/parameter/l2",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1253,
+          "startColumn" : 86,
+          "endLine" : 1253,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_1(int hiByte, int i1, int i2, long l1, long l2)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa11_0(long old0, long active0)" : {
+      "name" : "jjMoveStringLiteralDfa11_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa11_0(long old0, long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 699,
+        "startColumn" : 15,
+        "endLine" : 699,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa11_0(long old0, long active0)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 699,
+          "startColumn" : 47,
+          "endLine" : 699,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa11_0(long old0, long active0)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa11_0(long old0, long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 699,
+          "startColumn" : 58,
+          "endLine" : 699,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa11_0(long old0, long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)" : {
+      "name" : "jjCanMove_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1243,
+        "startColumn" : 32,
+        "endLine" : 1243,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "hiByte",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)/parameter/hiByte",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1243,
+          "startColumn" : 48,
+          "endLine" : 1243,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "i1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)/parameter/i1",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1243,
+          "startColumn" : 60,
+          "endLine" : 1243,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "i2",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)/parameter/i2",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1243,
+          "startColumn" : 68,
+          "endLine" : 1243,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "l1",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)/parameter/l1",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1243,
+          "startColumn" : 77,
+          "endLine" : 1243,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)"
+      }, {
+        "name" : "l2",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)/parameter/l2",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1243,
+          "startColumn" : 86,
+          "endLine" : 1243,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCanMove_0(int hiByte, int i1, int i2, long l1, long l2)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa5_0(long old0, long active0)" : {
+      "name" : "jjMoveStringLiteralDfa5_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa5_0(long old0, long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 513,
+        "startColumn" : 15,
+        "endLine" : 513,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa5_0(long old0, long active0)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 513,
+          "startColumn" : 46,
+          "endLine" : 513,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa5_0(long old0, long active0)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa5_0(long old0, long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 513,
+          "startColumn" : 57,
+          "endLine" : 513,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa5_0(long old0, long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/MoreLexicalActions()" : {
+      "name" : "MoreLexicalActions",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/MoreLexicalActions()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1538,
+        "startColumn" : 8,
+        "endLine" : 1538,
+        "endColumn" : 26
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/ReInitRounds()" : {
+      "name" : "ReInitRounds",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInitRounds()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1599,
+        "startColumn" : 16,
+        "endLine" : 1599,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa10_0(long old0, long active0)" : {
+      "name" : "jjMoveStringLiteralDfa10_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa10_0(long old0, long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 682,
+        "startColumn" : 15,
+        "endLine" : 682,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa10_0(long old0, long active0)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 682,
+          "startColumn" : 47,
+          "endLine" : 682,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa10_0(long old0, long active0)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa10_0(long old0, long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 682,
+          "startColumn" : 58,
+          "endLine" : 682,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa10_0(long old0, long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)" : {
+      "name" : "jjStartNfaWithStates_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 717,
+        "startColumn" : 15,
+        "endLine" : 717,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pos",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)/parameter/pos",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 717,
+          "startColumn" : 42,
+          "endLine" : 717,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)"
+      }, {
+        "name" : "kind",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)/parameter/kind",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 717,
+          "startColumn" : 51,
+          "endLine" : 717,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)"
+      }, {
+        "name" : "state",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)/parameter/state",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 717,
+          "startColumn" : 61,
+          "endLine" : 717,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjStartNfaWithStates_0(int pos, int kind, int state)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa0_1()" : {
+      "name" : "jjMoveStringLiteralDfa0_1",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa0_1()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1211,
+        "startColumn" : 15,
+        "endLine" : 1211,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa0_2()" : {
+      "name" : "jjMoveStringLiteralDfa0_2",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa0_2()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1186,
+        "startColumn" : 15,
+        "endLine" : 1186,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/SwitchTo(int lexState)" : {
+      "name" : "SwitchTo",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/SwitchTo(int lexState)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1612,
+        "startColumn" : 15,
+        "endLine" : 1612,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lexState",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/SwitchTo(int lexState)/parameter/lexState",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1612,
+          "startColumn" : 28,
+          "endLine" : 1612,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/SwitchTo(int lexState)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa0_0()" : {
+      "name" : "jjMoveStringLiteralDfa0_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa0_0()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 15,
+        "endLine" : 128,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa9_0(long old0, long active0)" : {
+      "name" : "jjMoveStringLiteralDfa9_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa9_0(long old0, long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 659,
+        "startColumn" : 15,
+        "endLine" : 659,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa9_0(long old0, long active0)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 659,
+          "startColumn" : 46,
+          "endLine" : 659,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa9_0(long old0, long active0)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa9_0(long old0, long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 659,
+          "startColumn" : 57,
+          "endLine" : 659,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa9_0(long old0, long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa6_0(long old0, long active0)" : {
+      "name" : "jjMoveStringLiteralDfa6_0",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa6_0(long old0, long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 564,
+        "startColumn" : 15,
+        "endLine" : 564,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "old0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa6_0(long old0, long active0)/parameter/old0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 564,
+          "startColumn" : 46,
+          "endLine" : 564,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa6_0(long old0, long active0)"
+      }, {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa6_0(long old0, long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 564,
+          "startColumn" : 57,
+          "endLine" : 564,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa6_0(long old0, long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_1(long active0)" : {
+      "name" : "jjMoveStringLiteralDfa1_1",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_1(long active0)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1220,
+        "startColumn" : 15,
+        "endLine" : 1220,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "active0",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_1(long active0)/parameter/active0",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1220,
+          "startColumn" : 46,
+          "endLine" : 1220,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjMoveStringLiteralDfa1_1(long active0)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAdd(int state)" : {
+      "name" : "jjCheckNAdd",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAdd(int state)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1551,
+        "startColumn" : 16,
+        "endLine" : 1551,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "state",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAdd(int state)/parameter/state",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1551,
+          "startColumn" : 32,
+          "endLine" : 1551,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjCheckNAdd(int state)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream)" : {
+      "name" : "ReInit",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1592,
+        "startColumn" : 15,
+        "endLine" : 1592,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stream",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream)/parameter/stream",
+        "type" : "com.netflix.sel.ast.JavaCharStream",
+        "displayedType" : "JavaCharStream",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1592,
+          "startColumn" : 37,
+          "endLine" : 1592,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/ReInit(com.netflix.sel.ast.JavaCharStream stream)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    },
+    "com.netflix.sel.ast.SelParserTokenManager/method/jjAddStates(int start, int end)" : {
+      "name" : "jjAddStates",
+      "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjAddStates(int start, int end)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 1558,
+        "startColumn" : 16,
+        "endLine" : 1558,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "start",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjAddStates(int start, int end)/parameter/start",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1558,
+          "startColumn" : 32,
+          "endLine" : 1558,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjAddStates(int start, int end)"
+      }, {
+        "name" : "end",
+        "key" : "com.netflix.sel.ast.SelParserTokenManager/method/jjAddStates(int start, int end)/parameter/end",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 1558,
+          "startColumn" : 43,
+          "endLine" : 1558,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserTokenManager/method/jjAddStates(int start, int end)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserTokenManager"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/SelParserTokenManager.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.sel.ast.SelParserConstants" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

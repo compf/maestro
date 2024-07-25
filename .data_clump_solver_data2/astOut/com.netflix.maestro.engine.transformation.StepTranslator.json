@@ -1,0 +1,158 @@
+{
+  "name" : "StepTranslator",
+  "key" : "com.netflix.maestro.engine.transformation.StepTranslator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroGateTask(com.netflix.maestro.engine.transformation.JoinStep step)" : {
+      "name" : "createMaestroGateTask",
+      "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroGateTask(com.netflix.maestro.engine.transformation.JoinStep step)",
+      "type" : "com.netflix.maestro.engine.transformation.com.netflix.conductor.common.metadata.workflow.WorkflowTask",
+      "displayedType" : "WorkflowTask",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 24,
+        "endLine" : 51,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroGateTask(com.netflix.maestro.engine.transformation.JoinStep step)/parameter/step",
+        "type" : "com.netflix.maestro.engine.transformation.JoinStep",
+        "displayedType" : "JoinStep",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 55,
+          "endLine" : 51,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroGateTask(com.netflix.maestro.engine.transformation.JoinStep step)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.StepTranslator"
+    },
+    "com.netflix.maestro.engine.transformation.StepTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step step)" : {
+      "name" : "translate",
+      "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step step)",
+      "type" : "com.netflix.maestro.engine.transformation.com.netflix.conductor.common.metadata.workflow.WorkflowTask",
+      "displayedType" : "WorkflowTask",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 23,
+        "endLine" : 32,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step step)/parameter/step",
+        "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step",
+        "displayedType" : "Step",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 38,
+          "endLine" : 32,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.StepTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step step)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.StepTranslator"
+    },
+    "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTask(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)" : {
+      "name" : "createMaestroTask",
+      "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTask(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)",
+      "type" : "com.netflix.maestro.engine.transformation.com.netflix.conductor.common.metadata.workflow.WorkflowTask",
+      "displayedType" : "WorkflowTask",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 24,
+        "endLine" : 61,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTask(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)/parameter/step",
+        "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep",
+        "displayedType" : "AbstractStep",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 55,
+          "endLine" : 61,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTask(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.StepTranslator"
+    },
+    "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTaskDef(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)" : {
+      "name" : "createMaestroTaskDef",
+      "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTaskDef(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)",
+      "type" : "com.netflix.maestro.engine.transformation.com.netflix.conductor.common.metadata.tasks.TaskDef",
+      "displayedType" : "TaskDef",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 19,
+        "endLine" : 79,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTaskDef(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)/parameter/step",
+        "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep",
+        "displayedType" : "AbstractStep",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 53,
+          "endLine" : 79,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.StepTranslator/method/createMaestroTaskDef(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep step)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.StepTranslator"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/transformation/StepTranslator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step, com.netflix.maestro.engine.transformation.com.netflix.conductor.common.metadata.workflow.WorkflowTask>", "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.Step", "com.netflix.maestro.engine.transformation.com.netflix.conductor.common.metadata.workflow.WorkflowTask" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

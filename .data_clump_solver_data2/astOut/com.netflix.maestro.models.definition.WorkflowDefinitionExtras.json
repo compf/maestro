@@ -1,0 +1,94 @@
+{
+  "name" : "WorkflowDefinitionExtras",
+  "key" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/nextExecutionTimes" : {
+      "name" : "nextExecutionTimes",
+      "key" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/nextExecutionTimes",
+      "type" : "java.util.List<java.lang.Long>",
+      "displayedType" : "List<Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 32,
+        "endLine" : 41,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras"
+    },
+    "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/workflowParams" : {
+      "name" : "workflowParams",
+      "key" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/workflowParams",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 49,
+        "endLine" : 34,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras"
+    },
+    "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/stepParams" : {
+      "name" : "stepParams",
+      "key" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/stepParams",
+      "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition>>",
+      "displayedType" : "Map<String, Map<String, ParamDefinition>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 53,
+        "endLine" : 37,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras"
+    },
+    "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/nextExecutionTime" : {
+      "name" : "nextExecutionTime",
+      "key" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras/memberField/nextExecutionTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 26,
+        "endLine" : 39,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.WorkflowDefinitionExtras"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/WorkflowDefinitionExtras.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,98 @@
+{
+  "name" : "CockroachDBPollDataDAOTest",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 8,
+    "endLine" : 26,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/memberField/dao" : {
+      "name" : "dao",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/memberField/dao",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.PollDataDAO",
+      "displayedType" : "PollDataDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 23,
+        "endLine" : 28,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/method/getPollDataDAO()" : {
+      "name" : "getPollDataDAO",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/method/getPollDataDAO()",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.PollDataDAO",
+      "displayedType" : "PollDataDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 25,
+        "endLine" : 35,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 15,
+        "endLine" : 31,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/method/testPollData()" : {
+      "name" : "testPollData",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest/method/testPollData()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 15,
+        "endLine" : 40,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBPollDataDAOTest"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/test/java/com/netflix/conductor/cockroachdb/dao/CockroachDBPollDataDAOTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,241 @@
+{
+  "name" : "DagTranslatorTest",
+  "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/memberField/translator" : {
+      "name" : "translator",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/memberField/translator",
+      "type" : "com.netflix.maestro.engine.transformation.DagTranslator",
+      "displayedType" : "DagTranslator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 25,
+        "endLine" : 34,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/memberField/instance" : {
+      "name" : "instance",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/memberField/instance",
+      "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 28,
+        "endLine" : 35,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecificWithCompleteBranch()" : {
+      "name" : "testTranslateForRestartFromSpecificWithCompleteBranch",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecificWithCompleteBranch()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 15,
+        "endLine" : 203,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecificWithNotCreatedSteps()" : {
+      "name" : "testTranslateForRestartFromSpecificWithNotCreatedSteps",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecificWithNotCreatedSteps()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 15,
+        "endLine" : 224,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 15,
+        "endLine" : 38,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateIncludingAllSteps()" : {
+      "name" : "testTranslateIncludingAllSteps",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateIncludingAllSteps()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 15,
+        "endLine" : 56,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromIncompleteWithNotCreatedSteps()" : {
+      "name" : "testTranslateForRestartFromIncompleteWithNotCreatedSteps",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromIncompleteWithNotCreatedSteps()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 15,
+        "endLine" : 94,
+        "endColumn" : 71
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromBeginning()" : {
+      "name" : "testTranslateForRestartFromBeginning",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromBeginning()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 15,
+        "endLine" : 63,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecificWithTwoBranches()" : {
+      "name" : "testTranslateForRestartFromSpecificWithTwoBranches",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecificWithTwoBranches()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 15,
+        "endLine" : 172,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecific()" : {
+      "name" : "testTranslateForRestartFromSpecific",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromSpecific()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 15,
+        "endLine" : 120,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromIncomplete()" : {
+      "name" : "testTranslateForRestartFromIncomplete",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartFromIncomplete()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 15,
+        "endLine" : 72,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    },
+    "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartCustomizedRun()" : {
+      "name" : "testTranslateForRestartCustomizedRun",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslatorTest/method/testTranslateForRestartCustomizedRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 15,
+        "endLine" : 149,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslatorTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/transformation/DagTranslatorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.transformation.com.netflix.maestro.MaestroBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,125 @@
+{
+  "name" : "MaestroIdValidator",
+  "key" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 3,
+    "endLine" : 44,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : {
+    "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/memberField/ID_PATTERN" : {
+      "name" : "ID_PATTERN",
+      "key" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/memberField/ID_PATTERN",
+      "type" : "java.util.regex.Pattern",
+      "displayedType" : "Pattern",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 34,
+        "endLine" : 45,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/isValid(java.lang.String id, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/isValid(java.lang.String id, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 20,
+        "endLine" : 51,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "id",
+        "key" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/isValid(java.lang.String id, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/id",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 35,
+          "endLine" : 51,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/isValid(java.lang.String id, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/isValid(java.lang.String id, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 66,
+          "endLine" : 51,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/isValid(java.lang.String id, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator"
+    },
+    "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/initialize(com.netflix.maestro.validations.MaestroIdConstraint constraint)" : {
+      "name" : "initialize",
+      "key" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/initialize(com.netflix.maestro.validations.MaestroIdConstraint constraint)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 17,
+        "endLine" : 48,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "constraint",
+        "key" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/initialize(com.netflix.maestro.validations.MaestroIdConstraint constraint)/parameter/constraint",
+        "type" : "com.netflix.maestro.validations.MaestroIdConstraint",
+        "displayedType" : "MaestroIdConstraint",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 48,
+          "endLine" : 48,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator/method/initialize(com.netflix.maestro.validations.MaestroIdConstraint constraint)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.MaestroIdConstraint.MaestroIdValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/MaestroIdConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.MaestroIdConstraint, java.lang.String>", "com.netflix.maestro.validations.MaestroIdConstraint", "java.lang.String" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

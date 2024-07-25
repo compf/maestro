@@ -1,0 +1,190 @@
+{
+  "name" : "WorkflowEnrichmentHelper",
+  "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/memberField/stepRuntimeMap" : {
+      "name" : "stepRuntimeMap",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/memberField/stepRuntimeMap",
+      "type" : "java.util.Map<com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepType, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.steps.StepRuntime>",
+      "displayedType" : "Map<StepType, StepRuntime>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 44,
+        "endLine" : 37,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/memberField/paramsManager" : {
+      "name" : "paramsManager",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/memberField/paramsManager",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.params.ParamsManager",
+      "displayedType" : "ParamsManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 31,
+        "endLine" : 36,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichWorkflowDefinition(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition)" : {
+      "name" : "enrichWorkflowDefinition",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichWorkflowDefinition(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 15,
+        "endLine" : 45,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowDefinition",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichWorkflowDefinition(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition)/parameter/workflowDefinition",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition",
+        "displayedType" : "WorkflowDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 59,
+          "endLine" : 45,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichWorkflowDefinition(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichNextRunDate(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowExtras)" : {
+      "name" : "enrichNextRunDate",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichNextRunDate(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowExtras)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 16,
+        "endLine" : 69,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowDefinition",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichNextRunDate(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowExtras)/parameter/workflowDefinition",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition",
+        "displayedType" : "WorkflowDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 26,
+          "endLine" : 70,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichNextRunDate(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowExtras)"
+      }, {
+        "name" : "enrichedWorkflowExtras",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichNextRunDate(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowExtras)/parameter/enrichedWorkflowExtras",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras",
+        "displayedType" : "WorkflowDefinitionExtras",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 71,
+          "endLine" : 70,
+          "endColumn" : 93
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichNextRunDate(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowExtras)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichParams(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowDefinition)" : {
+      "name" : "enrichParams",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichParams(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowDefinition)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 16,
+        "endLine" : 52,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowDefinition",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichParams(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowDefinition)/parameter/workflowDefinition",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition",
+        "displayedType" : "WorkflowDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 26,
+          "endLine" : 53,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichParams(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowDefinition)"
+      }, {
+        "name" : "enrichedWorkflowDefinition",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichParams(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowDefinition)/parameter/enrichedWorkflowDefinition",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras",
+        "displayedType" : "WorkflowDefinitionExtras",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 71,
+          "endLine" : 53,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper/method/enrichParams(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinition workflowDefinition, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.WorkflowDefinitionExtras enrichedWorkflowDefinition)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowEnrichmentHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/WorkflowEnrichmentHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

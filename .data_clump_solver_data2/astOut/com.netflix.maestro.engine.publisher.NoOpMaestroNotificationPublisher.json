@@ -1,0 +1,59 @@
+{
+  "name" : "NoOpMaestroNotificationPublisher",
+  "key" : "com.netflix.maestro.engine.publisher.NoOpMaestroNotificationPublisher",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 8,
+    "endLine" : 20,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.publisher.NoOpMaestroNotificationPublisher/method/send(com.netflix.maestro.engine.publisher.com.netflix.maestro.models.events.MaestroEvent event)" : {
+      "name" : "send",
+      "key" : "com.netflix.maestro.engine.publisher.NoOpMaestroNotificationPublisher/method/send(com.netflix.maestro.engine.publisher.com.netflix.maestro.models.events.MaestroEvent event)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 23,
+        "startColumn" : 15,
+        "endLine" : 23,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "com.netflix.maestro.engine.publisher.NoOpMaestroNotificationPublisher/method/send(com.netflix.maestro.engine.publisher.com.netflix.maestro.models.events.MaestroEvent event)/parameter/event",
+        "type" : "com.netflix.maestro.engine.publisher.com.netflix.maestro.models.events.MaestroEvent",
+        "displayedType" : "MaestroEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 23,
+          "startColumn" : 33,
+          "endLine" : 23,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.publisher.NoOpMaestroNotificationPublisher/method/send(com.netflix.maestro.engine.publisher.com.netflix.maestro.models.events.MaestroEvent event)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.publisher.NoOpMaestroNotificationPublisher"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/publisher/NoOpMaestroNotificationPublisher.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.publisher.MaestroNotificationPublisher" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

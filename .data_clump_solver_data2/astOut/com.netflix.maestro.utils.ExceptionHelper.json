@@ -1,0 +1,92 @@
+{
+  "name" : "ExceptionHelper",
+  "key" : "com.netflix.maestro.utils.ExceptionHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 19,
+    "startColumn" : 14,
+    "endLine" : 19,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.utils.ExceptionHelper/memberField/NEWLINE" : {
+      "name" : "NEWLINE",
+      "key" : "com.netflix.maestro.utils.ExceptionHelper/memberField/NEWLINE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 21,
+        "startColumn" : 31,
+        "endLine" : 21,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.ExceptionHelper"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.utils.ExceptionHelper/method/getStackTrace(java.lang.Throwable throwable, long maxLines)" : {
+      "name" : "getStackTrace",
+      "key" : "com.netflix.maestro.utils.ExceptionHelper/method/getStackTrace(java.lang.Throwable throwable, long maxLines)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 24,
+        "endLine" : 32,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "throwable",
+        "key" : "com.netflix.maestro.utils.ExceptionHelper/method/getStackTrace(java.lang.Throwable throwable, long maxLines)/parameter/throwable",
+        "type" : "java.lang.Throwable",
+        "displayedType" : "Throwable",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 48,
+          "endLine" : 32,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.ExceptionHelper/method/getStackTrace(java.lang.Throwable throwable, long maxLines)"
+      }, {
+        "name" : "maxLines",
+        "key" : "com.netflix.maestro.utils.ExceptionHelper/method/getStackTrace(java.lang.Throwable throwable, long maxLines)/parameter/maxLines",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 64,
+          "endLine" : 32,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.ExceptionHelper/method/getStackTrace(java.lang.Throwable throwable, long maxLines)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.ExceptionHelper"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/utils/ExceptionHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

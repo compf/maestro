@@ -1,0 +1,1013 @@
+{
+  "name" : "SelSecurityManager",
+  "key" : "com.netflix.sel.security.SelSecurityManager",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 22,
+    "startColumn" : 14,
+    "endLine" : 22,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.security.SelSecurityManager/memberField/accs" : {
+      "name" : "accs",
+      "key" : "com.netflix.sel.security.SelSecurityManager/memberField/accs",
+      "type" : "java.lang.ThreadLocal<java.security.AccessControlContext>",
+      "displayedType" : "ThreadLocal<AccessControlContext>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 23,
+        "startColumn" : 51,
+        "endLine" : 23,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm)" : {
+      "name" : "checkPermission",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 15,
+        "endLine" : 41,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "perm",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm)/parameter/perm",
+        "type" : "java.security.Permission",
+        "displayedType" : "Permission",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 42,
+          "endLine" : 41,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkCreateClassLoader()" : {
+      "name" : "checkCreateClassLoader",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkCreateClassLoader()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 15,
+        "endLine" : 72,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkAccept(java.lang.String host, int port)" : {
+      "name" : "checkAccept",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkAccept(java.lang.String host, int port)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 15,
+        "endLine" : 161,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkAccept(java.lang.String host, int port)/parameter/host",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 161,
+          "startColumn" : 34,
+          "endLine" : 161,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkAccept(java.lang.String host, int port)"
+      }, {
+        "name" : "port",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkAccept(java.lang.String host, int port)/parameter/port",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 161,
+          "startColumn" : 44,
+          "endLine" : 161,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkAccept(java.lang.String host, int port)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkPackageAccess(java.lang.String pkg)" : {
+      "name" : "checkPackageAccess",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPackageAccess(java.lang.String pkg)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 15,
+        "endLine" : 204,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pkg",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPackageAccess(java.lang.String pkg)/parameter/pkg",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 204,
+          "startColumn" : 41,
+          "endLine" : 204,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkPackageAccess(java.lang.String pkg)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkListen(int port)" : {
+      "name" : "checkListen",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkListen(int port)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 15,
+        "endLine" : 154,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "port",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkListen(int port)/parameter/port",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 31,
+          "endLine" : 154,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkListen(int port)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkPropertyAccess(java.lang.String key)" : {
+      "name" : "checkPropertyAccess",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPropertyAccess(java.lang.String key)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 15,
+        "endLine" : 190,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPropertyAccess(java.lang.String key)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 190,
+          "startColumn" : 42,
+          "endLine" : 190,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkPropertyAccess(java.lang.String key)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkPrintJobAccess()" : {
+      "name" : "checkPrintJobAccess",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPrintJobAccess()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 15,
+        "endLine" : 197,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkSetFactory()" : {
+      "name" : "checkSetFactory",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkSetFactory()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 218,
+        "startColumn" : 15,
+        "endLine" : 218,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.ThreadGroup g)" : {
+      "name" : "checkAccess",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.ThreadGroup g)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 15,
+        "endLine" : 58,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "g",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.ThreadGroup g)/parameter/g",
+        "type" : "java.lang.ThreadGroup",
+        "displayedType" : "ThreadGroup",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 39,
+          "endLine" : 58,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.ThreadGroup g)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkSecurityAccess(java.lang.String target)" : {
+      "name" : "checkSecurityAccess",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkSecurityAccess(java.lang.String target)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 15,
+        "endLine" : 225,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "target",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkSecurityAccess(java.lang.String target)/parameter/target",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 225,
+          "startColumn" : 42,
+          "endLine" : 225,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkSecurityAccess(java.lang.String target)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/setAccessControl(java.security.AccessControlContext acc)" : {
+      "name" : "setAccessControl",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/setAccessControl(java.security.AccessControlContext acc)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 8,
+        "endLine" : 36,
+        "endColumn" : 24
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "acc",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/setAccessControl(java.security.AccessControlContext acc)/parameter/acc",
+        "type" : "java.security.AccessControlContext",
+        "displayedType" : "AccessControlContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 46,
+          "endLine" : 36,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/setAccessControl(java.security.AccessControlContext acc)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.Thread t)" : {
+      "name" : "checkAccess",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.Thread t)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 15,
+        "endLine" : 50,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.Thread t)/parameter/t",
+        "type" : "java.lang.Thread",
+        "displayedType" : "Thread",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 34,
+          "endLine" : 50,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkAccess(java.lang.Thread t)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port)" : {
+      "name" : "checkConnect",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 15,
+        "endLine" : 140,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port)/parameter/host",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 35,
+          "endLine" : 140,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port)"
+      }, {
+        "name" : "port",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port)/parameter/port",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 45,
+          "endLine" : 140,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkPropertiesAccess()" : {
+      "name" : "checkPropertiesAccess",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPropertiesAccess()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 183,
+        "startColumn" : 15,
+        "endLine" : 183,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.io.FileDescriptor fd)" : {
+      "name" : "checkWrite",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.io.FileDescriptor fd)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 15,
+        "endLine" : 121,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fd",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.io.FileDescriptor fd)/parameter/fd",
+        "type" : "java.io.FileDescriptor",
+        "displayedType" : "FileDescriptor",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 41,
+          "endLine" : 121,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.io.FileDescriptor fd)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)" : {
+      "name" : "checkConnect",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 15,
+        "endLine" : 147,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "host",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)/parameter/host",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 35,
+          "endLine" : 147,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)"
+      }, {
+        "name" : "port",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)/parameter/port",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 45,
+          "endLine" : 147,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)/parameter/context",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 147,
+          "startColumn" : 58,
+          "endLine" : 147,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkConnect(java.lang.String host, int port, java.lang.Object context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr, byte ttl)" : {
+      "name" : "checkMulticast",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr, byte ttl)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 176,
+        "startColumn" : 15,
+        "endLine" : 176,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "maddr",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr, byte ttl)/parameter/maddr",
+        "type" : "java.net.InetAddress",
+        "displayedType" : "InetAddress",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 42,
+          "endLine" : 176,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr, byte ttl)"
+      }, {
+        "name" : "ttl",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr, byte ttl)/parameter/ttl",
+        "type" : "byte",
+        "displayedType" : "byte",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 54,
+          "endLine" : 176,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr, byte ttl)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr)" : {
+      "name" : "checkMulticast",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 15,
+        "endLine" : 168,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "maddr",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr)/parameter/maddr",
+        "type" : "java.net.InetAddress",
+        "displayedType" : "InetAddress",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 42,
+          "endLine" : 168,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkMulticast(java.net.InetAddress maddr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.lang.String file)" : {
+      "name" : "checkWrite",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.lang.String file)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 15,
+        "endLine" : 128,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.lang.String file)/parameter/file",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 128,
+          "startColumn" : 33,
+          "endLine" : 128,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkWrite(java.lang.String file)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm, java.lang.Object context)" : {
+      "name" : "checkPermission",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm, java.lang.Object context)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "perm",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm, java.lang.Object context)/parameter/perm",
+        "type" : "java.security.Permission",
+        "displayedType" : "Permission",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 42,
+          "endLine" : 65,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm, java.lang.Object context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm, java.lang.Object context)/parameter/context",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 55,
+          "endLine" : 65,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkPermission(java.security.Permission perm, java.lang.Object context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkDelete(java.lang.String file)" : {
+      "name" : "checkDelete",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkDelete(java.lang.String file)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 15,
+        "endLine" : 133,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkDelete(java.lang.String file)/parameter/file",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 34,
+          "endLine" : 133,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkDelete(java.lang.String file)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkLink(java.lang.String lib)" : {
+      "name" : "checkLink",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkLink(java.lang.String lib)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 15,
+        "endLine" : 93,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "lib",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkLink(java.lang.String lib)/parameter/lib",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 32,
+          "endLine" : 93,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkLink(java.lang.String lib)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkExit(int status)" : {
+      "name" : "checkExit",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkExit(int status)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 15,
+        "endLine" : 79,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkExit(int status)/parameter/status",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 29,
+          "endLine" : 79,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkExit(int status)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkExec(java.lang.String cmd)" : {
+      "name" : "checkExec",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkExec(java.lang.String cmd)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 15,
+        "endLine" : 86,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cmd",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkExec(java.lang.String cmd)/parameter/cmd",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 32,
+          "endLine" : 86,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkExec(java.lang.String cmd)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file, java.lang.Object context)" : {
+      "name" : "checkRead",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file, java.lang.Object context)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 15,
+        "endLine" : 114,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file, java.lang.Object context)/parameter/file",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 32,
+          "endLine" : 114,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file, java.lang.Object context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file, java.lang.Object context)/parameter/context",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 45,
+          "endLine" : 114,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file, java.lang.Object context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkPackageDefinition(java.lang.String pkg)" : {
+      "name" : "checkPackageDefinition",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPackageDefinition(java.lang.String pkg)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 15,
+        "endLine" : 211,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pkg",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkPackageDefinition(java.lang.String pkg)/parameter/pkg",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 211,
+          "startColumn" : 45,
+          "endLine" : 211,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkPackageDefinition(java.lang.String pkg)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file)" : {
+      "name" : "checkRead",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 15,
+        "endLine" : 107,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "file",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file)/parameter/file",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 32,
+          "endLine" : 107,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.lang.String file)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    },
+    "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.io.FileDescriptor fd)" : {
+      "name" : "checkRead",
+      "key" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.io.FileDescriptor fd)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 15,
+        "endLine" : 100,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fd",
+        "key" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.io.FileDescriptor fd)/parameter/fd",
+        "type" : "java.io.FileDescriptor",
+        "displayedType" : "FileDescriptor",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 40,
+          "endLine" : 100,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelSecurityManager/method/checkRead(java.io.FileDescriptor fd)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelSecurityManager"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/security/SelSecurityManager.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.SecurityManager" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

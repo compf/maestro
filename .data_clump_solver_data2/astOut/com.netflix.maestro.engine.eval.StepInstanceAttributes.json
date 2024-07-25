@@ -1,0 +1,162 @@
+{
+  "name" : "StepInstanceAttributes",
+  "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 1,
+    "endLine" : 27,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepInstanceUuid" : {
+      "name" : "stepInstanceUuid",
+      "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepInstanceUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 24,
+        "endLine" : 33,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes"
+    },
+    "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/type" : {
+      "name" : "type",
+      "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/type",
+      "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.models.definition.StepType",
+      "displayedType" : "StepType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 26,
+        "endLine" : 29,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes"
+    },
+    "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepAttemptId" : {
+      "name" : "stepAttemptId",
+      "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepAttemptId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 22,
+        "endLine" : 32,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes"
+    },
+    "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 24,
+        "endLine" : 28,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes"
+    },
+    "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/subType" : {
+      "name" : "subType",
+      "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/subType",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 24,
+        "endLine" : 30,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes"
+    },
+    "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepInstanceId" : {
+      "name" : "stepInstanceId",
+      "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/memberField/stepInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 22,
+        "endLine" : 31,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.eval.StepInstanceAttributes/method/from(com.netflix.maestro.engine.eval.com.netflix.maestro.engine.execution.StepRuntimeSummary summary)" : {
+      "name" : "from",
+      "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/method/from(com.netflix.maestro.engine.eval.com.netflix.maestro.engine.execution.StepRuntimeSummary summary)",
+      "type" : "com.netflix.maestro.engine.eval.StepInstanceAttributes",
+      "displayedType" : "StepInstanceAttributes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 33,
+        "endLine" : 35,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/method/from(com.netflix.maestro.engine.eval.com.netflix.maestro.engine.execution.StepRuntimeSummary summary)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 57,
+          "endLine" : 35,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes/method/from(com.netflix.maestro.engine.eval.com.netflix.maestro.engine.execution.StepRuntimeSummary summary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.StepInstanceAttributes"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/eval/StepInstanceAttributes.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

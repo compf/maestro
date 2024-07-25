@@ -1,0 +1,518 @@
+{
+  "name" : "RollupAggregationHelper",
+  "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 40,
+        "endLine" : 45,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)" : {
+      "name" : "getForeachAndSubworkflowStepRollups",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)",
+      "type" : "java.util.List<com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview>",
+      "displayedType" : "List<WorkflowRollupOverview>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 32,
+        "endLine" : 78,
+        "endColumn" : 67
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 14,
+          "endLine" : 79,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 12,
+          "endLine" : 80,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)"
+      }, {
+        "name" : "stepIdRunIdForeachSubworkflowPrevious",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)/parameter/stepIdRunIdForeachSubworkflowPrevious",
+        "type" : "java.util.Map<java.lang.String, java.lang.Long>",
+        "displayedType" : "Map<String, Long>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 25,
+          "endLine" : 81,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getForeachAndSubworkflowStepRollups(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)" : {
+      "name" : "getReference",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 219,
+        "startColumn" : 17,
+        "endLine" : 219,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 35,
+          "endLine" : 219,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 62,
+          "endLine" : 219,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "attemptId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)/parameter/attemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 75,
+          "endLine" : 219,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(long workflowInstanceId, java.lang.String stepId, long attemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)" : {
+      "name" : "getAggregatedForeachAndSubworkflowStepRollup",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 34,
+        "endLine" : 57,
+        "endColumn" : 78
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 14,
+          "endLine" : 58,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 12,
+          "endLine" : 59,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)"
+      }, {
+        "name" : "stepIdRunIdForeachSubworkflowPrevious",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)/parameter/stepIdRunIdForeachSubworkflowPrevious",
+        "type" : "java.util.Map<java.lang.String, java.lang.Long>",
+        "displayedType" : "Map<String, Long>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 25,
+          "endLine" : 60,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedForeachAndSubworkflowStepRollup(java.lang.String workflowId, long workflowInstanceId, java.util.Map<java.lang.String, java.lang.Long> stepIdRunIdForeachSubworkflowPrevious)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/calculateRollupBase(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "calculateRollupBase",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/calculateRollupBase(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 33,
+        "endLine" : 234,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/calculateRollupBase(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 234,
+          "startColumn" : 70,
+          "endLine" : 234,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/calculateRollupBase(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)" : {
+      "name" : "getRollupsForStepsFromPreviousRuns",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)",
+      "type" : "java.util.List<com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview>",
+      "displayedType" : "List<WorkflowRollupOverview>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 39,
+        "endLine" : 175,
+        "endColumn" : 73
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 14,
+          "endLine" : 176,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/workflowInstanceId",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 177,
+          "startColumn" : 12,
+          "endLine" : 177,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      }, {
+        "name" : "aggregatedInfo",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/aggregatedInfo",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo",
+        "displayedType" : "WorkflowInstanceAggregatedInfo",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 38,
+          "endLine" : 178,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      }, {
+        "name" : "runtimeDag",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/runtimeDag",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition>",
+        "displayedType" : "Map<String, StepTransition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 179,
+          "startColumn" : 35,
+          "endLine" : 179,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      }, {
+        "name" : "foreachAndSubworkflowStepIds",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/foreachAndSubworkflowStepIds",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 180,
+          "startColumn" : 19,
+          "endLine" : 180,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getRollupsForStepsFromPreviousRuns(java.lang.String workflowId, java.lang.Long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregatedInfo, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(java.lang.String workflowId, long workflowRunId)" : {
+      "name" : "getReference",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(java.lang.String workflowId, long workflowRunId)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 215,
+        "startColumn" : 17,
+        "endLine" : 215,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(java.lang.String workflowId, long workflowRunId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 37,
+          "endLine" : 215,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(java.lang.String workflowId, long workflowRunId)"
+      }, {
+        "name" : "workflowRunId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(java.lang.String workflowId, long workflowRunId)/parameter/workflowRunId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 54,
+          "endLine" : 215,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getReference(java.lang.String workflowId, long workflowRunId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)" : {
+      "name" : "getAggregatedRollupForStepsFromPreviousRuns",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 41,
+        "endLine" : 158,
+        "endColumn" : 84
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 14,
+          "endLine" : 159,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 12,
+          "endLine" : 160,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      }, {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 161,
+          "startColumn" : 24,
+          "endLine" : 161,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      }, {
+        "name" : "foreachAndSubworkflowStepIds",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)/parameter/foreachAndSubworkflowStepIds",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 19,
+          "endLine" : 162,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getAggregatedRollupForStepsFromPreviousRuns(java.lang.String workflowId, long workflowInstanceId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> foreachAndSubworkflowStepIds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "getStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "java.util.Map<java.lang.String, java.lang.Long>",
+      "displayedType" : "Map<String, Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 28,
+        "endLine" : 122,
+        "endColumn" : 84
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 123,
+          "startColumn" : 24,
+          "endLine" : 123,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper/method/getStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/RollupAggregationHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

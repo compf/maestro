@@ -1,0 +1,214 @@
+{
+  "name" : "AlertingTypeConfig",
+  "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/pagerduties" : {
+      "name" : "pagerduties",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/pagerduties",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 23,
+        "endLine" : 41,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/granularity" : {
+      "name" : "granularity",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/granularity",
+      "type" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig$Granularity",
+      "displayedType" : "Granularity",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 23,
+        "endLine" : 48,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/emails" : {
+      "name" : "emails",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/emails",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 23,
+        "endLine" : 40,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/slackConfig" : {
+      "name" : "slackConfig",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/slackConfig",
+      "type" : "com.netflix.maestro.models.definition.alerting.com.netflix.maestro.models.definition.Alerting#com.netflix.maestro.models.definition.alerting.SlackConfig",
+      "displayedType" : "Alerting.SlackConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 32,
+        "endLine" : 44,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/disabled" : {
+      "name" : "disabled",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/disabled",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 19,
+        "endLine" : 47,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/serialVersionUID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 29,
+        "endLine" : 38,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/durationMinutes" : {
+      "name" : "durationMinutes",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/durationMinutes",
+      "type" : "java.lang.Integer",
+      "displayedType" : "Integer",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 19,
+        "endLine" : 50,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/actions" : {
+      "name" : "actions",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/memberField/actions",
+      "type" : "java.util.Set<com.netflix.maestro.models.definition.alerting.AlertingTypeConfig$Action>",
+      "displayedType" : "Set<Action>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 35,
+        "endLine" : 46,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/method/deserializeActions(java.util.Set<java.lang.String> actionsStr)" : {
+      "name" : "deserializeActions",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/method/deserializeActions(java.util.Set<java.lang.String> actionsStr)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 15,
+        "endLine" : 69,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "actionsStr",
+        "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/method/deserializeActions(java.util.Set<java.lang.String> actionsStr)/parameter/actionsStr",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 52,
+          "endLine" : 69,
+          "endColumn" : 62
+        },
+        "modifiers" : [ "FINAL" ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/method/deserializeActions(java.util.Set<java.lang.String> actionsStr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    },
+    "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/method/serializeActions()" : {
+      "name" : "serializeActions",
+      "key" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig/method/serializeActions()",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 22,
+        "endLine" : 54,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.alerting.AlertingTypeConfig"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/alerting/AlertingTypeConfig.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.io.Serializable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

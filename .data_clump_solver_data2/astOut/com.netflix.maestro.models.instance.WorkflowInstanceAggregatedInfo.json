@@ -1,0 +1,60 @@
+{
+  "name" : "WorkflowInstanceAggregatedInfo",
+  "key" : "com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo/memberField/stepAggregatedViews" : {
+      "name" : "stepAggregatedViews",
+      "key" : "com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo/memberField/stepAggregatedViews",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.instance.StepAggregatedView>",
+      "displayedType" : "Map<String, StepAggregatedView>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 43,
+        "endLine" : 49,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo"
+    },
+    "com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo/memberField/workflowInstanceStatus" : {
+      "name" : "workflowInstanceStatus",
+      "key" : "com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo/memberField/workflowInstanceStatus",
+      "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+      "displayedType" : "WorkflowInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 35,
+        "endLine" : 52,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/WorkflowInstanceAggregatedInfo.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

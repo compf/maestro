@@ -1,0 +1,106 @@
+{
+  "name" : "MemoryCounterTest",
+  "key" : "com.netflix.sel.type.MemoryCounterTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 22,
+    "startColumn" : 8,
+    "endLine" : 22,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.sel.type.MemoryCounterTest/method/testRecordMemoryUsage()" : {
+      "name" : "testRecordMemoryUsage",
+      "key" : "com.netflix.sel.type.MemoryCounterTest/method/testRecordMemoryUsage()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 15,
+        "endLine" : 37,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.MemoryCounterTest"
+    },
+    "com.netflix.sel.type.MemoryCounterTest/method/testBeyondMemoryLimit()" : {
+      "name" : "testBeyondMemoryLimit",
+      "key" : "com.netflix.sel.type.MemoryCounterTest/method/testBeyondMemoryLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 15,
+        "endLine" : 53,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.MemoryCounterTest"
+    },
+    "com.netflix.sel.type.MemoryCounterTest/method/tearDown()" : {
+      "name" : "tearDown",
+      "key" : "com.netflix.sel.type.MemoryCounterTest/method/tearDown()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 15,
+        "endLine" : 31,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.MemoryCounterTest"
+    }
+  },
+  "file_path" : "netflix-sel/src/test/java/com/netflix/sel/type/MemoryCounterTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.sel.type.MemoryCounterTest.MockSelType" : {
+      "name" : "MockSelType",
+      "key" : "com.netflix.sel.type.MemoryCounterTest.MockSelType",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 10,
+        "endLine" : 24,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "STATIC" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "netflix-sel/src/test/java/com/netflix/sel/type/MemoryCounterTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.sel.type.AbstractSelType" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.sel.type.MemoryCounterTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,145 @@
+{
+  "name" : "WorkflowStepStatusSummary",
+  "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/memberField/steps" : {
+      "name" : "steps",
+      "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/memberField/steps",
+      "type" : "java.util.List<java.util.List<java.lang.Long>>",
+      "displayedType" : "List<List<Long>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 38,
+        "endLine" : 42,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary"
+    },
+    "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/memberField/cnt" : {
+      "name" : "cnt",
+      "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/memberField/cnt",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 16,
+        "endLine" : 39,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/of(long count)" : {
+      "name" : "of",
+      "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/of(long count)",
+      "type" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary",
+      "displayedType" : "WorkflowStepStatusSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 43,
+        "endLine" : 46,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "count",
+        "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/of(long count)/parameter/count",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 51,
+          "endLine" : 46,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/of(long count)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary"
+    },
+    "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/addStep(java.util.List<java.lang.Long> stepInfo)" : {
+      "name" : "addStep",
+      "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/addStep(java.util.List<java.lang.Long> stepInfo)",
+      "type" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary",
+      "displayedType" : "WorkflowStepStatusSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 36,
+        "endLine" : 54,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepInfo",
+        "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/addStep(java.util.List<java.lang.Long> stepInfo)/parameter/stepInfo",
+        "type" : "java.util.List<java.lang.Long>",
+        "displayedType" : "List<Long>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 64,
+          "endLine" : 54,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/addStep(java.util.List<java.lang.Long> stepInfo)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary"
+    },
+    "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/sortSteps()" : {
+      "name" : "sortSteps",
+      "key" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary/method/sortSteps()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.WorkflowStepStatusSummary"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/WorkflowStepStatusSummary.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

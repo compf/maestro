@@ -1,0 +1,456 @@
+{
+  "name" : "StepInstanceActionHandler",
+  "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/memberField/actionHandler" : {
+      "name" : "actionHandler",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/memberField/actionHandler",
+      "type" : "com.netflix.maestro.engine.handlers.WorkflowInstanceActionHandler",
+      "displayedType" : "WorkflowInstanceActionHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 47,
+        "endLine" : 44,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/memberField/actionDao" : {
+      "name" : "actionDao",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/memberField/actionDao",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao",
+      "displayedType" : "MaestroStepInstanceActionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 46,
+        "endLine" : 43,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 44,
+        "endLine" : 42,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restartDirectly(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "restartDirectly",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restartDirectly(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse",
+      "displayedType" : "RunResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 22,
+        "endLine" : 115,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "restartStepInfo",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restartDirectly(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/restartStepInfo",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse",
+        "displayedType" : "RunResponse",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 50,
+          "endLine" : 115,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restartDirectly(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restartDirectly(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 115,
+          "startColumn" : 78,
+          "endLine" : 115,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restartDirectly(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "skip",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 37,
+        "endLine" : 144,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 14,
+          "endLine" : 145,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 31,
+          "endLine" : 145,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 58,
+          "endLine" : 145,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/user",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 71,
+          "endLine" : 145,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 88,
+          "endLine" : 145,
+          "endColumn" : 98
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/skip(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/updateRunRequestForRestartFromInlineRoot(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "updateRunRequestForRestartFromInlineRoot",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/updateRunRequestForRestartFromInlineRoot(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 16,
+        "endLine" : 65,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/updateRunRequestForRestartFromInlineRoot(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 68,
+          "endLine" : 65,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/updateRunRequestForRestartFromInlineRoot(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)" : {
+      "name" : "terminate",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 37,
+        "endLine" : 128,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 129,
+          "startColumn" : 14,
+          "endLine" : 129,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 12,
+          "endLine" : 130,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 14,
+          "endLine" : 131,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)/parameter/user",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 12,
+          "endLine" : 132,
+          "endColumn" : 16
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction",
+        "displayedType" : "Actions.StepInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 34,
+          "endLine" : 133,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/terminate(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.handlers.StepInstanceAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restart(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "restart",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restart(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunResponse",
+      "displayedType" : "RunResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 22,
+        "endLine" : 52,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restart(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 41,
+          "endLine" : 52,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/restart(com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)" : {
+      "name" : "bypassStepDependencies",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 37,
+        "endLine" : 120,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 14,
+          "endLine" : 121,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 31,
+          "endLine" : 121,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 58,
+          "endLine" : 121,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)/parameter/user",
+        "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 71,
+          "endLine" : 121,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler/method/bypassStepDependencies(java.lang.String workflowId, long workflowInstanceId, java.lang.String stepId, com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User user)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/handlers/StepInstanceActionHandler.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

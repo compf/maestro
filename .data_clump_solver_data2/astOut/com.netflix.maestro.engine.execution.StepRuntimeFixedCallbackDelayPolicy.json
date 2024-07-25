@@ -1,0 +1,175 @@
+{
+  "name" : "StepRuntimeFixedCallbackDelayPolicy",
+  "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/memberField/DEFAULT_STEP_TYPE_KEY" : {
+      "name" : "DEFAULT_STEP_TYPE_KEY",
+      "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/memberField/DEFAULT_STEP_TYPE_KEY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 31,
+        "endLine" : 26,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy"
+    },
+    "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/memberField/callbackDelayConfigStepInstanceStatusMap" : {
+      "name" : "callbackDelayConfigStepInstanceStatusMap",
+      "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/memberField/callbackDelayConfigStepInstanceStatusMap",
+      "type" : "com.netflix.maestro.engine.execution.com.netflix.maestro.engine.properties.CallbackDelayConfig",
+      "displayedType" : "CallbackDelayConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 37,
+        "endLine" : 28,
+        "endColumn" : 77
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)" : {
+      "name" : "getCallbackDelayForStepType",
+      "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 16,
+        "endLine" : 65,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fixedCallbackDelayConfigForStepInstanceStatus",
+        "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)/parameter/fixedCallbackDelayConfigForStepInstanceStatus",
+        "type" : "java.util.Map<java.lang.String, java.lang.Long>",
+        "displayedType" : "Map<String, Long>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 25,
+          "endLine" : 66,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)"
+      }, {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 26,
+          "endLine" : 67,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)"
+      }, {
+        "name" : "stepInstanceStatus",
+        "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)/parameter/stepInstanceStatus",
+        "type" : "com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 27,
+          "endLine" : 68,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallbackDelayForStepType(java.util.Map<java.lang.String, java.lang.Long> fixedCallbackDelayConfigForStepInstanceStatus, com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary, com.netflix.maestro.engine.execution.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.execution.Status stepInstanceStatus)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy"
+    },
+    "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallBackDelayInSecs(com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "getCallBackDelayInSecs",
+      "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallBackDelayInSecs(com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 15,
+        "endLine" : 41,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallBackDelayInSecs(com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 57,
+          "endLine" : 41,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getCallBackDelayInSecs(com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy"
+    },
+    "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy/method/getType()",
+      "type" : "com.netflix.maestro.engine.execution.CallbackDelayPolicyType",
+      "displayedType" : "CallbackDelayPolicyType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 34,
+        "endLine" : 61,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.execution.StepRuntimeFixedCallbackDelayPolicy"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/execution/StepRuntimeFixedCallbackDelayPolicy.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.execution.StepRuntimeCallbackDelayPolicy" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

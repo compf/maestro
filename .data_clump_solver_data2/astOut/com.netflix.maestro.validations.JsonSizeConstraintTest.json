@@ -1,0 +1,339 @@
+{
+  "name" : "JsonSizeConstraintTest",
+  "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 22,
+    "startColumn" : 8,
+    "endLine" : 22,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.JsonSizeConstraintTest/method/testIfSizeValidationWorks()" : {
+      "name" : "testIfSizeValidationWorks",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest/method/testIfSizeValidationWorks()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 15,
+        "endLine" : 78,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraintTest/method/testSizeValidationDoesNotThrowWhenUnderSizeLimit()" : {
+      "name" : "testSizeValidationDoesNotThrowWhenUnderSizeLimit",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest/method/testSizeValidationDoesNotThrowWhenUnderSizeLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 15,
+        "endLine" : 93,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraintTest/method/testSizeValidationThrowsIfValidationIsMalformed()" : {
+      "name" : "testSizeValidationThrowsIfValidationIsMalformed",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest/method/testSizeValidationThrowsIfValidationIsMalformed()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 15,
+        "endLine" : 111,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/JsonSizeConstraintTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.validations.BaseConstraintTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest2GBLimit" : {
+      "name" : "TestWorkflowCreateRequest2GBLimit",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest2GBLimit",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 18,
+        "endLine" : 50,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest2GBLimit/memberField/workflowCreateRequest" : {
+          "name" : "workflowCreateRequest",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest2GBLimit/memberField/workflowCreateRequest",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.api.WorkflowCreateRequest",
+          "displayedType" : "WorkflowCreateRequest",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 52,
+            "startColumn" : 27,
+            "endLine" : 52,
+            "endColumn" : 48
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest2GBLimit"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/JsonSizeConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10KBMalformed" : {
+      "name" : "TestWorkflowCreateRequest10KBMalformed",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10KBMalformed",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 18,
+        "endLine" : 68,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10KBMalformed/memberField/workflowCreateRequest" : {
+          "name" : "workflowCreateRequest",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10KBMalformed/memberField/workflowCreateRequest",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.api.WorkflowCreateRequest",
+          "displayedType" : "WorkflowCreateRequest",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 70,
+            "startColumn" : 27,
+            "endLine" : 70,
+            "endColumn" : 48
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10KBMalformed"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/JsonSizeConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBLimit" : {
+      "name" : "TestWorkflowCreateRequest1KBLimit",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBLimit",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 18,
+        "endLine" : 32,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBLimit/memberField/workflowCreateRequest" : {
+          "name" : "workflowCreateRequest",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBLimit/memberField/workflowCreateRequest",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.api.WorkflowCreateRequest",
+          "displayedType" : "WorkflowCreateRequest",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 34,
+            "startColumn" : 27,
+            "endLine" : 34,
+            "endColumn" : 48
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBLimit"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/JsonSizeConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBMalformed" : {
+      "name" : "TestWorkflowCreateRequest1KBMalformed",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBMalformed",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 18,
+        "endLine" : 59,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBMalformed/memberField/workflowCreateRequest" : {
+          "name" : "workflowCreateRequest",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBMalformed/memberField/workflowCreateRequest",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.api.WorkflowCreateRequest",
+          "displayedType" : "WorkflowCreateRequest",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 61,
+            "startColumn" : 27,
+            "endLine" : 61,
+            "endColumn" : 48
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest1KBMalformed"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/JsonSizeConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest500BytesLimit" : {
+      "name" : "TestWorkflowCreateRequest500BytesLimit",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest500BytesLimit",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 23,
+        "startColumn" : 18,
+        "endLine" : 23,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest500BytesLimit/memberField/workflowCreateRequest" : {
+          "name" : "workflowCreateRequest",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest500BytesLimit/memberField/workflowCreateRequest",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.api.WorkflowCreateRequest",
+          "displayedType" : "WorkflowCreateRequest",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 25,
+            "startColumn" : 27,
+            "endLine" : 25,
+            "endColumn" : 48
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest500BytesLimit"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/JsonSizeConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10Point3MBLimit" : {
+      "name" : "TestWorkflowCreateRequest10Point3MBLimit",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10Point3MBLimit",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 18,
+        "endLine" : 41,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10Point3MBLimit/memberField/workflowCreateRequest" : {
+          "name" : "workflowCreateRequest",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10Point3MBLimit/memberField/workflowCreateRequest",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.api.WorkflowCreateRequest",
+          "displayedType" : "WorkflowCreateRequest",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 43,
+            "startColumn" : 27,
+            "endLine" : 43,
+            "endColumn" : 48
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest.TestWorkflowCreateRequest10Point3MBLimit"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/JsonSizeConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.JsonSizeConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

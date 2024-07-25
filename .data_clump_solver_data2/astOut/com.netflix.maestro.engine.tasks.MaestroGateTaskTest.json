@@ -1,0 +1,149 @@
+{
+  "name" : "MaestroGateTaskTest",
+  "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/gateTask" : {
+      "name" : "gateTask",
+      "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/gateTask",
+      "type" : "com.netflix.maestro.engine.tasks.MaestroGateTask",
+      "displayedType" : "MaestroGateTask",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 27,
+        "endLine" : 44,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest"
+    },
+    "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/joinTask" : {
+      "name" : "joinTask",
+      "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/joinTask",
+      "type" : "com.netflix.maestro.engine.tasks.com.netflix.conductor.common.metadata.tasks.Task",
+      "displayedType" : "Task",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 16,
+        "endLine" : 46,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest"
+    },
+    "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.tasks.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 40,
+        "endLine" : 42,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest"
+    },
+    "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/workflow" : {
+      "name" : "workflow",
+      "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/memberField/workflow",
+      "type" : "com.netflix.maestro.engine.tasks.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 20,
+        "endLine" : 45,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/method/setup()" : {
+      "name" : "setup",
+      "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/method/setup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 15,
+        "endLine" : 49,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest"
+    },
+    "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/method/testExecuteDone()" : {
+      "name" : "testExecuteDone",
+      "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/method/testExecuteDone()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 15,
+        "endLine" : 77,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest"
+    },
+    "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/method/testExecuteIncomplete()" : {
+      "name" : "testExecuteIncomplete",
+      "key" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest/method/testExecuteIncomplete()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 15,
+        "endLine" : 88,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tasks.MaestroGateTaskTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/tasks/MaestroGateTaskTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.tasks.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

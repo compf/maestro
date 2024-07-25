@@ -1,0 +1,749 @@
+{
+  "name" : "ForeachStepOverview",
+  "key" : "com.netflix.maestro.models.instance.ForeachStepOverview",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/checkpoint" : {
+      "name" : "checkpoint",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/checkpoint",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 16,
+        "endLine" : 48,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/rollup" : {
+      "name" : "rollup",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/rollup",
+      "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 34,
+        "endLine" : 52,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/details" : {
+      "name" : "details",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/details",
+      "type" : "com.netflix.maestro.models.instance.ForeachDetails",
+      "displayedType" : "ForeachDetails",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 26,
+        "endLine" : 55,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/runningRollup" : {
+      "name" : "runningRollup",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/runningRollup",
+      "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 34,
+        "endLine" : 53,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/runningStats" : {
+      "name" : "runningStats",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/runningStats",
+      "type" : "java.util.EnumMap<com.netflix.maestro.models.instance.WorkflowInstance.Status, java.lang.Long>",
+      "displayedType" : "EnumMap<WorkflowInstance.Status, Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 50,
+        "endLine" : 50,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/restartInfo" : {
+      "name" : "restartInfo",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/restartInfo",
+      "type" : "java.util.Set<java.lang.Long>",
+      "displayedType" : "Set<Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 21,
+        "endLine" : 58,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/stats" : {
+      "name" : "stats",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/memberField/stats",
+      "type" : "java.util.EnumMap<com.netflix.maestro.models.instance.WorkflowInstance.Status, java.lang.Long>",
+      "displayedType" : "EnumMap<WorkflowInstance.Status, Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 50,
+        "endLine" : 49,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/resetRunning()" : {
+      "name" : "resetRunning",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/resetRunning()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 15,
+        "endLine" : 168,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)" : {
+      "name" : "updateForRestart",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 15,
+        "endLine" : 185,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "iterationId",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)/parameter/iterationId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 186,
+          "startColumn" : 12,
+          "endLine" : 186,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)"
+      }, {
+        "name" : "newStatus",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)/parameter/newStatus",
+        "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 187,
+          "startColumn" : 31,
+          "endLine" : 187,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)"
+      }, {
+        "name" : "oldStatus",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)/parameter/oldStatus",
+        "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 188,
+          "startColumn" : 31,
+          "endLine" : 188,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)"
+      }, {
+        "name" : "oldOverview",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)/parameter/oldOverview",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 189,
+          "startColumn" : 30,
+          "endLine" : 189,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/updateForRestart(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status newStatus, com.netflix.maestro.models.instance.WorkflowInstance.Status oldStatus, com.netflix.maestro.models.instance.WorkflowRollupOverview oldOverview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)" : {
+      "name" : "addOne",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 15,
+        "endLine" : 86,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "iterationId",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/iterationId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 12,
+          "endLine" : 87,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/status",
+        "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 49,
+          "endLine" : 87,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      }, {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/overview",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 80,
+          "endLine" : 87,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addOne(long iterationId, com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/isForeachIterationRestartable(long iterationId)" : {
+      "name" : "isForeachIterationRestartable",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/isForeachIterationRestartable(long iterationId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 18,
+        "endLine" : 174,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "iterationId",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/isForeachIterationRestartable(long iterationId)/parameter/iterationId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 53,
+          "endLine" : 174,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/isForeachIterationRestartable(long iterationId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/addTerminalOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)" : {
+      "name" : "addTerminalOne",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addTerminalOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 16,
+        "endLine" : 60,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addTerminalOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/status",
+        "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 55,
+          "endLine" : 60,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addTerminalOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      }, {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addTerminalOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/overview",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 86,
+          "endLine" : 60,
+          "endColumn" : 94
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addTerminalOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/addRunningOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)" : {
+      "name" : "addRunningOne",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addRunningOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 16,
+        "endLine" : 72,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addRunningOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/status",
+        "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 54,
+          "endLine" : 72,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addRunningOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      }, {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addRunningOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/overview",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 85,
+          "endLine" : 72,
+          "endColumn" : 93
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/addRunningOne(com.netflix.maestro.models.instance.WorkflowInstance.Status status, com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/getFirstRestartIterationId()" : {
+      "name" : "getFirstRestartIterationId",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getFirstRestartIterationId()",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 209,
+        "startColumn" : 15,
+        "endLine" : 209,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateStepRollup(com.netflix.maestro.models.instance.WorkflowRollupOverview prevRollup, com.netflix.maestro.models.instance.WorkflowRollupOverview aggregatedRollupsPrevRun)" : {
+      "name" : "initiateStepRollup",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateStepRollup(com.netflix.maestro.models.instance.WorkflowRollupOverview prevRollup, com.netflix.maestro.models.instance.WorkflowRollupOverview aggregatedRollupsPrevRun)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 298,
+        "startColumn" : 15,
+        "endLine" : 298,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "prevRollup",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateStepRollup(com.netflix.maestro.models.instance.WorkflowRollupOverview prevRollup, com.netflix.maestro.models.instance.WorkflowRollupOverview aggregatedRollupsPrevRun)/parameter/prevRollup",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 299,
+          "startColumn" : 30,
+          "endLine" : 299,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateStepRollup(com.netflix.maestro.models.instance.WorkflowRollupOverview prevRollup, com.netflix.maestro.models.instance.WorkflowRollupOverview aggregatedRollupsPrevRun)"
+      }, {
+        "name" : "aggregatedRollupsPrevRun",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateStepRollup(com.netflix.maestro.models.instance.WorkflowRollupOverview prevRollup, com.netflix.maestro.models.instance.WorkflowRollupOverview aggregatedRollupsPrevRun)/parameter/aggregatedRollupsPrevRun",
+        "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 299,
+          "startColumn" : 65,
+          "endLine" : 299,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateStepRollup(com.netflix.maestro.models.instance.WorkflowRollupOverview prevRollup, com.netflix.maestro.models.instance.WorkflowRollupOverview aggregatedRollupsPrevRun)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/getRunningStatsCount(boolean strict)" : {
+      "name" : "getRunningStatsCount",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getRunningStatsCount(boolean strict)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 15,
+        "endLine" : 132,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "strict",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getRunningStatsCount(boolean strict)/parameter/strict",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 44,
+          "endLine" : 132,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getRunningStatsCount(boolean strict)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/getIterationsToRunFromDetails(com.netflix.maestro.models.instance.ForeachStepOverview prevStepOverview)" : {
+      "name" : "getIterationsToRunFromDetails",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getIterationsToRunFromDetails(com.netflix.maestro.models.instance.ForeachStepOverview prevStepOverview)",
+      "type" : "java.util.Set<java.lang.Long>",
+      "displayedType" : "Set<Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 339,
+        "startColumn" : 20,
+        "endLine" : 339,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "prevStepOverview",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getIterationsToRunFromDetails(com.netflix.maestro.models.instance.ForeachStepOverview prevStepOverview)/parameter/prevStepOverview",
+        "type" : "com.netflix.maestro.models.instance.ForeachStepOverview",
+        "displayedType" : "ForeachStepOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 339,
+          "startColumn" : 70,
+          "endLine" : 339,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getIterationsToRunFromDetails(com.netflix.maestro.models.instance.ForeachStepOverview prevStepOverview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/statusExistInIterations(com.netflix.maestro.models.instance.WorkflowInstance.Status status)" : {
+      "name" : "statusExistInIterations",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/statusExistInIterations(com.netflix.maestro.models.instance.WorkflowInstance.Status status)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 18,
+        "endLine" : 154,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/statusExistInIterations(com.netflix.maestro.models.instance.WorkflowInstance.Status status)/parameter/status",
+        "type" : "com.netflix.maestro.models.instance.WorkflowInstance.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 66,
+          "endLine" : 154,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/statusExistInIterations(com.netflix.maestro.models.instance.WorkflowInstance.Status status)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateAndGetByPrevMaxIterationId(com.netflix.maestro.models.instance.ForeachStepOverview prev, long toReset)" : {
+      "name" : "initiateAndGetByPrevMaxIterationId",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateAndGetByPrevMaxIterationId(com.netflix.maestro.models.instance.ForeachStepOverview prev, long toReset)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 246,
+        "startColumn" : 15,
+        "endLine" : 246,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "prev",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateAndGetByPrevMaxIterationId(com.netflix.maestro.models.instance.ForeachStepOverview prev, long toReset)/parameter/prev",
+        "type" : "com.netflix.maestro.models.instance.ForeachStepOverview",
+        "displayedType" : "ForeachStepOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 246,
+          "startColumn" : 70,
+          "endLine" : 246,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateAndGetByPrevMaxIterationId(com.netflix.maestro.models.instance.ForeachStepOverview prev, long toReset)"
+      }, {
+        "name" : "toReset",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateAndGetByPrevMaxIterationId(com.netflix.maestro.models.instance.ForeachStepOverview prev, long toReset)/parameter/toReset",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 246,
+          "startColumn" : 81,
+          "endLine" : 246,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/initiateAndGetByPrevMaxIterationId(com.netflix.maestro.models.instance.ForeachStepOverview prev, long toReset)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/refreshDetail()" : {
+      "name" : "refreshDetail",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/refreshDetail()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 15,
+        "endLine" : 101,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsWithCheckpoint()" : {
+      "name" : "getSkippedIterationsWithCheckpoint",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsWithCheckpoint()",
+      "type" : "java.util.Set<java.lang.Long>",
+      "displayedType" : "Set<Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 20,
+        "endLine" : 222,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsInRange(int startInstanceId, java.lang.Long ancestorMax)" : {
+      "name" : "getSkippedIterationsInRange",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsInRange(int startInstanceId, java.lang.Long ancestorMax)",
+      "type" : "java.util.Set<java.lang.Long>",
+      "displayedType" : "Set<Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 356,
+        "startColumn" : 20,
+        "endLine" : 356,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "startInstanceId",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsInRange(int startInstanceId, java.lang.Long ancestorMax)/parameter/startInstanceId",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 356,
+          "startColumn" : 52,
+          "endLine" : 356,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsInRange(int startInstanceId, java.lang.Long ancestorMax)"
+      }, {
+        "name" : "ancestorMax",
+        "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsInRange(int startInstanceId, java.lang.Long ancestorMax)/parameter/ancestorMax",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 356,
+          "startColumn" : 74,
+          "endLine" : 356,
+          "endColumn" : 85
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getSkippedIterationsInRange(int startInstanceId, java.lang.Long ancestorMax)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    },
+    "com.netflix.maestro.models.instance.ForeachStepOverview/method/getOverallRollup()" : {
+      "name" : "getOverallRollup",
+      "key" : "com.netflix.maestro.models.instance.ForeachStepOverview/method/getOverallRollup()",
+      "type" : "com.netflix.maestro.models.instance.WorkflowRollupOverview",
+      "displayedType" : "WorkflowRollupOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 33,
+        "endLine" : 112,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachStepOverview"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/ForeachStepOverview.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

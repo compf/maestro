@@ -1,0 +1,220 @@
+{
+  "name" : "DeleteWorkflowJobProcessorTest",
+  "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 35,
+    "startColumn" : 8,
+    "endLine" : 35,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/deletionDao" : {
+      "name" : "deletionDao",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/deletionDao",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDao",
+      "displayedType" : "MaestroWorkflowDeletionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 44,
+        "endLine" : 37,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/processor" : {
+      "name" : "processor",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/processor",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.processors.DeleteWorkflowJobProcessor",
+      "displayedType" : "DeleteWorkflowJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 38,
+        "endLine" : 41,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/jobEvent" : {
+      "name" : "jobEvent",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/jobEvent",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.jobevents.DeleteWorkflowJobEvent",
+      "displayedType" : "DeleteWorkflowJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 34,
+        "endLine" : 42,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/eventClient" : {
+      "name" : "eventClient",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/eventClient",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.publisher.MaestroNotificationPublisher",
+      "displayedType" : "MaestroNotificationPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 46,
+        "endLine" : 38,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 24,
+        "endLine" : 40,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testDeleteWorkflowInLateStage()" : {
+      "name" : "testDeleteWorkflowInLateStage",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testDeleteWorkflowInLateStage()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 15,
+        "endLine" : 59,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testUnexpectedError()" : {
+      "name" : "testUnexpectedError",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testUnexpectedError()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 15,
+        "endLine" : 85,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 15,
+        "endLine" : 45,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testStartDeleteWorkflow()" : {
+      "name" : "testStartDeleteWorkflow",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testStartDeleteWorkflow()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testNonRetryableError()" : {
+      "name" : "testNonRetryableError",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testNonRetryableError()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 15,
+        "endLine" : 78,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testRetryableError()" : {
+      "name" : "testRetryableError",
+      "key" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest/method/testRetryableError()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.DeleteWorkflowJobProcessorTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/messageprocessors/DeleteWorkflowJobProcessorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

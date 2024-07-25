@@ -1,0 +1,313 @@
+{
+  "name" : "CockroachDBBaseTest",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 17,
+    "endLine" : 28,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/dataSource" : {
+      "name" : "dataSource",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/dataSource",
+      "type" : "javax.sql.DataSource",
+      "displayedType" : "DataSource",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 21,
+        "endLine" : 30,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_TASK_ID_2" : {
+      "name" : "TEST_TASK_ID_2",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_TASK_ID_2",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 23,
+        "endLine" : 37,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_TASK_DEF_NAME" : {
+      "name" : "TEST_TASK_DEF_NAME",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_TASK_DEF_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 23,
+        "endLine" : 35,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/objectMapper" : {
+      "name" : "objectMapper",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/objectMapper",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 23,
+        "endLine" : 31,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_WORKFLOW_NAME" : {
+      "name" : "TEST_WORKFLOW_NAME",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_WORKFLOW_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 23,
+        "endLine" : 34,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_TASK_ID_1" : {
+      "name" : "TEST_TASK_ID_1",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_TASK_ID_1",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 23,
+        "endLine" : 36,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/config" : {
+      "name" : "config",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/config",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.cockroachdb.CockroachDBConfiguration",
+      "displayedType" : "CockroachDBConfiguration",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 35,
+        "endLine" : 29,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_WORKFLOW_ID" : {
+      "name" : "TEST_WORKFLOW_ID",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/memberField/TEST_WORKFLOW_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 23,
+        "endLine" : 33,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTaskDef(int rateLimit, int concurLimit)" : {
+      "name" : "createTaskDef",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTaskDef(int rateLimit, int concurLimit)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.TaskDef",
+      "displayedType" : "TaskDef",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 11,
+        "endLine" : 60,
+        "endColumn" : 24
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rateLimit",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTaskDef(int rateLimit, int concurLimit)/parameter/rateLimit",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 29,
+          "endLine" : 60,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTaskDef(int rateLimit, int concurLimit)"
+      }, {
+        "name" : "concurLimit",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTaskDef(int rateLimit, int concurLimit)/parameter/concurLimit",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 44,
+          "endLine" : 60,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTaskDef(int rateLimit, int concurLimit)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createRunningTestTask(java.lang.String taskId)" : {
+      "name" : "createRunningTestTask",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createRunningTestTask(java.lang.String taskId)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+      "displayedType" : "Task",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 8,
+        "endLine" : 68,
+        "endColumn" : 29
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createRunningTestTask(java.lang.String taskId)/parameter/taskId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 37,
+          "endLine" : 68,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createRunningTestTask(java.lang.String taskId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTestWorkflow(java.lang.String workflowId)" : {
+      "name" : "createTestWorkflow",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTestWorkflow(java.lang.String workflowId)",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.run.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 12,
+        "endLine" : 49,
+        "endColumn" : 30
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTestWorkflow(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 38,
+          "endLine" : 49,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/createTestWorkflow(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/destroy()" : {
+      "name" : "destroy",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/destroy()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 22,
+        "endLine" : 47,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 22,
+        "endLine" : 40,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/test/java/com/netflix/conductor/cockroachdb/dao/CockroachDBBaseTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,110 @@
+{
+  "name" : "OutputDataManager",
+  "key" : "com.netflix.maestro.engine.params.OutputDataManager",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 8,
+    "endLine" : 27,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.params.OutputDataManager/memberField/outputDataDao" : {
+      "name" : "outputDataDao",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManager/memberField/outputDataDao",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.dao.OutputDataDao",
+      "displayedType" : "OutputDataDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 25,
+        "endLine" : 29,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManager"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.params.OutputDataManager/method/validateAndMergeOutputParams(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "validateAndMergeOutputParams",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManager/method/validateAndMergeOutputParams(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 15,
+        "endLine" : 32,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.params.OutputDataManager/method/validateAndMergeOutputParams(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 63,
+          "endLine" : 32,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.OutputDataManager/method/validateAndMergeOutputParams(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManager"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManager/method/extractExternalJobId(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "extractExternalJobId",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManager/method/extractExternalJobId(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "java.util.Optional<java.lang.String>",
+      "displayedType" : "Optional<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 28,
+        "endLine" : 45,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.params.OutputDataManager/method/extractExternalJobId(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 68,
+          "endLine" : 45,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.OutputDataManager/method/extractExternalJobId(com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManager"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/params/OutputDataManager.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

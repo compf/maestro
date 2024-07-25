@@ -1,0 +1,74 @@
+{
+  "name" : "AlertingValidator",
+  "key" : "com.netflix.maestro.validations.AlertingValidator",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 19,
+    "startColumn" : 8,
+    "endLine" : 19,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.AlertingValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Alerting alerting, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.AlertingValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Alerting alerting, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 11,
+        "endLine" : 28,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "alerting",
+        "key" : "com.netflix.maestro.validations.AlertingValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Alerting alerting, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/alerting",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Alerting",
+        "displayedType" : "Alerting",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 28,
+          "startColumn" : 28,
+          "endLine" : 28,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.AlertingValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Alerting alerting, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.AlertingValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Alerting alerting, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 28,
+          "startColumn" : 65,
+          "endLine" : 28,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.AlertingValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Alerting alerting, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.AlertingValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/AlertingValidator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

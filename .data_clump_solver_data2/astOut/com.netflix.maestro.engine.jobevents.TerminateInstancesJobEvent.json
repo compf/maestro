@@ -1,0 +1,289 @@
+{
+  "name" : "TerminateInstancesJobEvent",
+  "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/reason" : {
+      "name" : "reason",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/reason",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 27,
+        "endLine" : 46,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/action" : {
+      "name" : "action",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/action",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction",
+      "displayedType" : "Actions.WorkflowInstanceAction",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 51,
+        "endLine" : 44,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 27,
+        "endLine" : 42,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/instanceRunUuids" : {
+      "name" : "instanceRunUuids",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/instanceRunUuids",
+      "type" : "java.util.List<com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.InstanceRunUuid>",
+      "displayedType" : "List<InstanceRunUuid>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 49,
+        "endLine" : 43,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/user" : {
+      "name" : "user",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/memberField/user",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 32,
+        "endLine" : 45,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)" : {
+      "name" : "addOneRun",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 15,
+        "endLine" : 62,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 30,
+          "endLine" : 62,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 47,
+          "endLine" : 62,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)"
+      }, {
+        "name" : "uuid",
+        "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)/parameter/uuid",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 61,
+          "endLine" : 62,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/addOneRun(long instanceId, long runId, java.lang.String uuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/size()" : {
+      "name" : "size",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/size()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 14,
+        "endLine" : 68,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)",
+      "type" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent",
+      "displayedType" : "TerminateInstancesJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 44,
+        "endLine" : 49,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 14,
+          "endLine" : 50,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)/parameter/action",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction",
+        "displayedType" : "Actions.WorkflowInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 57,
+          "endLine" : 50,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)"
+      }, {
+        "name" : "caller",
+        "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)/parameter/caller",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 70,
+          "endLine" : 50,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)"
+      }, {
+        "name" : "reason",
+        "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)/parameter/reason",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 85,
+          "endLine" : 50,
+          "endColumn" : 91
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/init(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User caller, java.lang.String reason)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent/method/getType()",
+      "type" : "com.netflix.maestro.engine.jobevents.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 15,
+        "endLine" : 73,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.TerminateInstancesJobEvent"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/jobevents/TerminateInstancesJobEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.jobevents.MaestroJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

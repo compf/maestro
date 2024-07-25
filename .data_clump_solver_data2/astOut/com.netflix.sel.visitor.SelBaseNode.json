@@ -1,0 +1,125 @@
+{
+  "name" : "SelBaseNode",
+  "key" : "com.netflix.sel.visitor.SelBaseNode",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 21,
+    "startColumn" : 17,
+    "endLine" : 21,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.sel.visitor.SelBaseNode/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.visitor.SelBaseNode/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 17,
+        "endLine" : 55,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNode"
+    },
+    "com.netflix.sel.visitor.SelBaseNode/method/jjtGetChild(int i)" : {
+      "name" : "jjtGetChild",
+      "key" : "com.netflix.sel.visitor.SelBaseNode/method/jjtGetChild(int i)",
+      "type" : "com.netflix.sel.visitor.SelBaseNode",
+      "displayedType" : "SelBaseNode",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 22,
+        "endLine" : 31,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "i",
+        "key" : "com.netflix.sel.visitor.SelBaseNode/method/jjtGetChild(int i)/parameter/i",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 31,
+          "startColumn" : 38,
+          "endLine" : 31,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelBaseNode/method/jjtGetChild(int i)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNode"
+    },
+    "com.netflix.sel.visitor.SelBaseNode/method/childrenAccept(com.netflix.sel.visitor.com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)" : {
+      "name" : "childrenAccept",
+      "key" : "com.netflix.sel.visitor.SelBaseNode/method/childrenAccept(com.netflix.sel.visitor.com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)",
+      "type" : "com.netflix.sel.visitor.SelResult",
+      "displayedType" : "SelResult",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 20,
+        "endLine" : 36,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visitor",
+        "key" : "com.netflix.sel.visitor.SelBaseNode/method/childrenAccept(com.netflix.sel.visitor.com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/visitor",
+        "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.SelParserVisitor",
+        "displayedType" : "SelParserVisitor",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 52,
+          "endLine" : 36,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelBaseNode/method/childrenAccept(com.netflix.sel.visitor.com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.visitor.SelBaseNode/method/childrenAccept(com.netflix.sel.visitor.com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 68,
+          "endLine" : 36,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelBaseNode/method/childrenAccept(com.netflix.sel.visitor.com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelBaseNode"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/visitor/SelBaseNode.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.visitor.com.netflix.sel.ast.SimpleNode" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

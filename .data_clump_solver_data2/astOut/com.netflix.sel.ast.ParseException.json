@@ -1,0 +1,208 @@
+{
+  "name" : "ParseException",
+  "key" : "com.netflix.sel.ast.ParseException",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 12,
+    "startColumn" : 8,
+    "endLine" : 12,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.ast.ParseException/memberField/expectedTokenSequences" : {
+      "name" : "expectedTokenSequences",
+      "key" : "com.netflix.sel.ast.ParseException/memberField/expectedTokenSequences",
+      "type" : "int[][]",
+      "displayedType" : "int[][]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 18,
+        "endLine" : 59,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ParseException"
+    },
+    "com.netflix.sel.ast.ParseException/memberField/serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "com.netflix.sel.ast.ParseException/memberField/serialVersionUID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 18,
+        "startColumn" : 29,
+        "endLine" : 18,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ParseException"
+    },
+    "com.netflix.sel.ast.ParseException/memberField/tokenImage" : {
+      "name" : "tokenImage",
+      "key" : "com.netflix.sel.ast.ParseException/memberField/tokenImage",
+      "type" : "java.lang.String[]",
+      "displayedType" : "String[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 19,
+        "endLine" : 65,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ParseException"
+    },
+    "com.netflix.sel.ast.ParseException/memberField/eol" : {
+      "name" : "eol",
+      "key" : "com.netflix.sel.ast.ParseException/memberField/eol",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 20,
+        "endLine" : 116,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ParseException"
+    },
+    "com.netflix.sel.ast.ParseException/memberField/currentToken" : {
+      "name" : "currentToken",
+      "key" : "com.netflix.sel.ast.ParseException/memberField/currentToken",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 16,
+        "endLine" : 53,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ParseException"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.ast.ParseException/method/add_escapes(java.lang.String str)" : {
+      "name" : "add_escapes",
+      "key" : "com.netflix.sel.ast.ParseException/method/add_escapes(java.lang.String str)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 17,
+        "endLine" : 122,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "str",
+        "key" : "com.netflix.sel.ast.ParseException/method/add_escapes(java.lang.String str)/parameter/str",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 36,
+          "endLine" : 122,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.ParseException/method/add_escapes(java.lang.String str)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ParseException"
+    },
+    "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)" : {
+      "name" : "initialise",
+      "key" : "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 25,
+        "endLine" : 72,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "currentToken",
+        "key" : "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)/parameter/currentToken",
+        "type" : "com.netflix.sel.ast.Token",
+        "displayedType" : "Token",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 13,
+          "endLine" : 73,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)"
+      }, {
+        "name" : "expectedTokenSequences",
+        "key" : "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)/parameter/expectedTokenSequences",
+        "type" : "int[][]",
+        "displayedType" : "int[][]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 35,
+          "endLine" : 73,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)"
+      }, {
+        "name" : "tokenImage",
+        "key" : "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)/parameter/tokenImage",
+        "type" : "java.lang.String[]",
+        "displayedType" : "String[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 68,
+          "endLine" : 73,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.ParseException/method/initialise(com.netflix.sel.ast.Token currentToken, int[][] expectedTokenSequences, java.lang.String[] tokenImage)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ParseException"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/ParseException.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.Exception" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

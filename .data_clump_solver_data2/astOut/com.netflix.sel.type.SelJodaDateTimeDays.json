@@ -1,0 +1,227 @@
+{
+  "name" : "SelJodaDateTimeDays",
+  "key" : "com.netflix.sel.type.SelJodaDateTimeDays",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 14,
+    "endLine" : 20,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.type.SelJodaDateTimeDays/memberField/val" : {
+      "name" : "val",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeDays/memberField/val",
+      "type" : "com.netflix.sel.type.org.joda.time.Days",
+      "displayedType" : "Days",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 21,
+        "startColumn" : 16,
+        "endLine" : 21,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeDays"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelJodaDateTimeDays/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 19,
+        "endLine" : 32,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeDays"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeDays/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)" : {
+      "name" : "assignOps",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)",
+      "type" : "com.netflix.sel.type.SelJodaDateTimeDays",
+      "displayedType" : "SelJodaDateTimeDays",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 30,
+        "endLine" : 37,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/op",
+        "type" : "com.netflix.sel.type.com.netflix.sel.visitor.SelOp",
+        "displayedType" : "SelOp",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 46,
+          "endLine" : 37,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeDays/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      }, {
+        "name" : "rhs",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/rhs",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 58,
+          "endLine" : 37,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeDays/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeDays"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeDays/method/of(com.netflix.sel.type.org.joda.time.Days d)" : {
+      "name" : "of",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/of(com.netflix.sel.type.org.joda.time.Days d)",
+      "type" : "com.netflix.sel.type.SelJodaDateTimeDays",
+      "displayedType" : "SelJodaDateTimeDays",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 30,
+        "endLine" : 27,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "d",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/of(com.netflix.sel.type.org.joda.time.Days d)/parameter/d",
+        "type" : "com.netflix.sel.type.org.joda.time.Days",
+        "displayedType" : "Days",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 27,
+          "startColumn" : 38,
+          "endLine" : 27,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeDays/method/of(com.netflix.sel.type.org.joda.time.Days d)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeDays"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeDays/method/getInternalVal()" : {
+      "name" : "getInternalVal",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/getInternalVal()",
+      "type" : "com.netflix.sel.type.org.joda.time.Days",
+      "displayedType" : "Days",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeDays"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeDays/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 17,
+        "endLine" : 70,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeDays"
+    },
+    "com.netflix.sel.type.SelJodaDateTimeDays/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)" : {
+      "name" : "call",
+      "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 18,
+        "endLine" : 52,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 30,
+          "endLine" : 52,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeDays/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelJodaDateTimeDays/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 52,
+          "endLine" : 52,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelJodaDateTimeDays/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelJodaDateTimeDays"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelJodaDateTimeDays.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.type.AbstractSelType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,251 @@
+{
+  "name" : "DoubleParamDefinition",
+  "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 14,
+    "endLine" : 41,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.parameter.DoubleParamDefinition/memberField/value" : {
+      "name" : "value",
+      "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/memberField/value",
+      "type" : "java.math.BigDecimal",
+      "displayedType" : "BigDecimal",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 28,
+        "endLine" : 42,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/getType()",
+      "type" : "com.netflix.maestro.models.parameter.ParamType",
+      "displayedType" : "ParamType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 20,
+        "endLine" : 58,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition"
+    },
+    "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/asDoubleParamDef()" : {
+      "name" : "asDoubleParamDef",
+      "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/asDoubleParamDef()",
+      "type" : "com.netflix.maestro.models.parameter.DoubleParamDefinition",
+      "displayedType" : "DoubleParamDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 32,
+        "endLine" : 63,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition"
+    },
+    "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/toParameter()" : {
+      "name" : "toParameter",
+      "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/toParameter()",
+      "type" : "com.netflix.maestro.models.parameter.Parameter",
+      "displayedType" : "Parameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 20,
+        "endLine" : 68,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition"
+    },
+    "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)" : {
+      "name" : "copyAndUpdate",
+      "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)",
+      "type" : "com.netflix.maestro.models.parameter.ParamDefinition",
+      "displayedType" : "ParamDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 26,
+        "endLine" : 81,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "updatedValue",
+        "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)/parameter/updatedValue",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 14,
+          "endLine" : 82,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)"
+      }, {
+        "name" : "expression",
+        "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)/parameter/expression",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 14,
+          "endLine" : 83,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)"
+      }, {
+        "name" : "mode",
+        "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)/parameter/mode",
+        "type" : "com.netflix.maestro.models.parameter.ParamMode",
+        "displayedType" : "ParamMode",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 17,
+          "endLine" : 84,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)"
+      }, {
+        "name" : "meta",
+        "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)/parameter/meta",
+        "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+        "displayedType" : "Map<String, Object>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 27,
+          "endLine" : 85,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)"
+      }, {
+        "name" : "tagList",
+        "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)/parameter/tagList",
+        "type" : "com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList",
+        "displayedType" : "TagList",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 15,
+          "endLine" : 86,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)"
+      }, {
+        "name" : "validator",
+        "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)/parameter/validator",
+        "type" : "com.netflix.maestro.models.parameter.ParamValidator",
+        "displayedType" : "ParamValidator",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 22,
+          "endLine" : 87,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition/method/copyAndUpdate(java.lang.Object updatedValue, java.lang.String expression, com.netflix.maestro.models.parameter.ParamMode mode, java.util.Map<java.lang.String, java.lang.Object> meta, com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList tagList, com.netflix.maestro.models.parameter.ParamValidator validator)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/parameter/DoubleParamDefinition.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.parameter.AbstractParamDefinition" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.parameter.DoubleParamDefinition.DoubleParamDefinitionBuilderImpl" : {
+      "name" : "DoubleParamDefinitionBuilderImpl",
+      "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition.DoubleParamDefinitionBuilderImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 16,
+        "endLine" : 46,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.models.parameter.DoubleParamDefinition.DoubleParamDefinitionBuilderImpl/method/build()" : {
+          "name" : "build",
+          "key" : "com.netflix.maestro.models.parameter.DoubleParamDefinition.DoubleParamDefinitionBuilderImpl/method/build()",
+          "type" : "com.netflix.maestro.models.parameter.DoubleParamDefinition",
+          "displayedType" : "DoubleParamDefinition",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 50,
+            "startColumn" : 34,
+            "endLine" : 50,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition.DoubleParamDefinitionBuilderImpl"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/parameter/DoubleParamDefinition.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.models.parameter.DoubleParamDefinitionBuilder<com.netflix.maestro.models.parameter.DoubleParamDefinition, com.netflix.maestro.models.parameter.DoubleParamDefinition$DoubleParamDefinitionBuilderImpl>", "com.netflix.maestro.models.parameter.DoubleParamDefinition", "com.netflix.maestro.models.parameter.DoubleParamDefinition$DoubleParamDefinitionBuilderImpl" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.parameter.DoubleParamDefinition",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,306 @@
+{
+  "name" : "MaestroCockroachDBExecutionDao",
+  "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/memberField/jsonConverter" : {
+      "name" : "jsonConverter",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/memberField/jsonConverter",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.maestro.engine.compression.JsonConverter",
+      "displayedType" : "JsonConverter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 31,
+        "endLine" : 42,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    },
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/memberField/maxTaskUpdateInterval" : {
+      "name" : "maxTaskUpdateInterval",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/memberField/maxTaskUpdateInterval",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 22,
+        "endLine" : 41,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    },
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/memberField/GET_TASK_CHECKSUM_UPDATE_TIME_QUERY" : {
+      "name" : "GET_TASK_CHECKSUM_UPDATE_TIME_QUERY",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/memberField/GET_TASK_CHECKSUM_UPDATE_TIME_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 31,
+        "endLine" : 38,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "updateTask",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 31,
+          "endLine" : 65,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/updateTask(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    },
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)" : {
+      "name" : "fromJson",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 19,
+        "endLine" : 90,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "json",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)/parameter/json",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 35,
+          "endLine" : 90,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)/parameter/clazz",
+        "type" : "java.lang.Class<T>",
+        "displayedType" : "Class<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 50,
+          "endLine" : 90,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    },
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/getTaskChecksumAndUpdateTime(java.lang.String taskId)" : {
+      "name" : "getTaskChecksumAndUpdateTime",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/getTaskChecksumAndUpdateTime(java.lang.String taskId)",
+      "type" : "java.util.Map$Entry<java.lang.String, java.lang.Long>",
+      "displayedType" : "Map.Entry<String, Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 35,
+        "endLine" : 120,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "taskId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/getTaskChecksumAndUpdateTime(java.lang.String taskId)/parameter/taskId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 71,
+          "endLine" : 120,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/getTaskChecksumAndUpdateTime(java.lang.String taskId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    },
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/toJson(java.lang.Object value)" : {
+      "name" : "toJson",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/toJson(java.lang.Object value)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 20,
+        "endLine" : 102,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/toJson(java.lang.Object value)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 34,
+          "endLine" : 102,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/toJson(java.lang.Object value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    },
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)" : {
+      "name" : "fromJson",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 19,
+        "endLine" : 96,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "json",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)/parameter/json",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 35,
+          "endLine" : 96,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)"
+      }, {
+        "name" : "valueTypeRef",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)/parameter/valueTypeRef",
+        "type" : "com.fasterxml.jackson.core.type.TypeReference<T>",
+        "displayedType" : "TypeReference<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 58,
+          "endLine" : 96,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    },
+    "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/computeChecksum(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)" : {
+      "name" : "computeChecksum",
+      "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/computeChecksum(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 18,
+        "endLine" : 106,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "task",
+        "key" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/computeChecksum(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)/parameter/task",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 39,
+          "endLine" : 106,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao/method/computeChecksum(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.tasks.Task task)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.MaestroCockroachDBExecutionDao"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/conductor/cockroachdb/dao/MaestroCockroachDBExecutionDao.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBExecutionDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,94 @@
+{
+  "name" : "StepTransition",
+  "key" : "com.netflix.maestro.models.definition.StepTransition",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.StepTransition/memberField/successors" : {
+      "name" : "successors",
+      "key" : "com.netflix.maestro.models.definition.StepTransition/memberField/successors",
+      "type" : "java.util.Map<java.lang.String, java.lang.String>",
+      "displayedType" : "Map<String, String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 31,
+        "endLine" : 46,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepTransition"
+    },
+    "com.netflix.maestro.models.definition.StepTransition/memberField/predecessors" : {
+      "name" : "predecessors",
+      "key" : "com.netflix.maestro.models.definition.StepTransition/memberField/predecessors",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 24,
+        "endLine" : 40,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepTransition"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.StepTransition/method/setPredecessors(java.util.List<java.lang.String> stepIds)" : {
+      "name" : "setPredecessors",
+      "key" : "com.netflix.maestro.models.definition.StepTransition/method/setPredecessors(java.util.List<java.lang.String> stepIds)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 15,
+        "endLine" : 49,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepIds",
+        "key" : "com.netflix.maestro.models.definition.StepTransition/method/setPredecessors(java.util.List<java.lang.String> stepIds)/parameter/stepIds",
+        "type" : "java.util.List<java.lang.String>",
+        "displayedType" : "List<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 44,
+          "endLine" : 49,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.StepTransition/method/setPredecessors(java.util.List<java.lang.String> stepIds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepTransition"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/StepTransition.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

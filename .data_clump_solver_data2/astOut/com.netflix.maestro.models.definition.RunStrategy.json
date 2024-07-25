@@ -1,0 +1,127 @@
+{
+  "name" : "RunStrategy",
+  "key" : "com.netflix.maestro.models.definition.RunStrategy",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.RunStrategy/memberField/workflowConcurrency" : {
+      "name" : "workflowConcurrency",
+      "key" : "com.netflix.maestro.models.definition.RunStrategy/memberField/workflowConcurrency",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 22,
+        "endLine" : 43,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RunStrategy"
+    },
+    "com.netflix.maestro.models.definition.RunStrategy/memberField/rule" : {
+      "name" : "rule",
+      "key" : "com.netflix.maestro.models.definition.RunStrategy/memberField/rule",
+      "type" : "com.netflix.maestro.models.definition.RunStrategy$Rule",
+      "displayedType" : "Rule",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 31,
+        "endLine" : 40,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RunStrategy"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.RunStrategy/method/create(long concurrency)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.definition.RunStrategy/method/create(long concurrency)",
+      "type" : "com.netflix.maestro.models.definition.RunStrategy",
+      "displayedType" : "RunStrategy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 29,
+        "endLine" : 124,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "concurrency",
+        "key" : "com.netflix.maestro.models.definition.RunStrategy/method/create(long concurrency)/parameter/concurrency",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 41,
+          "endLine" : 124,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.RunStrategy/method/create(long concurrency)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RunStrategy"
+    },
+    "com.netflix.maestro.models.definition.RunStrategy/method/create(java.lang.String rule)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.definition.RunStrategy/method/create(java.lang.String rule)",
+      "type" : "com.netflix.maestro.models.definition.RunStrategy",
+      "displayedType" : "RunStrategy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 29,
+        "endLine" : 112,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rule",
+        "key" : "com.netflix.maestro.models.definition.RunStrategy/method/create(java.lang.String rule)/parameter/rule",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 43,
+          "endLine" : 112,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.RunStrategy/method/create(java.lang.String rule)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.RunStrategy"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/RunStrategy.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

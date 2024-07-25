@@ -1,0 +1,124 @@
+{
+  "name" : "SleepStepRuntime",
+  "key" : "com.netflix.maestro.engine.steps.SleepStepRuntime",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.steps.SleepStepRuntime/memberField/SLEEP_TIME_FIELD" : {
+      "name" : "SLEEP_TIME_FIELD",
+      "key" : "com.netflix.maestro.engine.steps.SleepStepRuntime/memberField/SLEEP_TIME_FIELD",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 31,
+        "endLine" : 32,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.SleepStepRuntime"
+    },
+    "com.netflix.maestro.engine.steps.SleepStepRuntime/memberField/DEFAULT_SLEEP_TIME_IN_MILLIS" : {
+      "name" : "DEFAULT_SLEEP_TIME_IN_MILLIS",
+      "key" : "com.netflix.maestro.engine.steps.SleepStepRuntime/memberField/DEFAULT_SLEEP_TIME_IN_MILLIS",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 28,
+        "endLine" : 33,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.SleepStepRuntime"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "execute",
+      "key" : "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "com.netflix.maestro.engine.steps.Result",
+      "displayedType" : "Result",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 17,
+        "endLine" : 36,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowSummary",
+        "key" : "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/workflowSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 23,
+          "endLine" : 37,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/step",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step",
+        "displayedType" : "Step",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 45,
+          "endLine" : 37,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 70,
+          "endLine" : 37,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.SleepStepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.SleepStepRuntime"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/steps/SleepStepRuntime.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.steps.StepRuntime" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

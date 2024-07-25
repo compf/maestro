@@ -1,0 +1,98 @@
+{
+  "name" : "CockroachDBTestConfiguration",
+  "key" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 17,
+    "startColumn" : 8,
+    "endLine" : 17,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/isFollowerReadsEnabled()" : {
+      "name" : "isFollowerReadsEnabled",
+      "key" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/isFollowerReadsEnabled()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 20,
+        "startColumn" : 18,
+        "endLine" : 20,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration"
+    },
+    "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/getJdbcUrl()" : {
+      "name" : "getJdbcUrl",
+      "key" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/getJdbcUrl()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 17,
+        "endLine" : 25,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration"
+    },
+    "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/getConnectionPoolMaxSize()" : {
+      "name" : "getConnectionPoolMaxSize",
+      "key" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/getConnectionPoolMaxSize()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 14,
+        "endLine" : 30,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration"
+    },
+    "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/getConnectionPoolMinIdle()" : {
+      "name" : "getConnectionPoolMinIdle",
+      "key" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration/method/getConnectionPoolMinIdle()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 14,
+        "endLine" : 35,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.CockroachDBTestConfiguration"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/test/java/com/netflix/conductor/cockroachdb/CockroachDBTestConfiguration.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.conductor.cockroachdb.CockroachDBConfiguration" ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.com.netflix.conductor.core.config.SystemPropertiesConfiguration" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,454 @@
+{
+  "name" : "TimelineActionEvent",
+  "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/reason" : {
+      "name" : "reason",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/reason",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 24,
+        "endLine" : 44,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/action" : {
+      "name" : "action",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/action",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 24,
+        "endLine" : 41,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/timestamp" : {
+      "name" : "timestamp",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/timestamp",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 22,
+        "endLine" : 40,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/author" : {
+      "name" : "author",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/author",
+      "type" : "com.netflix.maestro.models.timeline.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 22,
+        "endLine" : 42,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/message" : {
+      "name" : "message",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/memberField/message",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 24,
+        "endLine" : 43,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)" : {
+      "name" : "isIdentical",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 18,
+        "endLine" : 57,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)/parameter/event",
+        "type" : "com.netflix.maestro.models.timeline.TimelineEvent",
+        "displayedType" : "TimelineEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 44,
+          "endLine" : 57,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.timeline.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineActionEvent/method/asAction()" : {
+      "name" : "asAction",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent/method/asAction()",
+      "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent",
+      "displayedType" : "TimelineActionEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 30,
+        "endLine" : 52,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/TimelineActionEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.timeline.TimelineEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder" : {
+      "name" : "TimelineActionEventBuilder",
+      "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 23,
+        "endLine" : 71,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String message)" : {
+          "name" : "reason",
+          "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String message)",
+          "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent$TimelineActionEventBuilder",
+          "displayedType" : "TimelineActionEventBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 111,
+            "startColumn" : 39,
+            "endLine" : 111,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "message",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String message)/parameter/message",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 111,
+              "startColumn" : 53,
+              "endLine" : 111,
+              "endColumn" : 60
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String message)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder"
+        },
+        "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String message)" : {
+          "name" : "message",
+          "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String message)",
+          "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent$TimelineActionEventBuilder",
+          "displayedType" : "TimelineActionEventBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 99,
+            "startColumn" : 39,
+            "endLine" : 99,
+            "endColumn" : 46
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "message",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String message)/parameter/message",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 99,
+              "startColumn" : 54,
+              "endLine" : 99,
+              "endColumn" : 61
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String message)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder"
+        },
+        "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/build()" : {
+          "name" : "build",
+          "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/build()",
+          "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent",
+          "displayedType" : "TimelineActionEvent",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 73,
+            "startColumn" : 32,
+            "endLine" : 73,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder"
+        },
+        "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String template, java.lang.Object[] args)" : {
+          "name" : "message",
+          "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String template, java.lang.Object[] args)",
+          "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent$TimelineActionEventBuilder",
+          "displayedType" : "TimelineActionEventBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 93,
+            "startColumn" : 39,
+            "endLine" : 93,
+            "endColumn" : 46
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "template",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String template, java.lang.Object[] args)/parameter/template",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 93,
+              "startColumn" : 54,
+              "endLine" : 93,
+              "endColumn" : 62
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String template, java.lang.Object[] args)"
+          }, {
+            "name" : "args",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String template, java.lang.Object[] args)/parameter/args",
+            "type" : "java.lang.Object[]",
+            "displayedType" : "Object[]",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 93,
+              "startColumn" : 74,
+              "endLine" : 93,
+              "endColumn" : 78
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/message(java.lang.String template, java.lang.Object[] args)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder"
+        },
+        "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.String action)" : {
+          "name" : "action",
+          "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.String action)",
+          "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent$TimelineActionEventBuilder",
+          "displayedType" : "TimelineActionEventBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 87,
+            "startColumn" : 39,
+            "endLine" : 87,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "action",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.String action)/parameter/action",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 87,
+              "startColumn" : 53,
+              "endLine" : 87,
+              "endColumn" : 59
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.String action)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder"
+        },
+        "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.Enum<?> enumValue)" : {
+          "name" : "action",
+          "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.Enum<?> enumValue)",
+          "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent$TimelineActionEventBuilder",
+          "displayedType" : "TimelineActionEventBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 81,
+            "startColumn" : 39,
+            "endLine" : 81,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "enumValue",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.Enum<?> enumValue)/parameter/enumValue",
+            "type" : "java.lang.Enum<?>",
+            "displayedType" : "Enum<?>",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 81,
+              "startColumn" : 54,
+              "endLine" : 81,
+              "endColumn" : 63
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/action(java.lang.Enum<?> enumValue)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder"
+        },
+        "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String template, java.lang.Object[] args)" : {
+          "name" : "reason",
+          "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String template, java.lang.Object[] args)",
+          "type" : "com.netflix.maestro.models.timeline.TimelineActionEvent$TimelineActionEventBuilder",
+          "displayedType" : "TimelineActionEventBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 105,
+            "startColumn" : 39,
+            "endLine" : 105,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "template",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String template, java.lang.Object[] args)/parameter/template",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 105,
+              "startColumn" : 53,
+              "endLine" : 105,
+              "endColumn" : 61
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String template, java.lang.Object[] args)"
+          }, {
+            "name" : "args",
+            "key" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String template, java.lang.Object[] args)/parameter/args",
+            "type" : "java.lang.Object[]",
+            "displayedType" : "Object[]",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 105,
+              "startColumn" : 73,
+              "endLine" : 105,
+              "endColumn" : 77
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder/method/reason(java.lang.String template, java.lang.Object[] args)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent.TimelineActionEventBuilder"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/TimelineActionEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.timeline.TimelineActionEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,79 @@
+{
+  "name" : "MaestroRuntimeException",
+  "key" : "com.netflix.maestro.exceptions.MaestroRuntimeException",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 16,
+    "startColumn" : 8,
+    "endLine" : 16,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.exceptions.MaestroRuntimeException/memberField/serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "com.netflix.maestro.exceptions.MaestroRuntimeException/memberField/serialVersionUID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 17,
+        "startColumn" : 29,
+        "endLine" : 17,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.exceptions.MaestroRuntimeException"
+    },
+    "com.netflix.maestro.exceptions.MaestroRuntimeException/memberField/code" : {
+      "name" : "code",
+      "key" : "com.netflix.maestro.exceptions.MaestroRuntimeException/memberField/code",
+      "type" : "com.netflix.maestro.exceptions.MaestroRuntimeException$Code",
+      "displayedType" : "Code",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 22,
+        "endLine" : 100,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.exceptions.MaestroRuntimeException"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.exceptions.MaestroRuntimeException/method/getHttpStatusCode()" : {
+      "name" : "getHttpStatusCode",
+      "key" : "com.netflix.maestro.exceptions.MaestroRuntimeException/method/getHttpStatusCode()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 151,
+        "startColumn" : 14,
+        "endLine" : 151,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.exceptions.MaestroRuntimeException"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/exceptions/MaestroRuntimeException.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.RuntimeException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

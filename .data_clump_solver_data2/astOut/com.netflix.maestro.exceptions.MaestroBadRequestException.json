@@ -1,0 +1,60 @@
+{
+  "name" : "MaestroBadRequestException",
+  "key" : "com.netflix.maestro.exceptions.MaestroBadRequestException",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.exceptions.MaestroBadRequestException/memberField/serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "com.netflix.maestro.exceptions.MaestroBadRequestException/memberField/serialVersionUID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 29,
+        "endLine" : 24,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.exceptions.MaestroBadRequestException"
+    },
+    "com.netflix.maestro.exceptions.MaestroBadRequestException/memberField/errors" : {
+      "name" : "errors",
+      "key" : "com.netflix.maestro.exceptions.MaestroBadRequestException/memberField/errors",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 30,
+        "endLine" : 26,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.exceptions.MaestroBadRequestException"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/exceptions/MaestroBadRequestException.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.exceptions.MaestroRuntimeException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

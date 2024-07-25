@@ -1,0 +1,60 @@
+{
+  "name" : "MaestroInternalError",
+  "key" : "com.netflix.maestro.exceptions.MaestroInternalError",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 8,
+    "endLine" : 20,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.exceptions.MaestroInternalError/memberField/details" : {
+      "name" : "details",
+      "key" : "com.netflix.maestro.exceptions.MaestroInternalError/memberField/details",
+      "type" : "com.netflix.maestro.exceptions.com.netflix.maestro.models.error.Details",
+      "displayedType" : "Details",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 23,
+        "startColumn" : 25,
+        "endLine" : 23,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.exceptions.MaestroInternalError"
+    },
+    "com.netflix.maestro.exceptions.MaestroInternalError/memberField/serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "com.netflix.maestro.exceptions.MaestroInternalError/memberField/serialVersionUID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 21,
+        "startColumn" : 29,
+        "endLine" : 21,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.exceptions.MaestroInternalError"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/exceptions/MaestroInternalError.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.exceptions.MaestroRuntimeException" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

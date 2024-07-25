@@ -1,0 +1,160 @@
+{
+  "name" : "RunParamsConstraintTest",
+  "key" : "com.netflix.maestro.validations.RunParamsConstraintTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.RunParamsConstraintTest/method/isNameCaseIgnoredInChecks()" : {
+      "name" : "isNameCaseIgnoredInChecks",
+      "key" : "com.netflix.maestro.validations.RunParamsConstraintTest/method/isNameCaseIgnoredInChecks()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 15,
+        "endLine" : 71,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.RunParamsConstraintTest"
+    },
+    "com.netflix.maestro.validations.RunParamsConstraintTest/method/areThereTooManyParams()" : {
+      "name" : "areThereTooManyParams",
+      "key" : "com.netflix.maestro.validations.RunParamsConstraintTest/method/areThereTooManyParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 15,
+        "endLine" : 88,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.RunParamsConstraintTest"
+    },
+    "com.netflix.maestro.validations.RunParamsConstraintTest/method/isValidParamMap()" : {
+      "name" : "isValidParamMap",
+      "key" : "com.netflix.maestro.validations.RunParamsConstraintTest/method/isValidParamMap()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.RunParamsConstraintTest"
+    },
+    "com.netflix.maestro.validations.RunParamsConstraintTest/method/isParamSourceSet()" : {
+      "name" : "isParamSourceSet",
+      "key" : "com.netflix.maestro.validations.RunParamsConstraintTest/method/isParamSourceSet()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 15,
+        "endLine" : 111,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.RunParamsConstraintTest"
+    },
+    "com.netflix.maestro.validations.RunParamsConstraintTest/method/isNameInvalid()" : {
+      "name" : "isNameInvalid",
+      "key" : "com.netflix.maestro.validations.RunParamsConstraintTest/method/isNameInvalid()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 15,
+        "endLine" : 58,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.RunParamsConstraintTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/RunParamsConstraintTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.validations.BaseConstraintTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.RunParamsConstraintTest.TestRunParams" : {
+      "name" : "TestRunParams",
+      "key" : "com.netflix.maestro.validations.RunParamsConstraintTest.TestRunParams",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 18,
+        "endLine" : 33,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.RunParamsConstraintTest.TestRunParams/memberField/runParams" : {
+          "name" : "runParams",
+          "key" : "com.netflix.maestro.validations.RunParamsConstraintTest.TestRunParams/memberField/runParams",
+          "type" : "java.util.Map<java.lang.String, com.netflix.maestro.validations.com.netflix.maestro.models.parameter.ParamDefinition>",
+          "displayedType" : "Map<String, ParamDefinition>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 34,
+            "startColumn" : 69,
+            "endLine" : 34,
+            "endColumn" : 78
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.RunParamsConstraintTest.TestRunParams"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/RunParamsConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.RunParamsConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

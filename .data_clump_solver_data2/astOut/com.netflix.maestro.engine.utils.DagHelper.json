@@ -1,0 +1,434 @@
+{
+  "name" : "DagHelper",
+  "key" : "com.netflix.maestro.engine.utils.DagHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 14,
+    "endLine" : 34,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.DagHelper/method/getNotCreatedRootNodesInRestartRuntimeDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)" : {
+      "name" : "getNotCreatedRootNodesInRestartRuntimeDag",
+      "key" : "com.netflix.maestro.engine.utils.DagHelper/method/getNotCreatedRootNodesInRestartRuntimeDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 29,
+        "endLine" : 194,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeDag",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/getNotCreatedRootNodesInRestartRuntimeDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/runtimeDag",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition>",
+        "displayedType" : "Map<String, StepTransition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 195,
+          "startColumn" : 44,
+          "endLine" : 195,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/getNotCreatedRootNodesInRestartRuntimeDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      }, {
+        "name" : "restartConfig",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/getNotCreatedRootNodesInRestartRuntimeDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/restartConfig",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig",
+        "displayedType" : "RestartConfig",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 195,
+          "startColumn" : 79,
+          "endLine" : 195,
+          "endColumn" : 92
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/getNotCreatedRootNodesInRestartRuntimeDag(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.DagHelper"
+    },
+    "com.netflix.maestro.engine.utils.DagHelper/method/computeStepIdsInRuntimeDag(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds)" : {
+      "name" : "computeStepIdsInRuntimeDag",
+      "key" : "com.netflix.maestro.engine.utils.DagHelper/method/computeStepIdsInRuntimeDag(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds)",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 29,
+        "endLine" : 171,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/computeStepIdsInRuntimeDag(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 33,
+          "endLine" : 172,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/computeStepIdsInRuntimeDag(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds)"
+      }, {
+        "name" : "knownStepIds",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/computeStepIdsInRuntimeDag(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds)/parameter/knownStepIds",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 64,
+          "endLine" : 172,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/computeStepIdsInRuntimeDag(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.DagHelper"
+    },
+    "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)" : {
+      "name" : "isDone",
+      "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 26,
+        "endLine" : 130,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "idStatusMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/idStatusMap",
+        "type" : "java.util.Map<java.lang.String, java.lang.Boolean>",
+        "displayedType" : "Map<String, Boolean>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 28,
+          "endLine" : 131,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "deque",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/deque",
+        "type" : "java.util.Deque<java.lang.String>",
+        "displayedType" : "Deque<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 21,
+          "endLine" : 132,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "parentMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/parentMap",
+        "type" : "java.util.Map<java.lang.String, java.util.Set<java.lang.String>>",
+        "displayedType" : "Map<String, Set<String>>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 32,
+          "endLine" : 133,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "childMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/childMap",
+        "type" : "java.util.Map<java.lang.String, java.util.Set<java.lang.String>>",
+        "displayedType" : "Map<String, Set<String>>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 32,
+          "endLine" : 134,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.DagHelper"
+    },
+    "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)" : {
+      "name" : "prepareDagForTraversal",
+      "key" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)",
+      "type" : "java.util.Deque<java.lang.String>",
+      "displayedType" : "Deque<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 32,
+        "endLine" : 63,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeDag",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/runtimeDag",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition>",
+        "displayedType" : "Map<String, StepTransition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 35,
+          "endLine" : 64,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "knownStepIds",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/knownStepIds",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 19,
+          "endLine" : 65,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "restartConfig",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/restartConfig",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig",
+        "displayedType" : "RestartConfig",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 21,
+          "endLine" : 66,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "parentMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/parentMap",
+        "type" : "java.util.Map<java.lang.String, java.util.Set<java.lang.String>>",
+        "displayedType" : "Map<String, Set<String>>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 32,
+          "endLine" : 67,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "childMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/childMap",
+        "type" : "java.util.Map<java.lang.String, java.util.Set<java.lang.String>>",
+        "displayedType" : "Map<String, Set<String>>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 32,
+          "endLine" : 68,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/prepareDagForTraversal(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Set<java.lang.String> knownStepIds, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.DagHelper"
+    },
+    "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)" : {
+      "name" : "trimDag",
+      "key" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 23,
+        "endLine" : 101,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "idStatusMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/idStatusMap",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 19,
+          "endLine" : 102,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "deque",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/deque",
+        "type" : "java.util.Deque<java.lang.String>",
+        "displayedType" : "Deque<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 21,
+          "endLine" : 103,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "parentMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/parentMap",
+        "type" : "java.util.Map<java.lang.String, java.util.Set<java.lang.String>>",
+        "displayedType" : "Map<String, Set<String>>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 32,
+          "endLine" : 104,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      }, {
+        "name" : "childMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)/parameter/childMap",
+        "type" : "java.util.Map<java.lang.String, java.util.Set<java.lang.String>>",
+        "displayedType" : "Map<String, Set<String>>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 105,
+          "startColumn" : 32,
+          "endLine" : 105,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/trimDag(java.util.Set<java.lang.String> idStatusMap, java.util.Deque<java.lang.String> deque, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> parentMap, java.util.Map<java.lang.String, java.util.Set<java.lang.String>> childMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.DagHelper"
+    },
+    "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)" : {
+      "name" : "isDone",
+      "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 25,
+        "endLine" : 45,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeDag",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/runtimeDag",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition>",
+        "displayedType" : "Map<String, StepTransition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 35,
+          "endLine" : 46,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      }, {
+        "name" : "idStatusMap",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/idStatusMap",
+        "type" : "java.util.Map<java.lang.String, java.lang.Boolean>",
+        "displayedType" : "Map<String, Boolean>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 28,
+          "endLine" : 47,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      }, {
+        "name" : "restartConfig",
+        "key" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/restartConfig",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig",
+        "displayedType" : "RestartConfig",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 21,
+          "endLine" : 48,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DagHelper/method/isDone(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.StepTransition> runtimeDag, java.util.Map<java.lang.String, java.lang.Boolean> idStatusMap, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.DagHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/DagHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,107 @@
+{
+  "name" : "ObjectHelper",
+  "key" : "com.netflix.maestro.engine.utils.ObjectHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 18,
+    "startColumn" : 14,
+    "endLine" : 18,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.ObjectHelper/method/valueOrDefault(T value, T defaultValue)" : {
+      "name" : "valueOrDefault",
+      "key" : "com.netflix.maestro.engine.utils.ObjectHelper/method/valueOrDefault(T value, T defaultValue)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 23,
+        "endLine" : 29,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.utils.ObjectHelper/method/valueOrDefault(T value, T defaultValue)/parameter/value",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 29,
+          "startColumn" : 40,
+          "endLine" : 29,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.ObjectHelper/method/valueOrDefault(T value, T defaultValue)"
+      }, {
+        "name" : "defaultValue",
+        "key" : "com.netflix.maestro.engine.utils.ObjectHelper/method/valueOrDefault(T value, T defaultValue)/parameter/defaultValue",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 29,
+          "startColumn" : 49,
+          "endLine" : 29,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.ObjectHelper/method/valueOrDefault(T value, T defaultValue)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.ObjectHelper"
+    },
+    "com.netflix.maestro.engine.utils.ObjectHelper/method/isCollectionEmptyOrNull(java.util.Collection<?> collection)" : {
+      "name" : "isCollectionEmptyOrNull",
+      "key" : "com.netflix.maestro.engine.utils.ObjectHelper/method/isCollectionEmptyOrNull(java.util.Collection<?> collection)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 25,
+        "endLine" : 34,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "collection",
+        "key" : "com.netflix.maestro.engine.utils.ObjectHelper/method/isCollectionEmptyOrNull(java.util.Collection<?> collection)/parameter/collection",
+        "type" : "java.util.Collection<?>",
+        "displayedType" : "Collection<?>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 63,
+          "endLine" : 34,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.ObjectHelper/method/isCollectionEmptyOrNull(java.util.Collection<?> collection)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.ObjectHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/ObjectHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,369 @@
+{
+  "name" : "StepInstanceStatusChangeEvent",
+  "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 58,
+    "startColumn" : 8,
+    "endLine" : 58,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/syncTime" : {
+      "name" : "syncTime",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/syncTime",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 38,
+        "endLine" : 84,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepInstanceId" : {
+      "name" : "stepInstanceId",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 22,
+        "endLine" : 77,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/correlationId" : {
+      "name" : "correlationId",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/correlationId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 33,
+        "endLine" : 74,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/sendTime" : {
+      "name" : "sendTime",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/sendTime",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 38,
+        "endLine" : 85,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepUuid" : {
+      "name" : "stepUuid",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 33,
+        "endLine" : 73,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowRunId" : {
+      "name" : "workflowRunId",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 22,
+        "endLine" : 65,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowInstanceId" : {
+      "name" : "workflowInstanceId",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 22,
+        "endLine" : 62,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepAttemptId" : {
+      "name" : "stepAttemptId",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepAttemptId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 22,
+        "endLine" : 70,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 33,
+        "endLine" : 59,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowUuid" : {
+      "name" : "workflowUuid",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/workflowUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 33,
+        "endLine" : 72,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/statusChangeRecords" : {
+      "name" : "statusChangeRecords",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/statusChangeRecords",
+      "type" : "java.util.List<com.netflix.maestro.models.events.StepInstanceStatusChangeEvent$StatusChangeRecord>",
+      "displayedType" : "List<StatusChangeRecord>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 42,
+        "endLine" : 82,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 33,
+        "endLine" : 67,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/clusterName" : {
+      "name" : "clusterName",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/memberField/clusterName",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 33,
+        "endLine" : 79,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.events.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 88,
+        "startColumn" : 15,
+        "endLine" : 88,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/StepInstanceStatusChangeEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.events.MaestroEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StepInstanceStatusChangeEventBuilder" : {
+      "name" : "StepInstanceStatusChangeEventBuilder",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StepInstanceStatusChangeEventBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 23,
+        "endLine" : 108,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/StepInstanceStatusChangeEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord" : {
+      "name" : "StatusChangeRecord",
+      "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 17,
+        "endLine" : 99,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord/memberField/newStatus" : {
+          "name" : "newStatus",
+          "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord/memberField/newStatus",
+          "type" : "com.netflix.maestro.models.events.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.events.Status",
+          "displayedType" : "StepInstance.Status",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 101,
+            "startColumn" : 49,
+            "endLine" : 101,
+            "endColumn" : 58
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord"
+        },
+        "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord/memberField/eventTime" : {
+          "name" : "eventTime",
+          "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord/memberField/eventTime",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 102,
+            "startColumn" : 34,
+            "endLine" : 102,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord"
+        },
+        "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord/memberField/oldStatus" : {
+          "name" : "oldStatus",
+          "key" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord/memberField/oldStatus",
+          "type" : "com.netflix.maestro.models.events.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.events.Status",
+          "displayedType" : "StepInstance.Status",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 100,
+            "startColumn" : 49,
+            "endLine" : 100,
+            "endColumn" : 58
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent.StatusChangeRecord"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/StepInstanceStatusChangeEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.events.StepInstanceStatusChangeEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

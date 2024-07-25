@@ -1,0 +1,299 @@
+{
+  "name" : "Checks",
+  "key" : "com.netflix.maestro.utils.Checks",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 19,
+    "startColumn" : 14,
+    "endLine" : 19,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.utils.Checks/method/toNumeric(java.lang.String input)" : {
+      "name" : "toNumeric",
+      "key" : "com.netflix.maestro.utils.Checks/method/toNumeric(java.lang.String input)",
+      "type" : "java.util.Optional<java.lang.Long>",
+      "displayedType" : "Optional<Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 32,
+        "endLine" : 69,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.utils.Checks/method/toNumeric(java.lang.String input)/parameter/input",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 49,
+          "endLine" : 69,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/toNumeric(java.lang.String input)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.Checks"
+    },
+    "com.netflix.maestro.utils.Checks/method/toDouble(java.lang.String input)" : {
+      "name" : "toDouble",
+      "key" : "com.netflix.maestro.utils.Checks/method/toDouble(java.lang.String input)",
+      "type" : "java.util.Optional<java.lang.Double>",
+      "displayedType" : "Optional<Double>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 34,
+        "endLine" : 81,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.utils.Checks/method/toDouble(java.lang.String input)/parameter/input",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 81,
+          "startColumn" : 50,
+          "endLine" : 81,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/toDouble(java.lang.String input)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.Checks"
+    },
+    "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)" : {
+      "name" : "checkTrue",
+      "key" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 22,
+        "endLine" : 32,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "condition",
+        "key" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)/parameter/condition",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 40,
+          "endLine" : 32,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)"
+      }, {
+        "name" : "template",
+        "key" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)/parameter/template",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 58,
+          "endLine" : 32,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)/parameter/args",
+        "type" : "java.lang.Object[]",
+        "displayedType" : "Object[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 78,
+          "endLine" : 32,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.lang.String template, java.lang.Object[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.Checks"
+    },
+    "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)" : {
+      "name" : "notNull",
+      "key" : "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 23,
+        "endLine" : 61,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)/parameter/input",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 33,
+          "endLine" : 61,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)"
+      }, {
+        "name" : "template",
+        "key" : "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)/parameter/template",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 47,
+          "endLine" : 61,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)/parameter/args",
+        "type" : "java.lang.Object[]",
+        "displayedType" : "Object[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 67,
+          "endLine" : 61,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/notNull(T input, java.lang.String template, java.lang.Object[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.Checks"
+    },
+    "com.netflix.maestro.utils.Checks/method/isNullOrEmpty(java.lang.CharSequence cs)" : {
+      "name" : "isNullOrEmpty",
+      "key" : "com.netflix.maestro.utils.Checks/method/isNullOrEmpty(java.lang.CharSequence cs)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 25,
+        "endLine" : 93,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cs",
+        "key" : "com.netflix.maestro.utils.Checks/method/isNullOrEmpty(java.lang.CharSequence cs)/parameter/cs",
+        "type" : "java.lang.CharSequence",
+        "displayedType" : "CharSequence",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 52,
+          "endLine" : 93,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/isNullOrEmpty(java.lang.CharSequence cs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.Checks"
+    },
+    "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.util.function.Supplier<java.lang.String> errorMessage)" : {
+      "name" : "checkTrue",
+      "key" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.util.function.Supplier<java.lang.String> errorMessage)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 22,
+        "endLine" : 45,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "condition",
+        "key" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.util.function.Supplier<java.lang.String> errorMessage)/parameter/condition",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 40,
+          "endLine" : 45,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.util.function.Supplier<java.lang.String> errorMessage)"
+      }, {
+        "name" : "errorMessage",
+        "key" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.util.function.Supplier<java.lang.String> errorMessage)/parameter/errorMessage",
+        "type" : "java.util.function.Supplier<java.lang.String>",
+        "displayedType" : "Supplier<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 68,
+          "endLine" : 45,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.Checks/method/checkTrue(boolean condition, java.util.function.Supplier<java.lang.String> errorMessage)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.Checks"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/utils/Checks.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

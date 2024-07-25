@@ -1,0 +1,110 @@
+{
+  "name" : "JoinStep",
+  "key" : "com.netflix.maestro.engine.transformation.JoinStep",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 1,
+    "endLine" : 23,
+    "endColumn" : 6
+  },
+  "modifiers" : [ ],
+  "fields" : {
+    "com.netflix.maestro.engine.transformation.JoinStep/memberField/joinOn" : {
+      "name" : "joinOn",
+      "key" : "com.netflix.maestro.engine.transformation.JoinStep/memberField/joinOn",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 24,
+        "endLine" : 24,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.JoinStep"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.transformation.JoinStep/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.engine.transformation.JoinStep/method/getType()",
+      "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepType",
+      "displayedType" : "StepType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 19,
+        "endLine" : 28,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.JoinStep"
+    },
+    "com.netflix.maestro.engine.transformation.JoinStep/method/of(java.lang.String id, java.util.List<java.lang.String> joinOn)" : {
+      "name" : "of",
+      "key" : "com.netflix.maestro.engine.transformation.JoinStep/method/of(java.lang.String id, java.util.List<java.lang.String> joinOn)",
+      "type" : "com.netflix.maestro.engine.transformation.JoinStep",
+      "displayedType" : "JoinStep",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 19,
+        "endLine" : 32,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "id",
+        "key" : "com.netflix.maestro.engine.transformation.JoinStep/method/of(java.lang.String id, java.util.List<java.lang.String> joinOn)/parameter/id",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 29,
+          "endLine" : 32,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.JoinStep/method/of(java.lang.String id, java.util.List<java.lang.String> joinOn)"
+      }, {
+        "name" : "joinOn",
+        "key" : "com.netflix.maestro.engine.transformation.JoinStep/method/of(java.lang.String id, java.util.List<java.lang.String> joinOn)/parameter/joinOn",
+        "type" : "java.util.List<java.lang.String>",
+        "displayedType" : "List<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 32,
+          "startColumn" : 46,
+          "endLine" : 32,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.JoinStep/method/of(java.lang.String id, java.util.List<java.lang.String> joinOn)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.JoinStep"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/transformation/JoinStep.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.AbstractStep" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

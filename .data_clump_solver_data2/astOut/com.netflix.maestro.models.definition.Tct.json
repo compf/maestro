@@ -1,0 +1,164 @@
+{
+  "name" : "Tct",
+  "key" : "com.netflix.maestro.models.definition.Tct",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.Tct/memberField/DURATION_MINUTES_TCT_TS" : {
+      "name" : "DURATION_MINUTES_TCT_TS",
+      "key" : "com.netflix.maestro.models.definition.Tct/memberField/DURATION_MINUTES_TCT_TS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 31,
+        "endLine" : 37,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    },
+    "com.netflix.maestro.models.definition.Tct/memberField/tz" : {
+      "name" : "tz",
+      "key" : "com.netflix.maestro.models.definition.Tct/memberField/tz",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 18,
+        "endLine" : 44,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    },
+    "com.netflix.maestro.models.definition.Tct/memberField/COMPLETED_HOUR_TCT_TS" : {
+      "name" : "COMPLETED_HOUR_TCT_TS",
+      "key" : "com.netflix.maestro.models.definition.Tct/memberField/COMPLETED_HOUR_TCT_TS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 31,
+        "endLine" : 33,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    },
+    "com.netflix.maestro.models.definition.Tct/memberField/PARAM_NAME" : {
+      "name" : "PARAM_NAME",
+      "key" : "com.netflix.maestro.models.definition.Tct/memberField/PARAM_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 31,
+        "endLine" : 39,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    },
+    "com.netflix.maestro.models.definition.Tct/memberField/completedByTs" : {
+      "name" : "completedByTs",
+      "key" : "com.netflix.maestro.models.definition.Tct/memberField/completedByTs",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 16,
+        "endLine" : 43,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    },
+    "com.netflix.maestro.models.definition.Tct/memberField/durationMinutes" : {
+      "name" : "durationMinutes",
+      "key" : "com.netflix.maestro.models.definition.Tct/memberField/durationMinutes",
+      "type" : "java.lang.Integer",
+      "displayedType" : "Integer",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 19,
+        "endLine" : 41,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    },
+    "com.netflix.maestro.models.definition.Tct/memberField/completedByHour" : {
+      "name" : "completedByHour",
+      "key" : "com.netflix.maestro.models.definition.Tct/memberField/completedByHour",
+      "type" : "java.lang.Integer",
+      "displayedType" : "Integer",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 19,
+        "endLine" : 42,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.Tct/method/getCompletedByTsParam()" : {
+      "name" : "getCompletedByTsParam",
+      "key" : "com.netflix.maestro.models.definition.Tct/method/getCompletedByTsParam()",
+      "type" : "com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.LongParamDefinition",
+      "displayedType" : "LongParamDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 30,
+        "endLine" : 48,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Tct"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/Tct.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

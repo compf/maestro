@@ -1,0 +1,92 @@
+{
+  "name" : "ConductorProperties",
+  "key" : "com.netflix.maestro.server.properties.ConductorProperties",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 8,
+    "endLine" : 26,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.server.properties.ConductorProperties/memberField/configs" : {
+      "name" : "configs",
+      "key" : "com.netflix.maestro.server.properties.ConductorProperties/memberField/configs",
+      "type" : "java.util.Map<java.lang.String, java.lang.String>",
+      "displayedType" : "Map<String, String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 37,
+        "endLine" : 28,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.properties.ConductorProperties"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.server.properties.ConductorProperties/method/getProperty(java.lang.String name, java.lang.String defaultValue)" : {
+      "name" : "getProperty",
+      "key" : "com.netflix.maestro.server.properties.ConductorProperties/method/getProperty(java.lang.String name, java.lang.String defaultValue)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 17,
+        "endLine" : 38,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.server.properties.ConductorProperties/method/getProperty(java.lang.String name, java.lang.String defaultValue)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 36,
+          "endLine" : 38,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.properties.ConductorProperties/method/getProperty(java.lang.String name, java.lang.String defaultValue)"
+      }, {
+        "name" : "defaultValue",
+        "key" : "com.netflix.maestro.server.properties.ConductorProperties/method/getProperty(java.lang.String name, java.lang.String defaultValue)/parameter/defaultValue",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 49,
+          "endLine" : 38,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.properties.ConductorProperties/method/getProperty(java.lang.String name, java.lang.String defaultValue)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.properties.ConductorProperties"
+    }
+  },
+  "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/properties/ConductorProperties.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.server.properties.com.netflix.maestro.engine.properties.MaestroConductorProperties" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

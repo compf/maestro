@@ -1,0 +1,363 @@
+{
+  "name" : "StepInstanceActionHandlerTest",
+  "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/instance" : {
+      "name" : "instance",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/instance",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 34,
+        "endLine" : 58,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/user" : {
+      "name" : "user",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/user",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 22,
+        "endLine" : 61,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/actionDao" : {
+      "name" : "actionDao",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/actionDao",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao",
+      "displayedType" : "MaestroStepInstanceActionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 46,
+        "endLine" : 56,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 44,
+        "endLine" : 55,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/actionHandler" : {
+      "name" : "actionHandler",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/actionHandler",
+      "type" : "com.netflix.maestro.engine.handlers.WorkflowInstanceActionHandler",
+      "displayedType" : "WorkflowInstanceActionHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 47,
+        "endLine" : 57,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/stepActionHandler" : {
+      "name" : "stepActionHandler",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/memberField/stepActionHandler",
+      "type" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandler",
+      "displayedType" : "StepInstanceActionHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 37,
+        "endLine" : 60,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 15,
+        "endLine" : 64,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testInvalidRestartFromInlineRoot()" : {
+      "name" : "testInvalidRestartFromInlineRoot",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testInvalidRestartFromInlineRoot()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 221,
+        "startColumn" : 15,
+        "endLine" : 221,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipStoppedStepInStoppedInstance()" : {
+      "name" : "testSkipStoppedStepInStoppedInstance",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipStoppedStepInStoppedInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 15,
+        "endLine" : 346,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testBypassDependencies()" : {
+      "name" : "testBypassDependencies",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testBypassDependencies()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 277,
+        "startColumn" : 15,
+        "endLine" : 277,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipFailedStepInRunningInstance()" : {
+      "name" : "testSkipFailedStepInRunningInstance",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipFailedStepInRunningInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 299,
+        "startColumn" : 15,
+        "endLine" : 299,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testInvalidSkip()" : {
+      "name" : "testInvalidSkip",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testInvalidSkip()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 377,
+        "startColumn" : 15,
+        "endLine" : 377,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipRunningStepInRunningInstance()" : {
+      "name" : "testSkipRunningStepInRunningInstance",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipRunningStepInRunningInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 284,
+        "startColumn" : 15,
+        "endLine" : 284,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartFromInlineRootWithinForeach()" : {
+      "name" : "testRestartFromInlineRootWithinForeach",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartFromInlineRootWithinForeach()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 15,
+        "endLine" : 120,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartFromInlineRootWithinNonForeach()" : {
+      "name" : "testRestartFromInlineRootWithinNonForeach",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartFromInlineRootWithinNonForeach()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 15,
+        "endLine" : 175,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipShouldWakeupStepInRunningInstance()" : {
+      "name" : "testSkipShouldWakeupStepInRunningInstance",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testSkipShouldWakeupStepInRunningInstance()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 331,
+        "startColumn" : 15,
+        "endLine" : 331,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testTerminate()" : {
+      "name" : "testTerminate",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testTerminate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 264,
+        "startColumn" : 15,
+        "endLine" : 264,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartNewAttempt()" : {
+      "name" : "testRestartNewAttempt",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartNewAttempt()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 15,
+        "endLine" : 93,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    },
+    "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartNewRun()" : {
+      "name" : "testRestartNewRun",
+      "key" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest/method/testRestartNewRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 15,
+        "endLine" : 71,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.StepInstanceActionHandlerTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/handlers/StepInstanceActionHandlerTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

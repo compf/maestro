@@ -1,0 +1,367 @@
+{
+  "name" : "UpstreamInitiator",
+  "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 17,
+    "endLine" : 39,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/memberField/ancestors" : {
+      "name" : "ancestors",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/memberField/ancestors",
+      "type" : "java.util.List<com.netflix.maestro.models.initiator.UpstreamInitiator$Info>",
+      "displayedType" : "List<Info>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 22,
+        "endLine" : 40,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/withType(com.netflix.maestro.models.initiator.Type type)" : {
+      "name" : "withType",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/withType(com.netflix.maestro.models.initiator.Type type)",
+      "type" : "com.netflix.maestro.models.initiator.UpstreamInitiator",
+      "displayedType" : "UpstreamInitiator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 35,
+        "endLine" : 116,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "type",
+        "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/withType(com.netflix.maestro.models.initiator.Type type)/parameter/type",
+        "type" : "com.netflix.maestro.models.initiator.Type",
+        "displayedType" : "Type",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 49,
+          "endLine" : 116,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/withType(com.netflix.maestro.models.initiator.Type type)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    },
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/setAncestors(java.util.List<com.netflix.maestro.models.initiator.UpstreamInitiator$Info> ancestors)" : {
+      "name" : "setAncestors",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/setAncestors(java.util.List<com.netflix.maestro.models.initiator.UpstreamInitiator$Info> ancestors)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 15,
+        "endLine" : 43,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ancestors",
+        "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/setAncestors(java.util.List<com.netflix.maestro.models.initiator.UpstreamInitiator$Info> ancestors)/parameter/ancestors",
+        "type" : "java.util.List<com.netflix.maestro.models.initiator.UpstreamInitiator$Info>",
+        "displayedType" : "List<Info>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 39,
+          "endLine" : 43,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/setAncestors(java.util.List<com.netflix.maestro.models.initiator.UpstreamInitiator$Info> ancestors)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    },
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getNonInlineParent()" : {
+      "name" : "getNonInlineParent",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getNonInlineParent()",
+      "type" : "com.netflix.maestro.models.initiator.UpstreamInitiator$Info",
+      "displayedType" : "Info",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 15,
+        "endLine" : 72,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    },
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getParent()" : {
+      "name" : "getParent",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getParent()",
+      "type" : "com.netflix.maestro.models.initiator.UpstreamInitiator$Info",
+      "displayedType" : "Info",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 15,
+        "endLine" : 52,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    },
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getRoot()" : {
+      "name" : "getRoot",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getRoot()",
+      "type" : "com.netflix.maestro.models.initiator.UpstreamInitiator$Info",
+      "displayedType" : "Info",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 15,
+        "endLine" : 58,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    },
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getParameterSource()" : {
+      "name" : "getParameterSource",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getParameterSource()",
+      "type" : "com.netflix.maestro.models.initiator.com.netflix.maestro.models.parameter.ParamSource",
+      "displayedType" : "ParamSource",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 31,
+        "endLine" : 68,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    },
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getDepth()" : {
+      "name" : "getDepth",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getDepth()",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 14,
+        "endLine" : 85,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    },
+    "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getTimelineEvent()" : {
+      "name" : "getTimelineEvent",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator/method/getTimelineEvent()",
+      "type" : "com.netflix.maestro.models.initiator.com.netflix.maestro.models.timeline.TimelineEvent",
+      "displayedType" : "TimelineEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 131,
+        "startColumn" : 24,
+        "endLine" : 131,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/initiator/UpstreamInitiator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.initiator.Initiator" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.initiator.UpstreamInitiator.Info" : {
+      "name" : "Info",
+      "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 17,
+        "endLine" : 96,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/workflowId" : {
+          "name" : "workflowId",
+          "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/workflowId",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 97,
+            "startColumn" : 20,
+            "endLine" : 97,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info"
+        },
+        "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/stepAttemptId" : {
+          "name" : "stepAttemptId",
+          "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/stepAttemptId",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 101,
+            "startColumn" : 18,
+            "endLine" : 101,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info"
+        },
+        "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/stepId" : {
+          "name" : "stepId",
+          "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/stepId",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 100,
+            "startColumn" : 20,
+            "endLine" : 100,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info"
+        },
+        "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/runId" : {
+          "name" : "runId",
+          "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/runId",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 99,
+            "startColumn" : 18,
+            "endLine" : 99,
+            "endColumn" : 23
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info"
+        },
+        "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/instanceId" : {
+          "name" : "instanceId",
+          "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/memberField/instanceId",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 98,
+            "startColumn" : 18,
+            "endLine" : 98,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/method/isInline()" : {
+          "name" : "isInline",
+          "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/method/isInline()",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 110,
+            "startColumn" : 20,
+            "endLine" : 110,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info"
+        },
+        "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/method/toString()" : {
+          "name" : "toString",
+          "key" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info/method/toString()",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 104,
+            "startColumn" : 19,
+            "endLine" : 104,
+            "endColumn" : 27
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator.Info"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/initiator/UpstreamInitiator.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.initiator.UpstreamInitiator",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

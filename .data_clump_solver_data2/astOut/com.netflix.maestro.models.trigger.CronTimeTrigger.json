@@ -1,0 +1,97 @@
+{
+  "name" : "CronTimeTrigger",
+  "key" : "com.netflix.maestro.models.trigger.CronTimeTrigger",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.trigger.CronTimeTrigger/memberField/timezone" : {
+      "name" : "timezone",
+      "key" : "com.netflix.maestro.models.trigger.CronTimeTrigger/memberField/timezone",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 45,
+        "endLine" : 31,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.CronTimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.CronTimeTrigger/memberField/cron" : {
+      "name" : "cron",
+      "key" : "com.netflix.maestro.models.trigger.CronTimeTrigger/memberField/cron",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 41,
+        "endLine" : 30,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.CronTimeTrigger"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.trigger.CronTimeTrigger/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.maestro.models.trigger.CronTimeTrigger/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 17,
+        "endLine" : 39,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.CronTimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.CronTimeTrigger/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.trigger.CronTimeTrigger/method/getType()",
+      "type" : "com.netflix.maestro.models.trigger.TimeTrigger.Type",
+      "displayedType" : "TimeTrigger.Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 27,
+        "endLine" : 34,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.CronTimeTrigger"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/trigger/CronTimeTrigger.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.trigger.TimeTriggerWithJitter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

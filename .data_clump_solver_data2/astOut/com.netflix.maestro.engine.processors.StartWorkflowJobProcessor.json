@@ -1,0 +1,127 @@
+{
+  "name" : "StartWorkflowJobProcessor",
+  "key" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/memberField/workflowDao" : {
+      "name" : "workflowDao",
+      "key" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/memberField/workflowDao",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.dao.MaestroWorkflowDao",
+      "displayedType" : "MaestroWorkflowDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 36,
+        "endLine" : 34,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/memberField/runStrategyDao" : {
+      "name" : "runStrategyDao",
+      "key" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/memberField/runStrategyDao",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.dao.MaestroRunStrategyDao",
+      "displayedType" : "MaestroRunStrategyDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 39,
+        "endLine" : 35,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StartWorkflowJobEvent> messageSupplier)" : {
+      "name" : "process",
+      "key" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StartWorkflowJobEvent> messageSupplier)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 15,
+        "endLine" : 38,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageSupplier",
+        "key" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StartWorkflowJobEvent> messageSupplier)/parameter/messageSupplier",
+        "type" : "java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StartWorkflowJobEvent>",
+        "displayedType" : "Supplier<StartWorkflowJobEvent>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 55,
+          "endLine" : 38,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StartWorkflowJobEvent> messageSupplier)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/startWorkflowInstance(java.lang.String workflowId)" : {
+      "name" : "startWorkflowInstance",
+      "key" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/startWorkflowInstance(java.lang.String workflowId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 8,
+        "endLine" : 56,
+        "endColumn" : 29
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/startWorkflowInstance(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 56,
+          "startColumn" : 37,
+          "endLine" : 56,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor/method/startWorkflowInstance(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StartWorkflowJobProcessor"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/processors/StartWorkflowJobProcessor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.processors.MaestroEventProcessor<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StartWorkflowJobEvent>", "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StartWorkflowJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

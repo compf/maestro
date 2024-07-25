@@ -1,0 +1,463 @@
+{
+  "name" : "WorkflowHelper",
+  "key" : "com.netflix.maestro.engine.utils.WorkflowHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/paramsManager" : {
+      "name" : "paramsManager",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/paramsManager",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.params.ParamsManager",
+      "displayedType" : "ParamsManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 31,
+        "endLine" : 43,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/paramEvaluator" : {
+      "name" : "paramEvaluator",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/paramEvaluator",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.eval.ParamEvaluator",
+      "displayedType" : "ParamEvaluator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 32,
+        "endLine" : 44,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/paramExtensionRepo" : {
+      "name" : "paramExtensionRepo",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/paramExtensionRepo",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.eval.MaestroParamExtensionRepo",
+      "displayedType" : "MaestroParamExtensionRepo",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 43,
+        "endLine" : 46,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 42,
+        "endLine" : 47,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/dagTranslator" : {
+      "name" : "dagTranslator",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/memberField/dagTranslator",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.transformation.DagTranslator",
+      "displayedType" : "DagTranslator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 31,
+        "endLine" : 45,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowSummaryFromInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "createWorkflowSummaryFromInstance",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowSummaryFromInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary",
+      "displayedType" : "WorkflowSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 26,
+        "endLine" : 160,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowSummaryFromInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 77,
+          "endLine" : 160,
+          "endColumn" : 85
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowSummaryFromInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/method/getWorkflowNameOrDefault(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow)" : {
+      "name" : "getWorkflowNameOrDefault",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/getWorkflowNameOrDefault(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 24,
+        "endLine" : 55,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/getWorkflowNameOrDefault(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 58,
+          "endLine" : 55,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/getWorkflowNameOrDefault(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/method/updateWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "updateWorkflowInstance",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/updateWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 15,
+        "endLine" : 104,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/updateWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 55,
+          "endLine" : 104,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/updateWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/updateWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 76,
+          "endLine" : 104,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/updateWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/method/overrideWorkflowConfig(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "overrideWorkflowConfig",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/overrideWorkflowConfig(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow",
+      "displayedType" : "Workflow",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 187,
+        "startColumn" : 20,
+        "endLine" : 187,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/overrideWorkflowConfig(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 187,
+          "startColumn" : 52,
+          "endLine" : 187,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/overrideWorkflowConfig(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/overrideWorkflowConfig(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 187,
+          "startColumn" : 73,
+          "endLine" : 187,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/overrideWorkflowConfig(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/method/initiateWorkflowParamsAndProperties(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest request)" : {
+      "name" : "initiateWorkflowParamsAndProperties",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/initiateWorkflowParamsAndProperties(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest request)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 205,
+        "startColumn" : 16,
+        "endLine" : 205,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/initiateWorkflowParamsAndProperties(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest request)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 69,
+          "endLine" : 205,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/initiateWorkflowParamsAndProperties(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest request)"
+      }, {
+        "name" : "request",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/initiateWorkflowParamsAndProperties(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest request)/parameter/request",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 90,
+          "endLine" : 205,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/initiateWorkflowParamsAndProperties(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest request)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/method/publishStartWorkflowEvent(java.lang.String workflowId, boolean flag)" : {
+      "name" : "publishStartWorkflowEvent",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/publishStartWorkflowEvent(java.lang.String workflowId, boolean flag)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 238,
+        "startColumn" : 15,
+        "endLine" : 238,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/publishStartWorkflowEvent(java.lang.String workflowId, boolean flag)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 238,
+          "startColumn" : 48,
+          "endLine" : 238,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/publishStartWorkflowEvent(java.lang.String workflowId, boolean flag)"
+      }, {
+        "name" : "flag",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/publishStartWorkflowEvent(java.lang.String workflowId, boolean flag)/parameter/flag",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 238,
+          "startColumn" : 68,
+          "endLine" : 238,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/publishStartWorkflowEvent(java.lang.String workflowId, boolean flag)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    },
+    "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)" : {
+      "name" : "createWorkflowInstance",
+      "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 27,
+        "endLine" : 69,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowDef",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/workflowDef",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 16,
+          "endLine" : 70,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "internalId",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/internalId",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 12,
+          "endLine" : 71,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "workflowVersionId",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/workflowVersionId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 12,
+          "endLine" : 72,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "runProperties",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runProperties",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties",
+        "displayedType" : "RunProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 21,
+          "endLine" : 73,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      }, {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 18,
+          "endLine" : 74,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.WorkflowHelper/method/createWorkflowInstance(com.netflix.maestro.engine.utils.com.netflix.maestro.models.definition.Workflow workflowDef, java.lang.Long internalId, long workflowVersionId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunProperties runProperties, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.RunRequest runRequest)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.WorkflowHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/WorkflowHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

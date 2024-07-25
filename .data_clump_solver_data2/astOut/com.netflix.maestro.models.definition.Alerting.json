@@ -1,0 +1,351 @@
+{
+  "name" : "Alerting",
+  "key" : "com.netflix.maestro.models.definition.Alerting",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 53,
+    "startColumn" : 8,
+    "endLine" : 53,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.Alerting/memberField/slackConfig" : {
+      "name" : "slackConfig",
+      "key" : "com.netflix.maestro.models.definition.Alerting/memberField/slackConfig",
+      "type" : "com.netflix.maestro.models.definition.Alerting$SlackConfig",
+      "displayedType" : "SlackConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 23,
+        "endLine" : 59,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    },
+    "com.netflix.maestro.models.definition.Alerting/memberField/pagerdutyConfig" : {
+      "name" : "pagerdutyConfig",
+      "key" : "com.netflix.maestro.models.definition.Alerting/memberField/pagerdutyConfig",
+      "type" : "com.netflix.maestro.models.definition.Alerting$PagerdutyConfig",
+      "displayedType" : "PagerdutyConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 27,
+        "endLine" : 65,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    },
+    "com.netflix.maestro.models.definition.Alerting/memberField/bypassDigestConfig" : {
+      "name" : "bypassDigestConfig",
+      "key" : "com.netflix.maestro.models.definition.Alerting/memberField/bypassDigestConfig",
+      "type" : "com.netflix.maestro.models.definition.com.netflix.maestro.models.definition.alerting.BypassDigestConfig",
+      "displayedType" : "BypassDigestConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 30,
+        "endLine" : 61,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    },
+    "com.netflix.maestro.models.definition.Alerting/memberField/tct" : {
+      "name" : "tct",
+      "key" : "com.netflix.maestro.models.definition.Alerting/memberField/tct",
+      "type" : "com.netflix.maestro.models.definition.Tct",
+      "displayedType" : "Tct",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 30,
+        "endLine" : 67,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    },
+    "com.netflix.maestro.models.definition.Alerting/memberField/typeConfigs" : {
+      "name" : "typeConfigs",
+      "key" : "com.netflix.maestro.models.definition.Alerting/memberField/typeConfigs",
+      "type" : "java.util.Map<com.netflix.maestro.models.definition.com.netflix.maestro.models.definition.alerting.AlertType, com.netflix.maestro.models.definition.com.netflix.maestro.models.definition.alerting.AlertingTypeConfig>",
+      "displayedType" : "Map<AlertType, AlertingTypeConfig>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 46,
+        "endLine" : 63,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    },
+    "com.netflix.maestro.models.definition.Alerting/memberField/pagerduties" : {
+      "name" : "pagerduties",
+      "key" : "com.netflix.maestro.models.definition.Alerting/memberField/pagerduties",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 23,
+        "endLine" : 56,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    },
+    "com.netflix.maestro.models.definition.Alerting/memberField/emails" : {
+      "name" : "emails",
+      "key" : "com.netflix.maestro.models.definition.Alerting/memberField/emails",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 23,
+        "endLine" : 55,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.Alerting/method/update(java.util.function.Function<com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.Parameter> paramParser)" : {
+      "name" : "update",
+      "key" : "com.netflix.maestro.models.definition.Alerting/method/update(java.util.function.Function<com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.Parameter> paramParser)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 15,
+        "endLine" : 140,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "paramParser",
+        "key" : "com.netflix.maestro.models.definition.Alerting/method/update(java.util.function.Function<com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.Parameter> paramParser)/parameter/paramParser",
+        "type" : "java.util.function.Function<com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Function<ParamDefinition, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 59,
+          "endLine" : 140,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.Alerting/method/update(java.util.function.Function<com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.Parameter> paramParser)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/Alerting.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.definition.Alerting.SlackConfig" : {
+      "name" : "SlackConfig",
+      "key" : "com.netflix.maestro.models.definition.Alerting.SlackConfig",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 17,
+        "endLine" : 80,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/channels" : {
+          "name" : "channels",
+          "key" : "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/channels",
+          "type" : "java.util.Set<java.lang.String>",
+          "displayedType" : "Set<String>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 85,
+            "startColumn" : 25,
+            "endLine" : 85,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting.SlackConfig"
+        },
+        "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/users" : {
+          "name" : "users",
+          "key" : "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/users",
+          "type" : "java.util.Set<java.lang.String>",
+          "displayedType" : "Set<String>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 84,
+            "startColumn" : 25,
+            "endLine" : 84,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting.SlackConfig"
+        },
+        "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/mentionUsers" : {
+          "name" : "mentionUsers",
+          "key" : "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/mentionUsers",
+          "type" : "java.util.Set<java.lang.String>",
+          "displayedType" : "Set<String>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 86,
+            "startColumn" : 25,
+            "endLine" : 86,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting.SlackConfig"
+        },
+        "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "com.netflix.maestro.models.definition.Alerting.SlackConfig/memberField/serialVersionUID",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 82,
+            "startColumn" : 31,
+            "endLine" : 82,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting.SlackConfig"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/Alerting.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.io.Serializable" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.Alerting",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig" : {
+      "name" : "PagerdutyConfig",
+      "key" : "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 17,
+        "endLine" : 99,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig/memberField/alwaysPage" : {
+          "name" : "alwaysPage",
+          "key" : "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig/memberField/alwaysPage",
+          "type" : "java.lang.Boolean",
+          "displayedType" : "Boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 104,
+            "startColumn" : 21,
+            "endLine" : 104,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig"
+        },
+        "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig/memberField/severity" : {
+          "name" : "severity",
+          "key" : "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig/memberField/severity",
+          "type" : "com.netflix.maestro.models.definition.Alerting$PagerdutyConfig$Severity",
+          "displayedType" : "Severity",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 103,
+            "startColumn" : 22,
+            "endLine" : 103,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig"
+        },
+        "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig/memberField/serialVersionUID" : {
+          "name" : "serialVersionUID",
+          "key" : "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig/memberField/serialVersionUID",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 101,
+            "startColumn" : 31,
+            "endLine" : 101,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Alerting.PagerdutyConfig"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/Alerting.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "java.io.Serializable" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.Alerting",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

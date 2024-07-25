@@ -1,0 +1,159 @@
+{
+  "name" : "TerminateThenRunInstanceJobProcessor",
+  "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/memberField/terminateInstancesJobProcessor" : {
+      "name" : "terminateInstancesJobProcessor",
+      "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/memberField/terminateInstancesJobProcessor",
+      "type" : "com.netflix.maestro.engine.processors.TerminateInstancesJobProcessor",
+      "displayedType" : "TerminateInstancesJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 48,
+        "endLine" : 37,
+        "endColumn" : 78
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor"
+    },
+    "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 42,
+        "endLine" : 35,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor"
+    },
+    "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 44,
+        "endLine" : 36,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent> messageSupplier)" : {
+      "name" : "process",
+      "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent> messageSupplier)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 15,
+        "endLine" : 40,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageSupplier",
+        "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent> messageSupplier)/parameter/messageSupplier",
+        "type" : "java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent>",
+        "displayedType" : "Supplier<TerminateThenRunInstanceJobEvent>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 66,
+          "endLine" : 40,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent> messageSupplier)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor"
+    },
+    "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/checkProgress(java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.db.InstanceRunUuid> instanceRunUuids)" : {
+      "name" : "checkProgress",
+      "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/checkProgress(java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.db.InstanceRunUuid> instanceRunUuids)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 16,
+        "endLine" : 65,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/checkProgress(java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.db.InstanceRunUuid> instanceRunUuids)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 37,
+          "endLine" : 65,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/checkProgress(java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.db.InstanceRunUuid> instanceRunUuids)"
+      }, {
+        "name" : "instanceRunUuids",
+        "key" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/checkProgress(java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.db.InstanceRunUuid> instanceRunUuids)/parameter/instanceRunUuids",
+        "type" : "java.util.List<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.db.InstanceRunUuid>",
+        "displayedType" : "List<InstanceRunUuid>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 71,
+          "endLine" : 65,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor/method/checkProgress(java.lang.String workflowId, java.util.List<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.db.InstanceRunUuid> instanceRunUuids)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/processors/TerminateThenRunInstanceJobProcessor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.processors.MaestroEventProcessor<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent>", "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

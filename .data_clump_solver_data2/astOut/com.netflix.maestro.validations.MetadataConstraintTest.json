@@ -1,0 +1,88 @@
+{
+  "name" : "MetadataConstraintTest",
+  "key" : "com.netflix.maestro.validations.MetadataConstraintTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.MetadataConstraintTest/method/isNull()" : {
+      "name" : "isNull",
+      "key" : "com.netflix.maestro.validations.MetadataConstraintTest/method/isNull()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 15,
+        "endLine" : 33,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.MetadataConstraintTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/MetadataConstraintTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.validations.BaseConstraintTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.MetadataConstraintTest.TestMetadata" : {
+      "name" : "TestMetadata",
+      "key" : "com.netflix.maestro.validations.MetadataConstraintTest.TestMetadata",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 18,
+        "endLine" : 24,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.MetadataConstraintTest.TestMetadata/memberField/metadata" : {
+          "name" : "metadata",
+          "key" : "com.netflix.maestro.validations.MetadataConstraintTest.TestMetadata/memberField/metadata",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata",
+          "displayedType" : "Metadata",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 25,
+            "startColumn" : 34,
+            "endLine" : 25,
+            "endColumn" : 42
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.MetadataConstraintTest.TestMetadata"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/MetadataConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.MetadataConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

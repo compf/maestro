@@ -1,0 +1,285 @@
+{
+  "name" : "JsonConverter",
+  "key" : "com.netflix.maestro.engine.compression.JsonConverter",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.compression.JsonConverter/memberField/objectWriter" : {
+      "name" : "objectWriter",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverter/memberField/objectWriter",
+      "type" : "com.fasterxml.jackson.databind.ObjectWriter",
+      "displayedType" : "ObjectWriter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 30,
+        "endLine" : 36,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverter/memberField/objectReader" : {
+      "name" : "objectReader",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverter/memberField/objectReader",
+      "type" : "com.fasterxml.jackson.databind.ObjectReader",
+      "displayedType" : "ObjectReader",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 30,
+        "endLine" : 35,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverter/memberField/contextAttributes" : {
+      "name" : "contextAttributes",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverter/memberField/contextAttributes",
+      "type" : "com.fasterxml.jackson.databind.cfg.ContextAttributes",
+      "displayedType" : "ContextAttributes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 35,
+        "endLine" : 37,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)" : {
+      "name" : "fromJson",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 16,
+        "endLine" : 78,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "json",
+        "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)/parameter/json",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 32,
+          "endLine" : 78,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)/parameter/clazz",
+        "type" : "java.lang.Class<T>",
+        "displayedType" : "Class<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 47,
+          "endLine" : 78,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, java.lang.Class<T> clazz)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)" : {
+      "name" : "fromJson",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 16,
+        "endLine" : 89,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "json",
+        "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)/parameter/json",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 32,
+          "endLine" : 89,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)"
+      }, {
+        "name" : "valueTypeRef",
+        "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)/parameter/valueTypeRef",
+        "type" : "com.fasterxml.jackson.core.type.TypeReference<T>",
+        "displayedType" : "TypeReference<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 55,
+          "endLine" : 89,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.JsonConverter/method/fromJson(java.lang.String json, com.fasterxml.jackson.core.type.TypeReference<T> valueTypeRef)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverter/method/toJson(T value)" : {
+      "name" : "toJson",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/toJson(T value)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 21,
+        "endLine" : 67,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.compression.JsonConverter/method/toJson(T value)/parameter/value",
+        "type" : "T",
+        "displayedType" : "T",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 30,
+          "endLine" : 67,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.JsonConverter/method/toJson(T value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/compression/JsonConverter.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn" : {
+      "name" : "TaskMixIn",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 24,
+        "endLine" : 98,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "fields" : {
+        "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn/memberField/outputData" : {
+          "name" : "outputData",
+          "key" : "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn/memberField/outputData",
+          "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+          "displayedType" : "Map<String, Object>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 105,
+            "startColumn" : 33,
+            "endLine" : 105,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn"
+        },
+        "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn/memberField/workflowTask" : {
+          "name" : "workflowTask",
+          "key" : "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn/memberField/workflowTask",
+          "type" : "com.netflix.maestro.engine.compression.com.netflix.conductor.common.metadata.workflow.WorkflowTask",
+          "displayedType" : "WorkflowTask",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 109,
+            "startColumn" : 26,
+            "endLine" : 109,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn"
+        },
+        "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn/memberField/inputData" : {
+          "name" : "inputData",
+          "key" : "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn/memberField/inputData",
+          "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+          "displayedType" : "Map<String, Object>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 101,
+            "startColumn" : 33,
+            "endLine" : 101,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverter.TaskMixIn"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/compression/JsonConverter.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.compression.JsonConverter",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,186 @@
+{
+  "name" : "DryRunValidator",
+  "key" : "com.netflix.maestro.engine.validations.DryRunValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.validations.DryRunValidator/memberField/paramsManager" : {
+      "name" : "paramsManager",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidator/memberField/paramsManager",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.params.ParamsManager",
+      "displayedType" : "ParamsManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 31,
+        "endLine" : 52,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidator"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidator/memberField/stepRuntimeMap" : {
+      "name" : "stepRuntimeMap",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidator/memberField/stepRuntimeMap",
+      "type" : "java.util.Map<com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.StepType, com.netflix.maestro.engine.validations.com.netflix.maestro.engine.steps.StepRuntime>",
+      "displayedType" : "Map<StepType, StepRuntime>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 44,
+        "endLine" : 50,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidator"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidator/memberField/workflowHelper" : {
+      "name" : "workflowHelper",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidator/memberField/workflowHelper",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.utils.WorkflowHelper",
+      "displayedType" : "WorkflowHelper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 32,
+        "endLine" : 53,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidator"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidator/memberField/MAX_STACKTRACE_LINES" : {
+      "name" : "MAX_STACKTRACE_LINES",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidator/memberField/MAX_STACKTRACE_LINES",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 28,
+        "endLine" : 49,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidator"
+    },
+    "com.netflix.maestro.engine.validations.DryRunValidator/memberField/defaultParamManager" : {
+      "name" : "defaultParamManager",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidator/memberField/defaultParamManager",
+      "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.engine.params.DefaultParamManager",
+      "displayedType" : "DefaultParamManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 37,
+        "endLine" : 51,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.validations.DryRunValidator/method/validate(com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User caller)" : {
+      "name" : "validate",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidator/method/validate(com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User caller)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.validations.DryRunValidator/method/validate(com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User caller)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 33,
+          "endLine" : 65,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.validations.DryRunValidator/method/validate(com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User caller)"
+      }, {
+        "name" : "caller",
+        "key" : "com.netflix.maestro.engine.validations.DryRunValidator/method/validate(com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User caller)/parameter/caller",
+        "type" : "com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 48,
+          "endLine" : 65,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.validations.DryRunValidator/method/validate(com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.engine.validations.com.netflix.maestro.models.definition.User caller)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.validations.DryRunValidator"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/validations/DryRunValidator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.validations.DryRunValidator.ValidationInitiator" : {
+      "name" : "ValidationInitiator",
+      "key" : "com.netflix.maestro.engine.validations.DryRunValidator.ValidationInitiator",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 17,
+        "endLine" : 56,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/validations/DryRunValidator.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.engine.validations.com.netflix.maestro.models.initiator.ManualInitiator" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.validations.DryRunValidator",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

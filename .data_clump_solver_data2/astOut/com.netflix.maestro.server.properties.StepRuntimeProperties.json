@@ -1,0 +1,206 @@
+{
+  "name" : "StepRuntimeProperties",
+  "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/foreach" : {
+      "name" : "foreach",
+      "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/foreach",
+      "type" : "com.netflix.maestro.server.properties.com.netflix.maestro.engine.properties.ForeachStepRuntimeProperties",
+      "displayedType" : "ForeachStepRuntimeProperties",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 46,
+        "endLine" : 34,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties"
+    },
+    "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/subworkflow" : {
+      "name" : "subworkflow",
+      "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/subworkflow",
+      "type" : "com.netflix.maestro.server.properties.com.netflix.maestro.engine.properties.SubworkflowStepRuntimeProperties",
+      "displayedType" : "SubworkflowStepRuntimeProperties",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 50,
+        "endLine" : 35,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties"
+    },
+    "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/env" : {
+      "name" : "env",
+      "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/env",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 24,
+        "endLine" : 32,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties"
+    },
+    "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/callbackDelayConfig" : {
+      "name" : "callbackDelayConfig",
+      "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/callbackDelayConfig",
+      "type" : "com.netflix.maestro.server.properties.com.netflix.maestro.engine.properties.CallbackDelayConfig",
+      "displayedType" : "CallbackDelayConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 37,
+        "endLine" : 39,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties"
+    },
+    "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/cache" : {
+      "name" : "cache",
+      "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties/memberField/cache",
+      "type" : "com.netflix.maestro.server.properties.StepRuntimeProperties$Cache",
+      "displayedType" : "Cache",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 23,
+        "endLine" : 37,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/properties/StepRuntimeProperties.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache" : {
+      "name" : "Cache",
+      "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 17,
+        "endLine" : 46,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/customShaMaxSize" : {
+          "name" : "customShaMaxSize",
+          "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/customShaMaxSize",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 50,
+            "startColumn" : 23,
+            "endLine" : 50,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache"
+        },
+        "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/customShaCacheMinutes" : {
+          "name" : "customShaCacheMinutes",
+          "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/customShaCacheMinutes",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 48,
+            "startColumn" : 24,
+            "endLine" : 48,
+            "endColumn" : 45
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache"
+        },
+        "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/defaultShaCacheMinutes" : {
+          "name" : "defaultShaCacheMinutes",
+          "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/defaultShaCacheMinutes",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 47,
+            "startColumn" : 24,
+            "endLine" : 47,
+            "endColumn" : 46
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache"
+        },
+        "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/defaultShaMaxSize" : {
+          "name" : "defaultShaMaxSize",
+          "key" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache/memberField/defaultShaMaxSize",
+          "type" : "int",
+          "displayedType" : "int",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 49,
+            "startColumn" : 23,
+            "endLine" : 49,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties.Cache"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/properties/StepRuntimeProperties.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.server.properties.StepRuntimeProperties",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

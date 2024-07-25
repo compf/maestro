@@ -1,0 +1,211 @@
+{
+  "name" : "BooleanArrayParameter",
+  "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 14,
+    "endLine" : 54,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter/memberField/value" : {
+      "name" : "value",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/memberField/value",
+      "type" : "boolean[]",
+      "displayedType" : "boolean[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 27,
+        "endLine" : 55,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter"
+    },
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter/memberField/evaluatedResult" : {
+      "name" : "evaluatedResult",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/memberField/evaluatedResult",
+      "type" : "boolean[]",
+      "displayedType" : "boolean[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 21,
+        "endLine" : 56,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/toDefinition()" : {
+      "name" : "toDefinition",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/toDefinition()",
+      "type" : "com.netflix.maestro.models.parameter.ParamDefinition",
+      "displayedType" : "ParamDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 26,
+        "endLine" : 107,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter"
+    },
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/getType()",
+      "type" : "com.netflix.maestro.models.parameter.ParamType",
+      "displayedType" : "ParamType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 20,
+        "endLine" : 102,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter"
+    },
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/getEvaluatedResultString()" : {
+      "name" : "getEvaluatedResultString",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/getEvaluatedResultString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 17,
+        "endLine" : 92,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter"
+    },
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/asBooleanArrayParam()" : {
+      "name" : "asBooleanArrayParam",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/asBooleanArrayParam()",
+      "type" : "com.netflix.maestro.models.parameter.BooleanArrayParameter",
+      "displayedType" : "BooleanArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 32,
+        "endLine" : 97,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter"
+    },
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/setEvaluatedResult(java.lang.Object result)" : {
+      "name" : "setEvaluatedResult",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/setEvaluatedResult(java.lang.Object result)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 15,
+        "endLine" : 73,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "result",
+        "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/setEvaluatedResult(java.lang.Object result)/parameter/result",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 41,
+          "endLine" : 73,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter/method/setEvaluatedResult(java.lang.Object result)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/parameter/BooleanArrayParameter.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.parameter.AbstractParameter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.parameter.BooleanArrayParameter.BooleanArrayParameterBuilderImpl" : {
+      "name" : "BooleanArrayParameterBuilderImpl",
+      "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter.BooleanArrayParameterBuilderImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 16,
+        "endLine" : 60,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.models.parameter.BooleanArrayParameter.BooleanArrayParameterBuilderImpl/method/build()" : {
+          "name" : "build",
+          "key" : "com.netflix.maestro.models.parameter.BooleanArrayParameter.BooleanArrayParameterBuilderImpl/method/build()",
+          "type" : "com.netflix.maestro.models.parameter.BooleanArrayParameter",
+          "displayedType" : "BooleanArrayParameter",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 64,
+            "startColumn" : 34,
+            "endLine" : 64,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter.BooleanArrayParameterBuilderImpl"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/parameter/BooleanArrayParameter.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.models.parameter.BooleanArrayParameterBuilder<com.netflix.maestro.models.parameter.BooleanArrayParameter, com.netflix.maestro.models.parameter.BooleanArrayParameter$BooleanArrayParameterBuilderImpl>", "com.netflix.maestro.models.parameter.BooleanArrayParameter", "com.netflix.maestro.models.parameter.BooleanArrayParameter$BooleanArrayParameterBuilderImpl" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.parameter.BooleanArrayParameter",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

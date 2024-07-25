@@ -1,0 +1,427 @@
+{
+  "name" : "PublishJobEventProcessorTest",
+  "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 8,
+    "endLine" : 52,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/changeEvent2" : {
+      "name" : "changeEvent2",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/changeEvent2",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.models.events.WorkflowInstanceStatusChangeEvent",
+      "displayedType" : "WorkflowInstanceStatusChangeEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 51,
+        "endLine" : 64,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/processor" : {
+      "name" : "processor",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/processor",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.processors.PublishJobEventProcessor",
+      "displayedType" : "PublishJobEventProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 36,
+        "endLine" : 70,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/changeEvent3" : {
+      "name" : "changeEvent3",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/changeEvent3",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.models.events.WorkflowInstanceStatusChangeEvent",
+      "displayedType" : "WorkflowInstanceStatusChangeEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 51,
+        "endLine" : 65,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/handler" : {
+      "name" : "handler",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/handler",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler",
+      "displayedType" : "InstanceStepConcurrencyHandler",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 48,
+        "endLine" : 59,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/jobEvent3" : {
+      "name" : "jobEvent3",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/jobEvent3",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent",
+      "displayedType" : "WorkflowVersionUpdateJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 47,
+        "endLine" : 66,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/tagPermitManager" : {
+      "name" : "tagPermitManager",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/tagPermitManager",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.concurrency.TagPermitManager",
+      "displayedType" : "TagPermitManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 34,
+        "endLine" : 56,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/jobEvent2" : {
+      "name" : "jobEvent2",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/jobEvent2",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.jobevents.WorkflowInstanceUpdateJobEvent",
+      "displayedType" : "WorkflowInstanceUpdateJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 48,
+        "endLine" : 63,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/jobEvent1" : {
+      "name" : "jobEvent1",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/jobEvent1",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent",
+      "displayedType" : "StepInstanceUpdateJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 44,
+        "endLine" : 61,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/changeEvent1" : {
+      "name" : "changeEvent1",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/changeEvent1",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.models.events.StepInstanceStatusChangeEvent",
+      "displayedType" : "StepInstanceStatusChangeEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 47,
+        "endLine" : 62,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/actionDao" : {
+      "name" : "actionDao",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/actionDao",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao",
+      "displayedType" : "MaestroStepInstanceActionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 46,
+        "endLine" : 57,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/clusterName" : {
+      "name" : "clusterName",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/clusterName",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 24,
+        "endLine" : 68,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 24,
+        "endLine" : 69,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/eventClient" : {
+      "name" : "eventClient",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/eventClient",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.publisher.MaestroNotificationPublisher",
+      "displayedType" : "MaestroNotificationPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 46,
+        "endLine" : 55,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 42,
+        "endLine" : 54,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowVersionJobEvent()" : {
+      "name" : "testConsumeWorkflowVersionJobEvent",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowVersionJobEvent()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 15,
+        "endLine" : 143,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testNotReleaseTagPermitOrCleanUpStepActionIfRunning()" : {
+      "name" : "testNotReleaseTagPermitOrCleanUpStepActionIfRunning",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testNotReleaseTagPermitOrCleanUpStepActionIfRunning()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 152,
+        "startColumn" : 15,
+        "endLine" : 152,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testReleaseTagPermitAndCleanUpStepActionIfTerminal()" : {
+      "name" : "testReleaseTagPermitAndCleanUpStepActionIfTerminal",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testReleaseTagPermitAndCleanUpStepActionIfTerminal()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 15,
+        "endLine" : 167,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowInstanceUpdateJobEvent()" : {
+      "name" : "testConsumeWorkflowInstanceUpdateJobEvent",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowInstanceUpdateJobEvent()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 15,
+        "endLine" : 97,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeStepInstanceUpdateJobEvent()" : {
+      "name" : "testConsumeStepInstanceUpdateJobEvent",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeStepInstanceUpdateJobEvent()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 15,
+        "endLine" : 89,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowInstanceUpdateJobEventWithPublisherThrow()" : {
+      "name" : "testConsumeWorkflowInstanceUpdateJobEventWithPublisherThrow",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowInstanceUpdateJobEventWithPublisherThrow()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 15,
+        "endLine" : 123,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowInstanceUpdateJobEventWithStartWorkflowJobEvent()" : {
+      "name" : "testConsumeWorkflowInstanceUpdateJobEventWithStartWorkflowJobEvent",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testConsumeWorkflowInstanceUpdateJobEventWithStartWorkflowJobEvent()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 15,
+        "endLine" : 107,
+        "endColumn" : 81
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 15,
+        "endLine" : 73,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testReleaseInstanceStepConcurrency()" : {
+      "name" : "testReleaseInstanceStepConcurrency",
+      "key" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest/method/testReleaseInstanceStepConcurrency()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 15,
+        "endLine" : 178,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.PublishJobEventProcessorTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/messageprocessors/PublishJobEventProcessorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

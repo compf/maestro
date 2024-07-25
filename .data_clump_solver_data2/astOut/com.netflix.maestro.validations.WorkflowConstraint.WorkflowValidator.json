@@ -1,0 +1,380 @@
+{
+  "name" : "WorkflowValidator",
+  "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 3,
+    "endLine" : 54,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : {
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/memberField/STEPS_PROPERTY_NAME" : {
+      "name" : "STEPS_PROPERTY_NAME",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/memberField/STEPS_PROPERTY_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 33,
+        "endLine" : 55,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/initialize(com.netflix.maestro.validations.WorkflowConstraint constraint)" : {
+      "name" : "initialize",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/initialize(com.netflix.maestro.validations.WorkflowConstraint constraint)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "constraint",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/initialize(com.netflix.maestro.validations.WorkflowConstraint constraint)/parameter/constraint",
+        "type" : "com.netflix.maestro.validations.WorkflowConstraint",
+        "displayedType" : "WorkflowConstraint",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 47,
+          "endLine" : 58,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/initialize(com.netflix.maestro.validations.WorkflowConstraint constraint)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    },
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isInstanceStepConcurrencyValid(java.lang.Long instanceStepConcurrency, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isInstanceStepConcurrencyValid",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isInstanceStepConcurrencyValid(java.lang.Long instanceStepConcurrency, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 21,
+        "endLine" : 160,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instanceStepConcurrency",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isInstanceStepConcurrencyValid(java.lang.Long instanceStepConcurrency, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/instanceStepConcurrency",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 161,
+          "startColumn" : 14,
+          "endLine" : 161,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isInstanceStepConcurrencyValid(java.lang.Long instanceStepConcurrency, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isInstanceStepConcurrencyValid(java.lang.Long instanceStepConcurrency, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 161,
+          "startColumn" : 66,
+          "endLine" : 161,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isInstanceStepConcurrencyValid(java.lang.Long instanceStepConcurrency, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    },
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isStepListValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isStepListValid",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isStepListValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 21,
+        "endLine" : 75,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isStepListValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/workflow",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 46,
+          "endLine" : 75,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isStepListValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isStepListValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 83,
+          "endLine" : 75,
+          "endColumn" : 90
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isStepListValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    },
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isDagValid(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isDagValid",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isDagValid(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 21,
+        "endLine" : 110,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "steps",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isDagValid(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/steps",
+        "type" : "java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step>",
+        "displayedType" : "List<Step>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 43,
+          "endLine" : 110,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isDagValid(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isDagValid(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 77,
+          "endLine" : 110,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isDagValid(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    },
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)" : {
+      "name" : "hasDuplicateLoopParamNames",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 21,
+        "endLine" : 182,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "steps",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)/parameter/steps",
+        "type" : "java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step>",
+        "displayedType" : "List<Step>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 20,
+          "endLine" : 183,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 54,
+          "endLine" : 183,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)"
+      }, {
+        "name" : "loopParamNames",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)/parameter/loopParamNames",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 75,
+          "endLine" : 183,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/hasDuplicateLoopParamNames(java.util.List<com.netflix.maestro.validations.com.netflix.maestro.models.definition.Step> steps, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context, java.util.Set<java.lang.String> loopParamNames)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    },
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 20,
+        "endLine" : 61,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/workflow",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 37,
+          "endLine" : 61,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 74,
+          "endLine" : 61,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    },
+    "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isLoopParamNameValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isLoopParamNameValid",
+      "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isLoopParamNameValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 178,
+        "startColumn" : 21,
+        "endLine" : 178,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isLoopParamNameValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/workflow",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 51,
+          "endLine" : 178,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isLoopParamNameValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isLoopParamNameValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 178,
+          "startColumn" : 88,
+          "endLine" : 178,
+          "endColumn" : 95
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator/method/isLoopParamNameValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow workflow, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.WorkflowConstraint.WorkflowValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/WorkflowConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.WorkflowConstraint, com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow>", "com.netflix.maestro.validations.WorkflowConstraint", "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Workflow" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

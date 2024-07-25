@@ -1,0 +1,59 @@
+{
+  "name" : "DurationHelper",
+  "key" : "com.netflix.maestro.engine.utils.DurationHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 8,
+    "endLine" : 20,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.DurationHelper/method/humanReadableFormat(java.time.Duration duration)" : {
+      "name" : "humanReadableFormat",
+      "key" : "com.netflix.maestro.engine.utils.DurationHelper/method/humanReadableFormat(java.time.Duration duration)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 17,
+        "endLine" : 39,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "duration",
+        "key" : "com.netflix.maestro.engine.utils.DurationHelper/method/humanReadableFormat(java.time.Duration duration)/parameter/duration",
+        "type" : "java.time.Duration",
+        "displayedType" : "Duration",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 46,
+          "endLine" : 39,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.DurationHelper/method/humanReadableFormat(java.time.Duration duration)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.DurationHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/DurationHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

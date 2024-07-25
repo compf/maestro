@@ -1,0 +1,1232 @@
+{
+  "name" : "MaestroParamExtension",
+  "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/TIMEOUT_IN_MILLIS" : {
+      "name" : "TIMEOUT_IN_MILLIS",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/TIMEOUT_IN_MILLIS",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 28,
+        "endLine" : 49,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/executor" : {
+      "name" : "executor",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/executor",
+      "type" : "java.util.concurrent.ExecutorService",
+      "displayedType" : "ExecutorService",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 33,
+        "endLine" : 78,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/allStepOutputData" : {
+      "name" : "allStepOutputData",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/allStepOutputData",
+      "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.Object>>",
+      "displayedType" : "Map<String, Map<String, Object>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 50,
+        "endLine" : 81,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/DUMMY_VALIDATION_VALUE" : {
+      "name" : "DUMMY_VALIDATION_VALUE",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/DUMMY_VALIDATION_VALUE",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 21,
+        "endLine" : 52,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_FOREACH" : {
+      "name" : "GET_FROM_FOREACH",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_FOREACH",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 23,
+        "endLine" : 76,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/env" : {
+      "name" : "env",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/env",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 24,
+        "endLine" : 80,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 40,
+        "endLine" : 79,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/RANDOM_JITTER_DELAY" : {
+      "name" : "RANDOM_JITTER_DELAY",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/RANDOM_JITTER_DELAY",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 28,
+        "endLine" : 48,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_SIGNAL_OR_DEFAULT" : {
+      "name" : "GET_FROM_SIGNAL_OR_DEFAULT",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_SIGNAL_OR_DEFAULT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 23,
+        "endLine" : 73,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_INSTANCE_FIELD_ERROR_MESSAGE" : {
+      "name" : "GET_INSTANCE_FIELD_ERROR_MESSAGE",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_INSTANCE_FIELD_ERROR_MESSAGE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 31,
+        "endLine" : 50,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_SIGNAL" : {
+      "name" : "GET_FROM_SIGNAL",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_SIGNAL",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 23,
+        "endLine" : 67,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/signalDependenciesParams" : {
+      "name" : "signalDependenciesParams",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/signalDependenciesParams",
+      "type" : "java.util.Map<java.lang.String, java.util.List<java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter>>>",
+      "displayedType" : "Map<String, List<Map<String, Parameter>>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 59,
+        "endLine" : 82,
+        "endColumn" : 83
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_STEP" : {
+      "name" : "GET_FROM_STEP",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_STEP",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 23,
+        "endLine" : 64,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/NEXT_UNIQUE_ID" : {
+      "name" : "NEXT_UNIQUE_ID",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/NEXT_UNIQUE_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 23,
+        "endLine" : 55,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_EXEC_ENVIRONMENT" : {
+      "name" : "GET_EXEC_ENVIRONMENT",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_EXEC_ENVIRONMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 23,
+        "endLine" : 58,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/objectMapper" : {
+      "name" : "objectMapper",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/objectMapper",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 30,
+        "endLine" : 84,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_INSTANCE" : {
+      "name" : "GET_FROM_INSTANCE",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_INSTANCE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 23,
+        "endLine" : 61,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/instanceWrapper" : {
+      "name" : "instanceWrapper",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/instanceWrapper",
+      "type" : "com.netflix.maestro.engine.eval.InstanceWrapper",
+      "displayedType" : "InstanceWrapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 33,
+        "endLine" : 83,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_SIGNAL_DEPENDENCY" : {
+      "name" : "GET_FROM_SIGNAL_DEPENDENCY",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/memberField/GET_FROM_SIGNAL_DEPENDENCY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 23,
+        "endLine" : 70,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignal(java.lang.String signalName, java.lang.String paramName)" : {
+      "name" : "getFromSignal",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignal(java.lang.String signalName, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 10,
+        "endLine" : 197,
+        "endColumn" : 23
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "signalName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignal(java.lang.String signalName, java.lang.String paramName)/parameter/signalName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 197,
+          "startColumn" : 31,
+          "endLine" : 197,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignal(java.lang.String signalName, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignal(java.lang.String signalName, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 197,
+          "startColumn" : 50,
+          "endLine" : 197,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignal(java.lang.String signalName, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromInstance(java.lang.String fieldName)" : {
+      "name" : "getFromInstance",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromInstance(java.lang.String fieldName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 379,
+        "startColumn" : 10,
+        "endLine" : 379,
+        "endColumn" : 25
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fieldName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromInstance(java.lang.String fieldName)/parameter/fieldName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 379,
+          "startColumn" : 33,
+          "endLine" : 379,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromInstance(java.lang.String fieldName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/nextUniqueId()" : {
+      "name" : "nextUniqueId",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/nextUniqueId()",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 368,
+        "startColumn" : 8,
+        "endLine" : 368,
+        "endColumn" : 20
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String fieldName)" : {
+      "name" : "fromStep",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String fieldName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 429,
+        "startColumn" : 18,
+        "endLine" : 429,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fieldName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String fieldName)/parameter/fieldName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 429,
+          "startColumn" : 34,
+          "endLine" : 429,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String fieldName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)" : {
+      "name" : "fromSignalDependency",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 279,
+        "startColumn" : 18,
+        "endLine" : 279,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "signalDependencyName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)/parameter/signalDependencyName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 279,
+          "startColumn" : 46,
+          "endLine" : 279,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 279,
+          "startColumn" : 75,
+          "endLine" : 279,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)" : {
+      "name" : "getFromSignalDependency",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 10,
+        "endLine" : 265,
+        "endColumn" : 33
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "signalDependencyName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)/parameter/signalDependencyName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 265,
+          "startColumn" : 41,
+          "endLine" : 265,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 265,
+          "startColumn" : 70,
+          "endLine" : 265,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalDependency(java.lang.String signalDependencyName, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithoutArg(java.lang.String methodName)" : {
+      "name" : "callWithoutArg",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithoutArg(java.lang.String methodName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 20,
+        "endLine" : 87,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithoutArg(java.lang.String methodName)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 42,
+          "endLine" : 87,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithoutArg(java.lang.String methodName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String stepId, java.lang.String paramName)" : {
+      "name" : "fromStep",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String stepId, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 18,
+        "endLine" : 166,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String stepId, java.lang.String paramName)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 34,
+          "endLine" : 166,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String stepId, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String stepId, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 49,
+          "endLine" : 166,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromStep(java.lang.String stepId, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)" : {
+      "name" : "fromForeach",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 318,
+        "startColumn" : 18,
+        "endLine" : 318,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "foreachStepId",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/foreachStepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 318,
+          "startColumn" : 37,
+          "endLine" : 318,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 318,
+          "startColumn" : 59,
+          "endLine" : 318,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 318,
+          "startColumn" : 74,
+          "endLine" : 318,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String stepId, java.lang.String paramName)" : {
+      "name" : "getFromStep",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String stepId, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 10,
+        "endLine" : 144,
+        "endColumn" : 21
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String stepId, java.lang.String paramName)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 29,
+          "endLine" : 144,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String stepId, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String stepId, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 44,
+          "endLine" : 144,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String stepId, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)" : {
+      "name" : "getFromSignalOrDefault",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 10,
+        "endLine" : 212,
+        "endColumn" : 32
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "signalName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)/parameter/signalName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 40,
+          "endLine" : 212,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 59,
+          "endLine" : 212,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)"
+      }, {
+        "name" : "defaultValue",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)/parameter/defaultValue",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 77,
+          "endLine" : 212,
+          "endColumn" : 89
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromSignalOrDefault(java.lang.String signalName, java.lang.String paramName, java.lang.Object defaultValue)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String arg1)" : {
+      "name" : "callWithOneArg",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String arg1)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 20,
+        "endLine" : 98,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String arg1)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 42,
+          "endLine" : 98,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String arg1)"
+      }, {
+        "name" : "arg1",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String arg1)/parameter/arg1",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 61,
+          "endLine" : 98,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithOneArg(java.lang.String methodName, java.lang.String arg1)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)" : {
+      "name" : "callWithThreeArgs",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 20,
+        "endLine" : 126,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 45,
+          "endLine" : 126,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)"
+      }, {
+        "name" : "arg1",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)/parameter/arg1",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 64,
+          "endLine" : 126,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)"
+      }, {
+        "name" : "arg2",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)/parameter/arg2",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 77,
+          "endLine" : 126,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)"
+      }, {
+        "name" : "arg3",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)/parameter/arg3",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 90,
+          "endLine" : 126,
+          "endColumn" : 94
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithThreeArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)" : {
+      "name" : "getFromForeach",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 303,
+        "startColumn" : 10,
+        "endLine" : 303,
+        "endColumn" : 24
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "foreachStepId",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/foreachStepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 303,
+          "startColumn" : 32,
+          "endLine" : 303,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 303,
+          "startColumn" : 54,
+          "endLine" : 303,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 303,
+          "startColumn" : 69,
+          "endLine" : 303,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromForeach(java.lang.String foreachStepId, java.lang.String stepId, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String fieldName)" : {
+      "name" : "getFromStep",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String fieldName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 10,
+        "endLine" : 155,
+        "endColumn" : 21
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fieldName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String fieldName)/parameter/fieldName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 155,
+          "startColumn" : 29,
+          "endLine" : 155,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/getFromStep(java.lang.String fieldName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/validateAndGet(java.lang.String stepId)" : {
+      "name" : "validateAndGet",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/validateAndGet(java.lang.String stepId)",
+      "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+      "displayedType" : "StepRuntimeSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 188,
+        "startColumn" : 30,
+        "endLine" : 188,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/validateAndGet(java.lang.String stepId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 188,
+          "startColumn" : 52,
+          "endLine" : 188,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/validateAndGet(java.lang.String stepId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)" : {
+      "name" : "callWithTwoArgs",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 20,
+        "endLine" : 111,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 43,
+          "endLine" : 111,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)"
+      }, {
+        "name" : "arg1",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)/parameter/arg1",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 62,
+          "endLine" : 111,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)"
+      }, {
+        "name" : "arg2",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)/parameter/arg2",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 75,
+          "endLine" : 111,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/callWithTwoArgs(java.lang.String methodName, java.lang.String arg1, java.lang.String arg2)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignal(java.lang.String signalName, java.lang.String paramName)" : {
+      "name" : "fromSignal",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignal(java.lang.String signalName, java.lang.String paramName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 18,
+        "endLine" : 220,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "signalName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignal(java.lang.String signalName, java.lang.String paramName)/parameter/signalName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 36,
+          "endLine" : 220,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignal(java.lang.String signalName, java.lang.String paramName)"
+      }, {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignal(java.lang.String signalName, java.lang.String paramName)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 55,
+          "endLine" : 220,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromSignal(java.lang.String signalName, java.lang.String paramName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    },
+    "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromInstance(java.lang.String fieldName)" : {
+      "name" : "fromInstance",
+      "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromInstance(java.lang.String fieldName)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 393,
+        "startColumn" : 18,
+        "endLine" : 393,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fieldName",
+        "key" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromInstance(java.lang.String fieldName)/parameter/fieldName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 393,
+          "startColumn" : 38,
+          "endLine" : 393,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension/method/fromInstance(java.lang.String fieldName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.MaestroParamExtension"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/eval/MaestroParamExtension.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.eval.com.netflix.sel.ext.AbstractParamExtension" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

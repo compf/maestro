@@ -1,0 +1,359 @@
+{
+  "name" : "SelDouble",
+  "key" : "com.netflix.sel.type.SelDouble",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 19,
+    "startColumn" : 14,
+    "endLine" : 19,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.type.SelDouble/memberField/val" : {
+      "name" : "val",
+      "key" : "com.netflix.sel.type.SelDouble/memberField/val",
+      "type" : "double",
+      "displayedType" : "double",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 20,
+        "startColumn" : 18,
+        "endLine" : 20,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelDouble/method/getInternalVal()" : {
+      "name" : "getInternalVal",
+      "key" : "com.netflix.sel.type.SelDouble/method/getInternalVal()",
+      "type" : "java.lang.Double",
+      "displayedType" : "Double",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 17,
+        "endLine" : 52,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/doubleVal()" : {
+      "name" : "doubleVal",
+      "key" : "com.netflix.sel.type.SelDouble/method/doubleVal()",
+      "type" : "double",
+      "displayedType" : "double",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 10,
+        "endLine" : 47,
+        "endColumn" : 19
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)" : {
+      "name" : "assignOps",
+      "key" : "com.netflix.sel.type.SelDouble/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)",
+      "type" : "com.netflix.sel.type.SelDouble",
+      "displayedType" : "SelDouble",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 20,
+        "endLine" : 62,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "com.netflix.sel.type.SelDouble/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/op",
+        "type" : "com.netflix.sel.type.com.netflix.sel.visitor.SelOp",
+        "displayedType" : "SelOp",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 36,
+          "endLine" : 62,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      }, {
+        "name" : "rhs",
+        "key" : "com.netflix.sel.type.SelDouble/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/rhs",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 48,
+          "endLine" : 62,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/assignOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/of(java.lang.String s)" : {
+      "name" : "of",
+      "key" : "com.netflix.sel.type.SelDouble/method/of(java.lang.String s)",
+      "type" : "com.netflix.sel.type.SelDouble",
+      "displayedType" : "SelDouble",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 27,
+        "endLine" : 39,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "com.netflix.sel.type.SelDouble/method/of(java.lang.String s)/parameter/s",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 37,
+          "endLine" : 39,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/of(java.lang.String s)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelDouble/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 19,
+        "endLine" : 57,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/of(double s)" : {
+      "name" : "of",
+      "key" : "com.netflix.sel.type.SelDouble/method/of(double s)",
+      "type" : "com.netflix.sel.type.SelDouble",
+      "displayedType" : "SelDouble",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 20,
+        "endLine" : 43,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "s",
+        "key" : "com.netflix.sel.type.SelDouble/method/of(double s)/parameter/s",
+        "type" : "double",
+        "displayedType" : "double",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 30,
+          "endLine" : 43,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/of(double s)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.type.SelDouble/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 17,
+        "endLine" : 168,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/binaryOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)" : {
+      "name" : "binaryOps",
+      "key" : "com.netflix.sel.type.SelDouble/method/binaryOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 18,
+        "endLine" : 91,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "op",
+        "key" : "com.netflix.sel.type.SelDouble/method/binaryOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/op",
+        "type" : "com.netflix.sel.type.com.netflix.sel.visitor.SelOp",
+        "displayedType" : "SelOp",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 34,
+          "endLine" : 91,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/binaryOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      }, {
+        "name" : "rhs",
+        "key" : "com.netflix.sel.type.SelDouble/method/binaryOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)/parameter/rhs",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 46,
+          "endLine" : 91,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/binaryOps(com.netflix.sel.type.com.netflix.sel.visitor.SelOp op, com.netflix.sel.type.SelType rhs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/create(com.netflix.sel.type.SelType[] args)" : {
+      "name" : "create",
+      "key" : "com.netflix.sel.type.SelDouble/method/create(com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelDouble",
+      "displayedType" : "SelDouble",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 20,
+        "endLine" : 26,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelDouble/method/create(com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 26,
+          "startColumn" : 37,
+          "endLine" : 26,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/create(com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    },
+    "com.netflix.sel.type.SelDouble/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)" : {
+      "name" : "call",
+      "key" : "com.netflix.sel.type.SelDouble/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 18,
+        "endLine" : 140,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.sel.type.SelDouble/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 30,
+          "endLine" : 140,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelDouble/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 140,
+          "startColumn" : 52,
+          "endLine" : 140,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelDouble/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelDouble"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelDouble.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.type.AbstractSelType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

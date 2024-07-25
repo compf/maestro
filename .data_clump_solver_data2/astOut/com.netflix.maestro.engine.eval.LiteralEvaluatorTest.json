@@ -1,0 +1,349 @@
+{
+  "name" : "LiteralEvaluatorTest",
+  "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/memberField/crazyName" : {
+      "name" : "crazyName",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/memberField/crazyName",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 18,
+        "endLine" : 42,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/memberField/params" : {
+      "name" : "params",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/memberField/params",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 34,
+        "endLine" : 43,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithEscapedNames()" : {
+      "name" : "testStringInterpolationWithEscapedNames",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithEscapedNames()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 15,
+        "endLine" : 173,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationInStringArrayParam()" : {
+      "name" : "testStringInterpolationInStringArrayParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationInStringArrayParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 15,
+        "endLine" : 122,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithBracketAndEscapedNames()" : {
+      "name" : "testStringInterpolationWithBracketAndEscapedNames",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithBracketAndEscapedNames()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 190,
+        "startColumn" : 15,
+        "endLine" : 190,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithoutDoubleInterpolation()" : {
+      "name" : "testStringInterpolationWithoutDoubleInterpolation",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithoutDoubleInterpolation()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 207,
+        "startColumn" : 15,
+        "endLine" : 207,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testLiteralEvalMapParam()" : {
+      "name" : "testLiteralEvalMapParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testLiteralEvalMapParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 285,
+        "startColumn" : 15,
+        "endLine" : 285,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 15,
+        "endLine" : 46,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithKeyValueParamInStringMap()" : {
+      "name" : "testStringInterpolationWithKeyValueParamInStringMap",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithKeyValueParamInStringMap()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 15,
+        "endLine" : 159,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithStringMapParam()" : {
+      "name" : "testStringInterpolationWithStringMapParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithStringMapParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 272,
+        "startColumn" : 15,
+        "endLine" : 272,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithArrayParam()" : {
+      "name" : "testStringInterpolationWithArrayParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationWithArrayParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 234,
+        "startColumn" : 15,
+        "endLine" : 234,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationInStringMapParam()" : {
+      "name" : "testStringInterpolationInStringMapParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationInStringMapParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 15,
+        "endLine" : 139,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationInStringParam()" : {
+      "name" : "testStringInterpolationInStringParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationInStringParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 15,
+        "endLine" : 101,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationJsonError()" : {
+      "name" : "testStringInterpolationJsonError",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testStringInterpolationJsonError()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 254,
+        "startColumn" : 15,
+        "endLine" : 254,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testNotEvaluatedParam()" : {
+      "name" : "testNotEvaluatedParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testNotEvaluatedParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 15,
+        "endLine" : 313,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testNonExistingParam()" : {
+      "name" : "testNonExistingParam",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testNonExistingParam()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 298,
+        "startColumn" : 15,
+        "endLine" : 298,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testOtherParamType()" : {
+      "name" : "testOtherParamType",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testOtherParamType()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 328,
+        "startColumn" : 15,
+        "endLine" : 328,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testReplaceDoubleDollarSign()" : {
+      "name" : "testReplaceDoubleDollarSign",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest/method/testReplaceDoubleDollarSign()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 220,
+        "startColumn" : 15,
+        "endLine" : 220,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluatorTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/eval/LiteralEvaluatorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.eval.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

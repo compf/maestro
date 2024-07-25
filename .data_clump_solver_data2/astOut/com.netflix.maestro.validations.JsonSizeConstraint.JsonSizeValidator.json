@@ -1,0 +1,452 @@
+{
+  "name" : "JsonSizeValidator",
+  "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 3,
+    "endLine" : 51,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : {
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/sizeLimit" : {
+      "name" : "sizeLimit",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/sizeLimit",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 20,
+        "endLine" : 58,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/MB" : {
+      "name" : "MB",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/MB",
+      "type" : "char",
+      "displayedType" : "char",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 31,
+        "endLine" : 55,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/BYTES_PER_KB" : {
+      "name" : "BYTES_PER_KB",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/BYTES_PER_KB",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 31,
+        "endLine" : 53,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/objectMapper" : {
+      "name" : "objectMapper",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/objectMapper",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 32,
+        "endLine" : 59,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/KB" : {
+      "name" : "KB",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/KB",
+      "type" : "char",
+      "displayedType" : "char",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 31,
+        "endLine" : 54,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/MAX_STACKTRACE_LINES" : {
+      "name" : "MAX_STACKTRACE_LINES",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/MAX_STACKTRACE_LINES",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 30,
+        "endLine" : 52,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/GB" : {
+      "name" : "GB",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/memberField/GB",
+      "type" : "char",
+      "displayedType" : "char",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 31,
+        "endLine" : 56,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/parseSize(java.lang.String text)" : {
+      "name" : "parseSize",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/parseSize(java.lang.String text)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 25,
+        "endLine" : 107,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "text",
+        "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/parseSize(java.lang.String text)/parameter/text",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 42,
+          "endLine" : 107,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/parseSize(java.lang.String text)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/initialize(com.netflix.maestro.validations.JsonSizeConstraint constraint)" : {
+      "name" : "initialize",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/initialize(com.netflix.maestro.validations.JsonSizeConstraint constraint)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "constraint",
+        "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/initialize(com.netflix.maestro.validations.JsonSizeConstraint constraint)/parameter/constraint",
+        "type" : "com.netflix.maestro.validations.JsonSizeConstraint",
+        "displayedType" : "JsonSizeConstraint",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 47,
+          "endLine" : 62,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/initialize(com.netflix.maestro.validations.JsonSizeConstraint constraint)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    },
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/isValid(java.lang.Object value, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/isValid(java.lang.Object value, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 20,
+        "endLine" : 67,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/isValid(java.lang.Object value, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 35,
+          "endLine" : 67,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/isValid(java.lang.Object value, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/isValid(java.lang.Object value, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 69,
+          "endLine" : 67,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator/method/isValid(java.lang.Object value, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/JsonSizeConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.JsonSizeConstraint, java.lang.Object>", "com.netflix.maestro.validations.JsonSizeConstraint", "java.lang.Object" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream" : {
+      "name" : "CountingOutputStream",
+      "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 26,
+        "endLine" : 120,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "fields" : {
+        "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/memberField/count" : {
+          "name" : "count",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/memberField/count",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 121,
+            "startColumn" : 20,
+            "endLine" : 121,
+            "endColumn" : 25
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)" : {
+          "name" : "write",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)",
+          "type" : "void",
+          "displayedType" : "void",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 129,
+            "startColumn" : 19,
+            "endLine" : 129,
+            "endColumn" : 24
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "b",
+            "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)/parameter/b",
+            "type" : "byte[]",
+            "displayedType" : "byte[]",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 129,
+              "startColumn" : 38,
+              "endLine" : 129,
+              "endColumn" : 39
+            },
+            "modifiers" : [ "FINAL" ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)"
+          }, {
+            "name" : "off",
+            "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)/parameter/off",
+            "type" : "int",
+            "displayedType" : "int",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 129,
+              "startColumn" : 51,
+              "endLine" : 129,
+              "endColumn" : 54
+            },
+            "modifiers" : [ "FINAL" ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)"
+          }, {
+            "name" : "len",
+            "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)/parameter/len",
+            "type" : "int",
+            "displayedType" : "int",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 129,
+              "startColumn" : 66,
+              "endLine" : 129,
+              "endColumn" : 69
+            },
+            "modifiers" : [ "FINAL" ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b, int off, int len)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream"
+        },
+        "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(int b)" : {
+          "name" : "write",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(int b)",
+          "type" : "void",
+          "displayedType" : "void",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 134,
+            "startColumn" : 19,
+            "endLine" : 134,
+            "endColumn" : 24
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "b",
+            "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(int b)/parameter/b",
+            "type" : "int",
+            "displayedType" : "int",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 134,
+              "startColumn" : 35,
+              "endLine" : 134,
+              "endColumn" : 36
+            },
+            "modifiers" : [ "FINAL" ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(int b)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream"
+        },
+        "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/getByteCount()" : {
+          "name" : "getByteCount",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/getByteCount()",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 124,
+            "startColumn" : 19,
+            "endLine" : 124,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream"
+        },
+        "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b)" : {
+          "name" : "write",
+          "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b)",
+          "type" : "void",
+          "displayedType" : "void",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 139,
+            "startColumn" : 19,
+            "endLine" : 139,
+            "endColumn" : 24
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "b",
+            "key" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b)/parameter/b",
+            "type" : "byte[]",
+            "displayedType" : "byte[]",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 139,
+              "startColumn" : 38,
+              "endLine" : 139,
+              "endColumn" : 39
+            },
+            "modifiers" : [ "FINAL" ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream/method/write(byte[] b)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator.CountingOutputStream"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/JsonSizeConstraint.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "java.io.OutputStream" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.JsonSizeConstraint.JsonSizeValidator",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

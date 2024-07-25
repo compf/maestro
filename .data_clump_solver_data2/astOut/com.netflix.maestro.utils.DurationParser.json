@@ -1,0 +1,225 @@
+{
+  "name" : "DurationParser",
+  "key" : "com.netflix.maestro.utils.DurationParser",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 14,
+    "endLine" : 27,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.utils.DurationParser/memberField/PARAM_NAME" : {
+      "name" : "PARAM_NAME",
+      "key" : "com.netflix.maestro.utils.DurationParser/memberField/PARAM_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 31,
+        "endLine" : 32,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.DurationParser"
+    },
+    "com.netflix.maestro.utils.DurationParser/memberField/TIME_UNITS" : {
+      "name" : "TIME_UNITS",
+      "key" : "com.netflix.maestro.utils.DurationParser/memberField/TIME_UNITS",
+      "type" : "java.util.concurrent.TimeUnit[]",
+      "displayedType" : "TimeUnit[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 35,
+        "endLine" : 41,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.DurationParser"
+    },
+    "com.netflix.maestro.utils.DurationParser/memberField/SCALA_DURATION_REGEX" : {
+      "name" : "SCALA_DURATION_REGEX",
+      "key" : "com.netflix.maestro.utils.DurationParser/memberField/SCALA_DURATION_REGEX",
+      "type" : "java.util.regex.Pattern",
+      "displayedType" : "Pattern",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 32,
+        "endLine" : 34,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.DurationParser"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.utils.DurationParser/method/validate(java.lang.String duration)" : {
+      "name" : "validate",
+      "key" : "com.netflix.maestro.utils.DurationParser/method/validate(java.lang.String duration)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 25,
+        "endLine" : 92,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "duration",
+        "key" : "com.netflix.maestro.utils.DurationParser/method/validate(java.lang.String duration)/parameter/duration",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 92,
+          "startColumn" : 41,
+          "endLine" : 92,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.DurationParser/method/validate(java.lang.String duration)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.DurationParser"
+    },
+    "com.netflix.maestro.utils.DurationParser/method/getDurationInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration)" : {
+      "name" : "getDurationInMillis",
+      "key" : "com.netflix.maestro.utils.DurationParser/method/getDurationInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 22,
+        "endLine" : 59,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "duration",
+        "key" : "com.netflix.maestro.utils.DurationParser/method/getDurationInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration)/parameter/duration",
+        "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration",
+        "displayedType" : "Duration",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 51,
+          "endLine" : 59,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.DurationParser/method/getDurationInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.DurationParser"
+    },
+    "com.netflix.maestro.utils.DurationParser/method/getDurationWithParamInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration, java.util.function.Function<com.netflix.maestro.utils.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.utils.com.netflix.maestro.models.parameter.Parameter> paramParser)" : {
+      "name" : "getDurationWithParamInMillis",
+      "key" : "com.netflix.maestro.utils.DurationParser/method/getDurationWithParamInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration, java.util.function.Function<com.netflix.maestro.utils.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.utils.com.netflix.maestro.models.parameter.Parameter> paramParser)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 22,
+        "endLine" : 68,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "duration",
+        "key" : "com.netflix.maestro.utils.DurationParser/method/getDurationWithParamInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration, java.util.function.Function<com.netflix.maestro.utils.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.utils.com.netflix.maestro.models.parameter.Parameter> paramParser)/parameter/duration",
+        "type" : "com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration",
+        "displayedType" : "Duration",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 16,
+          "endLine" : 69,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.DurationParser/method/getDurationWithParamInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration, java.util.function.Function<com.netflix.maestro.utils.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.utils.com.netflix.maestro.models.parameter.Parameter> paramParser)"
+      }, {
+        "name" : "paramParser",
+        "key" : "com.netflix.maestro.utils.DurationParser/method/getDurationWithParamInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration, java.util.function.Function<com.netflix.maestro.utils.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.utils.com.netflix.maestro.models.parameter.Parameter> paramParser)/parameter/paramParser",
+        "type" : "java.util.function.Function<com.netflix.maestro.utils.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.utils.com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Function<ParamDefinition, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 63,
+          "endLine" : 69,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.DurationParser/method/getDurationWithParamInMillis(com.netflix.maestro.utils.com.netflix.maestro.models.definition.Duration duration, java.util.function.Function<com.netflix.maestro.utils.com.netflix.maestro.models.parameter.ParamDefinition, com.netflix.maestro.utils.com.netflix.maestro.models.parameter.Parameter> paramParser)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.DurationParser"
+    },
+    "com.netflix.maestro.utils.DurationParser/method/parseDuration(java.lang.String duration)" : {
+      "name" : "parseDuration",
+      "key" : "com.netflix.maestro.utils.DurationParser/method/parseDuration(java.lang.String duration)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 23,
+        "endLine" : 47,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "duration",
+        "key" : "com.netflix.maestro.utils.DurationParser/method/parseDuration(java.lang.String duration)/parameter/duration",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 44,
+          "endLine" : 47,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.utils.DurationParser/method/parseDuration(java.lang.String duration)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.utils.DurationParser"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/utils/DurationParser.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

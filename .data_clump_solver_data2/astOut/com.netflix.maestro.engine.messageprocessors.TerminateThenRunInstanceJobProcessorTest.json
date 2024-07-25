@@ -1,0 +1,394 @@
+{
+  "name" : "TerminateThenRunInstanceJobProcessorTest",
+  "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 8,
+    "endLine" : 42,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/jobEvent1" : {
+      "name" : "jobEvent1",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/jobEvent1",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent",
+      "displayedType" : "TerminateThenRunInstanceJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 44,
+        "endLine" : 53,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/actionDao" : {
+      "name" : "actionDao",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/actionDao",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao",
+      "displayedType" : "MaestroStepInstanceActionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 46,
+        "endLine" : 45,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/jobEvent2" : {
+      "name" : "jobEvent2",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/jobEvent2",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.jobevents.TerminateThenRunInstanceJobEvent",
+      "displayedType" : "TerminateThenRunInstanceJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 44,
+        "endLine" : 54,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 42,
+        "endLine" : 43,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 24,
+        "endLine" : 50,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/tester" : {
+      "name" : "tester",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/tester",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 22,
+        "endLine" : 51,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/processor" : {
+      "name" : "processor",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/processor",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor",
+      "displayedType" : "TerminateThenRunInstanceJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 48,
+        "endLine" : 52,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 44,
+        "endLine" : 44,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instance1" : {
+      "name" : "instance1",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instance1",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 34,
+        "endLine" : 46,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instance3" : {
+      "name" : "instance3",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instance3",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 34,
+        "endLine" : 48,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instance2" : {
+      "name" : "instance2",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/memberField/instance2",
+      "type" : "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 34,
+        "endLine" : 47,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesNullPointerException()" : {
+      "name" : "testTerminateWorkflowInstancesNullPointerException",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesNullPointerException()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 241,
+        "startColumn" : 15,
+        "endLine" : 241,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithRunAfterNotDone()" : {
+      "name" : "testTerminateWorkflowInstancesWithRunAfterNotDone",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithRunAfterNotDone()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 15,
+        "endLine" : 90,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesUuidNotMatchException()" : {
+      "name" : "testTerminateWorkflowInstancesUuidNotMatchException",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesUuidNotMatchException()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 15,
+        "endLine" : 213,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesMaestroNotFoundException()" : {
+      "name" : "testTerminateWorkflowInstancesMaestroNotFoundException",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesMaestroNotFoundException()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 225,
+        "startColumn" : 15,
+        "endLine" : 225,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testNotTerminateWorkflowInstances()" : {
+      "name" : "testNotTerminateWorkflowInstances",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testNotTerminateWorkflowInstances()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 15,
+        "endLine" : 191,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithoutRunAfterNotDone()" : {
+      "name" : "testTerminateWorkflowInstancesWithoutRunAfterNotDone",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithoutRunAfterNotDone()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 15,
+        "endLine" : 135,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesRuntimeException()" : {
+      "name" : "testTerminateWorkflowInstancesRuntimeException",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesRuntimeException()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 260,
+        "startColumn" : 15,
+        "endLine" : 260,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 15,
+        "endLine" : 57,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithoutRunAfterDone()" : {
+      "name" : "testTerminateWorkflowInstancesWithoutRunAfterDone",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithoutRunAfterDone()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 168,
+        "startColumn" : 15,
+        "endLine" : 168,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    },
+    "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithRunAfterDone()" : {
+      "name" : "testTerminateWorkflowInstancesWithRunAfterDone",
+      "key" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest/method/testTerminateWorkflowInstancesWithRunAfterDone()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 15,
+        "endLine" : 114,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.messageprocessors.TerminateThenRunInstanceJobProcessorTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/messageprocessors/TerminateThenRunInstanceJobProcessorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.messageprocessors.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

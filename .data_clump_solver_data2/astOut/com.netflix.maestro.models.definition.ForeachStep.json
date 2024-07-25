@@ -1,0 +1,96 @@
+{
+  "name" : "ForeachStep",
+  "key" : "com.netflix.maestro.models.definition.ForeachStep",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 56,
+    "startColumn" : 14,
+    "endLine" : 56,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.ForeachStep/memberField/strictOrdering" : {
+      "name" : "strictOrdering",
+      "key" : "com.netflix.maestro.models.definition.ForeachStep/memberField/strictOrdering",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 19,
+        "endLine" : 60,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.ForeachStep"
+    },
+    "com.netflix.maestro.models.definition.ForeachStep/memberField/steps" : {
+      "name" : "steps",
+      "key" : "com.netflix.maestro.models.definition.ForeachStep/memberField/steps",
+      "type" : "java.util.List<com.netflix.maestro.models.definition.Step>",
+      "displayedType" : "List<Step>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 29,
+        "endLine" : 62,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.ForeachStep"
+    },
+    "com.netflix.maestro.models.definition.ForeachStep/memberField/concurrency" : {
+      "name" : "concurrency",
+      "key" : "com.netflix.maestro.models.definition.ForeachStep/memberField/concurrency",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 16,
+        "endLine" : 58,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.ForeachStep"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.ForeachStep/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.definition.ForeachStep/method/getType()",
+      "type" : "com.netflix.maestro.models.definition.StepType",
+      "displayedType" : "StepType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 19,
+        "endLine" : 66,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.ForeachStep"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/ForeachStep.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.definition.AbstractStep" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

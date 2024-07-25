@@ -1,0 +1,362 @@
+{
+  "name" : "AggregatedViewHelper",
+  "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 14,
+    "endLine" : 33,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.engine.utils.AggregatedViewHelper/memberField/STEP_INSTANCE_STATUS_TO_WORKFLOW_INSTANCE_STATUS" : {
+      "name" : "STEP_INSTANCE_STATUS_TO_WORKFLOW_INSTANCE_STATUS",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/memberField/STEP_INSTANCE_STATUS_TO_WORKFLOW_INSTANCE_STATUS",
+      "type" : "java.util.Map<com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status>",
+      "displayedType" : "Map<StepInstance.Status, WorkflowInstance.Status>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 7,
+        "endLine" : 37,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/convertToAggregated(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> runtimeState, java.lang.Long workflowRunId)" : {
+      "name" : "convertToAggregated",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/convertToAggregated(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> runtimeState, java.lang.Long workflowRunId)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView>",
+      "displayedType" : "Map<String, StepAggregatedView>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 50,
+        "endLine" : 172,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runtimeState",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/convertToAggregated(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> runtimeState, java.lang.Long workflowRunId)/parameter/runtimeState",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState>",
+        "displayedType" : "Map<String, StepRuntimeState>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 37,
+          "endLine" : 173,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/convertToAggregated(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> runtimeState, java.lang.Long workflowRunId)"
+      }, {
+        "name" : "workflowRunId",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/convertToAggregated(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> runtimeState, java.lang.Long workflowRunId)/parameter/workflowRunId",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 173,
+          "startColumn" : 56,
+          "endLine" : 173,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/convertToAggregated(java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState> runtimeState, java.lang.Long workflowRunId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)" : {
+      "name" : "deriveAggregatedStatus",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status",
+      "displayedType" : "WorkflowInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 288,
+        "startColumn" : 41,
+        "endLine" : 288,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instanceDao",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)/parameter/instanceDao",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+        "displayedType" : "MaestroWorkflowInstanceDao",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 289,
+          "startColumn" : 34,
+          "endLine" : 289,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 290,
+          "startColumn" : 23,
+          "endLine" : 290,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)"
+      }, {
+        "name" : "runStatus",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)/parameter/runStatus",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 291,
+          "startColumn" : 31,
+          "endLine" : 291,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)"
+      }, {
+        "name" : "overviewToUpdate",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)/parameter/overviewToUpdate",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+        "displayedType" : "WorkflowRuntimeOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 292,
+          "startColumn" : 31,
+          "endLine" : 292,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/deriveAggregatedStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao instanceDao, com.netflix.maestro.engine.utils.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status runStatus, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overviewToUpdate)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedViewNoStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)" : {
+      "name" : "computeAggregatedViewNoStatus",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedViewNoStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo",
+      "displayedType" : "WorkflowInstanceAggregatedInfo",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 128,
+        "startColumn" : 49,
+        "endLine" : 128,
+        "endColumn" : 78
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedViewNoStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 129,
+          "startColumn" : 24,
+          "endLine" : 129,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedViewNoStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedView(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance, boolean statusKnown)" : {
+      "name" : "computeAggregatedView",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedView(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance, boolean statusKnown)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo",
+      "displayedType" : "WorkflowInstanceAggregatedInfo",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 48,
+        "endLine" : 104,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowInstance",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedView(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance, boolean statusKnown)/parameter/workflowInstance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 105,
+          "startColumn" : 24,
+          "endLine" : 105,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedView(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance, boolean statusKnown)"
+      }, {
+        "name" : "statusKnown",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedView(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance, boolean statusKnown)/parameter/statusKnown",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 105,
+          "startColumn" : 50,
+          "endLine" : 105,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAggregatedView(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance, boolean statusKnown)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)" : {
+      "name" : "populateAndResetWithNotCreated",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 23,
+        "endLine" : 203,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 204,
+          "startColumn" : 24,
+          "endLine" : 204,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)"
+      }, {
+        "name" : "knownStepIds",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)/parameter/knownStepIds",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 19,
+          "endLine" : 205,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)"
+      }, {
+        "name" : "aggregatedViewMap",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)/parameter/aggregatedViewMap",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView>",
+        "displayedType" : "Map<String, StepAggregatedView>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 39,
+          "endLine" : 206,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/populateAndResetWithNotCreated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance instance, java.util.Set<java.lang.String> knownStepIds, java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView> aggregatedViewMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAndSetAggregatedInstanceStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance currentInstance, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregated)" : {
+      "name" : "computeAndSetAggregatedInstanceStatus",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAndSetAggregatedInstanceStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance currentInstance, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregated)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 229,
+        "startColumn" : 15,
+        "endLine" : 229,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "currentInstance",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAndSetAggregatedInstanceStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance currentInstance, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregated)/parameter/currentInstance",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 24,
+          "endLine" : 230,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAndSetAggregatedInstanceStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance currentInstance, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregated)"
+      }, {
+        "name" : "aggregated",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAndSetAggregatedInstanceStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance currentInstance, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregated)/parameter/aggregated",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo",
+        "displayedType" : "WorkflowInstanceAggregatedInfo",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 230,
+          "startColumn" : 72,
+          "endLine" : 230,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper/method/computeAndSetAggregatedInstanceStatus(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance currentInstance, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstanceAggregatedInfo aggregated)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelper"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/utils/AggregatedViewHelper.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

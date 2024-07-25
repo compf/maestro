@@ -1,0 +1,207 @@
+{
+  "name" : "MaestroTracingContext",
+  "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 14,
+    "endLine" : 44,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/traceIdLow" : {
+      "name" : "traceIdLow",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/traceIdLow",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 22,
+        "endLine" : 47,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/spanId" : {
+      "name" : "spanId",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/spanId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 22,
+        "endLine" : 48,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/sampled" : {
+      "name" : "sampled",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/sampled",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 25,
+        "endLine" : 50,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/parentSpanId" : {
+      "name" : "parentSpanId",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/parentSpanId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 22,
+        "endLine" : 49,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/traceIdHigh" : {
+      "name" : "traceIdHigh",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/memberField/traceIdHigh",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 22,
+        "endLine" : 46,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/toTraceContext()" : {
+      "name" : "toTraceContext",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/toTraceContext()",
+      "type" : "com.netflix.maestro.engine.tracing.brave.propagation.TraceContext",
+      "displayedType" : "TraceContext",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 23,
+        "endLine" : 84,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/toTracingArtifacts()" : {
+      "name" : "toTracingArtifacts",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/toTracingArtifacts()",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.tracing.com.netflix.maestro.models.artifact.Artifact>",
+      "displayedType" : "Map<String, Artifact>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 32,
+        "endLine" : 99,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    },
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/fromTraceContext(com.netflix.maestro.engine.tracing.brave.propagation.TraceContext from)" : {
+      "name" : "fromTraceContext",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/fromTraceContext(com.netflix.maestro.engine.tracing.brave.propagation.TraceContext from)",
+      "type" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+      "displayedType" : "MaestroTracingContext",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 39,
+        "endLine" : 68,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "from",
+        "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/fromTraceContext(com.netflix.maestro.engine.tracing.brave.propagation.TraceContext from)/parameter/from",
+        "type" : "com.netflix.maestro.engine.tracing.brave.propagation.TraceContext",
+        "displayedType" : "TraceContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 69,
+          "endLine" : 68,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext/method/fromTraceContext(com.netflix.maestro.engine.tracing.brave.propagation.TraceContext from)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/tracing/MaestroTracingContext.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.tracing.MaestroTracingContext.MaestroTracingContextBuilder" : {
+      "name" : "MaestroTracingContextBuilder",
+      "key" : "com.netflix.maestro.engine.tracing.MaestroTracingContext.MaestroTracingContextBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 23,
+        "endLine" : 65,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/tracing/MaestroTracingContext.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.tracing.MaestroTracingContext",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

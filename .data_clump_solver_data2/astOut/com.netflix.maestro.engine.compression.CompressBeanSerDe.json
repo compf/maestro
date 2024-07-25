@@ -1,0 +1,367 @@
+{
+  "name" : "CompressBeanSerDe",
+  "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 14,
+    "endLine" : 36,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.engine.compression.CompressBeanSerDe/memberField/CONTEXT" : {
+      "name" : "CONTEXT",
+      "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe/memberField/CONTEXT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 30,
+        "endLine" : 38,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/compression/CompressBeanSerDe.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer" : {
+      "name" : "Serializer",
+      "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 17,
+        "endLine" : 49,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)" : {
+          "name" : "serialize",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)",
+          "type" : "void",
+          "displayedType" : "void",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 51,
+            "startColumn" : 17,
+            "endLine" : 51,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "value",
+            "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)/parameter/value",
+            "type" : "T",
+            "displayedType" : "T",
+            "hasTypeVariable" : true,
+            "position" : {
+              "startLine" : 51,
+              "startColumn" : 29,
+              "endLine" : 51,
+              "endColumn" : 34
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)"
+          }, {
+            "name" : "gen",
+            "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)/parameter/gen",
+            "type" : "com.fasterxml.jackson.core.JsonGenerator",
+            "displayedType" : "JsonGenerator",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 51,
+              "startColumn" : 50,
+              "endLine" : 51,
+              "endColumn" : 53
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)"
+          }, {
+            "name" : "serializers",
+            "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)/parameter/serializers",
+            "type" : "com.fasterxml.jackson.databind.SerializerProvider",
+            "displayedType" : "SerializerProvider",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 51,
+              "startColumn" : 74,
+              "endLine" : 51,
+              "endColumn" : 85
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer/method/serialize(T value, com.fasterxml.jackson.core.JsonGenerator gen, com.fasterxml.jackson.databind.SerializerProvider serializers)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Serializer"
+        }
+      },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/compression/CompressBeanSerDe.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.fasterxml.jackson.databind.JsonSerializer<T>", "T" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer" : {
+      "name" : "Deserializer",
+      "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/memberField/javaType" : {
+          "name" : "javaType",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/memberField/javaType",
+          "type" : "com.fasterxml.jackson.databind.JavaType",
+          "displayedType" : "JavaType",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 79,
+            "startColumn" : 28,
+            "endLine" : 79,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/createContextual(com.fasterxml.jackson.databind.DeserializationContext ctxt, com.fasterxml.jackson.databind.BeanProperty property)" : {
+          "name" : "createContextual",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/createContextual(com.fasterxml.jackson.databind.DeserializationContext ctxt, com.fasterxml.jackson.databind.BeanProperty property)",
+          "type" : "com.fasterxml.jackson.databind.JsonDeserializer<?>",
+          "displayedType" : "JsonDeserializer<?>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 109,
+            "startColumn" : 32,
+            "endLine" : 109,
+            "endColumn" : 48
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "ctxt",
+            "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/createContextual(com.fasterxml.jackson.databind.DeserializationContext ctxt, com.fasterxml.jackson.databind.BeanProperty property)/parameter/ctxt",
+            "type" : "com.fasterxml.jackson.databind.DeserializationContext",
+            "displayedType" : "DeserializationContext",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 110,
+              "startColumn" : 32,
+              "endLine" : 110,
+              "endColumn" : 36
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/createContextual(com.fasterxml.jackson.databind.DeserializationContext ctxt, com.fasterxml.jackson.databind.BeanProperty property)"
+          }, {
+            "name" : "property",
+            "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/createContextual(com.fasterxml.jackson.databind.DeserializationContext ctxt, com.fasterxml.jackson.databind.BeanProperty property)/parameter/property",
+            "type" : "com.fasterxml.jackson.databind.BeanProperty",
+            "displayedType" : "BeanProperty",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 110,
+              "startColumn" : 51,
+              "endLine" : 110,
+              "endColumn" : 59
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/createContextual(com.fasterxml.jackson.databind.DeserializationContext ctxt, com.fasterxml.jackson.databind.BeanProperty property)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer"
+        },
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)" : {
+          "name" : "deserialize",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)",
+          "type" : "java.lang.Object",
+          "displayedType" : "Object",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 91,
+            "startColumn" : 19,
+            "endLine" : 91,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : true,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "p",
+            "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)/parameter/p",
+            "type" : "com.fasterxml.jackson.core.JsonParser",
+            "displayedType" : "JsonParser",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 91,
+              "startColumn" : 42,
+              "endLine" : 91,
+              "endColumn" : 43
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)"
+          }, {
+            "name" : "ctxt",
+            "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)/parameter/ctxt",
+            "type" : "com.fasterxml.jackson.databind.DeserializationContext",
+            "displayedType" : "DeserializationContext",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 91,
+              "startColumn" : 68,
+              "endLine" : 91,
+              "endColumn" : 72
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer/method/deserialize(com.fasterxml.jackson.core.JsonParser p, com.fasterxml.jackson.databind.DeserializationContext ctxt)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Deserializer"
+        }
+      },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/compression/CompressBeanSerDe.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "com.fasterxml.jackson.databind.deser.ContextualDeserializer" ],
+      "extends_" : [ "com.fasterxml.jackson.databind.JsonDeserializer" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context" : {
+      "name" : "Context",
+      "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 17,
+        "endLine" : 116,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/compressorName" : {
+          "name" : "compressorName",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/compressorName",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 119,
+            "startColumn" : 26,
+            "endLine" : 119,
+            "endColumn" : 40
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context"
+        },
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/stringCodec" : {
+          "name" : "stringCodec",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/stringCodec",
+          "type" : "com.netflix.maestro.engine.compression.StringCodec",
+          "displayedType" : "StringCodec",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 120,
+            "startColumn" : 31,
+            "endLine" : 120,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context"
+        },
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/objectMapper" : {
+          "name" : "objectMapper",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/objectMapper",
+          "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+          "displayedType" : "ObjectMapper",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 117,
+            "startColumn" : 32,
+            "endLine" : 117,
+            "endColumn" : 44
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context"
+        },
+        "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/isCompressionEnabled" : {
+          "name" : "isCompressionEnabled",
+          "key" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context/memberField/isCompressionEnabled",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 118,
+            "startColumn" : 27,
+            "endLine" : 118,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe.Context"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/compression/CompressBeanSerDe.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.compression.CompressBeanSerDe",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

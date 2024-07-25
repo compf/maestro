@@ -1,0 +1,582 @@
+{
+  "name" : "MaestroRunStrategyDaoTest",
+  "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 55,
+    "startColumn" : 8,
+    "endLine" : 55,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/dao" : {
+      "name" : "dao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/dao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 38,
+        "endLine" : 60,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/runStrategyDao" : {
+      "name" : "runStrategyDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/runStrategyDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDao",
+      "displayedType" : "MaestroRunStrategyDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 33,
+        "endLine" : 61,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 42,
+        "endLine" : 63,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/TEST_WORKFLOW_ID" : {
+      "name" : "TEST_WORKFLOW_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/TEST_WORKFLOW_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 31,
+        "endLine" : 56,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/wfi" : {
+      "name" : "wfi",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/wfi",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 28,
+        "endLine" : 62,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/TEST_WORKFLOW_INSTANCE" : {
+      "name" : "TEST_WORKFLOW_INSTANCE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/memberField/TEST_WORKFLOW_INSTANCE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 31,
+        "endLine" : 57,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testDequeueWithSizeLimit()" : {
+      "name" : "testDequeueWithSizeLimit",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testDequeueWithSizeLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 512,
+        "startColumn" : 15,
+        "endLine" : 512,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 15,
+        "endLine" : 66,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartRunStrategyWithLastOnly()" : {
+      "name" : "testStartRunStrategyWithLastOnly",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartRunStrategyWithLastOnly()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 300,
+        "startColumn" : 15,
+        "endLine" : 300,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyToUpdateAncestorStatus()" : {
+      "name" : "testStartWithRunStrategyToUpdateAncestorStatus",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyToUpdateAncestorStatus()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 207,
+        "startColumn" : 15,
+        "endLine" : 207,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testPersistFailedRun()" : {
+      "name" : "testPersistFailedRun",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testPersistFailedRun()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 558,
+        "startColumn" : 15,
+        "endLine" : 558,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWorkflowInstanceWithSameUuid()" : {
+      "name" : "testStartWorkflowInstanceWithSameUuid",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWorkflowInstanceWithSameUuid()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 230,
+        "startColumn" : 15,
+        "endLine" : 230,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartRunStrategyWithQueue()" : {
+      "name" : "testStartRunStrategyWithQueue",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartRunStrategyWithQueue()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 241,
+        "startColumn" : 15,
+        "endLine" : 241,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartBatchRunStrategyWithFirstOnly()" : {
+      "name" : "testStartBatchRunStrategyWithFirstOnly",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartBatchRunStrategyWithFirstOnly()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 421,
+        "startColumn" : 15,
+        "endLine" : 421,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForStartWithRunId()" : {
+      "name" : "testStartWithRunStrategyForStartWithRunId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForStartWithRunId()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 15,
+        "endLine" : 156,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/prepareBatch()" : {
+      "name" : "prepareBatch",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/prepareBatch()",
+      "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance>",
+      "displayedType" : "List<WorkflowInstance>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 382,
+        "startColumn" : 34,
+        "endLine" : 382,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartBatchRunStrategyWithLastOnly()" : {
+      "name" : "testStartBatchRunStrategyWithLastOnly",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartBatchRunStrategyWithLastOnly()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 445,
+        "startColumn" : 15,
+        "endLine" : 445,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForNewStart()" : {
+      "name" : "testStartWithRunStrategyForNewStart",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForNewStart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 15,
+        "endLine" : 125,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartBatchRunStrategyWithQueue()" : {
+      "name" : "testStartBatchRunStrategyWithQueue",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartBatchRunStrategyWithQueue()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 397,
+        "startColumn" : 15,
+        "endLine" : 397,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartRunStrategyWithFirstOnly()" : {
+      "name" : "testStartRunStrategyWithFirstOnly",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartRunStrategyWithFirstOnly()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 259,
+        "startColumn" : 15,
+        "endLine" : 259,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)" : {
+      "name" : "verifyPublish",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 16,
+        "endLine" : 100,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "start",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)/parameter/start",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 34,
+          "endLine" : 100,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)"
+      }, {
+        "name" : "delayStart",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)/parameter/delayStart",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 45,
+          "endLine" : 100,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)"
+      }, {
+        "name" : "run",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)/parameter/run",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 61,
+          "endLine" : 100,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)"
+      }, {
+        "name" : "terminate",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)/parameter/terminate",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 70,
+          "endLine" : 100,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)"
+      }, {
+        "name" : "update",
+        "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)/parameter/update",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 100,
+          "startColumn" : 85,
+          "endLine" : 100,
+          "endColumn" : 91
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/verifyPublish(int start, int delayStart, int run, int terminate, int update)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/tearDown()" : {
+      "name" : "tearDown",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/tearDown()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 15,
+        "endLine" : 114,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForRestart()" : {
+      "name" : "testStartWithRunStrategyForRestart",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForRestart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 15,
+        "endLine" : 174,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForInvalidRestart()" : {
+      "name" : "testStartWithRunStrategyForInvalidRestart",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForInvalidRestart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 15,
+        "endLine" : 194,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testInvalidState()" : {
+      "name" : "testInvalidState",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testInvalidState()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 346,
+        "startColumn" : 15,
+        "endLine" : 346,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testDequeueWithRunStrategy()" : {
+      "name" : "testDequeueWithRunStrategy",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testDequeueWithRunStrategy()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 469,
+        "startColumn" : 15,
+        "endLine" : 469,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForDeletedWorkflow()" : {
+      "name" : "testStartWithRunStrategyForDeletedWorkflow",
+      "key" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest/method/testStartWithRunStrategyForDeletedWorkflow()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 15,
+        "endLine" : 143,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroRunStrategyDaoTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/dao/MaestroRunStrategyDaoTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.MaestroDaoBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

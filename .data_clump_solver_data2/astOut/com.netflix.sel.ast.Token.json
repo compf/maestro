@@ -1,0 +1,297 @@
+{
+  "name" : "Token",
+  "key" : "com.netflix.sel.ast.Token",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 6,
+    "startColumn" : 8,
+    "endLine" : 6,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.ast.Token/memberField/endColumn" : {
+      "name" : "endColumn",
+      "key" : "com.netflix.sel.ast.Token/memberField/endColumn",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 14,
+        "endLine" : 30,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/serialVersionUID" : {
+      "name" : "serialVersionUID",
+      "key" : "com.netflix.sel.ast.Token/memberField/serialVersionUID",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 12,
+        "startColumn" : 29,
+        "endLine" : 12,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/beginLine" : {
+      "name" : "beginLine",
+      "key" : "com.netflix.sel.ast.Token/memberField/beginLine",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 21,
+        "startColumn" : 14,
+        "endLine" : 21,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/image" : {
+      "name" : "image",
+      "key" : "com.netflix.sel.ast.Token/memberField/image",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 17,
+        "endLine" : 33,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/kind" : {
+      "name" : "kind",
+      "key" : "com.netflix.sel.ast.Token/memberField/kind",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 18,
+        "startColumn" : 14,
+        "endLine" : 18,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/beginColumn" : {
+      "name" : "beginColumn",
+      "key" : "com.netflix.sel.ast.Token/memberField/beginColumn",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 14,
+        "endLine" : 24,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/endLine" : {
+      "name" : "endLine",
+      "key" : "com.netflix.sel.ast.Token/memberField/endLine",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 14,
+        "endLine" : 27,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/specialToken" : {
+      "name" : "specialToken",
+      "key" : "com.netflix.sel.ast.Token/memberField/specialToken",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 16,
+        "endLine" : 52,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/memberField/next" : {
+      "name" : "next",
+      "key" : "com.netflix.sel.ast.Token/memberField/next",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 16,
+        "endLine" : 41,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.ast.Token/method/newToken(int ofKind, java.lang.String image)" : {
+      "name" : "newToken",
+      "key" : "com.netflix.sel.ast.Token/method/newToken(int ofKind, java.lang.String image)",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 23,
+        "endLine" : 94,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ofKind",
+        "key" : "com.netflix.sel.ast.Token/method/newToken(int ofKind, java.lang.String image)/parameter/ofKind",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 36,
+          "endLine" : 94,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.Token/method/newToken(int ofKind, java.lang.String image)"
+      }, {
+        "name" : "image",
+        "key" : "com.netflix.sel.ast.Token/method/newToken(int ofKind, java.lang.String image)/parameter/image",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 51,
+          "endLine" : 94,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.Token/method/newToken(int ofKind, java.lang.String image)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/method/getValue()" : {
+      "name" : "getValue",
+      "key" : "com.netflix.sel.ast.Token/method/getValue()",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 17,
+        "endLine" : 60,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.ast.Token/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 17,
+        "endLine" : 79,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    },
+    "com.netflix.sel.ast.Token/method/newToken(int ofKind)" : {
+      "name" : "newToken",
+      "key" : "com.netflix.sel.ast.Token/method/newToken(int ofKind)",
+      "type" : "com.netflix.sel.ast.Token",
+      "displayedType" : "Token",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 23,
+        "endLine" : 101,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ofKind",
+        "key" : "com.netflix.sel.ast.Token/method/newToken(int ofKind)/parameter/ofKind",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 36,
+          "endLine" : 101,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.Token/method/newToken(int ofKind)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.Token"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/Token.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "java.io.Serializable" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

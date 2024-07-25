@@ -1,0 +1,177 @@
+{
+  "name" : "StepDependencies",
+  "key" : "com.netflix.maestro.models.instance.StepDependencies",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.StepDependencies/memberField/type" : {
+      "name" : "type",
+      "key" : "com.netflix.maestro.models.instance.StepDependencies/memberField/type",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepDependencyType",
+      "displayedType" : "StepDependencyType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 36,
+        "endLine" : 41,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependencies"
+    },
+    "com.netflix.maestro.models.instance.StepDependencies/memberField/info" : {
+      "name" : "info",
+      "key" : "com.netflix.maestro.models.instance.StepDependencies/memberField/info",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.timeline.TimelineLogEvent",
+      "displayedType" : "TimelineLogEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 38,
+        "endLine" : 43,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependencies"
+    },
+    "com.netflix.maestro.models.instance.StepDependencies/memberField/statuses" : {
+      "name" : "statuses",
+      "key" : "com.netflix.maestro.models.instance.StepDependencies/memberField/statuses",
+      "type" : "java.util.List<com.netflix.maestro.models.instance.StepDependencyStatus>",
+      "displayedType" : "List<StepDependencyStatus>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 44,
+        "endLine" : 42,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependencies"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.instance.StepDependencies/method/isSatisfied()" : {
+      "name" : "isSatisfied",
+      "key" : "com.netflix.maestro.models.instance.StepDependencies/method/isSatisfied()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 18,
+        "endLine" : 70,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependencies"
+    },
+    "com.netflix.maestro.models.instance.StepDependencies/method/bypass(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User user, long actionTime)" : {
+      "name" : "bypass",
+      "key" : "com.netflix.maestro.models.instance.StepDependencies/method/bypass(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User user, long actionTime)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 15,
+        "endLine" : 79,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "user",
+        "key" : "com.netflix.maestro.models.instance.StepDependencies/method/bypass(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User user, long actionTime)/parameter/user",
+        "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 27,
+          "endLine" : 79,
+          "endColumn" : 31
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.StepDependencies/method/bypass(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User user, long actionTime)"
+      }, {
+        "name" : "actionTime",
+        "key" : "com.netflix.maestro.models.instance.StepDependencies/method/bypass(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User user, long actionTime)/parameter/actionTime",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 38,
+          "endLine" : 79,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.StepDependencies/method/bypass(com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User user, long actionTime)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependencies"
+    },
+    "com.netflix.maestro.models.instance.StepDependencies/method/initStatuses(java.util.List<com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.MapParameter> params)" : {
+      "name" : "initStatuses",
+      "key" : "com.netflix.maestro.models.instance.StepDependencies/method/initStatuses(java.util.List<com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.MapParameter> params)",
+      "type" : "java.util.List<com.netflix.maestro.models.instance.StepDependencyStatus>",
+      "displayedType" : "List<StepDependencyStatus>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 45,
+        "endLine" : 61,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.models.instance.StepDependencies/method/initStatuses(java.util.List<com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.MapParameter> params)/parameter/params",
+        "type" : "java.util.List<com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.MapParameter>",
+        "displayedType" : "List<MapParameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 77,
+          "endLine" : 61,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.instance.StepDependencies/method/initStatuses(java.util.List<com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.MapParameter> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepDependencies"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/StepDependencies.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,170 @@
+{
+  "name" : "StepOutputsDefinitionValidator",
+  "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 3,
+    "endLine" : 43,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 20,
+        "endLine" : 46,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepOutputsDefinition",
+        "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/stepOutputsDefinition",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition",
+        "displayedType" : "StepOutputsDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 31,
+          "endLine" : 47,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 81,
+          "endLine" : 47,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator"
+    },
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "nameParamIsAbsent",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 28,
+        "endLine" : 77,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepOutputsDefinition",
+        "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/stepOutputsDefinition",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition",
+        "displayedType" : "StepOutputsDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 31,
+          "endLine" : 78,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 81,
+          "endLine" : 78,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/nameParamIsAbsent(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator"
+    },
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "definitionsAreNullOrEmpty",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 28,
+        "endLine" : 60,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepOutputsDefinition",
+        "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/stepOutputsDefinition",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition",
+        "displayedType" : "StepOutputsDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 31,
+          "endLine" : 61,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 81,
+          "endLine" : 61,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator/method/definitionsAreNullOrEmpty(com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition stepOutputsDefinition, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraint.StepOutputsDefinitionValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/StepOutputsDefinitionConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.StepOutputsDefinitionConstraint, com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition>", "com.netflix.maestro.validations.StepOutputsDefinitionConstraint", "com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

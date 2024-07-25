@@ -1,0 +1,184 @@
+{
+  "name" : "MaestroEngineBaseTest",
+  "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 17,
+    "endLine" : 29,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/metricRepo" : {
+      "name" : "metricRepo",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/metricRepo",
+      "type" : "com.netflix.maestro.engine.com.netflix.maestro.engine.metrics.MaestroMetricRepo",
+      "displayedType" : "MaestroMetricRepo",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 35,
+        "endLine" : 32,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    },
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/paramExtensionRepo" : {
+      "name" : "paramExtensionRepo",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/paramExtensionRepo",
+      "type" : "com.netflix.maestro.engine.com.netflix.maestro.engine.eval.MaestroParamExtensionRepo",
+      "displayedType" : "MaestroParamExtensionRepo",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 43,
+        "endLine" : 33,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    },
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/evaluator" : {
+      "name" : "evaluator",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/evaluator",
+      "type" : "com.netflix.maestro.engine.com.netflix.maestro.engine.eval.ExprEvaluator",
+      "displayedType" : "ExprEvaluator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 31,
+        "endLine" : 30,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    },
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/paramEvaluator" : {
+      "name" : "paramEvaluator",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/paramEvaluator",
+      "type" : "com.netflix.maestro.engine.com.netflix.maestro.engine.eval.ParamEvaluator",
+      "displayedType" : "ParamEvaluator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 32,
+        "endLine" : 31,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    },
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/closeable" : {
+      "name" : "closeable",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/memberField/closeable",
+      "type" : "java.lang.AutoCloseable",
+      "displayedType" : "AutoCloseable",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 25,
+        "endLine" : 64,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/method/openMocks()" : {
+      "name" : "openMocks",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/method/openMocks()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    },
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/method/releaseMocks()" : {
+      "name" : "releaseMocks",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/method/releaseMocks()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 15,
+        "endLine" : 72,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    },
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/method/destroy()" : {
+      "name" : "destroy",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/method/destroy()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 22,
+        "endLine" : 59,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    },
+    "com.netflix.maestro.engine.MaestroEngineBaseTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.engine.MaestroEngineBaseTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 22,
+        "endLine" : 37,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.MaestroEngineBaseTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/MaestroEngineBaseTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.com.netflix.maestro.MaestroBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,1850 @@
+{
+  "name" : "SelParserDefaultVisitor",
+  "key" : "com.netflix.sel.ast.SelParserDefaultVisitor",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 4,
+    "startColumn" : 8,
+    "endLine" : 4,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignmentOperator node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignmentOperator node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignmentOperator node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTAssignmentOperator",
+        "displayedType" : "ASTAssignmentOperator",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 45,
+          "endLine" : 58,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignmentOperator node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignmentOperator node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 58,
+          "startColumn" : 58,
+          "endLine" : 58,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignmentOperator node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLocalVariableDeclaration node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLocalVariableDeclaration node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 118,
+        "startColumn" : 17,
+        "endLine" : 118,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLocalVariableDeclaration node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTLocalVariableDeclaration",
+        "displayedType" : "ASTLocalVariableDeclaration",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 51,
+          "endLine" : 118,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLocalVariableDeclaration node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLocalVariableDeclaration node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 118,
+          "startColumn" : 64,
+          "endLine" : 118,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLocalVariableDeclaration node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayDims node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayDims node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 17,
+        "endLine" : 106,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayDims node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTArrayDims",
+        "displayedType" : "ASTArrayDims",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 36,
+          "endLine" : 106,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayDims node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayDims node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 49,
+          "endLine" : 106,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayDims node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 17,
+        "endLine" : 130,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTForStatement",
+        "displayedType" : "ASTForStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 39,
+          "endLine" : 130,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 52,
+          "endLine" : 130,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTReturnStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTReturnStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 17,
+        "endLine" : 150,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTReturnStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTReturnStatement",
+        "displayedType" : "ASTReturnStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 42,
+          "endLine" : 150,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTReturnStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTReturnStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 150,
+          "startColumn" : 55,
+          "endLine" : 150,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTReturnStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTMethod node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTMethod node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 17,
+        "endLine" : 86,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTMethod node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTMethod",
+        "displayedType" : "ASTMethod",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 33,
+          "endLine" : 86,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTMethod node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTMethod node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 46,
+          "endLine" : 86,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTMethod node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBinaryExpr node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBinaryExpr node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 17,
+        "endLine" : 66,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBinaryExpr node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTBinaryExpr",
+        "displayedType" : "ASTBinaryExpr",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 37,
+          "endLine" : 66,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBinaryExpr node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBinaryExpr node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 50,
+          "endLine" : 66,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBinaryExpr node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForInit node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForInit node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 134,
+        "startColumn" : 17,
+        "endLine" : 134,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForInit node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTForInit",
+        "displayedType" : "ASTForInit",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 34,
+          "endLine" : 134,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForInit node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForInit node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 47,
+          "endLine" : 134,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForInit node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLiteral node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLiteral node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 17,
+        "endLine" : 94,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLiteral node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTLiteral",
+        "displayedType" : "ASTLiteral",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 34,
+          "endLine" : 94,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLiteral node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLiteral node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 94,
+          "startColumn" : 47,
+          "endLine" : 94,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTLiteral node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimitiveType node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimitiveType node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 17,
+        "endLine" : 38,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimitiveType node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTPrimitiveType",
+        "displayedType" : "ASTPrimitiveType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 40,
+          "endLine" : 38,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimitiveType node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimitiveType node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 53,
+          "endLine" : 38,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimitiveType node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBreakStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBreakStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 142,
+        "startColumn" : 17,
+        "endLine" : 142,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBreakStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTBreakStatement",
+        "displayedType" : "ASTBreakStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 41,
+          "endLine" : 142,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBreakStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBreakStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 54,
+          "endLine" : 142,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBreakStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/defaultVisit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)" : {
+      "name" : "defaultVisit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/defaultVisit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 5,
+        "startColumn" : 17,
+        "endLine" : 5,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/defaultVisit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.SimpleNode",
+        "displayedType" : "SimpleNode",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 5,
+          "startColumn" : 41,
+          "endLine" : 5,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/defaultVisit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/defaultVisit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 5,
+          "startColumn" : 54,
+          "endLine" : 5,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/defaultVisit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclaratorId node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclaratorId node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 17,
+        "endLine" : 26,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclaratorId node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTVariableDeclaratorId",
+        "displayedType" : "ASTVariableDeclaratorId",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 26,
+          "startColumn" : 47,
+          "endLine" : 26,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclaratorId node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclaratorId node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 26,
+          "startColumn" : 60,
+          "endLine" : 26,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclaratorId node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTImportDeclaration node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTImportDeclaration node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 18,
+        "startColumn" : 17,
+        "endLine" : 18,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTImportDeclaration node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTImportDeclaration",
+        "displayedType" : "ASTImportDeclaration",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 18,
+          "startColumn" : 44,
+          "endLine" : 18,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTImportDeclaration node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTImportDeclaration node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 18,
+          "startColumn" : 57,
+          "endLine" : 18,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTImportDeclaration node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTClassType node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTClassType node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTClassType node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTClassType",
+        "displayedType" : "ASTClassType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 36,
+          "endLine" : 42,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTClassType node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTClassType node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 42,
+          "startColumn" : 49,
+          "endLine" : 42,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTClassType node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTContinueStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTContinueStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 146,
+        "startColumn" : 17,
+        "endLine" : 146,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTContinueStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTContinueStatement",
+        "displayedType" : "ASTContinueStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 44,
+          "endLine" : 146,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTContinueStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTContinueStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 146,
+          "startColumn" : 57,
+          "endLine" : 146,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTContinueStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBlock node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBlock node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 114,
+        "startColumn" : 17,
+        "endLine" : 114,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBlock node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTBlock",
+        "displayedType" : "ASTBlock",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 32,
+          "endLine" : 114,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBlock node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBlock node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 45,
+          "endLine" : 114,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTBlock node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExpression node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExpression node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 17,
+        "endLine" : 50,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExpression node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTExpression",
+        "displayedType" : "ASTExpression",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 37,
+          "endLine" : 50,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExpression node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExpression node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 50,
+          "endLine" : 50,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExpression node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimaryExpression node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimaryExpression node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 17,
+        "endLine" : 74,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimaryExpression node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTPrimaryExpression",
+        "displayedType" : "ASTPrimaryExpression",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 44,
+          "endLine" : 74,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimaryExpression node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimaryExpression node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 57,
+          "endLine" : 74,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimaryExpression node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimarySuffix node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimarySuffix node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 17,
+        "endLine" : 78,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimarySuffix node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTPrimarySuffix",
+        "displayedType" : "ASTPrimarySuffix",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 40,
+          "endLine" : 78,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimarySuffix node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimarySuffix node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 53,
+          "endLine" : 78,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTPrimarySuffix node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAllocationExpression node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAllocationExpression node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 17,
+        "endLine" : 98,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAllocationExpression node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTAllocationExpression",
+        "displayedType" : "ASTAllocationExpression",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 47,
+          "endLine" : 98,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAllocationExpression node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAllocationExpression node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 60,
+          "endLine" : 98,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAllocationExpression node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTParams node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTParams node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 17,
+        "endLine" : 90,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTParams node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTParams",
+        "displayedType" : "ASTParams",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 33,
+          "endLine" : 90,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTParams node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTParams node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 46,
+          "endLine" : 90,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTParams node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTTernary node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTTernary node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTTernary node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTTernary",
+        "displayedType" : "ASTTernary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 34,
+          "endLine" : 62,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTTernary node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTTernary node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 47,
+          "endLine" : 62,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTTernary node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignment node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignment node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 17,
+        "endLine" : 54,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignment node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTAssignment",
+        "displayedType" : "ASTAssignment",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 37,
+          "endLine" : 54,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignment node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignment node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 50,
+          "endLine" : 54,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTAssignment node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayInitializer node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayInitializer node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 17,
+        "endLine" : 30,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayInitializer node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTArrayInitializer",
+        "displayedType" : "ASTArrayInitializer",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 30,
+          "startColumn" : 43,
+          "endLine" : 30,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayInitializer node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayInitializer node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 30,
+          "startColumn" : 56,
+          "endLine" : 30,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayInitializer node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTIfStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTIfStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 122,
+        "startColumn" : 17,
+        "endLine" : 122,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTIfStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTIfStatement",
+        "displayedType" : "ASTIfStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 38,
+          "endLine" : 122,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTIfStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTIfStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 51,
+          "endLine" : 122,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTIfStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArgs node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArgs node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 17,
+        "endLine" : 102,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArgs node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTArgs",
+        "displayedType" : "ASTArgs",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 31,
+          "endLine" : 102,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArgs node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArgs node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 44,
+          "endLine" : 102,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArgs node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExecute node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExecute node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 14,
+        "startColumn" : 17,
+        "endLine" : 14,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExecute node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTExecute",
+        "displayedType" : "ASTExecute",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 14,
+          "startColumn" : 34,
+          "endLine" : 14,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExecute node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExecute node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 14,
+          "startColumn" : 47,
+          "endLine" : 14,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTExecute node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 17,
+        "endLine" : 110,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTStatement",
+        "displayedType" : "ASTStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 36,
+          "endLine" : 110,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 110,
+          "startColumn" : 49,
+          "endLine" : 110,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForUpdate node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForUpdate node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 17,
+        "endLine" : 138,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForUpdate node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTForUpdate",
+        "displayedType" : "ASTForUpdate",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 36,
+          "endLine" : 138,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForUpdate node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForUpdate node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 49,
+          "endLine" : 138,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTForUpdate node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 10,
+        "startColumn" : 17,
+        "endLine" : 10,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.SimpleNode",
+        "displayedType" : "SimpleNode",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 10,
+          "startColumn" : 34,
+          "endLine" : 10,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 10,
+          "startColumn" : 47,
+          "endLine" : 10,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.SimpleNode node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTType node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTType node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 17,
+        "endLine" : 34,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTType node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTType",
+        "displayedType" : "ASTType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 31,
+          "endLine" : 34,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTType node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTType node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 44,
+          "endLine" : 34,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTType node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTName node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTName node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 17,
+        "endLine" : 46,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTName node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTName",
+        "displayedType" : "ASTName",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 31,
+          "endLine" : 46,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTName node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTName node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 46,
+          "startColumn" : 44,
+          "endLine" : 46,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTName node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayIdx node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayIdx node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 17,
+        "endLine" : 82,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayIdx node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTArrayIdx",
+        "displayedType" : "ASTArrayIdx",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 35,
+          "endLine" : 82,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayIdx node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayIdx node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 82,
+          "startColumn" : 48,
+          "endLine" : 82,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTArrayIdx node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTUnary node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTUnary node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 17,
+        "endLine" : 70,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTUnary node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTUnary",
+        "displayedType" : "ASTUnary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 32,
+          "endLine" : 70,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTUnary node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTUnary node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 45,
+          "endLine" : 70,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTUnary node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTWhileStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTWhileStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 17,
+        "endLine" : 126,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTWhileStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTWhileStatement",
+        "displayedType" : "ASTWhileStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 41,
+          "endLine" : 126,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTWhileStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTWhileStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 54,
+          "endLine" : 126,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTWhileStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclarator node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclarator node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 17,
+        "endLine" : 22,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclarator node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTVariableDeclarator",
+        "displayedType" : "ASTVariableDeclarator",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 22,
+          "startColumn" : 45,
+          "endLine" : 22,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclarator node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclarator node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 22,
+          "startColumn" : 58,
+          "endLine" : 22,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTVariableDeclarator node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    },
+    "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTThrowStatement node, java.lang.Object data)" : {
+      "name" : "visit",
+      "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTThrowStatement node, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 17,
+        "endLine" : 154,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "node",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTThrowStatement node, java.lang.Object data)/parameter/node",
+        "type" : "com.netflix.sel.ast.ASTThrowStatement",
+        "displayedType" : "ASTThrowStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 41,
+          "endLine" : 154,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTThrowStatement node, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTThrowStatement node, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 54,
+          "endLine" : 154,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.SelParserDefaultVisitor/method/visit(com.netflix.sel.ast.ASTThrowStatement node, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.SelParserDefaultVisitor"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/SelParserDefaultVisitor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.sel.ast.SelParserVisitor" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

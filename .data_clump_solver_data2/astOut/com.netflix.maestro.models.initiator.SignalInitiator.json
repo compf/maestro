@@ -1,0 +1,112 @@
+{
+  "name" : "SignalInitiator",
+  "key" : "com.netflix.maestro.models.initiator.SignalInitiator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 8,
+    "endLine" : 34,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.initiator.SignalInitiator/memberField/signalInstanceIds" : {
+      "name" : "signalInstanceIds",
+      "key" : "com.netflix.maestro.models.initiator.SignalInitiator/memberField/signalInstanceIds",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 24,
+        "endLine" : 35,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.SignalInitiator"
+    },
+    "com.netflix.maestro.models.initiator.SignalInitiator/memberField/params" : {
+      "name" : "params",
+      "key" : "com.netflix.maestro.models.initiator.SignalInitiator/memberField/params",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.initiator.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 34,
+        "endLine" : 36,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.SignalInitiator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.initiator.SignalInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.models.initiator.SignalInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 18,
+        "endLine" : 39,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "triggerUuids",
+        "key" : "com.netflix.maestro.models.initiator.SignalInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)/parameter/triggerUuids",
+        "type" : "com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids",
+        "displayedType" : "TriggerUuids",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 39,
+          "endLine" : 39,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.initiator.SignalInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.SignalInitiator"
+    },
+    "com.netflix.maestro.models.initiator.SignalInitiator/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.initiator.SignalInitiator/method/getType()",
+      "type" : "com.netflix.maestro.models.initiator.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.SignalInitiator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/initiator/SignalInitiator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.initiator.TriggerInitiator" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

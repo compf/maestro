@@ -1,0 +1,253 @@
+{
+  "name" : "JsonConverterTest",
+  "key" : "com.netflix.maestro.engine.compression.JsonConverterTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.compression.JsonConverterTest/memberField/objectMapper" : {
+      "name" : "objectMapper",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/memberField/objectMapper",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 24,
+        "endLine" : 30,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/memberField/stringCodec" : {
+      "name" : "stringCodec",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/memberField/stringCodec",
+      "type" : "com.netflix.maestro.engine.compression.StringCodec",
+      "displayedType" : "StringCodec",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 23,
+        "endLine" : 31,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldSerDeTaskWhenInputAndOutputDataAreEmptyAndCompressionIsEnabled()" : {
+      "name" : "shouldSerDeTaskWhenInputAndOutputDataAreEmptyAndCompressionIsEnabled",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldSerDeTaskWhenInputAndOutputDataAreEmptyAndCompressionIsEnabled()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 15,
+        "endLine" : 181,
+        "endColumn" : 83
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldNotCompressTaskDataIfCompressionDisabled()" : {
+      "name" : "shouldNotCompressTaskDataIfCompressionDisabled",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldNotCompressTaskDataIfCompressionDisabled()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 15,
+        "endLine" : 119,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldDeserializeUnCompressedTaskDataWhenCompressionEnabled()" : {
+      "name" : "shouldDeserializeUnCompressedTaskDataWhenCompressionEnabled",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldDeserializeUnCompressedTaskDataWhenCompressionEnabled()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 15,
+        "endLine" : 160,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/jsonConverter(boolean compressionEnabled, java.lang.String compressorName)" : {
+      "name" : "jsonConverter",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/jsonConverter(boolean compressionEnabled, java.lang.String compressorName)",
+      "type" : "com.netflix.maestro.engine.compression.JsonConverter",
+      "displayedType" : "JsonConverter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 197,
+        "startColumn" : 25,
+        "endLine" : 197,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "compressionEnabled",
+        "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/jsonConverter(boolean compressionEnabled, java.lang.String compressorName)/parameter/compressionEnabled",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 197,
+          "startColumn" : 47,
+          "endLine" : 197,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/jsonConverter(boolean compressionEnabled, java.lang.String compressorName)"
+      }, {
+        "name" : "compressorName",
+        "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/jsonConverter(boolean compressionEnabled, java.lang.String compressorName)/parameter/compressorName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 197,
+          "startColumn" : 74,
+          "endLine" : 197,
+          "endColumn" : 88
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/jsonConverter(boolean compressionEnabled, java.lang.String compressorName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/setup()" : {
+      "name" : "setup",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/setup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 15,
+        "endLine" : 34,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldCompressTaskDataIfEnabled()" : {
+      "name" : "shouldCompressTaskDataIfEnabled",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldCompressTaskDataIfEnabled()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 15,
+        "endLine" : 41,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldNotCompressTaskDataIfCompressedPayloadIsLargerThanUncompressed()" : {
+      "name" : "shouldNotCompressTaskDataIfCompressedPayloadIsLargerThanUncompressed",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldNotCompressTaskDataIfCompressedPayloadIsLargerThanUncompressed()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 15,
+        "endLine" : 74,
+        "endColumn" : 83
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldSerDeTaskWhenInputAndOutputDataAreNotSetAndCompressionEnabled()" : {
+      "name" : "shouldSerDeTaskWhenInputAndOutputDataAreNotSetAndCompressionEnabled",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldSerDeTaskWhenInputAndOutputDataAreNotSetAndCompressionEnabled()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 147,
+        "startColumn" : 15,
+        "endLine" : 147,
+        "endColumn" : 82
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    },
+    "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldOverrideTaskCompressionAlgoIfEnabled()" : {
+      "name" : "shouldOverrideTaskCompressionAlgoIfEnabled",
+      "key" : "com.netflix.maestro.engine.compression.JsonConverterTest/method/shouldOverrideTaskCompressionAlgoIfEnabled()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 15,
+        "endLine" : 92,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.JsonConverterTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/compression/JsonConverterTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

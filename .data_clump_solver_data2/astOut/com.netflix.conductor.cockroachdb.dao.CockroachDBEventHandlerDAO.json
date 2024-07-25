@@ -1,0 +1,325 @@
+{
+  "name" : "CockroachDBEventHandlerDAO",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/UPSERT_EVENT_HANDLER_STATEMENT" : {
+      "name" : "UPSERT_EVENT_HANDLER_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/UPSERT_EVENT_HANDLER_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 31,
+        "endLine" : 35,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/LOG" : {
+      "name" : "LOG",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/LOG",
+      "type" : "org.slf4j.Logger",
+      "displayedType" : "Logger",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 31,
+        "endLine" : 33,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/GET_EVENT_HANDLERS_STATEMENT" : {
+      "name" : "GET_EVENT_HANDLERS_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/GET_EVENT_HANDLERS_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 31,
+        "endLine" : 39,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/GET_EVENT_HANDLERS_FOR_EVENT_STATEMENT" : {
+      "name" : "GET_EVENT_HANDLERS_FOR_EVENT_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/GET_EVENT_HANDLERS_FOR_EVENT_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 31,
+        "endLine" : 40,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/REMOVE_EVENT_HANDLER_STATEMENT" : {
+      "name" : "REMOVE_EVENT_HANDLER_STATEMENT",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/memberField/REMOVE_EVENT_HANDLER_STATEMENT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 31,
+        "endLine" : 37,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getAllEventHandlers()" : {
+      "name" : "getAllEventHandlers",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getAllEventHandlers()",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler>",
+      "displayedType" : "List<EventHandler>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 29,
+        "endLine" : 87,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/updateEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)" : {
+      "name" : "updateEventHandler",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/updateEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 15,
+        "endLine" : 55,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "eventHandler",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/updateEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)/parameter/eventHandler",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler",
+        "displayedType" : "EventHandler",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 47,
+          "endLine" : 55,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/updateEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/removeEventHandler(java.lang.String name)" : {
+      "name" : "removeEventHandler",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/removeEventHandler(java.lang.String name)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 15,
+        "endLine" : 76,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/removeEventHandler(java.lang.String name)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 41,
+          "endLine" : 76,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/removeEventHandler(java.lang.String name)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getEventHandlersForEvent(java.lang.String event, boolean activeOnly)" : {
+      "name" : "getEventHandlersForEvent",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getEventHandlersForEvent(java.lang.String event, boolean activeOnly)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler>",
+      "displayedType" : "List<EventHandler>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 29,
+        "endLine" : 96,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getEventHandlersForEvent(java.lang.String event, boolean activeOnly)/parameter/event",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 61,
+          "endLine" : 96,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getEventHandlersForEvent(java.lang.String event, boolean activeOnly)"
+      }, {
+        "name" : "activeOnly",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getEventHandlersForEvent(java.lang.String event, boolean activeOnly)/parameter/activeOnly",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 76,
+          "endLine" : 96,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/getEventHandlersForEvent(java.lang.String event, boolean activeOnly)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/upsertEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler, java.lang.String methodName)" : {
+      "name" : "upsertEventHandler",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/upsertEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler, java.lang.String methodName)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 16,
+        "endLine" : 60,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "eventHandler",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/upsertEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler, java.lang.String methodName)/parameter/eventHandler",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler",
+        "displayedType" : "EventHandler",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 48,
+          "endLine" : 60,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/upsertEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler, java.lang.String methodName)"
+      }, {
+        "name" : "methodName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/upsertEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler, java.lang.String methodName)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 69,
+          "endLine" : 60,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/upsertEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler, java.lang.String methodName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/addEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)" : {
+      "name" : "addEventHandler",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/addEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 15,
+        "endLine" : 49,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "eventHandler",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/addEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)/parameter/eventHandler",
+        "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler",
+        "displayedType" : "EventHandler",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 44,
+          "endLine" : 49,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO/method/addEventHandler(com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.common.metadata.events.EventHandler eventHandler)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBEventHandlerDAO"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/main/java/com/netflix/conductor/cockroachdb/dao/CockroachDBEventHandlerDAO.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.EventHandlerDAO" ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

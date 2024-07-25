@@ -1,0 +1,106 @@
+{
+  "name" : "TagListConstraintTest",
+  "key" : "com.netflix.maestro.validations.TagListConstraintTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.TagListConstraintTest/method/isTagListDuplicateCrossNamespaces()" : {
+      "name" : "isTagListDuplicateCrossNamespaces",
+      "key" : "com.netflix.maestro.validations.TagListConstraintTest/method/isTagListDuplicateCrossNamespaces()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 15,
+        "endLine" : 46,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TagListConstraintTest"
+    },
+    "com.netflix.maestro.validations.TagListConstraintTest/method/isTagListDuplicate()" : {
+      "name" : "isTagListDuplicate",
+      "key" : "com.netflix.maestro.validations.TagListConstraintTest/method/isTagListDuplicate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 15,
+        "endLine" : 35,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TagListConstraintTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/TagListConstraintTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.validations.BaseConstraintTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.TagListConstraintTest.TestTagList" : {
+      "name" : "TestTagList",
+      "key" : "com.netflix.maestro.validations.TagListConstraintTest.TestTagList",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 18,
+        "endLine" : 26,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.TagListConstraintTest.TestTagList/memberField/tags" : {
+          "name" : "tags",
+          "key" : "com.netflix.maestro.validations.TagListConstraintTest.TestTagList/memberField/tags",
+          "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.TagList",
+          "displayedType" : "TagList",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 27,
+            "startColumn" : 32,
+            "endLine" : 27,
+            "endColumn" : 36
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.TagListConstraintTest.TestTagList"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/TagListConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.TagListConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

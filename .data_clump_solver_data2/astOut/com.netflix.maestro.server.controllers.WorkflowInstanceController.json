@@ -1,0 +1,137 @@
+{
+  "name" : "WorkflowInstanceController",
+  "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.server.controllers.WorkflowInstanceController/memberField/workflowInstanceDao" : {
+      "name" : "workflowInstanceDao",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/memberField/workflowInstanceDao",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 44,
+        "endLine" : 38,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowInstanceController"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)" : {
+      "name" : "getWorkflowInstance",
+      "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)",
+      "type" : "com.netflix.maestro.server.controllers.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 27,
+        "endLine" : 49,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 58,
+          "endLine" : 50,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)"
+      }, {
+        "name" : "workflowInstanceId",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)/parameter/workflowInstanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 51,
+          "startColumn" : 48,
+          "endLine" : 51,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)"
+      }, {
+        "name" : "workflowRun",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)/parameter/workflowRun",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 43,
+          "endLine" : 52,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)"
+      }, {
+        "name" : "enriched",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)/parameter/enriched",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 71,
+          "endLine" : 53,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)"
+      }, {
+        "name" : "aggregated",
+        "key" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)/parameter/aggregated",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 74,
+          "endLine" : 54,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.controllers.WorkflowInstanceController/method/getWorkflowInstance(java.lang.String workflowId, long workflowInstanceId, java.lang.String workflowRun, boolean enriched, boolean aggregated)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.controllers.WorkflowInstanceController"
+    }
+  },
+  "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/controllers/WorkflowInstanceController.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

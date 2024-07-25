@@ -1,0 +1,377 @@
+{
+  "name" : "OutputDataManagerTest",
+  "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 47,
+    "startColumn" : 8,
+    "endLine" : 47,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/runtimeSummary" : {
+      "name" : "runtimeSummary",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/runtimeSummary",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+      "displayedType" : "StepRuntimeSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 30,
+        "endLine" : 50,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/paramMap" : {
+      "name" : "paramMap",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/paramMap",
+      "type" : "com.fasterxml.jackson.core.type.TypeReference<java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter>>",
+      "displayedType" : "TypeReference<Map<String, Parameter>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 55,
+        "endLine" : 54,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/artifacts" : {
+      "name" : "artifacts",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/artifacts",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.artifact.Artifact>",
+      "displayedType" : "Map<String, Artifact>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 33,
+        "endLine" : 51,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/outputDataDao" : {
+      "name" : "outputDataDao",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/outputDataDao",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.dao.OutputDataDao",
+      "displayedType" : "OutputDataDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 31,
+        "endLine" : 48,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/outputDataManager" : {
+      "name" : "outputDataManager",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/outputDataManager",
+      "type" : "com.netflix.maestro.engine.params.OutputDataManager",
+      "displayedType" : "OutputDataManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 29,
+        "endLine" : 49,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/titusTaskId" : {
+      "name" : "titusTaskId",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/titusTaskId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 24,
+        "endLine" : 53,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/outputData" : {
+      "name" : "outputData",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/memberField/outputData",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.dto.OutputData",
+      "displayedType" : "OutputData",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 22,
+        "endLine" : 52,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/runtimeSummaryBuilder()" : {
+      "name" : "runtimeSummaryBuilder",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/runtimeSummaryBuilder()",
+      "type" : "com.netflix.maestro.engine.params.com.netflix.maestro.engine.execution.StepRuntimeSummary#com.netflix.maestro.engine.params.StepRuntimeSummaryBuilder",
+      "displayedType" : "StepRuntimeSummary.StepRuntimeSummaryBuilder",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 56,
+        "endLine" : 94,
+        "endColumn" : 77
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 15,
+        "endLine" : 58,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMissingOutputParams()" : {
+      "name" : "testMissingOutputParams",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMissingOutputParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 15,
+        "endLine" : 108,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testUndefinedOutputParameter()" : {
+      "name" : "testUndefinedOutputParameter",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testUndefinedOutputParameter()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 15,
+        "endLine" : 115,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/setupOutputDataDao()" : {
+      "name" : "setupOutputDataDao",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/setupOutputDataDao()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 16,
+        "endLine" : 89,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testValidOutputParameters()" : {
+      "name" : "testValidOutputParameters",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testValidOutputParameters()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 200,
+        "startColumn" : 15,
+        "endLine" : 200,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testReservedOutputParameter()" : {
+      "name" : "testReservedOutputParameter",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testReservedOutputParameter()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 174,
+        "startColumn" : 15,
+        "endLine" : 174,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/loadParams(java.lang.String param)" : {
+      "name" : "loadParams",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/loadParams(java.lang.String param)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 34,
+        "endLine" : 85,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "param",
+        "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/loadParams(java.lang.String param)/parameter/param",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 52,
+          "endLine" : 85,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/loadParams(java.lang.String param)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testValidOutputParamTypes()" : {
+      "name" : "testValidOutputParamTypes",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testValidOutputParamTypes()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 218,
+        "startColumn" : 15,
+        "endLine" : 218,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMissingJobIdArtifact()" : {
+      "name" : "testMissingJobIdArtifact",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMissingJobIdArtifact()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 15,
+        "endLine" : 102,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMutableOnStartOutputParameter()" : {
+      "name" : "testMutableOnStartOutputParameter",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMutableOnStartOutputParameter()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 15,
+        "endLine" : 149,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    },
+    "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMismatchedOutputParameterType()" : {
+      "name" : "testMismatchedOutputParameterType",
+      "key" : "com.netflix.maestro.engine.params.OutputDataManagerTest/method/testMismatchedOutputParameterType()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 126,
+        "startColumn" : 15,
+        "endLine" : 126,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.OutputDataManagerTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/params/OutputDataManagerTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.params.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

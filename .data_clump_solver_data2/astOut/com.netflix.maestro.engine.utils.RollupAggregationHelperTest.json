@@ -1,0 +1,177 @@
+{
+  "name" : "RollupAggregationHelperTest",
+  "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 40,
+        "endLine" : 49,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/memberField/rollupAggregationHelper" : {
+      "name" : "rollupAggregationHelper",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/memberField/rollupAggregationHelper",
+      "type" : "com.netflix.maestro.engine.utils.RollupAggregationHelper",
+      "displayedType" : "RollupAggregationHelper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 41,
+        "endLine" : 50,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testGetRollupsForStepsFromPreviousRuns()" : {
+      "name" : "testGetRollupsForStepsFromPreviousRuns",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testGetRollupsForStepsFromPreviousRuns()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 154,
+        "startColumn" : 15,
+        "endLine" : 154,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testCalculateBaseRollup()" : {
+      "name" : "testCalculateBaseRollup",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testCalculateBaseRollup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 15,
+        "endLine" : 252,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testGetForeachAndSubworkflowStepRollups()" : {
+      "name" : "testGetForeachAndSubworkflowStepRollups",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testGetForeachAndSubworkflowStepRollups()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 15,
+        "endLine" : 110,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testGetStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns()" : {
+      "name" : "testGetStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest/method/testGetStepIdToRunIdForForeachAndSubworkflowFromPreviousRuns()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 15,
+        "endLine" : 63,
+        "endColumn" : 75
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/utils/RollupAggregationHelperTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.utils.RollupAggregationHelperTest.ArtifactMap" : {
+      "name" : "ArtifactMap",
+      "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest.ArtifactMap",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 18,
+        "endLine" : 53,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.engine.utils.RollupAggregationHelperTest.ArtifactMap/memberField/artifacts" : {
+          "name" : "artifacts",
+          "key" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest.ArtifactMap/memberField/artifacts",
+          "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.utils.com.netflix.maestro.models.artifact.Artifact>",
+          "displayedType" : "Map<String, Artifact>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 55,
+            "startColumn" : 35,
+            "endLine" : 55,
+            "endColumn" : 44
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest.ArtifactMap"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/utils/RollupAggregationHelperTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.utils.RollupAggregationHelperTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

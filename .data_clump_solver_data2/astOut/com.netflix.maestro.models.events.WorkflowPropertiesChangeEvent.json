@@ -1,0 +1,88 @@
+{
+  "name" : "WorkflowPropertiesChangeEvent",
+  "key" : "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 14,
+    "endLine" : 46,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent/memberField/snapshotId" : {
+      "name" : "snapshotId",
+      "key" : "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent/memberField/snapshotId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 22,
+        "endLine" : 47,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.events.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 15,
+        "endLine" : 50,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowPropertiesChangeEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.events.WorkflowChangeEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent.WorkflowPropertiesChangeEventBuilderImpl" : {
+      "name" : "WorkflowPropertiesChangeEventBuilderImpl",
+      "key" : "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent.WorkflowPropertiesChangeEventBuilderImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 16,
+        "endLine" : 57,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowPropertiesChangeEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.models.events.WorkflowPropertiesChangeEventBuilder<com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent, com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent$WorkflowPropertiesChangeEventBuilderImpl>", "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent", "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent$WorkflowPropertiesChangeEventBuilderImpl" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.events.WorkflowPropertiesChangeEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

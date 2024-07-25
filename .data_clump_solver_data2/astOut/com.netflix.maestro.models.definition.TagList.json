@@ -1,0 +1,112 @@
+{
+  "name" : "TagList",
+  "key" : "com.netflix.maestro.models.definition.TagList",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.TagList/memberField/tags" : {
+      "name" : "tags",
+      "key" : "com.netflix.maestro.models.definition.TagList/memberField/tags",
+      "type" : "java.util.List<com.netflix.maestro.models.definition.Tag>",
+      "displayedType" : "List<Tag>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 45,
+        "endLine" : 41,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TagList"
+    },
+    "com.netflix.maestro.models.definition.TagList/memberField/EMPTY_TAG_LIST" : {
+      "name" : "EMPTY_TAG_LIST",
+      "key" : "com.netflix.maestro.models.definition.TagList/memberField/EMPTY_TAG_LIST",
+      "type" : "com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 31,
+        "endLine" : 39,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TagList"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.TagList/method/merge(java.util.List<com.netflix.maestro.models.definition.Tag> input)" : {
+      "name" : "merge",
+      "key" : "com.netflix.maestro.models.definition.TagList/method/merge(java.util.List<com.netflix.maestro.models.definition.Tag> input)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 15,
+        "endLine" : 55,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.models.definition.TagList/method/merge(java.util.List<com.netflix.maestro.models.definition.Tag> input)/parameter/input",
+        "type" : "java.util.List<com.netflix.maestro.models.definition.Tag>",
+        "displayedType" : "List<Tag>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 41,
+          "endLine" : 55,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.TagList/method/merge(java.util.List<com.netflix.maestro.models.definition.Tag> input)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TagList"
+    },
+    "com.netflix.maestro.models.definition.TagList/method/containsDuplicate()" : {
+      "name" : "containsDuplicate",
+      "key" : "com.netflix.maestro.models.definition.TagList/method/containsDuplicate()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 18,
+        "endLine" : 66,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TagList"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/TagList.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

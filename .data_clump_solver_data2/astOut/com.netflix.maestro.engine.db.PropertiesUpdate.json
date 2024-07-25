@@ -1,0 +1,143 @@
+{
+  "name" : "PropertiesUpdate",
+  "key" : "com.netflix.maestro.engine.db.PropertiesUpdate",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/resetWorkflowConcurrency" : {
+      "name" : "resetWorkflowConcurrency",
+      "key" : "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/resetWorkflowConcurrency",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 19,
+        "endLine" : 35,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.PropertiesUpdate"
+    },
+    "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/type" : {
+      "name" : "type",
+      "key" : "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/type",
+      "type" : "com.netflix.maestro.engine.db.PropertiesUpdate$Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 16,
+        "endLine" : 37,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.PropertiesUpdate"
+    },
+    "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/resetStepConcurrency" : {
+      "name" : "resetStepConcurrency",
+      "key" : "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/resetStepConcurrency",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 19,
+        "endLine" : 36,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.PropertiesUpdate"
+    },
+    "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/resetRunStrategyRule" : {
+      "name" : "resetRunStrategyRule",
+      "key" : "com.netflix.maestro.engine.db.PropertiesUpdate/memberField/resetRunStrategyRule",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 19,
+        "endLine" : 34,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.PropertiesUpdate"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.db.PropertiesUpdate/method/getNewProperties(com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties proposedChange, com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.PropertiesSnapshot prevSnapshot)" : {
+      "name" : "getNewProperties",
+      "key" : "com.netflix.maestro.engine.db.PropertiesUpdate/method/getNewProperties(com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties proposedChange, com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.PropertiesSnapshot prevSnapshot)",
+      "type" : "com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties",
+      "displayedType" : "Properties",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 21,
+        "endLine" : 50,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "proposedChange",
+        "key" : "com.netflix.maestro.engine.db.PropertiesUpdate/method/getNewProperties(com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties proposedChange, com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.PropertiesSnapshot prevSnapshot)/parameter/proposedChange",
+        "type" : "com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties",
+        "displayedType" : "Properties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 49,
+          "endLine" : 50,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.db.PropertiesUpdate/method/getNewProperties(com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties proposedChange, com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.PropertiesSnapshot prevSnapshot)"
+      }, {
+        "name" : "prevSnapshot",
+        "key" : "com.netflix.maestro.engine.db.PropertiesUpdate/method/getNewProperties(com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties proposedChange, com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.PropertiesSnapshot prevSnapshot)/parameter/prevSnapshot",
+        "type" : "com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.PropertiesSnapshot",
+        "displayedType" : "PropertiesSnapshot",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 84,
+          "endLine" : 50,
+          "endColumn" : 96
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.db.PropertiesUpdate/method/getNewProperties(com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.Properties proposedChange, com.netflix.maestro.engine.db.com.netflix.maestro.models.definition.PropertiesSnapshot prevSnapshot)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.db.PropertiesUpdate"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/db/PropertiesUpdate.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

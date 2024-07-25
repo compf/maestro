@@ -1,0 +1,436 @@
+{
+  "name" : "SelParserEvaluationVisitorTest",
+  "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/memberField/visitor" : {
+      "name" : "visitor",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/memberField/visitor",
+      "type" : "com.netflix.sel.visitor.SelParserEvaluationVisitor",
+      "displayedType" : "SelParserEvaluationVisitor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 38,
+        "endLine" : 32,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/memberField/selParser" : {
+      "name" : "selParser",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/memberField/selParser",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.ast.SelParser",
+      "displayedType" : "SelParser",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 27,
+        "endLine" : 30,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr4()" : {
+      "name" : "testInvalidExpr4",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr4()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 15,
+        "endLine" : 150,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr2()" : {
+      "name" : "testInvalidExpr2",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr2()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 140,
+        "startColumn" : 15,
+        "endLine" : 140,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr3()" : {
+      "name" : "testInvalidExpr3",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr3()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 145,
+        "startColumn" : 15,
+        "endLine" : 145,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testStackOverLimit()" : {
+      "name" : "testStackOverLimit",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testStackOverLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 170,
+        "startColumn" : 15,
+        "endLine" : 170,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testArrayOverLimit1()" : {
+      "name" : "testArrayOverLimit1",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testArrayOverLimit1()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 15,
+        "endLine" : 180,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testLoopOverLimit()" : {
+      "name" : "testLoopOverLimit",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testLoopOverLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 15,
+        "endLine" : 175,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/tearDown()" : {
+      "name" : "tearDown",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/tearDown()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testExpressions()" : {
+      "name" : "testExpressions",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testExpressions()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 15,
+        "endLine" : 57,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testArrayOverLimit2()" : {
+      "name" : "testArrayOverLimit2",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testArrayOverLimit2()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 185,
+        "startColumn" : 15,
+        "endLine" : 185,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidFor()" : {
+      "name" : "testInvalidFor",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidFor()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 155,
+        "startColumn" : 15,
+        "endLine" : 155,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/run(java.lang.String expr)" : {
+      "name" : "run",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/run(java.lang.String expr)",
+      "type" : "com.netflix.sel.visitor.com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 19,
+        "endLine" : 34,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/run(java.lang.String expr)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 34,
+          "startColumn" : 30,
+          "endLine" : 34,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/run(java.lang.String expr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 15,
+        "endLine" : 44,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testLargeNestedForLoopExpr()" : {
+      "name" : "testLargeNestedForLoopExpr",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testLargeNestedForLoopExpr()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 191,
+        "startColumn" : 15,
+        "endLine" : 191,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testVisitOverLimit()" : {
+      "name" : "testVisitOverLimit",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testVisitOverLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 15,
+        "endLine" : 212,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidIndexAccess2()" : {
+      "name" : "testInvalidIndexAccess2",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidIndexAccess2()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 165,
+        "startColumn" : 15,
+        "endLine" : 165,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testMapExpressions()" : {
+      "name" : "testMapExpressions",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testMapExpressions()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 99,
+        "startColumn" : 15,
+        "endLine" : 99,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testFunctionOverLimit()" : {
+      "name" : "testFunctionOverLimit",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testFunctionOverLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 226,
+        "startColumn" : 15,
+        "endLine" : 226,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr1()" : {
+      "name" : "testInvalidExpr1",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidExpr1()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 15,
+        "endLine" : 135,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidIndexAccess()" : {
+      "name" : "testInvalidIndexAccess",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testInvalidIndexAccess()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 15,
+        "endLine" : 160,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    },
+    "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testMapOverLimit()" : {
+      "name" : "testMapOverLimit",
+      "key" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest/method/testMapOverLimit()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 218,
+        "startColumn" : 15,
+        "endLine" : 218,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.visitor.SelParserEvaluationVisitorTest"
+    }
+  },
+  "file_path" : "netflix-sel/src/test/java/com/netflix/sel/visitor/SelParserEvaluationVisitorTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

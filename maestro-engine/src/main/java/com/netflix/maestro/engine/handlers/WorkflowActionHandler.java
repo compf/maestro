@@ -29,7 +29,6 @@ import com.netflix.maestro.models.Actions;
 import com.netflix.maestro.models.Constants;
 import com.netflix.maestro.models.api.WorkflowActionResponse;
 import com.netflix.maestro.models.api.WorkflowCreateRequest;
-import com.netflix.maestro.models.artifact.ForeachArtifact;
 import com.netflix.maestro.models.definition.RunStrategy;
 import com.netflix.maestro.models.definition.User;
 import com.netflix.maestro.models.definition.Workflow;
@@ -210,16 +209,14 @@ public class WorkflowActionHandler {
     return instanceDao.runWorkflowInstances(context.getWorkflow().getId(), instances, batchSize);
   }
 
-  private List<WorkflowInstance> createStartForeachInstances(
-      Workflow workflow,
-      Long internalId,
-      long workflowVersionId,
-      long workflowRunId,
-      RunProperties runProperties,
-      List<RunRequest> requests,
-      List<Long> instanceIds) {
+  private List<WorkflowInstance> createStartForeachInstances(ForeachBatchContext context) {
     List<WorkflowInstance> instances =
-        createWorkflowInstances(context.getWorkflow(), context.getInternalId(), context.getWorkflowVersionId(), context.getRunProperties(), context.getRequests());
+        createWorkflowInstances(
+            context.getWorkflow(),
+            context.getInternalId(),
+            context.getWorkflowVersionId(),
+            context.getRunProperties(),
+            context.getRequests());
 
     Iterator<Long> instanceId = context.getInstanceIds().iterator();
     for (WorkflowInstance instance : instances) {

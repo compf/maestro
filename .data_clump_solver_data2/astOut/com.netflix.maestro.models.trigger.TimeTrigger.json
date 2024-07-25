@@ -1,0 +1,80 @@
+{
+  "name" : "TimeTrigger",
+  "key" : "com.netflix.maestro.models.trigger.TimeTrigger",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.models.trigger.TimeTrigger/memberField/MS_IN_SECONDS" : {
+      "name" : "MS_IN_SECONDS",
+      "key" : "com.netflix.maestro.models.trigger.TimeTrigger/memberField/MS_IN_SECONDS",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 8,
+        "endLine" : 30,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.TimeTrigger"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.trigger.TimeTrigger/method/getTimezone()" : {
+      "name" : "getTimezone",
+      "key" : "com.netflix.maestro.models.trigger.TimeTrigger/method/getTimezone()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 10,
+        "endLine" : 36,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.TimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.TimeTrigger/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.trigger.TimeTrigger/method/getType()",
+      "type" : "com.netflix.maestro.models.trigger.TimeTrigger$Type",
+      "displayedType" : "TimeTrigger.Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 20,
+        "endLine" : 33,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.TimeTrigger"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/trigger/TimeTrigger.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

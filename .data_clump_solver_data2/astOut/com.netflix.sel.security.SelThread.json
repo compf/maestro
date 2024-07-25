@@ -1,0 +1,308 @@
+{
+  "name" : "SelThread",
+  "key" : "com.netflix.sel.security.SelThread",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 14,
+    "endLine" : 30,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.security.SelThread/memberField/validator" : {
+      "name" : "validator",
+      "key" : "com.netflix.sel.security.SelThread/memberField/validator",
+      "type" : "com.netflix.sel.security.com.netflix.sel.ast.SelParserVisitor",
+      "displayedType" : "SelParserVisitor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 34,
+        "endLine" : 38,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/memberField/selEvaluator" : {
+      "name" : "selEvaluator",
+      "key" : "com.netflix.sel.security.SelThread/memberField/selEvaluator",
+      "type" : "com.netflix.sel.security.com.netflix.sel.visitor.SelParserEvaluationVisitor",
+      "displayedType" : "SelParserEvaluationVisitor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 44,
+        "endLine" : 36,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/memberField/acc" : {
+      "name" : "acc",
+      "key" : "com.netflix.sel.security.SelThread/memberField/acc",
+      "type" : "java.security.AccessControlContext",
+      "displayedType" : "AccessControlContext",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 38,
+        "endLine" : 33,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/memberField/selParser" : {
+      "name" : "selParser",
+      "key" : "com.netflix.sel.security.SelThread/memberField/selParser",
+      "type" : "com.netflix.sel.security.com.netflix.sel.ast.SelParser",
+      "displayedType" : "SelParser",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 27,
+        "endLine" : 37,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/memberField/lengthLimit" : {
+      "name" : "lengthLimit",
+      "key" : "com.netflix.sel.security.SelThread/memberField/lengthLimit",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 21,
+        "endLine" : 39,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/memberField/classLoader" : {
+      "name" : "classLoader",
+      "key" : "com.netflix.sel.security.SelThread/memberField/classLoader",
+      "type" : "java.lang.ClassLoader",
+      "displayedType" : "ClassLoader",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 29,
+        "endLine" : 34,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/memberField/SEL_THREAD_GROUP" : {
+      "name" : "SEL_THREAD_GROUP",
+      "key" : "com.netflix.sel.security.SelThread/memberField/SEL_THREAD_GROUP",
+      "type" : "java.lang.ThreadGroup",
+      "displayedType" : "ThreadGroup",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 31,
+        "startColumn" : 36,
+        "endLine" : 31,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.security.SelThread/method/run()" : {
+      "name" : "run",
+      "key" : "com.netflix.sel.security.SelThread/method/run()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 15,
+        "endLine" : 94,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)" : {
+      "name" : "evaluate",
+      "key" : "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)",
+      "type" : "com.netflix.sel.security.com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 18,
+        "endLine" : 64,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 34,
+          "endLine" : 64,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)"
+      }, {
+        "name" : "varsMap",
+        "key" : "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)/parameter/varsMap",
+        "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+        "displayedType" : "Map<String, Object>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 60,
+          "endLine" : 64,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)"
+      }, {
+        "name" : "ext",
+        "key" : "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)/parameter/ext",
+        "type" : "com.netflix.sel.security.com.netflix.sel.ext.Extension",
+        "displayedType" : "Extension",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 79,
+          "endLine" : 64,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelThread/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.security.com.netflix.sel.ext.Extension ext)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/method/validate(java.lang.String expr, java.util.Set<java.lang.String> whitelistVars)" : {
+      "name" : "validate",
+      "key" : "com.netflix.sel.security.SelThread/method/validate(java.lang.String expr, java.util.Set<java.lang.String> whitelistVars)",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 22,
+        "endLine" : 77,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.security.SelThread/method/validate(java.lang.String expr, java.util.Set<java.lang.String> whitelistVars)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 38,
+          "endLine" : 77,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelThread/method/validate(java.lang.String expr, java.util.Set<java.lang.String> whitelistVars)"
+      }, {
+        "name" : "whitelistVars",
+        "key" : "com.netflix.sel.security.SelThread/method/validate(java.lang.String expr, java.util.Set<java.lang.String> whitelistVars)/parameter/whitelistVars",
+        "type" : "java.util.Set<java.lang.String>",
+        "displayedType" : "Set<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 56,
+          "endLine" : 77,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelThread/method/validate(java.lang.String expr, java.util.Set<java.lang.String> whitelistVars)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    },
+    "com.netflix.sel.security.SelThread/method/checkExprLength(java.lang.String expr)" : {
+      "name" : "checkExprLength",
+      "key" : "com.netflix.sel.security.SelThread/method/checkExprLength(java.lang.String expr)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 16,
+        "endLine" : 57,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.security.SelThread/method/checkExprLength(java.lang.String expr)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 57,
+          "startColumn" : 39,
+          "endLine" : 57,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelThread/method/checkExprLength(java.lang.String expr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelThread"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/security/SelThread.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.Thread" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

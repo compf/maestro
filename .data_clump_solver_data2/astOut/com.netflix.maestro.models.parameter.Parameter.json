@@ -1,0 +1,788 @@
+{
+  "name" : "Parameter",
+  "key" : "com.netflix.maestro.models.parameter.Parameter",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.models.parameter.Parameter/method/getEvaluatedResult()" : {
+      "name" : "getEvaluatedResult",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getEvaluatedResult()",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 9,
+        "endLine" : 65,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/validate()" : {
+      "name" : "validate",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/validate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 8,
+        "endLine" : 81,
+        "endColumn" : 16
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asStringMapParam()" : {
+      "name" : "asStringMapParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asStringMapParam()",
+      "type" : "com.netflix.maestro.models.parameter.StringMapParameter",
+      "displayedType" : "StringMapParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 262,
+        "startColumn" : 30,
+        "endLine" : 262,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/preprocessInstanceParams(java.util.Map<java.lang.String, com.netflix.maestro.models.parameter.Parameter> params)" : {
+      "name" : "preprocessInstanceParams",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/preprocessInstanceParams(java.util.Map<java.lang.String, com.netflix.maestro.models.parameter.Parameter> params)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.parameter.Parameter>",
+      "displayedType" : "Map<String, Parameter>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 33,
+        "endLine" : 105,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "params",
+        "key" : "com.netflix.maestro.models.parameter.Parameter/method/preprocessInstanceParams(java.util.Map<java.lang.String, com.netflix.maestro.models.parameter.Parameter> params)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Map<String, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 105,
+          "startColumn" : 81,
+          "endLine" : 105,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.Parameter/method/preprocessInstanceParams(java.util.Map<java.lang.String, com.netflix.maestro.models.parameter.Parameter> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asStringArrayParam()" : {
+      "name" : "asStringArrayParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asStringArrayParam()",
+      "type" : "com.netflix.maestro.models.parameter.StringArrayParameter",
+      "displayedType" : "StringArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 272,
+        "startColumn" : 32,
+        "endLine" : 272,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/isEvaluated()" : {
+      "name" : "isEvaluated",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/isEvaluated()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 19,
+        "endLine" : 100,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asDouble()" : {
+      "name" : "asDouble",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asDouble()",
+      "type" : "java.lang.Double",
+      "displayedType" : "Double",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 148,
+        "startColumn" : 18,
+        "endLine" : 148,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asString()" : {
+      "name" : "asString",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 18,
+        "endLine" : 130,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asMap()" : {
+      "name" : "asMap",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asMap()",
+      "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+      "displayedType" : "Map<String, Object>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 213,
+        "startColumn" : 31,
+        "endLine" : 213,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getValue()" : {
+      "name" : "getValue",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getValue()",
+      "type" : "T",
+      "displayedType" : "T",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 9,
+        "endLine" : 50,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asLongArrayParam()" : {
+      "name" : "asLongArrayParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asLongArrayParam()",
+      "type" : "com.netflix.maestro.models.parameter.LongArrayParameter",
+      "displayedType" : "LongArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 282,
+        "startColumn" : 30,
+        "endLine" : 282,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedResult(java.lang.Object result)" : {
+      "name" : "setEvaluatedResult",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedResult(java.lang.Object result)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 8,
+        "endLine" : 72,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "result",
+        "key" : "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedResult(java.lang.Object result)/parameter/result",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 34,
+          "endLine" : 72,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedResult(java.lang.Object result)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getEvaluatedTime()" : {
+      "name" : "getEvaluatedTime",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getEvaluatedTime()",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 8,
+        "endLine" : 75,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asStringMap()" : {
+      "name" : "asStringMap",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asStringMap()",
+      "type" : "java.util.Map<java.lang.String, java.lang.String>",
+      "displayedType" : "Map<String, String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 166,
+        "startColumn" : 31,
+        "endLine" : 166,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asBooleanParam()" : {
+      "name" : "asBooleanParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asBooleanParam()",
+      "type" : "com.netflix.maestro.models.parameter.BooleanParameter",
+      "displayedType" : "BooleanParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 252,
+        "startColumn" : 28,
+        "endLine" : 252,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getTags()" : {
+      "name" : "getTags",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getTags()",
+      "type" : "com.netflix.maestro.models.parameter.com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 11,
+        "endLine" : 62,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getSource()" : {
+      "name" : "getSource",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getSource()",
+      "type" : "com.netflix.maestro.models.parameter.ParamSource",
+      "displayedType" : "ParamSource",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 15,
+        "endLine" : 84,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/isLiteral()" : {
+      "name" : "isLiteral",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/isLiteral()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 19,
+        "endLine" : 94,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getType()",
+      "type" : "com.netflix.maestro.models.parameter.ParamType",
+      "displayedType" : "ParamType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 13,
+        "endLine" : 56,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asLongArray()" : {
+      "name" : "asLongArray",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asLongArray()",
+      "type" : "long[]",
+      "displayedType" : "long[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 184,
+        "startColumn" : 18,
+        "endLine" : 184,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getName()" : {
+      "name" : "getName",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getName()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 10,
+        "endLine" : 44,
+        "endColumn" : 17
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/toDefinition()" : {
+      "name" : "toDefinition",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/toDefinition()",
+      "type" : "com.netflix.maestro.models.parameter.ParamDefinition",
+      "displayedType" : "ParamDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 19,
+        "endLine" : 90,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getMode()" : {
+      "name" : "getMode",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getMode()",
+      "type" : "com.netflix.maestro.models.parameter.ParamMode",
+      "displayedType" : "ParamMode",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 13,
+        "endLine" : 59,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asStringArray()" : {
+      "name" : "asStringArray",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asStringArray()",
+      "type" : "java.lang.String[]",
+      "displayedType" : "String[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 175,
+        "startColumn" : 20,
+        "endLine" : 175,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedTime(java.lang.Long timestamp)" : {
+      "name" : "setEvaluatedTime",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedTime(java.lang.Long timestamp)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 8,
+        "endLine" : 78,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestamp",
+        "key" : "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedTime(java.lang.Long timestamp)/parameter/timestamp",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 30,
+          "endLine" : 78,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.Parameter/method/setEvaluatedTime(java.lang.Long timestamp)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asBoolean()" : {
+      "name" : "asBoolean",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asBoolean()",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 157,
+        "startColumn" : 19,
+        "endLine" : 157,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/unwrap()" : {
+      "name" : "unwrap",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/unwrap()",
+      "type" : "com.netflix.maestro.models.parameter.Parameter",
+      "displayedType" : "Parameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 320,
+        "startColumn" : 21,
+        "endLine" : 320,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asStringParam()" : {
+      "name" : "asStringParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asStringParam()",
+      "type" : "com.netflix.maestro.models.parameter.StringParameter",
+      "displayedType" : "StringParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 222,
+        "startColumn" : 27,
+        "endLine" : 222,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asMapParam()" : {
+      "name" : "asMapParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asMapParam()",
+      "type" : "com.netflix.maestro.models.parameter.MapParameter",
+      "displayedType" : "MapParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 314,
+        "startColumn" : 24,
+        "endLine" : 314,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getEvaluatedResultString()" : {
+      "name" : "getEvaluatedResultString",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getEvaluatedResultString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 10,
+        "endLine" : 69,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asLongParam()" : {
+      "name" : "asLongParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asLongParam()",
+      "type" : "com.netflix.maestro.models.parameter.LongParameter",
+      "displayedType" : "LongParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 232,
+        "startColumn" : 25,
+        "endLine" : 232,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asDoubleParam()" : {
+      "name" : "asDoubleParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asDoubleParam()",
+      "type" : "com.netflix.maestro.models.parameter.DoubleParameter",
+      "displayedType" : "DoubleParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 27,
+        "endLine" : 242,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asDoubleArrayParam()" : {
+      "name" : "asDoubleArrayParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asDoubleArrayParam()",
+      "type" : "com.netflix.maestro.models.parameter.DoubleArrayParameter",
+      "displayedType" : "DoubleArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 292,
+        "startColumn" : 32,
+        "endLine" : 292,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/getExpression()" : {
+      "name" : "getExpression",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/getExpression()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 10,
+        "endLine" : 53,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/setName(java.lang.String name)" : {
+      "name" : "setName",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/setName(java.lang.String name)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 8,
+        "endLine" : 47,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.models.parameter.Parameter/method/setName(java.lang.String name)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 23,
+          "endLine" : 47,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.parameter.Parameter/method/setName(java.lang.String name)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asLong()" : {
+      "name" : "asLong",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asLong()",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 16,
+        "endLine" : 139,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asBooleanArray()" : {
+      "name" : "asBooleanArray",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asBooleanArray()",
+      "type" : "boolean[]",
+      "displayedType" : "boolean[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 202,
+        "startColumn" : 21,
+        "endLine" : 202,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asBooleanArrayParam()" : {
+      "name" : "asBooleanArrayParam",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asBooleanArrayParam()",
+      "type" : "com.netflix.maestro.models.parameter.BooleanArrayParameter",
+      "displayedType" : "BooleanArrayParameter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 302,
+        "startColumn" : 33,
+        "endLine" : 302,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    },
+    "com.netflix.maestro.models.parameter.Parameter/method/asDoubleArray()" : {
+      "name" : "asDoubleArray",
+      "key" : "com.netflix.maestro.models.parameter.Parameter/method/asDoubleArray()",
+      "type" : "double[]",
+      "displayedType" : "double[]",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 193,
+        "startColumn" : 20,
+        "endLine" : 193,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.parameter.Parameter"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/parameter/Parameter.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

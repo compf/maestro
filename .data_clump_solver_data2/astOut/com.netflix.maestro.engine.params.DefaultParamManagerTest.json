@@ -1,0 +1,275 @@
+{
+  "name" : "DefaultParamManagerTest",
+  "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 31,
+    "startColumn" : 8,
+    "endLine" : 31,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/memberField/defaultParamManager" : {
+      "name" : "defaultParamManager",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/memberField/defaultParamManager",
+      "type" : "com.netflix.maestro.engine.params.DefaultParamManager",
+      "displayedType" : "DefaultParamManager",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 31,
+        "endLine" : 33,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testNonNullMapTypes()" : {
+      "name" : "testNonNullMapTypes",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testNonNullMapTypes()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 15,
+        "endLine" : 97,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testExistsStepTypeParams()" : {
+      "name" : "testExistsStepTypeParams",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testExistsStepTypeParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 15,
+        "endLine" : 91,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testStepTypeParamsMutate()" : {
+      "name" : "testStepTypeParamsMutate",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testStepTypeParamsMutate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 15,
+        "endLine" : 110,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/verifyNonNullMap(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> defaultWorkflowParams)" : {
+      "name" : "verifyNonNullMap",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/verifyNonNullMap(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> defaultWorkflowParams)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 16,
+        "endLine" : 40,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "defaultWorkflowParams",
+        "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/verifyNonNullMap(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> defaultWorkflowParams)/parameter/defaultWorkflowParams",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 40,
+          "startColumn" : 62,
+          "endLine" : 40,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/verifyNonNullMap(java.util.Map<java.lang.String, com.netflix.maestro.engine.params.com.netflix.maestro.models.parameter.ParamDefinition> defaultWorkflowParams)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testDefaultWorkflowParamsMutate()" : {
+      "name" : "testDefaultWorkflowParamsMutate",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testDefaultWorkflowParamsMutate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 15,
+        "endLine" : 69,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testValidDefaultWorkflowParams()" : {
+      "name" : "testValidDefaultWorkflowParams",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testValidDefaultWorkflowParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 15,
+        "endLine" : 57,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testValidDefaultDryRunParams()" : {
+      "name" : "testValidDefaultDryRunParams",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testValidDefaultDryRunParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 15,
+        "endLine" : 63,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testDefaultStepsParamsMutate()" : {
+      "name" : "testDefaultStepsParamsMutate",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testDefaultStepsParamsMutate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 15,
+        "endLine" : 83,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testNullStepTypeParams()" : {
+      "name" : "testNullStepTypeParams",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testNullStepTypeParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 15,
+        "endLine" : 105,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 22,
+        "endLine" : 36,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testValidDefaultStepParams()" : {
+      "name" : "testValidDefaultStepParams",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/testValidDefaultStepParams()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 15,
+        "endLine" : 77,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    },
+    "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.params.DefaultParamManagerTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.params.DefaultParamManagerTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/params/DefaultParamManagerTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.params.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

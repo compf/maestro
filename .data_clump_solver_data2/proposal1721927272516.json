@@ -1,0 +1,41 @@
+{
+  "refactorings": {
+    "maestro-engine/src/main/java/com/netflix/maestro/engine/handlers/WorkflowActionHandler.java": [
+      {
+        "fromLine": 179,
+        "toLine": 243,
+        "oldContent": "  public Optional<Details> runForeachBatch(\n      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      RunProperties runProperties,\n      String foreachStepId,\n      ForeachArtifact artifact,\n      List<RunRequest> requests,\n      List<Long> instanceIds,\n      int batchSize) {",
+        "newContent": "  public Optional<Details> runForeachBatch(\n      ForeachBatchContext context,\n      int batchSize) {"
+      },
+      {
+        "fromLine": 245,
+        "toLine": 245,
+        "oldContent": "        createWorkflowInstances(workflow, internalId, workflowVersionId, runProperties, requests);",
+        "newContent": "        createWorkflowInstances(context.getWorkflow(), context.getInternalId(), context.getWorkflowVersionId(), context.getRunProperties(), context.getRequests());"
+      },
+      {
+        "fromLine": 245,
+        "toLine": 305,
+        "oldContent": "  private List<WorkflowInstance> createStartForeachInstances(\n      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      long workflowRunId,\n      RunProperties runProperties,\n      List<RunRequest> requests,\n      List<Long> instanceIds) {",
+        "newContent": "  private List<WorkflowInstance> createStartForeachInstances(\n      ForeachBatchContext context,\n      long workflowRunId) {"
+      },
+      {
+        "fromLine": 245,
+        "toLine": 305,
+        "oldContent": "  private List<WorkflowInstance> createRestartForeachInstances(\n      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      RunProperties runProperties,\n      String foreachStepId,\n      ForeachArtifact artifact,\n      List<RunRequest> requests,\n      List<Long> instanceIds) {",
+        "newContent": "  private List<WorkflowInstance> createRestartForeachInstances(\n      ForeachBatchContext context) {"
+      },
+      {
+        "fromLine": 245,
+        "toLine": 305,
+        "oldContent": "    request.updateForDownstreamIfNeeded(foreachStepId, instance);",
+        "newContent": "    request.updateForDownstreamIfNeeded(context.getForeachStepId(), instance);"
+      }
+    ]
+  },
+  "extractedClasses": {
+    "maestro-engine/src/main/java/com/netflix/maestro/engine/handlers/ForeachBatchContext.java": "public class ForeachBatchContext {\n\n  private final Workflow workflow;\n  private final Long internalId;\n  private final long workflowVersionId;\n  private final RunProperties runProperties;\n  private final String foreachStepId;\n  private final ForeachArtifact artifact;\n  private final List<RunRequest> requests;\n  private final List<Long> instanceIds;\n\n  public ForeachBatchContext(\n      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      RunProperties runProperties,\n      String foreachStepId,\n      ForeachArtifact artifact,\n      List<RunRequest> requests,\n      List<Long> instanceIds) {\n    this.workflow = workflow;\n    this.internalId = internalId;\n    this.workflowVersionId = workflowVersionId;\n    this.runProperties = runProperties;\n    this.foreachStepId = foreachStepId;\n    this.artifact = artifact;\n    this.requests = requests;\n    this.instanceIds = instanceIds;\n  }\n\n  // Getters for all fields\n\n}"
+  },
+  "tenperature": 0.1,
+  "date": "2024-07-25T17:07:52.514Z"
+}

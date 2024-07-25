@@ -1,0 +1,77 @@
+{
+  "name" : "DagTranslator",
+  "key" : "com.netflix.maestro.engine.transformation.DagTranslator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 8,
+    "endLine" : 29,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.transformation.DagTranslator/memberField/objectMapper" : {
+      "name" : "objectMapper",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslator/memberField/objectMapper",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 30,
+        "endLine" : 30,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.transformation.DagTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance)" : {
+      "name" : "translate",
+      "key" : "com.netflix.maestro.engine.transformation.DagTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition>",
+      "displayedType" : "Map<String, StepTransition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 38,
+        "endLine" : 39,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowInstance",
+        "key" : "com.netflix.maestro.engine.transformation.DagTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance)/parameter/workflowInstance",
+        "type" : "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 39,
+          "startColumn" : 65,
+          "endLine" : 39,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.transformation.DagTranslator/method/translate(com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance workflowInstance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.transformation.DagTranslator"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/transformation/DagTranslator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.transformation.Translator<com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance, java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition>>", "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.instance.WorkflowInstance", "java.util.Map<java.lang.String, com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition>", "java.lang.String", "com.netflix.maestro.engine.transformation.com.netflix.maestro.models.definition.StepTransition" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

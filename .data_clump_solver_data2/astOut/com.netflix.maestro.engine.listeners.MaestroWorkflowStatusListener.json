@@ -1,0 +1,577 @@
+{
+  "name" : "MaestroWorkflowStatusListener",
+  "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 55,
+    "startColumn" : 8,
+    "endLine" : 55,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/FAILURE_REASON_PREFIX" : {
+      "name" : "FAILURE_REASON_PREFIX",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/FAILURE_REASON_PREFIX",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 31,
+        "endLine" : 57,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 40,
+        "endLine" : 61,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/metrics" : {
+      "name" : "metrics",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/metrics",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.metrics.MaestroMetrics",
+      "displayedType" : "MaestroMetrics",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 32,
+        "endLine" : 64,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/instanceDao" : {
+      "name" : "instanceDao",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/instanceDao",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 44,
+        "endLine" : 60,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 42,
+        "endLine" : 62,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/TYPE_TAG" : {
+      "name" : "TYPE_TAG",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/TYPE_TAG",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 31,
+        "endLine" : 56,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/objectMapper" : {
+      "name" : "objectMapper",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/objectMapper",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 30,
+        "endLine" : 63,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/maestroTask" : {
+      "name" : "maestroTask",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/memberField/maestroTask",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.tasks.MaestroTask",
+      "displayedType" : "MaestroTask",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 29,
+        "endLine" : 59,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowFinalized(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "onWorkflowFinalized",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowFinalized(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 15,
+        "endLine" : 90,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowFinalized(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 90,
+          "startColumn" : 44,
+          "endLine" : 90,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowFinalized(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)" : {
+      "name" : "update",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 219,
+        "startColumn" : 16,
+        "endLine" : 219,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 220,
+          "startColumn" : 16,
+          "endLine" : 220,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)/parameter/status",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 221,
+          "startColumn" : 31,
+          "endLine" : 221,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 222,
+          "startColumn" : 23,
+          "endLine" : 222,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)"
+      }, {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)/parameter/overview",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+        "displayedType" : "WorkflowRuntimeOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 223,
+          "startColumn" : 31,
+          "endLine" : 223,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)"
+      }, {
+        "name" : "errorDetails",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)/parameter/errorDetails",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details",
+        "displayedType" : "Details",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 224,
+          "startColumn" : 15,
+          "endLine" : 224,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.error.Details errorDetails)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowTerminated(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "onWorkflowTerminated",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowTerminated(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 15,
+        "endLine" : 77,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowTerminated(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 45,
+          "endLine" : 77,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowTerminated(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/validateAndUpdateOverview(com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)" : {
+      "name" : "validateAndUpdateOverview",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/validateAndUpdateOverview(com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 273,
+        "startColumn" : 16,
+        "endLine" : 273,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/validateAndUpdateOverview(com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)/parameter/overview",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+        "displayedType" : "WorkflowRuntimeOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 274,
+          "startColumn" : 31,
+          "endLine" : 274,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/validateAndUpdateOverview(com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/validateAndUpdateOverview(com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 274,
+          "startColumn" : 57,
+          "endLine" : 274,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/validateAndUpdateOverview(com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)" : {
+      "name" : "update",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 211,
+        "startColumn" : 16,
+        "endLine" : 211,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 212,
+          "startColumn" : 16,
+          "endLine" : 212,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)/parameter/status",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 213,
+          "startColumn" : 31,
+          "endLine" : 213,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 214,
+          "startColumn" : 23,
+          "endLine" : 214,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)"
+      }, {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)/parameter/overview",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview",
+        "displayedType" : "WorkflowRuntimeOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 215,
+          "startColumn" : 31,
+          "endLine" : 215,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/update(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.listeners.Status status, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowRuntimeOverview overview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/retrieveWorkflowRuntimeSummary(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "retrieveWorkflowRuntimeSummary",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/retrieveWorkflowRuntimeSummary(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowRuntimeSummary",
+      "displayedType" : "WorkflowRuntimeSummary",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 265,
+        "startColumn" : 34,
+        "endLine" : 265,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/retrieveWorkflowRuntimeSummary(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 265,
+          "startColumn" : 74,
+          "endLine" : 265,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/retrieveWorkflowRuntimeSummary(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)" : {
+      "name" : "statsMatched",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 313,
+        "startColumn" : 19,
+        "endLine" : 313,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stats",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)/parameter/stats",
+        "type" : "java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary>",
+        "displayedType" : "Map<StepInstance.Status, WorkflowStepStatusSummary>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 314,
+          "startColumn" : 59,
+          "endLine" : 314,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)"
+      }, {
+        "name" : "stepStatusMap",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)/parameter/stepStatusMap",
+        "type" : "java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary>",
+        "displayedType" : "Map<StepInstance.Status, WorkflowStepStatusSummary>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 315,
+          "startColumn" : 59,
+          "endLine" : 315,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)"
+      }, {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 316,
+          "startColumn" : 23,
+          "endLine" : 316,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/statsMatched(java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stats, java.util.Map<com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.listeners.Status, com.netflix.maestro.engine.listeners.com.netflix.maestro.models.instance.WorkflowStepStatusSummary> stepStatusMap, com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.execution.WorkflowSummary summary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    },
+    "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowCompleted(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)" : {
+      "name" : "onWorkflowCompleted",
+      "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowCompleted(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowCompleted(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 44,
+          "endLine" : 67,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener/method/onWorkflowCompleted(com.netflix.maestro.engine.listeners.com.netflix.conductor.common.run.Workflow workflow)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.MaestroWorkflowStatusListener"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/listeners/MaestroWorkflowStatusListener.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.listeners.com.netflix.conductor.core.execution.WorkflowStatusListener" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

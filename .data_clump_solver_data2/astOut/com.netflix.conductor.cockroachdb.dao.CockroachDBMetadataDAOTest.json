@@ -1,0 +1,134 @@
+{
+  "name" : "CockroachDBMetadataDAOTest",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/memberField/dao" : {
+      "name" : "dao",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/memberField/dao",
+      "type" : "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.MetadataDAO",
+      "displayedType" : "MetadataDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 23,
+        "endLine" : 33,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testRemoveTaskDef()" : {
+      "name" : "testRemoveTaskDef",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testRemoveTaskDef()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 15,
+        "endLine" : 153,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testDuplicate()" : {
+      "name" : "testDuplicate",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testDuplicate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 15,
+        "endLine" : 41,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testTaskDefOperations()" : {
+      "name" : "testTaskDefOperations",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testTaskDefOperations()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 15,
+        "endLine" : 100,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testWorkflowDefOperations()" : {
+      "name" : "testWorkflowDefOperations",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/testWorkflowDefOperations()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 15,
+        "endLine" : 51,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 15,
+        "endLine" : 36,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBMetadataDAOTest"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/test/java/com/netflix/conductor/cockroachdb/dao/CockroachDBMetadataDAOTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

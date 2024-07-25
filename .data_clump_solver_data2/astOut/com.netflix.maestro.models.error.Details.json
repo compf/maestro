@@ -1,0 +1,266 @@
+{
+  "name" : "Details",
+  "key" : "com.netflix.maestro.models.error.Details",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.error.Details/memberField/cause" : {
+      "name" : "cause",
+      "key" : "com.netflix.maestro.models.error.Details/memberField/cause",
+      "type" : "java.lang.Throwable",
+      "displayedType" : "Throwable",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 27,
+        "endLine" : 44,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    },
+    "com.netflix.maestro.models.error.Details/memberField/retryable" : {
+      "name" : "retryable",
+      "key" : "com.netflix.maestro.models.error.Details/memberField/retryable",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 25,
+        "endLine" : 45,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    },
+    "com.netflix.maestro.models.error.Details/memberField/MAX_STACK_TRACE_IN_ERRORS" : {
+      "name" : "MAX_STACK_TRACE_IN_ERRORS",
+      "key" : "com.netflix.maestro.models.error.Details/memberField/MAX_STACK_TRACE_IN_ERRORS",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 28,
+        "endLine" : 40,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    },
+    "com.netflix.maestro.models.error.Details/memberField/message" : {
+      "name" : "message",
+      "key" : "com.netflix.maestro.models.error.Details/memberField/message",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 24,
+        "endLine" : 42,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    },
+    "com.netflix.maestro.models.error.Details/memberField/status" : {
+      "name" : "status",
+      "key" : "com.netflix.maestro.models.error.Details/memberField/status",
+      "type" : "com.netflix.maestro.models.error.com.netflix.maestro.exceptions.MaestroRuntimeException#com.netflix.maestro.models.error.Code",
+      "displayedType" : "MaestroRuntimeException.Code",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 46,
+        "endLine" : 41,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    },
+    "com.netflix.maestro.models.error.Details/memberField/errors" : {
+      "name" : "errors",
+      "key" : "com.netflix.maestro.models.error.Details/memberField/errors",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 30,
+        "endLine" : 43,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.error.Details/method/create(java.lang.String template, java.lang.Object[] args)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.error.Details/method/create(java.lang.String template, java.lang.Object[] args)",
+      "type" : "com.netflix.maestro.models.error.Details",
+      "displayedType" : "Details",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 25,
+        "endLine" : 53,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "template",
+        "key" : "com.netflix.maestro.models.error.Details/method/create(java.lang.String template, java.lang.Object[] args)/parameter/template",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 39,
+          "endLine" : 53,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.error.Details/method/create(java.lang.String template, java.lang.Object[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.maestro.models.error.Details/method/create(java.lang.String template, java.lang.Object[] args)/parameter/args",
+        "type" : "java.lang.Object[]",
+        "displayedType" : "Object[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 53,
+          "startColumn" : 59,
+          "endLine" : 53,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.error.Details/method/create(java.lang.String template, java.lang.Object[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    },
+    "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)",
+      "type" : "com.netflix.maestro.models.error.Details",
+      "displayedType" : "Details",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 25,
+        "endLine" : 61,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "cause",
+        "key" : "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)/parameter/cause",
+        "type" : "java.lang.Throwable",
+        "displayedType" : "Throwable",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 42,
+          "endLine" : 61,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)"
+      }, {
+        "name" : "retryable",
+        "key" : "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)/parameter/retryable",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 57,
+          "endLine" : 61,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)"
+      }, {
+        "name" : "msg",
+        "key" : "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)/parameter/msg",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 75,
+          "endLine" : 61,
+          "endColumn" : 78
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.error.Details/method/create(java.lang.Throwable cause, boolean retryable, java.lang.String msg)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.error.Details"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/error/Details.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.error.Details.DetailsBuilder" : {
+      "name" : "DetailsBuilder",
+      "key" : "com.netflix.maestro.models.error.Details.DetailsBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 23,
+        "endLine" : 50,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/error/Details.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.error.Details",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

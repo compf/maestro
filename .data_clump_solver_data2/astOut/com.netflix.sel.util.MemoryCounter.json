@@ -1,0 +1,197 @@
+{
+  "name" : "MemoryCounter",
+  "key" : "com.netflix.sel.util.MemoryCounter",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 17,
+    "startColumn" : 8,
+    "endLine" : 17,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.util.MemoryCounter/memberField/memoryLimit" : {
+      "name" : "memoryLimit",
+      "key" : "com.netflix.sel.util.MemoryCounter/memberField/memoryLimit",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 32,
+        "endLine" : 22,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "VOLATILE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    },
+    "com.netflix.sel.util.MemoryCounter/memberField/DEFAULT_OBJECT_SIZE_IN_BYTES" : {
+      "name" : "DEFAULT_OBJECT_SIZE_IN_BYTES",
+      "key" : "com.netflix.sel.util.MemoryCounter/memberField/DEFAULT_OBJECT_SIZE_IN_BYTES",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 19,
+        "startColumn" : 29,
+        "endLine" : 19,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    },
+    "com.netflix.sel.util.MemoryCounter/memberField/ONE_MEGA_BYTE" : {
+      "name" : "ONE_MEGA_BYTE",
+      "key" : "com.netflix.sel.util.MemoryCounter/memberField/ONE_MEGA_BYTE",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 18,
+        "startColumn" : 29,
+        "endLine" : 18,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    },
+    "com.netflix.sel.util.MemoryCounter/memberField/memory" : {
+      "name" : "memory",
+      "key" : "com.netflix.sel.util.MemoryCounter/memberField/memory",
+      "type" : "java.lang.ThreadLocal<java.util.concurrent.atomic.AtomicLong>",
+      "displayedType" : "ThreadLocal<AtomicLong>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 21,
+        "startColumn" : 48,
+        "endLine" : 21,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.util.MemoryCounter/method/usedMemory()" : {
+      "name" : "usedMemory",
+      "key" : "com.netflix.sel.util.MemoryCounter/method/usedMemory()",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 22,
+        "endLine" : 33,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    },
+    "com.netflix.sel.util.MemoryCounter/method/reset()" : {
+      "name" : "reset",
+      "key" : "com.netflix.sel.util.MemoryCounter/method/reset()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 22,
+        "endLine" : 41,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    },
+    "com.netflix.sel.util.MemoryCounter/method/setMemoryLimit(long limit)" : {
+      "name" : "setMemoryLimit",
+      "key" : "com.netflix.sel.util.MemoryCounter/method/setMemoryLimit(long limit)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 22,
+        "endLine" : 37,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "limit",
+        "key" : "com.netflix.sel.util.MemoryCounter/method/setMemoryLimit(long limit)/parameter/limit",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 42,
+          "endLine" : 37,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.util.MemoryCounter/method/setMemoryLimit(long limit)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    },
+    "com.netflix.sel.util.MemoryCounter/method/increment(long delta)" : {
+      "name" : "increment",
+      "key" : "com.netflix.sel.util.MemoryCounter/method/increment(long delta)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 22,
+        "endLine" : 24,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "delta",
+        "key" : "com.netflix.sel.util.MemoryCounter/method/increment(long delta)/parameter/delta",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 24,
+          "startColumn" : 37,
+          "endLine" : 24,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.util.MemoryCounter/method/increment(long delta)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.util.MemoryCounter"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/util/MemoryCounter.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

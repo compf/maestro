@@ -1,0 +1,43 @@
+{
+  "name" : "CallbackDelayConfig",
+  "key" : "com.netflix.maestro.engine.properties.CallbackDelayConfig",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 8,
+    "endLine" : 27,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.properties.CallbackDelayConfig/memberField/fixedCallbackDelayInSecs" : {
+      "name" : "fixedCallbackDelayInSecs",
+      "key" : "com.netflix.maestro.engine.properties.CallbackDelayConfig/memberField/fixedCallbackDelayInSecs",
+      "type" : "java.util.Map<com.netflix.maestro.engine.properties.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.properties.Status, java.util.Map<java.lang.String, java.lang.Long>>",
+      "displayedType" : "Map<StepInstance.Status, Map<String, Long>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 55,
+        "endLine" : 28,
+        "endColumn" : 79
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.properties.CallbackDelayConfig"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/properties/CallbackDelayConfig.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

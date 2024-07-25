@@ -1,0 +1,446 @@
+{
+  "name" : "AggregatedViewHelperTest",
+  "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 48,
+    "startColumn" : 8,
+    "endLine" : 48,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/memberField/workflowInstanceDao" : {
+      "name" : "workflowInstanceDao",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/memberField/workflowInstanceDao",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 44,
+        "endLine" : 49,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)" : {
+      "name" : "generateStepAggregated",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepAggregatedView",
+      "displayedType" : "StepAggregatedView",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 920,
+        "startColumn" : 30,
+        "endLine" : 920,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)/parameter/status",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 921,
+          "startColumn" : 27,
+          "endLine" : 921,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)"
+      }, {
+        "name" : "startTime",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)/parameter/startTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 921,
+          "startColumn" : 40,
+          "endLine" : 921,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)"
+      }, {
+        "name" : "endTime",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)/parameter/endTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 921,
+          "startColumn" : 56,
+          "endLine" : 921,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepAggregated(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testDeriveAggregatedStatus()" : {
+      "name" : "testDeriveAggregatedStatus",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testDeriveAggregatedStatus()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 824,
+        "startColumn" : 15,
+        "endLine" : 824,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewSimple()" : {
+      "name" : "testAggregatedViewSimple",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewSimple()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 15,
+        "endLine" : 52,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testComputeAggregatedViewForEmptyWorkflow()" : {
+      "name" : "testComputeAggregatedViewForEmptyWorkflow",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testComputeAggregatedViewForEmptyWorkflow()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 249,
+        "startColumn" : 15,
+        "endLine" : 249,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewSomeNotStarted()" : {
+      "name" : "testAggregatedViewSomeNotStarted",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewSomeNotStarted()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 272,
+        "startColumn" : 15,
+        "endLine" : 272,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewWithTwoBranchesFailed()" : {
+      "name" : "testAggregatedViewWithTwoBranchesFailed",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewWithTwoBranchesFailed()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 496,
+        "startColumn" : 15,
+        "endLine" : 496,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testStatusAggregation()" : {
+      "name" : "testStatusAggregation",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testStatusAggregation()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 590,
+        "startColumn" : 15,
+        "endLine" : 590,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewFailed()" : {
+      "name" : "testAggregatedViewFailed",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewFailed()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 15,
+        "endLine" : 132,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedInstanceStatusWhenNoNeedToAggregateV2()" : {
+      "name" : "testAggregatedInstanceStatusWhenNoNeedToAggregateV2",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedInstanceStatusWhenNoNeedToAggregateV2()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 725,
+        "startColumn" : 15,
+        "endLine" : 725,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedInstanceStatusFromAggregatedV2()" : {
+      "name" : "testAggregatedInstanceStatusFromAggregatedV2",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedInstanceStatusFromAggregatedV2()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 759,
+        "startColumn" : 15,
+        "endLine" : 759,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)" : {
+      "name" : "generateStepState",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepRuntimeState",
+      "displayedType" : "StepRuntimeState",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 911,
+        "startColumn" : 28,
+        "endLine" : 911,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)/parameter/status",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 912,
+          "startColumn" : 27,
+          "endLine" : 912,
+          "endColumn" : 33
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)"
+      }, {
+        "name" : "startTime",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)/parameter/startTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 912,
+          "startColumn" : 40,
+          "endLine" : 912,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)"
+      }, {
+        "name" : "endTime",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)/parameter/endTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 912,
+          "startColumn" : 56,
+          "endLine" : 912,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/generateStepState(com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.utils.Status status, java.lang.Long startTime, java.lang.Long endTime)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testComputeAggregatedViewWithoutRuntimeOverview()" : {
+      "name" : "testComputeAggregatedViewWithoutRuntimeOverview",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testComputeAggregatedViewWithoutRuntimeOverview()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 212,
+        "startColumn" : 15,
+        "endLine" : 212,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)" : {
+      "name" : "getGenericWorkflowInstance",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)",
+      "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance",
+      "displayedType" : "WorkflowInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 880,
+        "startColumn" : 28,
+        "endLine" : 880,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 881,
+          "startColumn" : 12,
+          "endLine" : 881,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)/parameter/status",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 882,
+          "startColumn" : 31,
+          "endLine" : 882,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)"
+      }, {
+        "name" : "runPolicy",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)/parameter/runPolicy",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy",
+        "displayedType" : "RunPolicy",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 883,
+          "startColumn" : 17,
+          "endLine" : 883,
+          "endColumn" : 26
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)"
+      }, {
+        "name" : "restartPolicy",
+        "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)/parameter/restartPolicy",
+        "type" : "com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy",
+        "displayedType" : "RestartPolicy",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 884,
+          "startColumn" : 21,
+          "endLine" : 884,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/getGenericWorkflowInstance(long runId, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.engine.utils.Status status, com.netflix.maestro.engine.utils.com.netflix.maestro.models.instance.RunPolicy runPolicy, com.netflix.maestro.engine.utils.com.netflix.maestro.models.api.RestartPolicy restartPolicy)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    },
+    "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewDoublePreviouslySucceeded()" : {
+      "name" : "testAggregatedViewDoublePreviouslySucceeded",
+      "key" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest/method/testAggregatedViewDoublePreviouslySucceeded()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 383,
+        "startColumn" : 15,
+        "endLine" : 383,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.utils.AggregatedViewHelperTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/utils/AggregatedViewHelperTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.utils.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

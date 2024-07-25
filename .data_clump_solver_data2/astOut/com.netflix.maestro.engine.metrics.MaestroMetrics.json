@@ -1,0 +1,323 @@
+{
+  "name" : "MaestroMetrics",
+  "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 16,
+    "startColumn" : 8,
+    "endLine" : 16,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)" : {
+      "name" : "distributionSummary",
+      "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 8,
+        "endLine" : 45,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 35,
+          "endLine" : 45,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/value",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 46,
+          "endLine" : 45,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/clazz",
+        "type" : "java.lang.Class<?>",
+        "displayedType" : "Class<?>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 62,
+          "endLine" : 45,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "tags",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/tags",
+        "type" : "java.lang.String[]",
+        "displayedType" : "String[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 79,
+          "endLine" : 45,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/distributionSummary(java.lang.String name, long value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics"
+    },
+    "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)" : {
+      "name" : "gauge",
+      "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 8,
+        "endLine" : 35,
+        "endColumn" : 13
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 21,
+          "endLine" : 35,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/value",
+        "type" : "double",
+        "displayedType" : "double",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 34,
+          "endLine" : 35,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/clazz",
+        "type" : "java.lang.Class<?>",
+        "displayedType" : "Class<?>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 50,
+          "endLine" : 35,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "tags",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/tags",
+        "type" : "java.lang.String[]",
+        "displayedType" : "String[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 67,
+          "endLine" : 35,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/gauge(java.lang.String name, double value, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics"
+    },
+    "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)" : {
+      "name" : "timer",
+      "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 8,
+        "endLine" : 55,
+        "endColumn" : 13
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 21,
+          "endLine" : 55,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "duration",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/duration",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 32,
+          "endLine" : 55,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/clazz",
+        "type" : "java.lang.Class<?>",
+        "displayedType" : "Class<?>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 51,
+          "endLine" : 55,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "tags",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/tags",
+        "type" : "java.lang.String[]",
+        "displayedType" : "String[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 68,
+          "endLine" : 55,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/timer(java.lang.String name, long duration, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics"
+    },
+    "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)" : {
+      "name" : "counter",
+      "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 8,
+        "endLine" : 25,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 23,
+          "endLine" : 25,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "clazz",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/clazz",
+        "type" : "java.lang.Class<?>",
+        "displayedType" : "Class<?>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 38,
+          "endLine" : 25,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      }, {
+        "name" : "tags",
+        "key" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)/parameter/tags",
+        "type" : "java.lang.String[]",
+        "displayedType" : "String[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 55,
+          "endLine" : 25,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics/method/counter(java.lang.String name, java.lang.Class<?> clazz, java.lang.String[] tags)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.metrics.MaestroMetrics"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/metrics/MaestroMetrics.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

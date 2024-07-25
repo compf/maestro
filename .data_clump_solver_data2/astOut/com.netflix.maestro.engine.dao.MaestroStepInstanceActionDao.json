@@ -1,0 +1,1625 @@
+{
+  "name" : "MaestroStepInstanceActionDao",
+  "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 70,
+    "startColumn" : 8,
+    "endLine" : 70,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/CHECK_INTERVAL" : {
+      "name" : "CHECK_INTERVAL",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/CHECK_INTERVAL",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 29,
+        "endLine" : 72,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/VALUE_PLACE_HOLDER" : {
+      "name" : "VALUE_PLACE_HOLDER",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/VALUE_PLACE_HOLDER",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 31,
+        "endLine" : 86,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 40,
+        "endLine" : 89,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/INSTANCE_CONDITION" : {
+      "name" : "INSTANCE_CONDITION",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/INSTANCE_CONDITION",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 31,
+        "endLine" : 76,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/INSERT_ACTION_QUERY" : {
+      "name" : "INSERT_ACTION_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/INSERT_ACTION_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 31,
+        "endLine" : 74,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/eventPublisher" : {
+      "name" : "eventPublisher",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/eventPublisher",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 42,
+        "endLine" : 90,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/DELETE_ACTIONS_QUERY" : {
+      "name" : "DELETE_ACTIONS_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/DELETE_ACTIONS_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 31,
+        "endLine" : 87,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/ACTION_TIMEOUT" : {
+      "name" : "ACTION_TIMEOUT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/ACTION_TIMEOUT",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 29,
+        "endLine" : 71,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/GET_ACTION_QUERY" : {
+      "name" : "GET_ACTION_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/GET_ACTION_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 31,
+        "endLine" : 82,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/DELETE_ACTION_QUERY" : {
+      "name" : "DELETE_ACTION_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/DELETE_ACTION_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 31,
+        "endLine" : 81,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/CONDITION_POSTFIX" : {
+      "name" : "CONDITION_POSTFIX",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/CONDITION_POSTFIX",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 31,
+        "endLine" : 78,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/UPSERT_ACTIONS_QUERY_TEMPLATE" : {
+      "name" : "UPSERT_ACTIONS_QUERY_TEMPLATE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/UPSERT_ACTIONS_QUERY_TEMPLATE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 31,
+        "endLine" : 84,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/DELETE_ACTION_PREFIX" : {
+      "name" : "DELETE_ACTION_PREFIX",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/memberField/DELETE_ACTION_PREFIX",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 31,
+        "endLine" : 79,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)" : {
+      "name" : "getAction",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction>",
+      "displayedType" : "Optional<StepAction>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 487,
+        "startColumn" : 32,
+        "endLine" : 487,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 487,
+          "startColumn" : 58,
+          "endLine" : 487,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 487,
+          "startColumn" : 74,
+          "endLine" : 487,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)" : {
+      "name" : "terminate",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 643,
+        "startColumn" : 14,
+        "endLine" : 643,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 644,
+          "startColumn" : 24,
+          "endLine" : 644,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)/parameter/user",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 644,
+          "startColumn" : 39,
+          "endLine" : 644,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction",
+        "displayedType" : "Actions.WorkflowInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 644,
+          "startColumn" : 76,
+          "endLine" : 644,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)"
+      }, {
+        "name" : "reason",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)/parameter/reason",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 644,
+          "startColumn" : 91,
+          "endLine" : 644,
+          "endColumn" : 97
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.WorkflowInstanceAction action, java.lang.String reason)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)" : {
+      "name" : "getStepInstanceAndValidate",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+      "displayedType" : "StepInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 167,
+        "startColumn" : 24,
+        "endLine" : 167,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 24,
+          "endLine" : 168,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 41,
+          "endLine" : 168,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      }, {
+        "name" : "restartConfig",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)/parameter/restartConfig",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig",
+        "displayedType" : "RestartConfig",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 168,
+          "startColumn" : 63,
+          "endLine" : 168,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getRestartForeachIterationFromConfig(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)" : {
+      "name" : "getRestartForeachIterationFromConfig",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getRestartForeachIterationFromConfig(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 242,
+        "startColumn" : 16,
+        "endLine" : 242,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "restartConfig",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getRestartForeachIterationFromConfig(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)/parameter/restartConfig",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig",
+        "displayedType" : "RestartConfig",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 243,
+          "startColumn" : 21,
+          "endLine" : 243,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getRestartForeachIterationFromConfig(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)"
+      }, {
+        "name" : "stepInstance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getRestartForeachIterationFromConfig(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)/parameter/stepInstance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 243,
+          "startColumn" : 49,
+          "endLine" : 243,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getRestartForeachIterationFromConfig(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.RestartConfig restartConfig, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)" : {
+      "name" : "bypassStepDependencies",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 37,
+        "endLine" : 123,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 24,
+          "endLine" : 124,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 41,
+          "endLine" : 124,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/user",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 124,
+          "startColumn" : 54,
+          "endLine" : 124,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)" : {
+      "name" : "terminate",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 407,
+        "startColumn" : 30,
+        "endLine" : 407,
+        "endColumn" : 39
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 408,
+          "startColumn" : 24,
+          "endLine" : 408,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 409,
+          "startColumn" : 14,
+          "endLine" : 409,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)/parameter/user",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 410,
+          "startColumn" : 12,
+          "endLine" : 410,
+          "endColumn" : 16
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction",
+        "displayedType" : "Actions.StepInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 411,
+          "startColumn" : 34,
+          "endLine" : 411,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)"
+      }, {
+        "name" : "blocking",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)/parameter/blocking",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 412,
+          "startColumn" : 15,
+          "endLine" : 412,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, boolean blocking)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/tryGetAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)" : {
+      "name" : "tryGetAction",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/tryGetAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction>",
+      "displayedType" : "Optional<StepAction>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 476,
+        "startColumn" : 31,
+        "endLine" : 476,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/tryGetAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 476,
+          "startColumn" : 60,
+          "endLine" : 476,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/tryGetAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/tryGetAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 476,
+          "startColumn" : 76,
+          "endLine" : 476,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/tryGetAction(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/incomplete(java.util.Map<java.lang.String, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState> stepStates, java.lang.String stepId)" : {
+      "name" : "incomplete",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/incomplete(java.util.Map<java.lang.String, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState> stepStates, java.lang.String stepId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 731,
+        "startColumn" : 19,
+        "endLine" : 731,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepStates",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/incomplete(java.util.Map<java.lang.String, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState> stepStates, java.lang.String stepId)/parameter/stepStates",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState>",
+        "displayedType" : "Map<String, StepRuntimeState>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 731,
+          "startColumn" : 60,
+          "endLine" : 731,
+          "endColumn" : 70
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/incomplete(java.util.Map<java.lang.String, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState> stepStates, java.lang.String stepId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/incomplete(java.util.Map<java.lang.String, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState> stepStates, java.lang.String stepId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 731,
+          "startColumn" : 79,
+          "endLine" : 731,
+          "endColumn" : 85
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/incomplete(java.util.Map<java.lang.String, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState> stepStates, java.lang.String stepId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)" : {
+      "name" : "bypassStepDependencies",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 30,
+        "endLine" : 129,
+        "endColumn" : 52
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 24,
+          "endLine" : 130,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 41,
+          "endLine" : 130,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)/parameter/user",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 54,
+          "endLine" : 130,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)"
+      }, {
+        "name" : "blocking",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)/parameter/blocking",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 68,
+          "endLine" : 130,
+          "endColumn" : 76
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/bypassStepDependencies(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, boolean blocking)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)" : {
+      "name" : "createActionResponseFrom",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 459,
+        "startColumn" : 38,
+        "endLine" : 459,
+        "endColumn" : 62
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 460,
+          "startColumn" : 20,
+          "endLine" : 460,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)"
+      }, {
+        "name" : "state",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)/parameter/state",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState",
+        "displayedType" : "StepRuntimeState",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 460,
+          "startColumn" : 47,
+          "endLine" : 460,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)"
+      }, {
+        "name" : "event",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)/parameter/event",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent",
+        "displayedType" : "TimelineEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 460,
+          "startColumn" : 68,
+          "endLine" : 460,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/createActionResponseFrom(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance instance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepRuntimeState state, com.netflix.maestro.engine.dao.com.netflix.maestro.models.timeline.TimelineEvent event)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/isForeachStepRunningAndRestartable(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)" : {
+      "name" : "isForeachStepRunningAndRestartable",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/isForeachStepRunningAndRestartable(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 224,
+        "startColumn" : 19,
+        "endLine" : 224,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepInstance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/isForeachStepRunningAndRestartable(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)/parameter/stepInstance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 224,
+          "startColumn" : 67,
+          "endLine" : 224,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/isForeachStepRunningAndRestartable(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/saveAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction stepAction)" : {
+      "name" : "saveAction",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/saveAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction stepAction)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 287,
+        "startColumn" : 16,
+        "endLine" : 287,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepInstance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/saveAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction stepAction)/parameter/stepInstance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 287,
+          "startColumn" : 40,
+          "endLine" : 287,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/saveAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction stepAction)"
+      }, {
+        "name" : "stepAction",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/saveAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction stepAction)/parameter/stepAction",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction",
+        "displayedType" : "StepAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 287,
+          "startColumn" : 65,
+          "endLine" : 287,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/saveAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction stepAction)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/deleteAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)" : {
+      "name" : "deleteAction",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/deleteAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 374,
+        "startColumn" : 7,
+        "endLine" : 374,
+        "endColumn" : 19
+      },
+      "modifiers" : [ ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepInstance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/deleteAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/stepInstance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 374,
+          "startColumn" : 33,
+          "endLine" : 374,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/deleteAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/deleteAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction",
+        "displayedType" : "Actions.StepInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 374,
+          "startColumn" : 74,
+          "endLine" : 374,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/deleteAction(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)" : {
+      "name" : "cleanUp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 573,
+        "startColumn" : 14,
+        "endLine" : 573,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 573,
+          "startColumn" : 29,
+          "endLine" : 573,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 573,
+          "startColumn" : 46,
+          "endLine" : 573,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 573,
+          "startColumn" : 63,
+          "endLine" : 573,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(java.lang.String workflowId, long instanceId, long runId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)" : {
+      "name" : "terminate",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 615,
+        "startColumn" : 15,
+        "endLine" : 615,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "summary",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)/parameter/summary",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 616,
+          "startColumn" : 23,
+          "endLine" : 616,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 617,
+          "startColumn" : 14,
+          "endLine" : 617,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)/parameter/user",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 618,
+          "startColumn" : 12,
+          "endLine" : 618,
+          "endColumn" : 16
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction",
+        "displayedType" : "Actions.StepInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 619,
+          "startColumn" : 34,
+          "endLine" : 619,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)"
+      }, {
+        "name" : "reason",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)/parameter/reason",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 620,
+          "startColumn" : 14,
+          "endLine" : 620,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.WorkflowSummary summary, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action, java.lang.String reason)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)" : {
+      "name" : "restartDirectly",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse",
+      "displayedType" : "RunResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 105,
+        "startColumn" : 22,
+        "endLine" : 105,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "restartStepInfo",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)/parameter/restartStepInfo",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse",
+        "displayedType" : "RunResponse",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 19,
+          "endLine" : 106,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)"
+      }, {
+        "name" : "runRequest",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)/parameter/runRequest",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest",
+        "displayedType" : "RunRequest",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 47,
+          "endLine" : 106,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)"
+      }, {
+        "name" : "blocking",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)/parameter/blocking",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 106,
+          "startColumn" : 67,
+          "endLine" : 106,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/restartDirectly(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse restartStepInfo, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunRequest runRequest, boolean blocking)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)" : {
+      "name" : "validateStepId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 16,
+        "endLine" : 144,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 24,
+          "endLine" : 145,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 41,
+          "endLine" : 145,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction",
+        "displayedType" : "Actions.StepInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 145,
+          "startColumn" : 76,
+          "endLine" : 145,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/validateStepId(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent jobEvent)" : {
+      "name" : "cleanUp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent jobEvent)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 600,
+        "startColumn" : 14,
+        "endLine" : 600,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "jobEvent",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent jobEvent)/parameter/jobEvent",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent",
+        "displayedType" : "StepInstanceUpdateJobEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 600,
+          "startColumn" : 49,
+          "endLine" : 600,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/cleanUp(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent jobEvent)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)" : {
+      "name" : "waitResponseWithTimeout",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.execution.RunResponse",
+      "displayedType" : "RunResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 303,
+        "startColumn" : 23,
+        "endLine" : 303,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepInstance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)/parameter/stepInstance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 303,
+          "startColumn" : 60,
+          "endLine" : 303,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction",
+        "displayedType" : "StepAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 303,
+          "startColumn" : 85,
+          "endLine" : 303,
+          "endColumn" : 91
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitBypassStepDependenciesResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)" : {
+      "name" : "waitBypassStepDependenciesResponseWithTimeout",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitBypassStepDependenciesResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 345,
+        "startColumn" : 38,
+        "endLine" : 345,
+        "endColumn" : 83
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepInstance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitBypassStepDependenciesResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)/parameter/stepInstance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 346,
+          "startColumn" : 20,
+          "endLine" : 346,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitBypassStepDependenciesResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitBypassStepDependenciesResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction",
+        "displayedType" : "StepAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 346,
+          "startColumn" : 45,
+          "endLine" : 346,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/waitBypassStepDependenciesResponseWithTimeout(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.db.StepAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/upsertActions(java.lang.String identity, java.util.List<java.lang.String> payloads)" : {
+      "name" : "upsertActions",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/upsertActions(java.lang.String identity, java.util.List<java.lang.String> payloads)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 710,
+        "startColumn" : 15,
+        "endLine" : 710,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "identity",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/upsertActions(java.lang.String identity, java.util.List<java.lang.String> payloads)/parameter/identity",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 710,
+          "startColumn" : 36,
+          "endLine" : 710,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/upsertActions(java.lang.String identity, java.util.List<java.lang.String> payloads)"
+      }, {
+        "name" : "payloads",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/upsertActions(java.lang.String identity, java.util.List<java.lang.String> payloads)/parameter/payloads",
+        "type" : "java.util.List<java.lang.String>",
+        "displayedType" : "List<String>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 710,
+          "startColumn" : 59,
+          "endLine" : 710,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/upsertActions(java.lang.String identity, java.util.List<java.lang.String> payloads)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidateBypassStepDependencyConditions(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId)" : {
+      "name" : "getStepInstanceAndValidateBypassStepDependencyConditions",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidateBypassStepDependencyConditions(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.StepInstance",
+      "displayedType" : "StepInstance",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 269,
+        "startColumn" : 24,
+        "endLine" : 269,
+        "endColumn" : 80
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidateBypassStepDependencyConditions(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 24,
+          "endLine" : 270,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidateBypassStepDependencyConditions(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidateBypassStepDependencyConditions(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 270,
+          "startColumn" : 41,
+          "endLine" : 270,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/getStepInstanceAndValidateBypassStepDependencyConditions(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)" : {
+      "name" : "terminate",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.api.StepInstanceActionResponse",
+      "displayedType" : "StepInstanceActionResponse",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 401,
+        "startColumn" : 37,
+        "endLine" : 401,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 24,
+          "endLine" : 402,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 41,
+          "endLine" : 402,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/user",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 54,
+          "endLine" : 402,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction",
+        "displayedType" : "Actions.StepInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 402,
+          "startColumn" : 87,
+          "endLine" : 402,
+          "endColumn" : 93
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/terminate(com.netflix.maestro.engine.dao.com.netflix.maestro.models.instance.WorkflowInstance instance, java.lang.String stepId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user, com.netflix.maestro.engine.dao.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.dao.StepInstanceAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/publishUserActionEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent event)" : {
+      "name" : "publishUserActionEvent",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/publishUserActionEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent event)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 740,
+        "startColumn" : 16,
+        "endLine" : 740,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/publishUserActionEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent event)/parameter/event",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent",
+        "displayedType" : "StepInstanceWakeUpEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 740,
+          "startColumn" : 63,
+          "endLine" : 740,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao/method/publishUserActionEvent(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent event)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/dao/MaestroStepInstanceActionDao.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.com.netflix.conductor.cockroachdb.dao.CockroachDBBaseDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

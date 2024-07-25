@@ -1,0 +1,161 @@
+{
+  "name" : "SelMiscFunc",
+  "key" : "com.netflix.sel.type.SelMiscFunc",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 20,
+    "startColumn" : 14,
+    "endLine" : 20,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.type.SelMiscFunc/memberField/INSTANCE" : {
+      "name" : "INSTANCE",
+      "key" : "com.netflix.sel.type.SelMiscFunc/memberField/INSTANCE",
+      "type" : "com.netflix.sel.type.SelMiscFunc",
+      "displayedType" : "SelMiscFunc",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 22,
+        "startColumn" : 28,
+        "endLine" : 22,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelMiscFunc"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelMiscFunc/method/field(com.netflix.sel.type.SelString field)" : {
+      "name" : "field",
+      "key" : "com.netflix.sel.type.SelMiscFunc/method/field(com.netflix.sel.type.SelString field)",
+      "type" : "com.netflix.sel.type.SelLong",
+      "displayedType" : "SelLong",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 18,
+        "endLine" : 55,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "field",
+        "key" : "com.netflix.sel.type.SelMiscFunc/method/field(com.netflix.sel.type.SelString field)/parameter/field",
+        "type" : "com.netflix.sel.type.SelString",
+        "displayedType" : "SelString",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 34,
+          "endLine" : 55,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelMiscFunc/method/field(com.netflix.sel.type.SelString field)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelMiscFunc"
+    },
+    "com.netflix.sel.type.SelMiscFunc/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelMiscFunc/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 27,
+        "startColumn" : 19,
+        "endLine" : 27,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelMiscFunc"
+    },
+    "com.netflix.sel.type.SelMiscFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)" : {
+      "name" : "call",
+      "key" : "com.netflix.sel.type.SelMiscFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 18,
+        "endLine" : 37,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.sel.type.SelMiscFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 30,
+          "endLine" : 37,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelMiscFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelMiscFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 52,
+          "endLine" : 37,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelMiscFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelMiscFunc"
+    },
+    "com.netflix.sel.type.SelMiscFunc/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.type.SelMiscFunc/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 17,
+        "endLine" : 32,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelMiscFunc"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelMiscFunc.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.sel.type.SelType" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

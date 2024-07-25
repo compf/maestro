@@ -1,0 +1,97 @@
+{
+  "name" : "PredefinedTimeTrigger",
+  "key" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/memberField/timezone" : {
+      "name" : "timezone",
+      "key" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/memberField/timezone",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 45,
+        "endLine" : 34,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/memberField/expression" : {
+      "name" : "expression",
+      "key" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/memberField/expression",
+      "type" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger$PredefinedSchedule",
+      "displayedType" : "PredefinedSchedule",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 39,
+        "endLine" : 33,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/method/getType()",
+      "type" : "com.netflix.maestro.models.trigger.TimeTrigger.Type",
+      "displayedType" : "TimeTrigger.Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 27,
+        "endLine" : 37,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger"
+    },
+    "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 17,
+        "endLine" : 42,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.trigger.PredefinedTimeTrigger"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/trigger/PredefinedTimeTrigger.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.trigger.TimeTriggerWithJitter" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

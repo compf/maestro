@@ -1,0 +1,370 @@
+{
+  "name" : "PropertiesSnapshot",
+  "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 65,
+    "startColumn" : 14,
+    "endLine" : 65,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/accessControl" : {
+      "name" : "accessControl",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/accessControl",
+      "type" : "com.netflix.maestro.models.definition.AccessControl",
+      "displayedType" : "AccessControl",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 38,
+        "endLine" : 71,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/owner" : {
+      "name" : "owner",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/owner",
+      "type" : "com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 38,
+        "endLine" : 70,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/stepConcurrency" : {
+      "name" : "stepConcurrency",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/stepConcurrency",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 22,
+        "endLine" : 73,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/alerting" : {
+      "name" : "alerting",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/alerting",
+      "type" : "com.netflix.maestro.models.definition.Alerting",
+      "displayedType" : "Alerting",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 33,
+        "endLine" : 74,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/tags" : {
+      "name" : "tags",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/tags",
+      "type" : "com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 55,
+        "endLine" : 82,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/alertingDisabled" : {
+      "name" : "alertingDisabled",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/alertingDisabled",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 19,
+        "endLine" : 75,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 45,
+        "endLine" : 66,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/runStrategy" : {
+      "name" : "runStrategy",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/runStrategy",
+      "type" : "com.netflix.maestro.models.definition.RunStrategy",
+      "displayedType" : "RunStrategy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 36,
+        "endLine" : 72,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/author" : {
+      "name" : "author",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/author",
+      "type" : "com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 31,
+        "endLine" : 68,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/createTime" : {
+      "name" : "createTime",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/createTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 31,
+        "endLine" : 67,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/signalTriggerDisabled" : {
+      "name" : "signalTriggerDisabled",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/signalTriggerDisabled",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 19,
+        "endLine" : 76,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/description" : {
+      "name" : "description",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/description",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 18,
+        "endLine" : 80,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/timeTriggerDisabled" : {
+      "name" : "timeTriggerDisabled",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/memberField/timeTriggerDisabled",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 19,
+        "endLine" : 77,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/method/extractProperties()" : {
+      "name" : "extractProperties",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/extractProperties()",
+      "type" : "com.netflix.maestro.models.definition.Properties",
+      "displayedType" : "Properties",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 21,
+        "endLine" : 110,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    },
+    "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)",
+      "type" : "com.netflix.maestro.models.definition.PropertiesSnapshot",
+      "displayedType" : "PropertiesSnapshot",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 36,
+        "endLine" : 90,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 14,
+          "endLine" : 91,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)"
+      }, {
+        "name" : "createTime",
+        "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)/parameter/createTime",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 31,
+          "endLine" : 91,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)"
+      }, {
+        "name" : "author",
+        "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)/parameter/author",
+        "type" : "com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 48,
+          "endLine" : 91,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)"
+      }, {
+        "name" : "properties",
+        "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)/parameter/properties",
+        "type" : "com.netflix.maestro.models.definition.Properties",
+        "displayedType" : "Properties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 67,
+          "endLine" : 91,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot/method/create(java.lang.String workflowId, java.lang.Long createTime, com.netflix.maestro.models.definition.User author, com.netflix.maestro.models.definition.Properties properties)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/PropertiesSnapshot.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.definition.PropertiesSnapshot.PropertiesSnapshotBuilder" : {
+      "name" : "PropertiesSnapshotBuilder",
+      "key" : "com.netflix.maestro.models.definition.PropertiesSnapshot.PropertiesSnapshotBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 23,
+        "endLine" : 87,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/PropertiesSnapshot.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.definition.PropertiesSnapshot",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

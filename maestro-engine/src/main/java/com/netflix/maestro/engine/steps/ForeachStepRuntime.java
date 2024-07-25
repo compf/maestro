@@ -22,6 +22,7 @@ import com.netflix.maestro.engine.db.StepAction;
 import com.netflix.maestro.engine.execution.RunRequest;
 import com.netflix.maestro.engine.execution.StepRuntimeSummary;
 import com.netflix.maestro.engine.execution.WorkflowSummary;
+import com.netflix.maestro.engine.handlers.ForeachBatchContext;
 import com.netflix.maestro.engine.handlers.WorkflowActionHandler;
 import com.netflix.maestro.engine.properties.ForeachStepRuntimeProperties;
 import com.netflix.maestro.engine.utils.ObjectHelper;
@@ -757,8 +758,8 @@ public class ForeachStepRuntime implements StepRuntime {
 
       if (runRequests.size() == properties.getInsertBatchLimit() || isDone) {
         // run (start or restart) foreach batch and pass run properties to inline foreach instances
-        Optional<Details> details =
-            actionHandler.runForeachBatch(
+        ForeachBatchContext batchContext =
+            new ForeachBatchContext(
                 inlineWorkflow,
                 workflowSummary.getInternalId(), // inherit parent unique internalId
                 workflowSummary.getWorkflowVersionId(), // inherit parent versionId
@@ -766,8 +767,9 @@ public class ForeachStepRuntime implements StepRuntime {
                 step.getId(),
                 artifact,
                 runRequests,
-                instanceIds,
-                properties.getRunJobBatchLimit());
+                instanceIds);
+        Optional<Details> details =
+            actionHandler.runForeachBatch(batchContext, properties.getRunJobBatchLimit());
         if (details.isPresent()) {
           return details;
         } else {

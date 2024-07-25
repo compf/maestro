@@ -1,0 +1,335 @@
+{
+  "name" : "TimelineMilestoneEvent",
+  "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/milestoneType" : {
+      "name" : "milestoneType",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/milestoneType",
+      "type" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType",
+      "displayedType" : "MilestoneType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 31,
+        "endLine" : 43,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/timestamp" : {
+      "name" : "timestamp",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/timestamp",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 22,
+        "endLine" : 41,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/MAX_INFO_LENGTH" : {
+      "name" : "MAX_INFO_LENGTH",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/MAX_INFO_LENGTH",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 28,
+        "endLine" : 40,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/status" : {
+      "name" : "status",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/status",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 24,
+        "endLine" : 42,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/sourceId" : {
+      "name" : "sourceId",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/sourceId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 24,
+        "endLine" : 44,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/info" : {
+      "name" : "info",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/memberField/info",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 24,
+        "endLine" : 45,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)" : {
+      "name" : "isIdentical",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 18,
+        "endLine" : 72,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)/parameter/event",
+        "type" : "com.netflix.maestro.models.timeline.TimelineEvent",
+        "displayedType" : "TimelineEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 72,
+          "startColumn" : 44,
+          "endLine" : 72,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.timeline.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 15,
+        "endLine" : 56,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/asMilestone()" : {
+      "name" : "asMilestone",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/asMilestone()",
+      "type" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent",
+      "displayedType" : "TimelineMilestoneEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 33,
+        "endLine" : 61,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/getMessage()" : {
+      "name" : "getMessage",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/getMessage()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 17,
+        "endLine" : 67,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)",
+      "type" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent",
+      "displayedType" : "TimelineMilestoneEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 40,
+        "endLine" : 90,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestamp",
+        "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)/parameter/timestamp",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 12,
+          "endLine" : 91,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)/parameter/status",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 30,
+          "endLine" : 91,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)"
+      }, {
+        "name" : "milestoneType",
+        "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)/parameter/milestoneType",
+        "type" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType",
+        "displayedType" : "MilestoneType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 52,
+          "endLine" : 91,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)"
+      }, {
+        "name" : "sourceId",
+        "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)/parameter/sourceId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 74,
+          "endLine" : 91,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)"
+      }, {
+        "name" : "info",
+        "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)/parameter/info",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 91,
+          "endLine" : 91,
+          "endColumn" : 95
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent/method/create(java.lang.Long timestamp, java.lang.String status, com.netflix.maestro.models.timeline.TimelineMilestoneEvent$MilestoneType milestoneType, java.lang.String sourceId, java.lang.String info)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/TimelineMilestoneEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.timeline.TimelineEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.timeline.TimelineMilestoneEvent.TimelineMilestoneEventBuilder" : {
+      "name" : "TimelineMilestoneEventBuilder",
+      "key" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent.TimelineMilestoneEventBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 23,
+        "endLine" : 86,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/TimelineMilestoneEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.timeline.TimelineMilestoneEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

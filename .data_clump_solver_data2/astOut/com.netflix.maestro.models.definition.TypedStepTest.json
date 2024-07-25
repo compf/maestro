@@ -1,0 +1,113 @@
+{
+  "name" : "TypedStepTest",
+  "key" : "com.netflix.maestro.models.definition.TypedStepTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.TypedStepTest/memberField/validator" : {
+      "name" : "validator",
+      "key" : "com.netflix.maestro.models.definition.TypedStepTest/memberField/validator",
+      "type" : "com.netflix.maestro.models.definition.javax.validation.Validator",
+      "displayedType" : "Validator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 21,
+        "endLine" : 26,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TypedStepTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.TypedStepTest/method/assertSerDe(java.lang.String fileName)" : {
+      "name" : "assertSerDe",
+      "key" : "com.netflix.maestro.models.definition.TypedStepTest/method/assertSerDe(java.lang.String fileName)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 16,
+        "endLine" : 38,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "fileName",
+        "key" : "com.netflix.maestro.models.definition.TypedStepTest/method/assertSerDe(java.lang.String fileName)/parameter/fileName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 35,
+          "endLine" : 38,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.TypedStepTest/method/assertSerDe(java.lang.String fileName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TypedStepTest"
+    },
+    "com.netflix.maestro.models.definition.TypedStepTest/method/testSerDeStepDependencyDef()" : {
+      "name" : "testSerDeStepDependencyDef",
+      "key" : "com.netflix.maestro.models.definition.TypedStepTest/method/testSerDeStepDependencyDef()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 15,
+        "endLine" : 34,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TypedStepTest"
+    },
+    "com.netflix.maestro.models.definition.TypedStepTest/method/setup()" : {
+      "name" : "setup",
+      "key" : "com.netflix.maestro.models.definition.TypedStepTest/method/setup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 15,
+        "endLine" : 29,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TypedStepTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/models/definition/TypedStepTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.definition.com.netflix.maestro.MaestroBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

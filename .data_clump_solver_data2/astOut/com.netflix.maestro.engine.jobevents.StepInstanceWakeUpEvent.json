@@ -1,0 +1,346 @@
+{
+  "name" : "StepInstanceWakeUpEvent",
+  "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 49,
+    "startColumn" : 8,
+    "endLine" : 49,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowRunId" : {
+      "name" : "workflowRunId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 16,
+        "endLine" : 56,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepAttemptId" : {
+      "name" : "stepAttemptId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepAttemptId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 28,
+        "endLine" : 59,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowAction" : {
+      "name" : "workflowAction",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowAction",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction",
+      "displayedType" : "Actions.WorkflowInstanceAction",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 52,
+        "endLine" : 64,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepUuid" : {
+      "name" : "stepUuid",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 28,
+        "endLine" : 60,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepType" : {
+      "name" : "stepType",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepType",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.StepType",
+      "displayedType" : "StepType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 30,
+        "endLine" : 62,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepStatus" : {
+      "name" : "stepStatus",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepStatus",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status",
+      "displayedType" : "StepInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 41,
+        "endLine" : 61,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 28,
+        "endLine" : 58,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 27,
+        "endLine" : 50,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowInstanceId" : {
+      "name" : "workflowInstanceId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/workflowInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 16,
+        "endLine" : 53,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/entityType" : {
+      "name" : "entityType",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/entityType",
+      "type" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent$EntityType",
+      "displayedType" : "EntityType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 31,
+        "endLine" : 65,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepAction" : {
+      "name" : "stepAction",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/memberField/stepAction",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.StepInstanceAction",
+      "displayedType" : "Actions.StepInstanceAction",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 48,
+        "endLine" : 63,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/getMessageKey()" : {
+      "name" : "getMessageKey",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/getMessageKey()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 132,
+        "startColumn" : 17,
+        "endLine" : 132,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/getType()",
+      "type" : "com.netflix.maestro.engine.jobevents.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 15,
+        "endLine" : 68,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action)",
+      "type" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent",
+      "displayedType" : "StepInstanceWakeUpEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 41,
+        "endLine" : 120,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.WorkflowInstance",
+        "displayedType" : "WorkflowInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 24,
+          "endLine" : 121,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction",
+        "displayedType" : "Actions.WorkflowInstanceAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 65,
+          "endLine" : 121,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.WorkflowInstance instance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.Actions#com.netflix.maestro.engine.jobevents.WorkflowInstanceAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.StepAction action)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.StepAction action)",
+      "type" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent",
+      "displayedType" : "StepInstanceWakeUpEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 87,
+        "startColumn" : 41,
+        "endLine" : 87,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stepInstance",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.StepAction action)/parameter/stepInstance",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 61,
+          "endLine" : 87,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.StepAction action)"
+      }, {
+        "name" : "action",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.StepAction action)/parameter/action",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.StepAction",
+        "displayedType" : "StepAction",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 86,
+          "endLine" : 87,
+          "endColumn" : 92
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance stepInstance, com.netflix.maestro.engine.jobevents.com.netflix.maestro.engine.db.StepAction action)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/jobevents/StepInstanceWakeUpEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.jobevents.MaestroJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

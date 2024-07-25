@@ -1,0 +1,74 @@
+{
+  "name" : "ASTType",
+  "key" : "com.netflix.sel.ast.ASTType",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 7,
+    "startColumn" : 8,
+    "endLine" : 7,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.sel.ast.ASTType/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)" : {
+      "name" : "jjtAccept",
+      "key" : "com.netflix.sel.ast.ASTType/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 17,
+        "startColumn" : 17,
+        "endLine" : 17,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "visitor",
+        "key" : "com.netflix.sel.ast.ASTType/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/visitor",
+        "type" : "com.netflix.sel.ast.SelParserVisitor",
+        "displayedType" : "SelParserVisitor",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 17,
+          "startColumn" : 44,
+          "endLine" : 17,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.ASTType/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      }, {
+        "name" : "data",
+        "key" : "com.netflix.sel.ast.ASTType/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)/parameter/data",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 17,
+          "startColumn" : 60,
+          "endLine" : 17,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.ast.ASTType/method/jjtAccept(com.netflix.sel.ast.SelParserVisitor visitor, java.lang.Object data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.ast.ASTType"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/ast/ASTType.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.ast.com.netflix.sel.visitor.SelBaseNode" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

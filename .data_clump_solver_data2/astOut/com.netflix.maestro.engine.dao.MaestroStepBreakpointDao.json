@@ -1,0 +1,2619 @@
+{
+  "name" : "MaestroStepBreakpointDao",
+  "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 74,
+    "startColumn" : 8,
+    "endLine" : 74,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CHECK_PAUSED_STEP_ATTEMPT" : {
+      "name" : "CHECK_PAUSED_STEP_ATTEMPT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CHECK_PAUSED_STEP_ATTEMPT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 153,
+        "startColumn" : 31,
+        "endLine" : 153,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/INSTANCE_ID" : {
+      "name" : "INSTANCE_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/INSTANCE_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 31,
+        "endLine" : 77,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_PAUSED_STEP_ATTEMPT_IDENTIFIERS" : {
+      "name" : "CONDITION_BY_PAUSED_STEP_ATTEMPT_IDENTIFIERS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_PAUSED_STEP_ATTEMPT_IDENTIFIERS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 116,
+        "startColumn" : 31,
+        "endLine" : 116,
+        "endColumn" : 75
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/WORKFLOW_ID" : {
+      "name" : "WORKFLOW_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/WORKFLOW_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 31,
+        "endLine" : 75,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/GET_STEP_BREAKPOINT_BASE_QUERY" : {
+      "name" : "GET_STEP_BREAKPOINT_BASE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/GET_STEP_BREAKPOINT_BASE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 31,
+        "endLine" : 127,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_VERSION" : {
+      "name" : "CONDITION_BY_SPECIFIC_VERSION",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_VERSION",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 31,
+        "endLine" : 98,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/workflowDao" : {
+      "name" : "workflowDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/workflowDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroWorkflowDao",
+      "displayedType" : "MaestroWorkflowDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 156,
+        "startColumn" : 36,
+        "endLine" : 156,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CREATE_TS" : {
+      "name" : "CREATE_TS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CREATE_TS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 81,
+        "startColumn" : 31,
+        "endLine" : 81,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/batchDeletionLimitSupplier" : {
+      "name" : "batchDeletionLimitSupplier",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/batchDeletionLimitSupplier",
+      "type" : "java.util.function.Supplier<java.lang.Integer>",
+      "displayedType" : "Supplier<Integer>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 35,
+        "endLine" : 158,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_DEFINITION_IDS" : {
+      "name" : "CONDITION_BY_DEFINITION_IDS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_DEFINITION_IDS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 82,
+        "startColumn" : 31,
+        "endLine" : 82,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_RUN" : {
+      "name" : "CONDITION_BY_SPECIFIC_RUN",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_RUN",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 102,
+        "startColumn" : 31,
+        "endLine" : 102,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/STEP_ATTEMPT_ID" : {
+      "name" : "STEP_ATTEMPT_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/STEP_ATTEMPT_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 31,
+        "endLine" : 80,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_STEP_INSTANCE_ATTEMPT_IDS" : {
+      "name" : "CONDITION_BY_SPECIFIC_OR_MATCH_ALL_STEP_INSTANCE_ATTEMPT_IDS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_STEP_INSTANCE_ATTEMPT_IDS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 31,
+        "endLine" : 95,
+        "endColumn" : 91
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_PAUSED_STEP_ATTEMPT" : {
+      "name" : "CONDITION_PAUSED_STEP_ATTEMPT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_PAUSED_STEP_ATTEMPT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 111,
+        "startColumn" : 31,
+        "endLine" : 111,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_STEP_BREAKPOINT" : {
+      "name" : "CONDITION_STEP_BREAKPOINT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_STEP_BREAKPOINT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 109,
+        "startColumn" : 31,
+        "endLine" : 109,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/VERSION" : {
+      "name" : "VERSION",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/VERSION",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 31,
+        "endLine" : 76,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/ADD_STEP_BREAKPOINT" : {
+      "name" : "ADD_STEP_BREAKPOINT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/ADD_STEP_BREAKPOINT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 31,
+        "endLine" : 119,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_STEP_BREAKPOINT_IDENTIFIERS" : {
+      "name" : "CONDITION_BY_STEP_BREAKPOINT_IDENTIFIERS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_STEP_BREAKPOINT_IDENTIFIERS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 31,
+        "endLine" : 113,
+        "endColumn" : 71
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/GET_PAUSED_STEP_ATTEMPT_BASE_QUERY" : {
+      "name" : "GET_PAUSED_STEP_ATTEMPT_BASE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/GET_PAUSED_STEP_ATTEMPT_BASE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 130,
+        "startColumn" : 31,
+        "endLine" : 130,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/ENTRY_LIMIT" : {
+      "name" : "ENTRY_LIMIT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/ENTRY_LIMIT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 31,
+        "endLine" : 85,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_ALL_STEP_IDENTIFIERS" : {
+      "name" : "CONDITION_BY_ALL_STEP_IDENTIFIERS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_ALL_STEP_IDENTIFIERS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 31,
+        "endLine" : 106,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_INSTANCES" : {
+      "name" : "CONDITION_BY_SPECIFIC_OR_MATCH_ALL_INSTANCES",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_INSTANCES",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 31,
+        "endLine" : 89,
+        "endColumn" : 75
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_VERSIONS" : {
+      "name" : "CONDITION_BY_SPECIFIC_OR_MATCH_ALL_VERSIONS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_VERSIONS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 31,
+        "endLine" : 86,
+        "endColumn" : 74
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/SELECT_QUERY_PREFIX" : {
+      "name" : "SELECT_QUERY_PREFIX",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/SELECT_QUERY_PREFIX",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 123,
+        "startColumn" : 31,
+        "endLine" : 123,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/GET_PAUSED_INLINE_WORKFLOW_STEP_ATTEMPT_BASE_QUERY" : {
+      "name" : "GET_PAUSED_INLINE_WORKFLOW_STEP_ATTEMPT_BASE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/GET_PAUSED_INLINE_WORKFLOW_STEP_ATTEMPT_BASE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 133,
+        "startColumn" : 31,
+        "endLine" : 133,
+        "endColumn" : 81
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_INTERNAL_WORKFLOW_ID_RANGES_STEP_ID" : {
+      "name" : "CONDITION_BY_INTERNAL_WORKFLOW_ID_RANGES_STEP_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_INTERNAL_WORKFLOW_ID_RANGES_STEP_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 31,
+        "endLine" : 83,
+        "endColumn" : 79
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_RUNS" : {
+      "name" : "CONDITION_BY_SPECIFIC_OR_MATCH_ALL_RUNS",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_OR_MATCH_ALL_RUNS",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 92,
+        "startColumn" : 31,
+        "endLine" : 92,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_PAUSED_INLINE_WORKFLOW_STEP_ATTEMPT_BASE_QUERY" : {
+      "name" : "DELETE_PAUSED_INLINE_WORKFLOW_STEP_ATTEMPT_BASE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_PAUSED_INLINE_WORKFLOW_STEP_ATTEMPT_BASE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 144,
+        "startColumn" : 31,
+        "endLine" : 144,
+        "endColumn" : 84
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_PAUSED_STEP_ATTEMPT_BASE_QUERY" : {
+      "name" : "DELETE_PAUSED_STEP_ATTEMPT_BASE_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_PAUSED_STEP_ATTEMPT_BASE_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 31,
+        "endLine" : 141,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_STEP_BREAKPOINT_QUERY" : {
+      "name" : "DELETE_STEP_BREAKPOINT_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_STEP_BREAKPOINT_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 31,
+        "endLine" : 138,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CREATE_PAUSED_STEP_INSTANCE_ATTEMPT" : {
+      "name" : "CREATE_PAUSED_STEP_INSTANCE_ATTEMPT",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CREATE_PAUSED_STEP_INSTANCE_ATTEMPT",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 31,
+        "endLine" : 149,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_INSTANCE" : {
+      "name" : "CONDITION_BY_SPECIFIC_INSTANCE",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_INSTANCE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 100,
+        "startColumn" : 31,
+        "endLine" : 100,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_ATTEMPT_ID" : {
+      "name" : "CONDITION_BY_SPECIFIC_ATTEMPT_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/CONDITION_BY_SPECIFIC_ATTEMPT_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 104,
+        "startColumn" : 31,
+        "endLine" : 104,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/STEP_ID" : {
+      "name" : "STEP_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/STEP_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 31,
+        "endLine" : 79,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/RUN_ID" : {
+      "name" : "RUN_ID",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/RUN_ID",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 31,
+        "endLine" : 78,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_QUERY_PREFIX" : {
+      "name" : "DELETE_QUERY_PREFIX",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/memberField/DELETE_QUERY_PREFIX",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 31,
+        "endLine" : 125,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "createPausedStepAttemptIfNeeded",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 564,
+        "startColumn" : 18,
+        "endLine" : 564,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 565,
+          "startColumn" : 14,
+          "endLine" : 565,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 566,
+          "startColumn" : 12,
+          "endLine" : 566,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 567,
+          "startColumn" : 12,
+          "endLine" : 567,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 568,
+          "startColumn" : 12,
+          "endLine" : 568,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 569,
+          "startColumn" : 14,
+          "endLine" : 569,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 570,
+          "startColumn" : 12,
+          "endLine" : 570,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/createPausedStepAttemptIfNeeded(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "getPausedStepAttempts",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.PausedStepAttempt>",
+      "displayedType" : "List<PausedStepAttempt>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 457,
+        "startColumn" : 34,
+        "endLine" : 457,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 458,
+          "startColumn" : 14,
+          "endLine" : 458,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 459,
+          "startColumn" : 12,
+          "endLine" : 459,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 460,
+          "startColumn" : 12,
+          "endLine" : 460,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 461,
+          "startColumn" : 12,
+          "endLine" : 461,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 462,
+          "startColumn" : 14,
+          "endLine" : 462,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 463,
+          "startColumn" : 12,
+          "endLine" : 463,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPausedStepAttempts(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)" : {
+      "name" : "getRevisedWorkflowId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 926,
+        "startColumn" : 18,
+        "endLine" : 926,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 927,
+          "startColumn" : 14,
+          "endLine" : 927,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 927,
+          "startColumn" : 33,
+          "endLine" : 927,
+          "endColumn" : 39
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)"
+      }, {
+        "name" : "latestVersionStepExistEnforced",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)/parameter/latestVersionStepExistEnforced",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 927,
+          "startColumn" : 49,
+          "endLine" : 927,
+          "endColumn" : 79
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getRevisedWorkflowId(java.lang.String workflowId, java.lang.String stepId, boolean latestVersionStepExistEnforced)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateStepBreakpointBuilderWithMatchAllHelper(java.sql.ResultSet rs, com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint#com.netflix.maestro.engine.dao.StepBreakpointBuilder builder)" : {
+      "name" : "updateStepBreakpointBuilderWithMatchAllHelper",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateStepBreakpointBuilderWithMatchAllHelper(java.sql.ResultSet rs, com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint#com.netflix.maestro.engine.dao.StepBreakpointBuilder builder)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 901,
+        "startColumn" : 16,
+        "endLine" : 901,
+        "endColumn" : 61
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateStepBreakpointBuilderWithMatchAllHelper(java.sql.ResultSet rs, com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint#com.netflix.maestro.engine.dao.StepBreakpointBuilder builder)/parameter/rs",
+        "type" : "java.sql.ResultSet",
+        "displayedType" : "ResultSet",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 902,
+          "startColumn" : 17,
+          "endLine" : 902,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateStepBreakpointBuilderWithMatchAllHelper(java.sql.ResultSet rs, com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint#com.netflix.maestro.engine.dao.StepBreakpointBuilder builder)"
+      }, {
+        "name" : "builder",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateStepBreakpointBuilderWithMatchAllHelper(java.sql.ResultSet rs, com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint#com.netflix.maestro.engine.dao.StepBreakpointBuilder builder)/parameter/builder",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint#com.netflix.maestro.engine.dao.StepBreakpointBuilder",
+        "displayedType" : "StepBreakpoint.StepBreakpointBuilder",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 902,
+          "startColumn" : 58,
+          "endLine" : 902,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateStepBreakpointBuilderWithMatchAllHelper(java.sql.ResultSet rs, com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint#com.netflix.maestro.engine.dao.StepBreakpointBuilder builder)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "getStepBreakPoints",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint>",
+      "displayedType" : "List<StepBreakpoint>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 271,
+        "startColumn" : 31,
+        "endLine" : 271,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 272,
+          "startColumn" : 14,
+          "endLine" : 272,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 273,
+          "startColumn" : 12,
+          "endLine" : 273,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 274,
+          "startColumn" : 12,
+          "endLine" : 274,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 275,
+          "startColumn" : 12,
+          "endLine" : 275,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 276,
+          "startColumn" : 14,
+          "endLine" : 276,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 277,
+          "startColumn" : 12,
+          "endLine" : 277,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPoints(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "getStepBreakPointsWithConn",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "java.util.List<com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint>",
+      "displayedType" : "List<StepBreakpoint>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 725,
+        "startColumn" : 32,
+        "endLine" : 725,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 726,
+          "startColumn" : 18,
+          "endLine" : 726,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 727,
+          "startColumn" : 14,
+          "endLine" : 727,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 728,
+          "startColumn" : 12,
+          "endLine" : 728,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 729,
+          "startColumn" : 12,
+          "endLine" : 729,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 730,
+          "startColumn" : 12,
+          "endLine" : 730,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 731,
+          "startColumn" : 14,
+          "endLine" : 731,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 732,
+          "startColumn" : 12,
+          "endLine" : 732,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "insertPausedStepInstanceAttempt",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 382,
+        "startColumn" : 15,
+        "endLine" : 382,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 383,
+          "startColumn" : 18,
+          "endLine" : 383,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 384,
+          "startColumn" : 14,
+          "endLine" : 384,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 385,
+          "startColumn" : 12,
+          "endLine" : 385,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 386,
+          "startColumn" : 12,
+          "endLine" : 386,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 387,
+          "startColumn" : 12,
+          "endLine" : 387,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 388,
+          "startColumn" : 14,
+          "endLine" : 388,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 389,
+          "startColumn" : 12,
+          "endLine" : 389,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/insertPausedStepInstanceAttempt(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)" : {
+      "name" : "getPreparedStatementForMatchAnyOrSpecific",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)",
+      "type" : "java.sql.PreparedStatement",
+      "displayedType" : "PreparedStatement",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 756,
+        "startColumn" : 29,
+        "endLine" : 756,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 757,
+          "startColumn" : 18,
+          "endLine" : 757,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 758,
+          "startColumn" : 14,
+          "endLine" : 758,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 759,
+          "startColumn" : 12,
+          "endLine" : 759,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 760,
+          "startColumn" : 12,
+          "endLine" : 760,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 761,
+          "startColumn" : 12,
+          "endLine" : 761,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 762,
+          "startColumn" : 14,
+          "endLine" : 762,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)"
+      }, {
+        "name" : "attemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)/parameter/attemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 763,
+          "startColumn" : 12,
+          "endLine" : 763,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchAnyOrSpecific(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long attemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/stepBreakpointFromResultSet(java.sql.ResultSet rs)" : {
+      "name" : "stepBreakpointFromResultSet",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/stepBreakpointFromResultSet(java.sql.ResultSet rs)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint",
+      "displayedType" : "StepBreakpoint",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 915,
+        "startColumn" : 26,
+        "endLine" : 915,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/stepBreakpointFromResultSet(java.sql.ResultSet rs)/parameter/rs",
+        "type" : "java.sql.ResultSet",
+        "displayedType" : "ResultSet",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 915,
+          "startColumn" : 64,
+          "endLine" : 915,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/stepBreakpointFromResultSet(java.sql.ResultSet rs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "removePausedStepsWithConn",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 673,
+        "startColumn" : 15,
+        "endLine" : 673,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 674,
+          "startColumn" : 18,
+          "endLine" : 674,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 675,
+          "startColumn" : 14,
+          "endLine" : 675,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 676,
+          "startColumn" : 12,
+          "endLine" : 676,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 677,
+          "startColumn" : 12,
+          "endLine" : 677,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 678,
+          "startColumn" : 12,
+          "endLine" : 678,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 679,
+          "startColumn" : 14,
+          "endLine" : 679,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 680,
+          "startColumn" : 12,
+          "endLine" : 680,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removePausedStepsWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)" : {
+      "name" : "addStepBreakpoint",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.StepBreakpoint",
+      "displayedType" : "StepBreakpoint",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 204,
+        "startColumn" : 25,
+        "endLine" : 204,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 14,
+          "endLine" : 205,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 12,
+          "endLine" : 206,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 207,
+          "startColumn" : 12,
+          "endLine" : 207,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 12,
+          "endLine" : 208,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 209,
+          "startColumn" : 14,
+          "endLine" : 209,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 210,
+          "startColumn" : 12,
+          "endLine" : 210,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      }, {
+        "name" : "user",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)/parameter/user",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 211,
+          "startColumn" : 12,
+          "endLine" : 211,
+          "endColumn" : 16
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/addStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.User user)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "resumePausedStepInstanceAttempt",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 414,
+        "startColumn" : 15,
+        "endLine" : 414,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 415,
+          "startColumn" : 14,
+          "endLine" : 415,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 416,
+          "startColumn" : 12,
+          "endLine" : 416,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 417,
+          "startColumn" : 12,
+          "endLine" : 417,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 418,
+          "startColumn" : 12,
+          "endLine" : 418,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 419,
+          "startColumn" : 14,
+          "endLine" : 419,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 420,
+          "startColumn" : 12,
+          "endLine" : 420,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/resumePausedStepInstanceAttempt(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointWorkflowId(java.lang.String workflowId)" : {
+      "name" : "getStepBreakPointWorkflowId",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointWorkflowId(java.lang.String workflowId)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 609,
+        "startColumn" : 18,
+        "endLine" : 609,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointWorkflowId(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 609,
+          "startColumn" : 53,
+          "endLine" : 609,
+          "endColumn" : 63
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getStepBreakPointWorkflowId(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)" : {
+      "name" : "removeStepBreakpoint",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 332,
+        "startColumn" : 14,
+        "endLine" : 332,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 333,
+          "startColumn" : 14,
+          "endLine" : 333,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 334,
+          "startColumn" : 12,
+          "endLine" : 334,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 335,
+          "startColumn" : 12,
+          "endLine" : 335,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 336,
+          "startColumn" : 12,
+          "endLine" : 336,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 337,
+          "startColumn" : 14,
+          "endLine" : 337,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 338,
+          "startColumn" : 12,
+          "endLine" : 338,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)"
+      }, {
+        "name" : "resume",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)/parameter/resume",
+        "type" : "boolean",
+        "displayedType" : "boolean",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 339,
+          "startColumn" : 15,
+          "endLine" : 339,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpoint(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, boolean resume)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "shouldStepResume",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 519,
+        "startColumn" : 18,
+        "endLine" : 519,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 520,
+          "startColumn" : 14,
+          "endLine" : 520,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 521,
+          "startColumn" : 12,
+          "endLine" : 521,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 522,
+          "startColumn" : 12,
+          "endLine" : 522,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 523,
+          "startColumn" : 12,
+          "endLine" : 523,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 524,
+          "startColumn" : 14,
+          "endLine" : 524,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 525,
+          "startColumn" : 12,
+          "endLine" : 525,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/shouldStepResume(java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)" : {
+      "name" : "getPreparedStatementForMatchSpecific",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)",
+      "type" : "java.sql.PreparedStatement",
+      "displayedType" : "PreparedStatement",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 789,
+        "startColumn" : 29,
+        "endLine" : 789,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 790,
+          "startColumn" : 18,
+          "endLine" : 790,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 791,
+          "startColumn" : 14,
+          "endLine" : 791,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "workflowIdUpperBound",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/workflowIdUpperBound",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 792,
+          "startColumn" : 24,
+          "endLine" : 792,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 793,
+          "startColumn" : 12,
+          "endLine" : 793,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 794,
+          "startColumn" : 12,
+          "endLine" : 794,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 795,
+          "startColumn" : 12,
+          "endLine" : 795,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 796,
+          "startColumn" : 14,
+          "endLine" : 796,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "attemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/attemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 797,
+          "startColumn" : 12,
+          "endLine" : 797,
+          "endColumn" : 21
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "entryLimit",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/entryLimit",
+        "type" : "java.lang.Integer",
+        "displayedType" : "Integer",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 798,
+          "startColumn" : 25,
+          "endLine" : 798,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      }, {
+        "name" : "queryPrefix",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)/parameter/queryPrefix",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 799,
+          "startColumn" : 14,
+          "endLine" : 799,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/getPreparedStatementForMatchSpecific(java.sql.Connection conn, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long attemptId, java.lang.Integer entryLimit, java.lang.String queryPrefix)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/validateStep(com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.Workflow workflow, java.lang.String stepId)" : {
+      "name" : "validateStep",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/validateStep(com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.Workflow workflow, java.lang.String stepId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 873,
+        "startColumn" : 19,
+        "endLine" : 873,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflow",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/validateStep(com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.Workflow workflow, java.lang.String stepId)/parameter/workflow",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 873,
+          "startColumn" : 41,
+          "endLine" : 873,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/validateStep(com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.Workflow workflow, java.lang.String stepId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/validateStep(com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.Workflow workflow, java.lang.String stepId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 873,
+          "startColumn" : 58,
+          "endLine" : 873,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/validateStep(com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.Workflow workflow, java.lang.String stepId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/pausedStepAttemptFromResultSet(java.sql.ResultSet rs)" : {
+      "name" : "pausedStepAttemptFromResultSet",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/pausedStepAttemptFromResultSet(java.sql.ResultSet rs)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.stepruntime.PausedStepAttempt",
+      "displayedType" : "PausedStepAttempt",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 889,
+        "startColumn" : 29,
+        "endLine" : 889,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/pausedStepAttemptFromResultSet(java.sql.ResultSet rs)/parameter/rs",
+        "type" : "java.sql.ResultSet",
+        "displayedType" : "ResultSet",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 889,
+          "startColumn" : 70,
+          "endLine" : 889,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/pausedStepAttemptFromResultSet(java.sql.ResultSet rs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)" : {
+      "name" : "updateQueryStatementHelper",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 833,
+        "startColumn" : 16,
+        "endLine" : 833,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "stmt",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/stmt",
+        "type" : "java.sql.PreparedStatement",
+        "displayedType" : "PreparedStatement",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 834,
+          "startColumn" : 25,
+          "endLine" : 834,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 835,
+          "startColumn" : 14,
+          "endLine" : 835,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "workflowIdUpperBound",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/workflowIdUpperBound",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 836,
+          "startColumn" : 24,
+          "endLine" : 836,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 837,
+          "startColumn" : 12,
+          "endLine" : 837,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 838,
+          "startColumn" : 12,
+          "endLine" : 838,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 839,
+          "startColumn" : 12,
+          "endLine" : 839,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 840,
+          "startColumn" : 14,
+          "endLine" : 840,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 841,
+          "startColumn" : 12,
+          "endLine" : 841,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      }, {
+        "name" : "entryLimit",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)/parameter/entryLimit",
+        "type" : "java.lang.Integer",
+        "displayedType" : "Integer",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 842,
+          "startColumn" : 25,
+          "endLine" : 842,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/updateQueryStatementHelper(java.sql.PreparedStatement stmt, java.lang.String workflowId, java.lang.String workflowIdUpperBound, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId, java.lang.Integer entryLimit)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    },
+    "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)" : {
+      "name" : "removeStepBreakpointWithConn",
+      "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 628,
+        "startColumn" : 16,
+        "endLine" : 628,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "conn",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/conn",
+        "type" : "java.sql.Connection",
+        "displayedType" : "Connection",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 629,
+          "startColumn" : 18,
+          "endLine" : 629,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 630,
+          "startColumn" : 14,
+          "endLine" : 630,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "version",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/version",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 631,
+          "startColumn" : 12,
+          "endLine" : 631,
+          "endColumn" : 19
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "instanceId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/instanceId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 632,
+          "startColumn" : 12,
+          "endLine" : 632,
+          "endColumn" : 22
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "runId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/runId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 633,
+          "startColumn" : 12,
+          "endLine" : 633,
+          "endColumn" : 17
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 634,
+          "startColumn" : 14,
+          "endLine" : 634,
+          "endColumn" : 20
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      }, {
+        "name" : "stepAttemptId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)/parameter/stepAttemptId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 635,
+          "startColumn" : 12,
+          "endLine" : 635,
+          "endColumn" : 25
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao/method/removeStepBreakpointWithConn(java.sql.Connection conn, java.lang.String workflowId, long version, long instanceId, long runId, java.lang.String stepId, long stepAttemptId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroStepBreakpointDao"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/dao/MaestroStepBreakpointDao.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.com.netflix.conductor.cockroachdb.dao.CockroachDBBaseDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

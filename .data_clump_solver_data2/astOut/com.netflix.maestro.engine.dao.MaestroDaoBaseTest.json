@@ -1,0 +1,130 @@
+{
+  "name" : "MaestroDaoBaseTest",
+  "key" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 17,
+    "endLine" : 27,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/memberField/dataSource" : {
+      "name" : "dataSource",
+      "key" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/memberField/dataSource",
+      "type" : "javax.sql.DataSource",
+      "displayedType" : "DataSource",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 31,
+        "endLine" : 29,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/memberField/config" : {
+      "name" : "config",
+      "key" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/memberField/config",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.conductor.cockroachdb.CockroachDBConfiguration",
+      "displayedType" : "CockroachDBConfiguration",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 45,
+        "endLine" : 28,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PROTECTED", "STATIC" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/loadWorkflow(java.lang.String workflowId)" : {
+      "name" : "loadWorkflow",
+      "key" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/loadWorkflow(java.lang.String workflowId)",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.models.definition.WorkflowDefinition",
+      "displayedType" : "WorkflowDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 32,
+        "endLine" : 43,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PROTECTED" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/loadWorkflow(java.lang.String workflowId)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 43,
+          "startColumn" : 52,
+          "endLine" : 43,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/loadWorkflow(java.lang.String workflowId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/init()" : {
+      "name" : "init",
+      "key" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/init()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 22,
+        "endLine" : 32,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/destroy()" : {
+      "name" : "destroy",
+      "key" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest/method/destroy()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 22,
+        "endLine" : 39,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroDaoBaseTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/dao/MaestroDaoBaseTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,62 @@
+{
+  "name" : "StepOutputsDefinition",
+  "key" : "com.netflix.maestro.models.definition.StepOutputsDefinition",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 25,
+    "startColumn" : 8,
+    "endLine" : 25,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.models.definition.StepOutputsDefinition/method/asSignalOutputsDefinition()" : {
+      "name" : "asSignalOutputsDefinition",
+      "key" : "com.netflix.maestro.models.definition.StepOutputsDefinition/method/asSignalOutputsDefinition()",
+      "type" : "com.netflix.maestro.models.definition.SignalOutputsDefinition",
+      "displayedType" : "SignalOutputsDefinition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 35,
+        "endLine" : 28,
+        "endColumn" : 60
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepOutputsDefinition"
+    },
+    "com.netflix.maestro.models.definition.StepOutputsDefinition/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.definition.StepOutputsDefinition/method/getType()",
+      "type" : "com.netflix.maestro.models.definition.StepOutputsDefinition$StepOutputType",
+      "displayedType" : "StepOutputType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 26,
+        "startColumn" : 18,
+        "endLine" : 26,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepOutputsDefinition"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/StepOutputsDefinition.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

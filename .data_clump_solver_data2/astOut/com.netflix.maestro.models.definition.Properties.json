@@ -1,0 +1,245 @@
+{
+  "name" : "Properties",
+  "key" : "com.netflix.maestro.models.definition.Properties",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 8,
+    "endLine" : 54,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.Properties/memberField/owner" : {
+      "name" : "owner",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/owner",
+      "type" : "com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 23,
+        "endLine" : 55,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/runStrategy" : {
+      "name" : "runStrategy",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/runStrategy",
+      "type" : "com.netflix.maestro.models.definition.RunStrategy",
+      "displayedType" : "RunStrategy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 30,
+        "endLine" : 57,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/alertingDisabled" : {
+      "name" : "alertingDisabled",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/alertingDisabled",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 19,
+        "endLine" : 60,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/tags" : {
+      "name" : "tags",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/tags",
+      "type" : "com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 55,
+        "endLine" : 67,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/accessControl" : {
+      "name" : "accessControl",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/accessControl",
+      "type" : "com.netflix.maestro.models.definition.AccessControl",
+      "displayedType" : "AccessControl",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 32,
+        "endLine" : 56,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/timeTriggerDisabled" : {
+      "name" : "timeTriggerDisabled",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/timeTriggerDisabled",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 19,
+        "endLine" : 62,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/alerting" : {
+      "name" : "alerting",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/alerting",
+      "type" : "com.netflix.maestro.models.definition.Alerting",
+      "displayedType" : "Alerting",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 27,
+        "endLine" : 59,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/signalTriggerDisabled" : {
+      "name" : "signalTriggerDisabled",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/signalTriggerDisabled",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 19,
+        "endLine" : 61,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/stepConcurrency" : {
+      "name" : "stepConcurrency",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/stepConcurrency",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 16,
+        "endLine" : 58,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    },
+    "com.netflix.maestro.models.definition.Properties/memberField/description" : {
+      "name" : "description",
+      "key" : "com.netflix.maestro.models.definition.Properties/memberField/description",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 18,
+        "endLine" : 65,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.Properties/method/merge(com.netflix.maestro.models.definition.Properties change, com.netflix.maestro.models.definition.Properties current)" : {
+      "name" : "merge",
+      "key" : "com.netflix.maestro.models.definition.Properties/method/merge(com.netflix.maestro.models.definition.Properties change, com.netflix.maestro.models.definition.Properties current)",
+      "type" : "com.netflix.maestro.models.definition.Properties",
+      "displayedType" : "Properties",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 28,
+        "endLine" : 70,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "change",
+        "key" : "com.netflix.maestro.models.definition.Properties/method/merge(com.netflix.maestro.models.definition.Properties change, com.netflix.maestro.models.definition.Properties current)/parameter/change",
+        "type" : "com.netflix.maestro.models.definition.Properties",
+        "displayedType" : "Properties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 54,
+          "endLine" : 70,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.Properties/method/merge(com.netflix.maestro.models.definition.Properties change, com.netflix.maestro.models.definition.Properties current)"
+      }, {
+        "name" : "current",
+        "key" : "com.netflix.maestro.models.definition.Properties/method/merge(com.netflix.maestro.models.definition.Properties change, com.netflix.maestro.models.definition.Properties current)/parameter/current",
+        "type" : "com.netflix.maestro.models.definition.Properties",
+        "displayedType" : "Properties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 73,
+          "endLine" : 70,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.Properties/method/merge(com.netflix.maestro.models.definition.Properties change, com.netflix.maestro.models.definition.Properties current)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.Properties"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/Properties.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

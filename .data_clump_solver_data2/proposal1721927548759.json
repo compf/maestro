@@ -1,0 +1,29 @@
+{
+  "refactorings": {
+    "maestro-engine/src/main/java/com/netflix/maestro/engine/handlers/WorkflowActionHandler.java": [
+      {
+        "fromLine": 179,
+        "toLine": 243,
+        "oldContent": "  public Optional<Details> runForeachBatch(\n      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      RunProperties runProperties,\n      String foreachStepId,\n      ForeachArtifact artifact,\n      List<RunRequest> requests,\n      List<Long> instanceIds,\n      int batchSize) {",
+        "newContent": "  public Optional<Details> runForeachBatch(\n      ForeachBatchContext context,\n      List<RunRequest> requests,\n      List<Long> instanceIds,\n      int batchSize) {"
+      },
+      {
+        "fromLine": 245,
+        "toLine": 305,
+        "oldContent": "      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      RunProperties runProperties,\n      List<RunRequest> requests,",
+        "newContent": "      ForeachBatchContext context,\n      List<RunRequest> requests,"
+      },
+      {
+        "fromLine": 245,
+        "toLine": 305,
+        "oldContent": "      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      RunProperties runProperties,\n      String foreachStepId,\n      ForeachArtifact artifact,\n      List<RunRequest> requests,\n      List<Long> instanceIds) {",
+        "newContent": "      ForeachBatchContext context,\n      List<RunRequest> requests,\n      List<Long> instanceIds) {"
+      }
+    ]
+  },
+  "extractedClasses": {
+    "maestro-engine/src/main/java/com/netflix/maestro/engine/handlers/ForeachBatchContext.java": "public class ForeachBatchContext {\n\n  private final Workflow workflow;\n  private final Long internalId;\n  private final long workflowVersionId;\n  private final RunProperties runProperties;\n  private final String foreachStepId;\n  private final ForeachArtifact artifact;\n\n  public ForeachBatchContext(\n      Workflow workflow,\n      Long internalId,\n      long workflowVersionId,\n      RunProperties runProperties,\n      String foreachStepId,\n      ForeachArtifact artifact) {\n    this.workflow = workflow;\n    this.internalId = internalId;\n    this.workflowVersionId = workflowVersionId;\n    this.runProperties = runProperties;\n    this.foreachStepId = foreachStepId;\n    this.artifact = artifact;\n  }\n\n  // Getters for all fields\n\n  public Workflow getWorkflow() {\n    return workflow;\n  }\n\n  public Long getInternalId() {\n    return internalId;\n  }\n\n  public long getWorkflowVersionId() {\n    return workflowVersionId;\n  }\n\n  public RunProperties getRunProperties() {\n    return runProperties;\n  }\n\n  public String getForeachStepId() {\n    return foreachStepId;\n  }\n\n  public ForeachArtifact getArtifact() {\n    return artifact;\n  }\n\n  // Additional methods or logic related to the context can be added here\n}\n"
+  },
+  "tenperature": 0.1,
+  "date": "2024-07-25T17:12:28.756Z"
+}

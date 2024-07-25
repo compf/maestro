@@ -1,0 +1,167 @@
+{
+  "name" : "WorkflowRunnerTest",
+  "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/workflowExecutor" : {
+      "name" : "workflowExecutor",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/workflowExecutor",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.conductor.core.execution.WorkflowExecutor",
+      "displayedType" : "WorkflowExecutor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 34,
+        "endLine" : 40,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    },
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/runner" : {
+      "name" : "runner",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/runner",
+      "type" : "com.netflix.maestro.engine.handlers.WorkflowRunner",
+      "displayedType" : "WorkflowRunner",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 26,
+        "endLine" : 44,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    },
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/workflowHelper" : {
+      "name" : "workflowHelper",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/workflowHelper",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.utils.WorkflowHelper",
+      "displayedType" : "WorkflowHelper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 32,
+        "endLine" : 42,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    },
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/translator" : {
+      "name" : "translator",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/memberField/translator",
+      "type" : "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.transformation.WorkflowTranslator",
+      "displayedType" : "WorkflowTranslator",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 36,
+        "endLine" : 41,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/testStart()" : {
+      "name" : "testStart",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/testStart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 15,
+        "endLine" : 54,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    },
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/testRestart()" : {
+      "name" : "testRestart",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/testRestart()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 15,
+        "endLine" : 78,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    },
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/before()" : {
+      "name" : "before",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/before()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 15,
+        "endLine" : 47,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    },
+    "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/testTerminate()" : {
+      "name" : "testTerminate",
+      "key" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest/method/testTerminate()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 15,
+        "endLine" : 72,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.handlers.WorkflowRunnerTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/handlers/WorkflowRunnerTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.handlers.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

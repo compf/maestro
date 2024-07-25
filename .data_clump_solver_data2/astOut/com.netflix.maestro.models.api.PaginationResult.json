@@ -1,0 +1,240 @@
+{
+  "name" : "PaginationResult",
+  "key" : "com.netflix.maestro.models.api.PaginationResult",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 40,
+    "startColumn" : 8,
+    "endLine" : 40,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.api.PaginationResult/memberField/totalCount" : {
+      "name" : "totalCount",
+      "key" : "com.netflix.maestro.models.api.PaginationResult/memberField/totalCount",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 22,
+        "endLine" : 71,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult"
+    },
+    "com.netflix.maestro.models.api.PaginationResult/memberField/elements" : {
+      "name" : "elements",
+      "key" : "com.netflix.maestro.models.api.PaginationResult/memberField/elements",
+      "type" : "java.util.List<T>",
+      "displayedType" : "List<T>",
+      "hasTypeVariable" : true,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 34,
+        "endLine" : 72,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult"
+    },
+    "com.netflix.maestro.models.api.PaginationResult/memberField/pageInfo" : {
+      "name" : "pageInfo",
+      "key" : "com.netflix.maestro.models.api.PaginationResult/memberField/pageInfo",
+      "type" : "com.netflix.maestro.models.api.PaginationResult$PageInfo",
+      "displayedType" : "PageInfo",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 35,
+        "endLine" : 70,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/PaginationResult.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.api.PaginationResult.PaginationResultBuilder" : {
+      "name" : "PaginationResultBuilder",
+      "key" : "com.netflix.maestro.models.api.PaginationResult.PaginationResultBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 23,
+        "endLine" : 76,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/PaginationResult.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.api.PaginationResult",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.models.api.PaginationResult.PageInfo" : {
+      "name" : "PageInfo",
+      "key" : "com.netflix.maestro.models.api.PaginationResult.PageInfo",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/hasPreviousPage" : {
+          "name" : "hasPreviousPage",
+          "key" : "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/hasPreviousPage",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 60,
+            "startColumn" : 27,
+            "endLine" : 60,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult.PageInfo"
+        },
+        "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/startIndex" : {
+          "name" : "startIndex",
+          "key" : "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/startIndex",
+          "type" : "java.lang.Long",
+          "displayedType" : "Long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 62,
+            "startColumn" : 24,
+            "endLine" : 62,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult.PageInfo"
+        },
+        "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/startCursor" : {
+          "name" : "startCursor",
+          "key" : "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/startCursor",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 58,
+            "startColumn" : 26,
+            "endLine" : 58,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult.PageInfo"
+        },
+        "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/endCursor" : {
+          "name" : "endCursor",
+          "key" : "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/endCursor",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 59,
+            "startColumn" : 26,
+            "endLine" : 59,
+            "endColumn" : 35
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult.PageInfo"
+        },
+        "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/hasNextPage" : {
+          "name" : "hasNextPage",
+          "key" : "com.netflix.maestro.models.api.PaginationResult.PageInfo/memberField/hasNextPage",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 61,
+            "startColumn" : 27,
+            "endLine" : 61,
+            "endColumn" : 38
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.api.PaginationResult.PageInfo"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/PaginationResult.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.api.PaginationResult",
+      "innerDefinedClasses" : {
+        "com.netflix.maestro.models.api.PaginationResult.PageInfo.PageInfoBuilder" : {
+          "name" : "PageInfoBuilder",
+          "key" : "com.netflix.maestro.models.api.PaginationResult.PageInfo.PageInfoBuilder",
+          "type" : "class",
+          "displayedType" : null,
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 67,
+            "startColumn" : 25,
+            "endLine" : 67,
+            "endColumn" : 30
+          },
+          "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+          "fields" : { },
+          "methods" : { },
+          "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/PaginationResult.java",
+          "imports" : [ ],
+          "anonymous" : false,
+          "auxclass" : false,
+          "implements_" : [ ],
+          "extends_" : [ ],
+          "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.api.PaginationResult.PageInfo",
+          "innerDefinedClasses" : { },
+          "innerDefinedInterfaces" : { }
+        }
+      },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

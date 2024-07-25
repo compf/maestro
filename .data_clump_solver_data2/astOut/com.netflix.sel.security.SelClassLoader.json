@@ -1,0 +1,194 @@
+{
+  "name" : "SelClassLoader",
+  "key" : "com.netflix.sel.security.SelClassLoader",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 29,
+    "startColumn" : 7,
+    "endLine" : 29,
+    "endColumn" : 12
+  },
+  "modifiers" : [ "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.security.SelClassLoader/memberField/preloadedClasses" : {
+      "name" : "preloadedClasses",
+      "key" : "com.netflix.sel.security.SelClassLoader/memberField/preloadedClasses",
+      "type" : "java.util.List<java.lang.Class<?>>",
+      "displayedType" : "List<Class<?>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 32,
+        "endLine" : 35,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelClassLoader"
+    },
+    "com.netflix.sel.security.SelClassLoader/memberField/LOG" : {
+      "name" : "LOG",
+      "key" : "com.netflix.sel.security.SelClassLoader/memberField/LOG",
+      "type" : "org.slf4j.Logger",
+      "displayedType" : "Logger",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 31,
+        "endLine" : 30,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelClassLoader"
+    },
+    "com.netflix.sel.security.SelClassLoader/memberField/preloadedTimezones" : {
+      "name" : "preloadedTimezones",
+      "key" : "com.netflix.sel.security.SelClassLoader/memberField/preloadedTimezones",
+      "type" : "java.util.List<com.netflix.sel.security.org.joda.time.DateTimeZone>",
+      "displayedType" : "List<DateTimeZone>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 36,
+        "endLine" : 36,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelClassLoader"
+    },
+    "com.netflix.sel.security.SelClassLoader/memberField/INSTANCE" : {
+      "name" : "INSTANCE",
+      "key" : "com.netflix.sel.security.SelClassLoader/memberField/INSTANCE",
+      "type" : "com.netflix.sel.security.SelClassLoader",
+      "displayedType" : "SelClassLoader",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 31,
+        "endLine" : 32,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelClassLoader"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.security.SelClassLoader/method/loadClassInPackage(java.lang.String path, java.lang.String clazzName)" : {
+      "name" : "loadClassInPackage",
+      "key" : "com.netflix.sel.security.SelClassLoader/method/loadClassInPackage(java.lang.String path, java.lang.String clazzName)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 16,
+        "endLine" : 54,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "path",
+        "key" : "com.netflix.sel.security.SelClassLoader/method/loadClassInPackage(java.lang.String path, java.lang.String clazzName)/parameter/path",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 42,
+          "endLine" : 54,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelClassLoader/method/loadClassInPackage(java.lang.String path, java.lang.String clazzName)"
+      }, {
+        "name" : "clazzName",
+        "key" : "com.netflix.sel.security.SelClassLoader/method/loadClassInPackage(java.lang.String path, java.lang.String clazzName)/parameter/clazzName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 54,
+          "startColumn" : 55,
+          "endLine" : 54,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelClassLoader/method/loadClassInPackage(java.lang.String path, java.lang.String clazzName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelClassLoader"
+    },
+    "com.netflix.sel.security.SelClassLoader/method/loadSelClasses()" : {
+      "name" : "loadSelClasses",
+      "key" : "com.netflix.sel.security.SelClassLoader/method/loadSelClasses()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 16,
+        "endLine" : 42,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelClassLoader"
+    },
+    "com.netflix.sel.security.SelClassLoader/method/loadClassesInPackage(java.lang.String pkgName)" : {
+      "name" : "loadClassesInPackage",
+      "key" : "com.netflix.sel.security.SelClassLoader/method/loadClassesInPackage(java.lang.String pkgName)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 16,
+        "endLine" : 66,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "pkgName",
+        "key" : "com.netflix.sel.security.SelClassLoader/method/loadClassesInPackage(java.lang.String pkgName)/parameter/pkgName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 66,
+          "startColumn" : 44,
+          "endLine" : 66,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.security.SelClassLoader/method/loadClassesInPackage(java.lang.String pkgName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.security.SelClassLoader"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/security/SelClassLoader.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "java.lang.ClassLoader" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

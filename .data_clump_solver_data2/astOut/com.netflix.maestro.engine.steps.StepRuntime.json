@@ -1,0 +1,414 @@
+{
+  "name" : "StepRuntime",
+  "key" : "com.netflix.maestro.engine.steps.StepRuntime",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.engine.steps.StepRuntime/memberField/SYSTEM_USER" : {
+      "name" : "SYSTEM_USER",
+      "key" : "com.netflix.maestro.engine.steps.StepRuntime/memberField/SYSTEM_USER",
+      "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 8,
+        "endLine" : 43,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.steps.StepRuntime/method/terminate(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "terminate",
+      "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/terminate(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "com.netflix.maestro.engine.steps.StepRuntime$Result",
+      "displayedType" : "Result",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 160,
+        "startColumn" : 18,
+        "endLine" : 160,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowSummary",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/terminate(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/workflowSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 44,
+          "endLine" : 160,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/terminate(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/terminate(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 160,
+          "startColumn" : 80,
+          "endLine" : 160,
+          "endColumn" : 94
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/terminate(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime"
+    },
+    "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeParams(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step)" : {
+      "name" : "injectRuntimeParams",
+      "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeParams(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step)",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.steps.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 171,
+        "startColumn" : 40,
+        "endLine" : 171,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowSummary",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeParams(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step)/parameter/workflowSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 23,
+          "endLine" : 172,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeParams(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step)"
+      }, {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeParams(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step)/parameter/step",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step",
+        "displayedType" : "Step",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 45,
+          "endLine" : 172,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeParams(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime"
+    },
+    "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "execute",
+      "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "com.netflix.maestro.engine.steps.StepRuntime$Result",
+      "displayedType" : "Result",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 18,
+        "endLine" : 138,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowSummary",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/workflowSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 23,
+          "endLine" : 139,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/step",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step",
+        "displayedType" : "Step",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 45,
+          "endLine" : 139,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 70,
+          "endLine" : 139,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/execute(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime"
+    },
+    "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)" : {
+      "name" : "start",
+      "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)",
+      "type" : "com.netflix.maestro.engine.steps.StepRuntime$Result",
+      "displayedType" : "Result",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 18,
+        "endLine" : 112,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowSummary",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/workflowSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary",
+        "displayedType" : "WorkflowSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 23,
+          "endLine" : 113,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "step",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/step",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step",
+        "displayedType" : "Step",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 45,
+          "endLine" : 113,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      }, {
+        "name" : "runtimeSummary",
+        "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)/parameter/runtimeSummary",
+        "type" : "com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary",
+        "displayedType" : "StepRuntimeSummary",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 70,
+          "endLine" : 113,
+          "endColumn" : 84
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime/method/start(com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.WorkflowSummary workflowSummary, com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Step step, com.netflix.maestro.engine.steps.com.netflix.maestro.engine.execution.StepRuntimeSummary runtimeSummary)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime"
+    },
+    "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeTags()" : {
+      "name" : "injectRuntimeTags",
+      "key" : "com.netflix.maestro.engine.steps.StepRuntime/method/injectRuntimeTags()",
+      "type" : "java.util.List<com.netflix.maestro.engine.steps.com.netflix.maestro.models.definition.Tag>",
+      "displayedType" : "List<Tag>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 181,
+        "startColumn" : 21,
+        "endLine" : 181,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC", "DEFAULT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/steps/StepRuntime.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.steps.StepRuntime.Result" : {
+      "name" : "Result",
+      "key" : "com.netflix.maestro.engine.steps.StepRuntime.Result",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 3,
+        "endLine" : 48,
+        "endColumn" : 8
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.engine.steps.StepRuntime.Result/memberField/timeline" : {
+          "name" : "timeline",
+          "key" : "com.netflix.maestro.engine.steps.StepRuntime.Result/memberField/timeline",
+          "type" : "java.util.List<com.netflix.maestro.engine.steps.com.netflix.maestro.models.timeline.TimelineEvent>",
+          "displayedType" : "List<TimelineEvent>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 51,
+            "startColumn" : 39,
+            "endLine" : 51,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime.Result"
+        },
+        "com.netflix.maestro.engine.steps.StepRuntime.Result/memberField/artifacts" : {
+          "name" : "artifacts",
+          "key" : "com.netflix.maestro.engine.steps.StepRuntime.Result/memberField/artifacts",
+          "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.steps.com.netflix.maestro.models.artifact.Artifact>",
+          "displayedType" : "Map<String, Artifact>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 50,
+            "startColumn" : 41,
+            "endLine" : 50,
+            "endColumn" : 50
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime.Result"
+        },
+        "com.netflix.maestro.engine.steps.StepRuntime.Result/memberField/state" : {
+          "name" : "state",
+          "key" : "com.netflix.maestro.engine.steps.StepRuntime.Result/memberField/state",
+          "type" : "com.netflix.maestro.engine.steps.StepRuntime$State",
+          "displayedType" : "State",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 49,
+            "startColumn" : 34,
+            "endLine" : 49,
+            "endColumn" : 39
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime.Result"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.engine.steps.StepRuntime.Result/method/shouldPersist()" : {
+          "name" : "shouldPersist",
+          "key" : "com.netflix.maestro.engine.steps.StepRuntime.Result/method/shouldPersist()",
+          "type" : "boolean",
+          "displayedType" : "boolean",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 57,
+            "startColumn" : 20,
+            "endLine" : 57,
+            "endColumn" : 33
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime.Result"
+        },
+        "com.netflix.maestro.engine.steps.StepRuntime.Result/method/of(com.netflix.maestro.engine.steps.StepRuntime$State state)" : {
+          "name" : "of",
+          "key" : "com.netflix.maestro.engine.steps.StepRuntime.Result/method/of(com.netflix.maestro.engine.steps.StepRuntime$State state)",
+          "type" : "com.netflix.maestro.engine.steps.StepRuntime$Result",
+          "displayedType" : "Result",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 53,
+            "startColumn" : 26,
+            "endLine" : 53,
+            "endColumn" : 28
+          },
+          "modifiers" : [ "PUBLIC", "STATIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "state",
+            "key" : "com.netflix.maestro.engine.steps.StepRuntime.Result/method/of(com.netflix.maestro.engine.steps.StepRuntime$State state)/parameter/state",
+            "type" : "com.netflix.maestro.engine.steps.StepRuntime$State",
+            "displayedType" : "State",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 53,
+              "startColumn" : 35,
+              "endLine" : 53,
+              "endColumn" : 40
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.engine.steps.StepRuntime.Result/method/of(com.netflix.maestro.engine.steps.StepRuntime$State state)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.steps.StepRuntime.Result"
+        }
+      },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/steps/StepRuntime.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.steps.StepRuntime",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

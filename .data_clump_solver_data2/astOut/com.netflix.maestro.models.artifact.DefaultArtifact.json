@@ -1,0 +1,295 @@
+{
+  "name" : "DefaultArtifact",
+  "key" : "com.netflix.maestro.models.artifact.DefaultArtifact",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.artifact.DefaultArtifact/memberField/data" : {
+      "name" : "data",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/memberField/data",
+      "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+      "displayedType" : "Map<String, Object>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 37,
+        "endLine" : 35,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/memberField/VALUE_FIELD" : {
+      "name" : "VALUE_FIELD",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/memberField/VALUE_FIELD",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 31,
+        "endLine" : 34,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/add(java.lang.String name, java.lang.Object value)" : {
+      "name" : "add",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/add(java.lang.String name, java.lang.Object value)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 15,
+        "endLine" : 52,
+        "endColumn" : 18
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/add(java.lang.String name, java.lang.Object value)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 26,
+          "endLine" : 52,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/add(java.lang.String name, java.lang.Object value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/add(java.lang.String name, java.lang.Object value)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 39,
+          "endLine" : 52,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/add(java.lang.String name, java.lang.Object value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/create(java.lang.String key, java.lang.Object value)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/create(java.lang.String key, java.lang.Object value)",
+      "type" : "com.netflix.maestro.models.artifact.DefaultArtifact",
+      "displayedType" : "DefaultArtifact",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 33,
+        "endLine" : 38,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "key",
+        "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/create(java.lang.String key, java.lang.Object value)/parameter/key",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 47,
+          "endLine" : 38,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/create(java.lang.String key, java.lang.Object value)"
+      }, {
+        "name" : "value",
+        "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/create(java.lang.String key, java.lang.Object value)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 59,
+          "endLine" : 38,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/create(java.lang.String key, java.lang.Object value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/asDefault()" : {
+      "name" : "asDefault",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/asDefault()",
+      "type" : "com.netflix.maestro.models.artifact.DefaultArtifact",
+      "displayedType" : "DefaultArtifact",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 76,
+        "startColumn" : 26,
+        "endLine" : 76,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/setValue(java.lang.Object value)" : {
+      "name" : "setValue",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/setValue(java.lang.Object value)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 15,
+        "endLine" : 64,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/setValue(java.lang.Object value)/parameter/value",
+        "type" : "java.lang.Object",
+        "displayedType" : "Object",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 31,
+          "endLine" : 64,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/setValue(java.lang.Object value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/getField(java.lang.String name)" : {
+      "name" : "getField",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/getField(java.lang.String name)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 17,
+        "endLine" : 70,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "name",
+        "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/getField(java.lang.String name)/parameter/name",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 70,
+          "startColumn" : 33,
+          "endLine" : 70,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/getField(java.lang.String name)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/getValue()" : {
+      "name" : "getValue",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/getValue()",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 17,
+        "endLine" : 58,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/getData()" : {
+      "name" : "getData",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/getData()",
+      "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+      "displayedType" : "Map<String, Object>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 30,
+        "endLine" : 46,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    },
+    "com.netflix.maestro.models.artifact.DefaultArtifact/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.artifact.DefaultArtifact/method/getType()",
+      "type" : "com.netflix.maestro.models.artifact.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 15,
+        "endLine" : 83,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.DefaultArtifact"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/artifact/DefaultArtifact.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.artifact.Artifact" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

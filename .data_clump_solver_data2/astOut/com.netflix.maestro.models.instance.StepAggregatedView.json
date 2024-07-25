@@ -1,0 +1,120 @@
+{
+  "name" : "StepAggregatedView",
+  "key" : "com.netflix.maestro.models.instance.StepAggregatedView",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.StepAggregatedView/memberField/endTime" : {
+      "name" : "endTime",
+      "key" : "com.netflix.maestro.models.instance.StepAggregatedView/memberField/endTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 22,
+        "endLine" : 40,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepAggregatedView"
+    },
+    "com.netflix.maestro.models.instance.StepAggregatedView/memberField/status" : {
+      "name" : "status",
+      "key" : "com.netflix.maestro.models.instance.StepAggregatedView/memberField/status",
+      "type" : "com.netflix.maestro.models.instance.StepInstance.Status",
+      "displayedType" : "StepInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 46,
+        "endLine" : 38,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepAggregatedView"
+    },
+    "com.netflix.maestro.models.instance.StepAggregatedView/memberField/startTime" : {
+      "name" : "startTime",
+      "key" : "com.netflix.maestro.models.instance.StepAggregatedView/memberField/startTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 22,
+        "endLine" : 39,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepAggregatedView"
+    },
+    "com.netflix.maestro.models.instance.StepAggregatedView/memberField/workflowRunId" : {
+      "name" : "workflowRunId",
+      "key" : "com.netflix.maestro.models.instance.StepAggregatedView/memberField/workflowRunId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 22,
+        "endLine" : 37,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.StepAggregatedView"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/StepAggregatedView.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.instance.StepAggregatedView.StepAggregatedViewBuilder" : {
+      "name" : "StepAggregatedViewBuilder",
+      "key" : "com.netflix.maestro.models.instance.StepAggregatedView.StepAggregatedViewBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 23,
+        "endLine" : 45,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/StepAggregatedView.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.instance.StepAggregatedView",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

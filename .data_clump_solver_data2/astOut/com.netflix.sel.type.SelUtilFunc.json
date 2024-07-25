@@ -1,0 +1,562 @@
+{
+  "name" : "SelUtilFunc",
+  "key" : "com.netflix.sel.type.SelUtilFunc",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 27,
+    "startColumn" : 14,
+    "endLine" : 27,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.type.SelUtilFunc/memberField/INSTANCE" : {
+      "name" : "INSTANCE",
+      "key" : "com.netflix.sel.type.SelUtilFunc/memberField/INSTANCE",
+      "type" : "com.netflix.sel.type.SelUtilFunc",
+      "displayedType" : "SelUtilFunc",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 28,
+        "endLine" : 29,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/memberField/dateIntFormatter" : {
+      "name" : "dateIntFormatter",
+      "key" : "com.netflix.sel.type.SelUtilFunc/memberField/dateIntFormatter",
+      "type" : "com.netflix.sel.type.org.joda.time.format.DateTimeFormatter",
+      "displayedType" : "DateTimeFormatter",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 35,
+        "endLine" : 77,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelUtilFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)" : {
+      "name" : "call",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 18,
+        "endLine" : 44,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "methodName",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/methodName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 30,
+          "endLine" : 44,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      }, {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 52,
+          "endLine" : 44,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/call(java.lang.String methodName, com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/incrementDateInt(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType days)" : {
+      "name" : "incrementDateInt",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/incrementDateInt(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType days)",
+      "type" : "com.netflix.sel.type.SelString",
+      "displayedType" : "SelString",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 21,
+        "endLine" : 84,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dateInt",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/incrementDateInt(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType days)/parameter/dateInt",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 46,
+          "endLine" : 84,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/incrementDateInt(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType days)"
+      }, {
+        "name" : "days",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/incrementDateInt(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType days)/parameter/days",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 84,
+          "startColumn" : 63,
+          "endLine" : 84,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/incrementDateInt(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType days)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.SelType dateTime, com.netflix.sel.type.SelType durationStr)" : {
+      "name" : "timeoutForDateTimeDeadline",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.SelType dateTime, com.netflix.sel.type.SelType durationStr)",
+      "type" : "com.netflix.sel.type.SelString",
+      "displayedType" : "SelString",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 21,
+        "endLine" : 112,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dateTime",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.SelType dateTime, com.netflix.sel.type.SelType durationStr)/parameter/dateTime",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 56,
+          "endLine" : 112,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.SelType dateTime, com.netflix.sel.type.SelType durationStr)"
+      }, {
+        "name" : "durationStr",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.SelType dateTime, com.netflix.sel.type.SelType durationStr)/parameter/durationStr",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 74,
+          "endLine" : 112,
+          "endColumn" : 85
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.SelType dateTime, com.netflix.sel.type.SelType durationStr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/dateIntToTs(com.netflix.sel.type.SelType dateInt)" : {
+      "name" : "dateIntToTs",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntToTs(com.netflix.sel.type.SelType dateInt)",
+      "type" : "com.netflix.sel.type.SelLong",
+      "displayedType" : "SelLong",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 19,
+        "endLine" : 93,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dateInt",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntToTs(com.netflix.sel.type.SelType dateInt)/parameter/dateInt",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 93,
+          "startColumn" : 39,
+          "endLine" : 93,
+          "endColumn" : 46
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/dateIntToTs(com.netflix.sel.type.SelType dateInt)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateIntDeadline(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType durationStr)" : {
+      "name" : "timeoutForDateIntDeadline",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateIntDeadline(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType durationStr)",
+      "type" : "com.netflix.sel.type.SelString",
+      "displayedType" : "SelString",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 21,
+        "endLine" : 120,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dateInt",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateIntDeadline(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType durationStr)/parameter/dateInt",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 55,
+          "endLine" : 120,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateIntDeadline(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType durationStr)"
+      }, {
+        "name" : "durationStr",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateIntDeadline(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType durationStr)/parameter/durationStr",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 72,
+          "endLine" : 120,
+          "endColumn" : 83
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateIntDeadline(com.netflix.sel.type.SelType dateInt, com.netflix.sel.type.SelType durationStr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 17,
+        "endLine" : 39,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)" : {
+      "name" : "dateIntsBetween",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)",
+      "type" : "com.netflix.sel.type.SelArray",
+      "displayedType" : "SelArray",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 135,
+        "startColumn" : 20,
+        "endLine" : 135,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "from",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)/parameter/from",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 135,
+          "startColumn" : 44,
+          "endLine" : 135,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)"
+      }, {
+        "name" : "to",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)/parameter/to",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 135,
+          "startColumn" : 58,
+          "endLine" : 135,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)"
+      }, {
+        "name" : "dd",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)/parameter/dd",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 135,
+          "startColumn" : 70,
+          "endLine" : 135,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/dateIntsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.org.joda.time.DateTime dateTime, java.lang.String durationStr)" : {
+      "name" : "timeoutForDateTimeDeadline",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.org.joda.time.DateTime dateTime, java.lang.String durationStr)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 127,
+        "startColumn" : 18,
+        "endLine" : 127,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "dateTime",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.org.joda.time.DateTime dateTime, java.lang.String durationStr)/parameter/dateTime",
+        "type" : "com.netflix.sel.type.org.joda.time.DateTime",
+        "displayedType" : "DateTime",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 54,
+          "endLine" : 127,
+          "endColumn" : 62
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.org.joda.time.DateTime dateTime, java.lang.String durationStr)"
+      }, {
+        "name" : "durationStr",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.org.joda.time.DateTime dateTime, java.lang.String durationStr)/parameter/durationStr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 127,
+          "startColumn" : 71,
+          "endLine" : 127,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/timeoutForDateTimeDeadline(com.netflix.sel.type.org.joda.time.DateTime dateTime, java.lang.String durationStr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)" : {
+      "name" : "intsBetween",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)",
+      "type" : "com.netflix.sel.type.SelArray",
+      "displayedType" : "SelArray",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 163,
+        "startColumn" : 20,
+        "endLine" : 163,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "from",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)/parameter/from",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 40,
+          "endLine" : 163,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)"
+      }, {
+        "name" : "to",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)/parameter/to",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 54,
+          "endLine" : 163,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)"
+      }, {
+        "name" : "dd",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)/parameter/dd",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 66,
+          "endLine" : 163,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/intsBetween(com.netflix.sel.type.SelType from, com.netflix.sel.type.SelType to, com.netflix.sel.type.SelType dd)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/dateIntHourToTs(com.netflix.sel.type.SelType[] args)" : {
+      "name" : "dateIntHourToTs",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntHourToTs(com.netflix.sel.type.SelType[] args)",
+      "type" : "com.netflix.sel.type.SelLong",
+      "displayedType" : "SelLong",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 98,
+        "startColumn" : 19,
+        "endLine" : 98,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "args",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/dateIntHourToTs(com.netflix.sel.type.SelType[] args)/parameter/args",
+        "type" : "com.netflix.sel.type.SelType[]",
+        "displayedType" : "SelType[]",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 98,
+          "startColumn" : 46,
+          "endLine" : 98,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/dateIntHourToTs(com.netflix.sel.type.SelType[] args)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 19,
+        "endLine" : 34,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    },
+    "com.netflix.sel.type.SelUtilFunc/method/tsToDateInt(com.netflix.sel.type.SelType ts)" : {
+      "name" : "tsToDateInt",
+      "key" : "com.netflix.sel.type.SelUtilFunc/method/tsToDateInt(com.netflix.sel.type.SelType ts)",
+      "type" : "com.netflix.sel.type.SelString",
+      "displayedType" : "SelString",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 80,
+        "startColumn" : 21,
+        "endLine" : 80,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "ts",
+        "key" : "com.netflix.sel.type.SelUtilFunc/method/tsToDateInt(com.netflix.sel.type.SelType ts)/parameter/ts",
+        "type" : "com.netflix.sel.type.SelType",
+        "displayedType" : "SelType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 80,
+          "startColumn" : 41,
+          "endLine" : 80,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelUtilFunc/method/tsToDateInt(com.netflix.sel.type.SelType ts)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelUtilFunc"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelUtilFunc.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.sel.type.SelType" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

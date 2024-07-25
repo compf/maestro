@@ -1,0 +1,469 @@
+{
+  "name" : "WorkflowVersionUpdateJobEvent",
+  "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 8,
+    "endLine" : 52,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 34,
+        "endLine" : 56,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/currentActiveVersion" : {
+      "name" : "currentActiveVersion",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/currentActiveVersion",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 16,
+        "endLine" : 64,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/snapshotId" : {
+      "name" : "snapshotId",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/snapshotId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 16,
+        "endLine" : 62,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/author" : {
+      "name" : "author",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/author",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 16,
+        "endLine" : 57,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/versionId" : {
+      "name" : "versionId",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/versionId",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 16,
+        "endLine" : 61,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/workflowName" : {
+      "name" : "workflowName",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/workflowName",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 18,
+        "endLine" : 59,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/eventTime" : {
+      "name" : "eventTime",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/eventTime",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 32,
+        "endLine" : 69,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/LOG_TEMPLATE" : {
+      "name" : "LOG_TEMPLATE",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/LOG_TEMPLATE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 31,
+        "endLine" : 53,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/syncTime" : {
+      "name" : "syncTime",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/syncTime",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 70,
+        "startColumn" : 32,
+        "endLine" : 70,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/previousActiveVersion" : {
+      "name" : "previousActiveVersion",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/previousActiveVersion",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 16,
+        "endLine" : 65,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/log" : {
+      "name" : "log",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/memberField/log",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 18,
+        "endLine" : 67,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot)",
+      "type" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent",
+      "displayedType" : "WorkflowVersionUpdateJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 107,
+        "startColumn" : 47,
+        "endLine" : 107,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 14,
+          "endLine" : 108,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot)"
+      }, {
+        "name" : "snapshot",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot)/parameter/snapshot",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot",
+        "displayedType" : "PropertiesSnapshot",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 45,
+          "endLine" : 108,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/getType()",
+      "type" : "com.netflix.maestro.engine.jobevents.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 15,
+        "endLine" : 139,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)" : {
+      "name" : "toMaestroEvent",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.events.MaestroEvent",
+      "displayedType" : "MaestroEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 23,
+        "endLine" : 149,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "clusterName",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)/parameter/clusterName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 45,
+          "endLine" : 149,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)",
+      "type" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent",
+      "displayedType" : "WorkflowVersionUpdateJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 125,
+        "startColumn" : 47,
+        "endLine" : 125,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowId",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)/parameter/workflowId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 14,
+          "endLine" : 126,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)"
+      }, {
+        "name" : "curActiveId",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)/parameter/curActiveId",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 31,
+          "endLine" : 126,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)"
+      }, {
+        "name" : "prevActiveId",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)/parameter/prevActiveId",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 49,
+          "endLine" : 126,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)"
+      }, {
+        "name" : "author",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)/parameter/author",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User",
+        "displayedType" : "User",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 68,
+          "endLine" : 126,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)"
+      }, {
+        "name" : "log",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)/parameter/log",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 126,
+          "startColumn" : 83,
+          "endLine" : 126,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(java.lang.String workflowId, java.lang.Long curActiveId, java.lang.Long prevActiveId, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.User author, java.lang.String log)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)",
+      "type" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent",
+      "displayedType" : "WorkflowVersionUpdateJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 47,
+        "endLine" : 78,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "definition",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)/parameter/definition",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition",
+        "displayedType" : "WorkflowDefinition",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 26,
+          "endLine" : 79,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)"
+      }, {
+        "name" : "snapshot",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)/parameter/snapshot",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot",
+        "displayedType" : "PropertiesSnapshot",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 57,
+          "endLine" : 79,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)"
+      }, {
+        "name" : "activeVersionId",
+        "key" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)/parameter/activeVersionId",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 79,
+          "startColumn" : 72,
+          "endLine" : 79,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.WorkflowDefinition definition, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.definition.PropertiesSnapshot snapshot, long activeVersionId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.WorkflowVersionUpdateJobEvent"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/jobevents/WorkflowVersionUpdateJobEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.jobevents.MaestroJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

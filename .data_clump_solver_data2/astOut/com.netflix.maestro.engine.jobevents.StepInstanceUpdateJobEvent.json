@@ -1,0 +1,491 @@
+{
+  "name" : "StepInstanceUpdateJobEvent",
+  "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 52,
+    "startColumn" : 8,
+    "endLine" : 52,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowUuid" : {
+      "name" : "workflowUuid",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 27,
+        "endLine" : 66,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/pendingRecords" : {
+      "name" : "pendingRecords",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/pendingRecords",
+      "type" : "java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord>",
+      "displayedType" : "List<StepInstancePendingRecord>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 53,
+        "endLine" : 73,
+        "endColumn" : 67
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 27,
+        "endLine" : 61,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowInstanceId" : {
+      "name" : "workflowInstanceId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 16,
+        "endLine" : 56,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/correlationId" : {
+      "name" : "correlationId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/correlationId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 27,
+        "endLine" : 68,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowRunId" : {
+      "name" : "workflowRunId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 16,
+        "endLine" : 59,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 27,
+        "endLine" : 53,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepUuid" : {
+      "name" : "stepUuid",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepUuid",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 27,
+        "endLine" : 67,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepInstanceId" : {
+      "name" : "stepInstanceId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepInstanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 16,
+        "endLine" : 71,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepAttemptId" : {
+      "name" : "stepAttemptId",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/stepAttemptId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 16,
+        "endLine" : 64,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/syncTime" : {
+      "name" : "syncTime",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/memberField/syncTime",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 32,
+        "endLine" : 74,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)" : {
+      "name" : "createRecord",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)",
+      "type" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord",
+      "displayedType" : "StepInstancePendingRecord",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 113,
+        "startColumn" : 43,
+        "endLine" : 113,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "oldStatus",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)/parameter/oldStatus",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 27,
+          "endLine" : 114,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)"
+      }, {
+        "name" : "newStatus",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)/parameter/newStatus",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 58,
+          "endLine" : 114,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)"
+      }, {
+        "name" : "markTime",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)/parameter/markTime",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 114,
+          "startColumn" : 74,
+          "endLine" : 114,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/createRecord(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status oldStatus, com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status newStatus, long markTime)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/getType()",
+      "type" : "com.netflix.maestro.engine.jobevents.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 15,
+        "endLine" : 108,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)" : {
+      "name" : "toMaestroEvent",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)",
+      "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.events.StepInstanceStatusChangeEvent",
+      "displayedType" : "StepInstanceStatusChangeEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 158,
+        "startColumn" : 40,
+        "endLine" : 158,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "clusterName",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)/parameter/clusterName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 158,
+          "startColumn" : 62,
+          "endLine" : 158,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/toMaestroEvent(java.lang.String clusterName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/hasTerminal()" : {
+      "name" : "hasTerminal",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/hasTerminal()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 18,
+        "endLine" : 77,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    },
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance instance, java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord> pendingEvents)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance instance, java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord> pendingEvents)",
+      "type" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent",
+      "displayedType" : "StepInstanceUpdateJobEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 90,
+        "startColumn" : 44,
+        "endLine" : 90,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "instance",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance instance, java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord> pendingEvents)/parameter/instance",
+        "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance",
+        "displayedType" : "StepInstance",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 20,
+          "endLine" : 91,
+          "endColumn" : 28
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance instance, java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord> pendingEvents)"
+      }, {
+        "name" : "pendingEvents",
+        "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance instance, java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord> pendingEvents)/parameter/pendingEvents",
+        "type" : "java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord>",
+        "displayedType" : "List<StepInstancePendingRecord>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 91,
+          "startColumn" : 62,
+          "endLine" : 91,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent/method/create(com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance instance, java.util.List<com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent$StepInstancePendingRecord> pendingEvents)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/jobevents/StepInstanceUpdateJobEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.jobevents.MaestroJobEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord" : {
+      "name" : "StepInstancePendingRecord",
+      "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 17,
+        "endLine" : 129,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/memberField/oldStatus" : {
+          "name" : "oldStatus",
+          "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/memberField/oldStatus",
+          "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status",
+          "displayedType" : "StepInstance.Status",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 130,
+            "startColumn" : 49,
+            "endLine" : 130,
+            "endColumn" : 58
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord"
+        },
+        "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/memberField/eventTime" : {
+          "name" : "eventTime",
+          "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/memberField/eventTime",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 132,
+            "startColumn" : 34,
+            "endLine" : 132,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord"
+        },
+        "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/memberField/newStatus" : {
+          "name" : "newStatus",
+          "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/memberField/newStatus",
+          "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.engine.jobevents.Status",
+          "displayedType" : "StepInstance.Status",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 131,
+            "startColumn" : 49,
+            "endLine" : 131,
+            "endColumn" : 58
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/method/toMaestroRecord()" : {
+          "name" : "toMaestroRecord",
+          "key" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord/method/toMaestroRecord()",
+          "type" : "com.netflix.maestro.engine.jobevents.com.netflix.maestro.models.events.StepInstanceStatusChangeEvent#com.netflix.maestro.engine.jobevents.StatusChangeRecord",
+          "displayedType" : "StepInstanceStatusChangeEvent.StatusChangeRecord",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 141,
+            "startColumn" : 61,
+            "endLine" : 141,
+            "endColumn" : 76
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent.StepInstancePendingRecord"
+        }
+      },
+      "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/jobevents/StepInstanceUpdateJobEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.engine.jobevents.StepInstanceUpdateJobEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

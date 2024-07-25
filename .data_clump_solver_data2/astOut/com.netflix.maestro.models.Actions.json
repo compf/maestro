@@ -1,0 +1,60 @@
+{
+  "name" : "Actions",
+  "key" : "com.netflix.maestro.models.Actions",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 26,
+    "startColumn" : 14,
+    "endLine" : 26,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.Actions/memberField/WORKFLOW_INSTANCE_STATUS_TO_ACTION_MAP" : {
+      "name" : "WORKFLOW_INSTANCE_STATUS_TO_ACTION_MAP",
+      "key" : "com.netflix.maestro.models.Actions/memberField/WORKFLOW_INSTANCE_STATUS_TO_ACTION_MAP",
+      "type" : "java.util.Map<com.netflix.maestro.models.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.Status, java.util.List<com.netflix.maestro.models.Actions$WorkflowInstanceAction>>",
+      "displayedType" : "Map<WorkflowInstance.Status, List<WorkflowInstanceAction>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 120,
+        "startColumn" : 7,
+        "endLine" : 120,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Actions"
+    },
+    "com.netflix.maestro.models.Actions/memberField/STEP_INSTANCE_STATUS_TO_ACTION_MAP" : {
+      "name" : "STEP_INSTANCE_STATUS_TO_ACTION_MAP",
+      "key" : "com.netflix.maestro.models.Actions/memberField/STEP_INSTANCE_STATUS_TO_ACTION_MAP",
+      "type" : "java.util.Map<com.netflix.maestro.models.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.Status, java.util.List<com.netflix.maestro.models.Actions$StepInstanceAction>>",
+      "displayedType" : "Map<StepInstance.Status, List<StepInstanceAction>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 124,
+        "startColumn" : 7,
+        "endLine" : 124,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.Actions"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/Actions.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

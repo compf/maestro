@@ -1,0 +1,248 @@
+{
+  "name" : "AbstractStep",
+  "key" : "com.netflix.maestro.models.definition.AbstractStep",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 17,
+    "endLine" : 38,
+    "endColumn" : 22
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/failureMode" : {
+      "name" : "failureMode",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/failureMode",
+      "type" : "com.netflix.maestro.models.definition.FailureMode",
+      "displayedType" : "FailureMode",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 23,
+        "endLine" : 56,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/transition" : {
+      "name" : "transition",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/transition",
+      "type" : "com.netflix.maestro.models.definition.StepTransition",
+      "displayedType" : "StepTransition",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 26,
+        "endLine" : 53,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/params" : {
+      "name" : "params",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/params",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 40,
+        "endLine" : 75,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/description" : {
+      "name" : "description",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/description",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 18,
+        "endLine" : 49,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/id" : {
+      "name" : "id",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/id",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 18,
+        "endLine" : 41,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/dependencies" : {
+      "name" : "dependencies",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/dependencies",
+      "type" : "java.util.Map<com.netflix.maestro.models.definition.StepDependencyType, com.netflix.maestro.models.definition.StepDependenciesDefinition>",
+      "displayedType" : "Map<StepDependencyType, @StepDependenciesDefinitionConstraint StepDependenciesDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 69,
+        "startColumn" : 7,
+        "endLine" : 69,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/timeout" : {
+      "name" : "timeout",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/timeout",
+      "type" : "com.netflix.maestro.models.definition.Duration",
+      "displayedType" : "Duration",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 20,
+        "endLine" : 65,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/tags" : {
+      "name" : "tags",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/tags",
+      "type" : "com.netflix.maestro.models.definition.TagList",
+      "displayedType" : "TagList",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 19,
+        "endLine" : 61,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/name" : {
+      "name" : "name",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/name",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 18,
+        "endLine" : 45,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/memberField/outputs" : {
+      "name" : "outputs",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/memberField/outputs",
+      "type" : "java.util.Map<com.netflix.maestro.models.definition.StepOutputsDefinition.StepOutputType, com.netflix.maestro.models.definition.StepOutputsDefinition>",
+      "displayedType" : "Map<StepOutputsDefinition.StepOutputType, StepOutputsDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 83,
+        "endLine" : 71,
+        "endColumn" : 90
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.AbstractStep/method/getRetryPolicy()" : {
+      "name" : "getRetryPolicy",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/method/getRetryPolicy()",
+      "type" : "com.netflix.maestro.models.definition.RetryPolicy",
+      "displayedType" : "RetryPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 22,
+        "endLine" : 84,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    },
+    "com.netflix.maestro.models.definition.AbstractStep/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition> input)" : {
+      "name" : "setParams",
+      "key" : "com.netflix.maestro.models.definition.AbstractStep/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition> input)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 15,
+        "endLine" : 78,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "input",
+        "key" : "com.netflix.maestro.models.definition.AbstractStep/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition> input)/parameter/input",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition>",
+        "displayedType" : "Map<String, ParamDefinition>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 54,
+          "endLine" : 78,
+          "endColumn" : 59
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.AbstractStep/method/setParams(java.util.Map<java.lang.String, com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.ParamDefinition> input)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.AbstractStep"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/AbstractStep.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.definition.Step" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

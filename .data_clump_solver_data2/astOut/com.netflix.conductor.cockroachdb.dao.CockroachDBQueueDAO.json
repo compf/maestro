@@ -1,0 +1,1058 @@
+{
+  "name" : "CockroachDBQueueDAO",
+  "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/resetOffsetTime(java.lang.String queueName, java.lang.String id)" : {
+      "name" : "resetOffsetTime",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/resetOffsetTime(java.lang.String queueName, java.lang.String id)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 18,
+        "endLine" : 96,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/resetOffsetTime(java.lang.String queueName, java.lang.String id)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 41,
+          "endLine" : 96,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/resetOffsetTime(java.lang.String queueName, java.lang.String id)"
+      }, {
+        "name" : "id",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/resetOffsetTime(java.lang.String queueName, java.lang.String id)/parameter/id",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 96,
+          "startColumn" : 59,
+          "endLine" : 96,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/resetOffsetTime(java.lang.String queueName, java.lang.String id)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)" : {
+      "name" : "setUnackTimeout",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 78,
+        "startColumn" : 18,
+        "endLine" : 78,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 41,
+          "endLine" : 78,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)"
+      }, {
+        "name" : "messageId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)/parameter/messageId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 59,
+          "endLine" : 78,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)"
+      }, {
+        "name" : "unackTimeout",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)/parameter/unackTimeout",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 75,
+          "endLine" : 78,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/setUnackTimeout(java.lang.String queueName, java.lang.String messageId, long unackTimeout)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/queuesDetail()" : {
+      "name" : "queuesDetail",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/queuesDetail()",
+      "type" : "java.util.Map<java.lang.String, java.lang.Long>",
+      "displayedType" : "Map<String, Long>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 28,
+        "endLine" : 86,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)" : {
+      "name" : "pollMessages",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message>",
+      "displayedType" : "List<Message>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 106,
+        "startColumn" : 24,
+        "endLine" : 106,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 14,
+          "endLine" : 107,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      }, {
+        "name" : "count",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/count",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 29,
+          "endLine" : 107,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      }, {
+        "name" : "timeout",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/timeout",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 40,
+          "endLine" : 107,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      }, {
+        "name" : "leaseDurationSeconds",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/leaseDurationSeconds",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 107,
+          "startColumn" : 54,
+          "endLine" : 107,
+          "endColumn" : 74
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)" : {
+      "name" : "pop",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 23,
+        "endLine" : 101,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 34,
+          "endLine" : 101,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      }, {
+        "name" : "count",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/count",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 49,
+          "endLine" : 101,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      }, {
+        "name" : "timeout",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/timeout",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 60,
+          "endLine" : 101,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      }, {
+        "name" : "leaseDurationSeconds",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)/parameter/leaseDurationSeconds",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 74,
+          "endLine" : 101,
+          "endColumn" : 94
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout, long leaseDurationSeconds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/queuesDetailVerbose()" : {
+      "name" : "queuesDetailVerbose",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/queuesDetailVerbose()",
+      "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.Long>>>",
+      "displayedType" : "Map<String, Map<String, Map<String, Long>>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 91,
+        "startColumn" : 54,
+        "endLine" : 91,
+        "endColumn" : 73
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)" : {
+      "name" : "pushIfNotExists",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 18,
+        "endLine" : 44,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 41,
+          "endLine" : 44,
+          "endColumn" : 50
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)"
+      }, {
+        "name" : "id",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)/parameter/id",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 59,
+          "endLine" : 44,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)"
+      }, {
+        "name" : "offsetTimeInSecond",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)/parameter/offsetTimeInSecond",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 44,
+          "startColumn" : 68,
+          "endLine" : 44,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)" : {
+      "name" : "pollMessages",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)",
+      "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message>",
+      "displayedType" : "List<Message>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 24,
+        "endLine" : 60,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 44,
+          "endLine" : 60,
+          "endColumn" : 53
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)"
+      }, {
+        "name" : "count",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)/parameter/count",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 59,
+          "endLine" : 60,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)"
+      }, {
+        "name" : "timeout",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)/parameter/timeout",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 60,
+          "startColumn" : 70,
+          "endLine" : 60,
+          "endColumn" : 77
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pollMessages(java.lang.String queueName, int count, int timeout)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/remove(java.lang.String queueName, java.lang.String messageId)" : {
+      "name" : "remove",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/remove(java.lang.String queueName, java.lang.String messageId)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/remove(java.lang.String queueName, java.lang.String messageId)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 29,
+          "endLine" : 65,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/remove(java.lang.String queueName, java.lang.String messageId)"
+      }, {
+        "name" : "messageId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/remove(java.lang.String queueName, java.lang.String messageId)/parameter/messageId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 65,
+          "startColumn" : 47,
+          "endLine" : 65,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/remove(java.lang.String queueName, java.lang.String messageId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/processUnacks(java.lang.String queueName)" : {
+      "name" : "processUnacks",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/processUnacks(java.lang.String queueName)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 112,
+        "startColumn" : 15,
+        "endLine" : 112,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/processUnacks(java.lang.String queueName)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 36,
+          "endLine" : 112,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/processUnacks(java.lang.String queueName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)" : {
+      "name" : "pushIfNotExists",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 18,
+        "endLine" : 49,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 14,
+          "endLine" : 50,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      }, {
+        "name" : "id",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/id",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 32,
+          "endLine" : 50,
+          "endColumn" : 34
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      }, {
+        "name" : "priority",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/priority",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 40,
+          "endLine" : 50,
+          "endColumn" : 48
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      }, {
+        "name" : "offsetTimeInSecond",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/offsetTimeInSecond",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 55,
+          "endLine" : 50,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pushIfNotExists(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)" : {
+      "name" : "push",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 15,
+        "endLine" : 38,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 27,
+          "endLine" : 38,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      }, {
+        "name" : "id",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/id",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 45,
+          "endLine" : 38,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      }, {
+        "name" : "priority",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/priority",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 53,
+          "endLine" : 38,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      }, {
+        "name" : "offsetTimeInSecond",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)/parameter/offsetTimeInSecond",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 38,
+          "startColumn" : 68,
+          "endLine" : 38,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, int priority, long offsetTimeInSecond)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message> messages)" : {
+      "name" : "push",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message> messages)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 15,
+        "endLine" : 41,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message> messages)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 27,
+          "endLine" : 41,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message> messages)"
+      }, {
+        "name" : "messages",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message> messages)/parameter/messages",
+        "type" : "java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message>",
+        "displayedType" : "List<Message>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 41,
+          "startColumn" : 52,
+          "endLine" : 41,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.util.List<com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.core.events.queue.Message> messages)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)" : {
+      "name" : "push",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 15,
+        "endLine" : 35,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 27,
+          "endLine" : 35,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)"
+      }, {
+        "name" : "id",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)/parameter/id",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 45,
+          "endLine" : 35,
+          "endColumn" : 47
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)"
+      }, {
+        "name" : "offsetTimeInSecond",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)/parameter/offsetTimeInSecond",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 35,
+          "startColumn" : 54,
+          "endLine" : 35,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/push(java.lang.String queueName, java.lang.String id, long offsetTimeInSecond)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)" : {
+      "name" : "pop",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 23,
+        "endLine" : 55,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 34,
+          "endLine" : 55,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)"
+      }, {
+        "name" : "count",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)/parameter/count",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 49,
+          "endLine" : 55,
+          "endColumn" : 54
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)"
+      }, {
+        "name" : "timeout",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)/parameter/timeout",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 55,
+          "startColumn" : 60,
+          "endLine" : 55,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/pop(java.lang.String queueName, int count, int timeout)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/ack(java.lang.String queueName, java.lang.String messageId)" : {
+      "name" : "ack",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/ack(java.lang.String queueName, java.lang.String messageId)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 18,
+        "endLine" : 73,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/ack(java.lang.String queueName, java.lang.String messageId)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 29,
+          "endLine" : 73,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/ack(java.lang.String queueName, java.lang.String messageId)"
+      }, {
+        "name" : "messageId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/ack(java.lang.String queueName, java.lang.String messageId)/parameter/messageId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 73,
+          "startColumn" : 47,
+          "endLine" : 73,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/ack(java.lang.String queueName, java.lang.String messageId)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/flush(java.lang.String queueName)" : {
+      "name" : "flush",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/flush(java.lang.String queueName)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 15,
+        "endLine" : 83,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/flush(java.lang.String queueName)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 83,
+          "startColumn" : 28,
+          "endLine" : 83,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/flush(java.lang.String queueName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)" : {
+      "name" : "postpone",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 115,
+        "startColumn" : 18,
+        "endLine" : 115,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 14,
+          "endLine" : 116,
+          "endColumn" : 23
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)"
+      }, {
+        "name" : "messageId",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)/parameter/messageId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 32,
+          "endLine" : 116,
+          "endColumn" : 41
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)"
+      }, {
+        "name" : "priority",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)/parameter/priority",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 47,
+          "endLine" : 116,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)"
+      }, {
+        "name" : "postponeDurationInSeconds",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)/parameter/postponeDurationInSeconds",
+        "type" : "long",
+        "displayedType" : "long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 116,
+          "startColumn" : 62,
+          "endLine" : 116,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/postpone(java.lang.String queueName, java.lang.String messageId, int priority, long postponeDurationInSeconds)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    },
+    "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/getSize(java.lang.String queueName)" : {
+      "name" : "getSize",
+      "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/getSize(java.lang.String queueName)",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 14,
+        "endLine" : 68,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "queueName",
+        "key" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/getSize(java.lang.String queueName)/parameter/queueName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 29,
+          "endLine" : 68,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO/method/getSize(java.lang.String queueName)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.dao.CockroachDBQueueDAO"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/main/java/com/netflix/conductor/cockroachdb/dao/CockroachDBQueueDAO.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.conductor.cockroachdb.dao.com.netflix.conductor.dao.QueueDAO" ],
+  "extends_" : [ "com.netflix.conductor.cockroachdb.dao.CockroachDBBaseDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

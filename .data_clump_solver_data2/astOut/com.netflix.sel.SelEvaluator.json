@@ -1,0 +1,293 @@
+{
+  "name" : "SelEvaluator",
+  "key" : "com.netflix.sel.SelEvaluator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 34,
+    "startColumn" : 14,
+    "endLine" : 34,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.sel.SelEvaluator/memberField/LOG" : {
+      "name" : "LOG",
+      "key" : "com.netflix.sel.SelEvaluator/memberField/LOG",
+      "type" : "org.slf4j.Logger",
+      "displayedType" : "Logger",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 31,
+        "endLine" : 35,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/memberField/timeout" : {
+      "name" : "timeout",
+      "key" : "com.netflix.sel.SelEvaluator/memberField/timeout",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 21,
+        "endLine" : 39,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/memberField/executor" : {
+      "name" : "executor",
+      "key" : "com.netflix.sel.SelEvaluator/memberField/executor",
+      "type" : "java.util.concurrent.ExecutorService",
+      "displayedType" : "ExecutorService",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 33,
+        "endLine" : 37,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/memberField/whitelistVars" : {
+      "name" : "whitelistVars",
+      "key" : "com.netflix.sel.SelEvaluator/memberField/whitelistVars",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 29,
+        "endLine" : 38,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)" : {
+      "name" : "evaluate",
+      "key" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)",
+      "type" : "com.netflix.sel.com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 18,
+        "endLine" : 61,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 34,
+          "endLine" : 61,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)"
+      }, {
+        "name" : "varsMap",
+        "key" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)/parameter/varsMap",
+        "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+        "displayedType" : "Map<String, Object>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 60,
+          "endLine" : 61,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)"
+      }, {
+        "name" : "ext",
+        "key" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)/parameter/ext",
+        "type" : "com.netflix.sel.com.netflix.sel.ext.Extension",
+        "displayedType" : "Extension",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 61,
+          "startColumn" : 79,
+          "endLine" : 61,
+          "endColumn" : 82
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap, com.netflix.sel.com.netflix.sel.ext.Extension ext)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/method/validate(java.lang.String expr)" : {
+      "name" : "validate",
+      "key" : "com.netflix.sel.SelEvaluator/method/validate(java.lang.String expr)",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 22,
+        "endLine" : 75,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.SelEvaluator/method/validate(java.lang.String expr)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 75,
+          "startColumn" : 38,
+          "endLine" : 75,
+          "endColumn" : 42
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.SelEvaluator/method/validate(java.lang.String expr)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/method/start()" : {
+      "name" : "start",
+      "key" : "com.netflix.sel.SelEvaluator/method/start()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 16,
+        "endLine" : 84,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/method/warmUp()" : {
+      "name" : "warmUp",
+      "key" : "com.netflix.sel.SelEvaluator/method/warmUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 93,
+        "startColumn" : 16,
+        "endLine" : 93,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap)" : {
+      "name" : "evaluate",
+      "key" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap)",
+      "type" : "com.netflix.sel.com.netflix.sel.type.SelType",
+      "displayedType" : "SelType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 18,
+        "endLine" : 71,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "expr",
+        "key" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap)/parameter/expr",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 34,
+          "endLine" : 71,
+          "endColumn" : 38
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap)"
+      }, {
+        "name" : "varsMap",
+        "key" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap)/parameter/varsMap",
+        "type" : "java.util.Map<java.lang.String, java.lang.Object>",
+        "displayedType" : "Map<String, Object>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 71,
+          "startColumn" : 60,
+          "endLine" : 71,
+          "endColumn" : 67
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.SelEvaluator/method/evaluate(java.lang.String expr, java.util.Map<java.lang.String, java.lang.Object> varsMap)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    },
+    "com.netflix.sel.SelEvaluator/method/stop()" : {
+      "name" : "stop",
+      "key" : "com.netflix.sel.SelEvaluator/method/stop()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 97,
+        "startColumn" : 15,
+        "endLine" : 97,
+        "endColumn" : 19
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.SelEvaluator"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/SelEvaluator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

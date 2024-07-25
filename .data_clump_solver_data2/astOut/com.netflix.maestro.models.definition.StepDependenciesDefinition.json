@@ -1,0 +1,128 @@
+{
+  "name" : "StepDependenciesDefinition",
+  "key" : "com.netflix.maestro.models.definition.StepDependenciesDefinition",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 33,
+    "startColumn" : 8,
+    "endLine" : 33,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/STEP_DEPENDENCY_SUB_TYPE" : {
+      "name" : "STEP_DEPENDENCY_SUB_TYPE",
+      "key" : "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/STEP_DEPENDENCY_SUB_TYPE",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 30,
+        "endLine" : 38,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepDependenciesDefinition"
+    },
+    "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/STEP_DEPENDENCY_NAME" : {
+      "name" : "STEP_DEPENDENCY_NAME",
+      "key" : "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/STEP_DEPENDENCY_NAME",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 30,
+        "endLine" : 35,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepDependenciesDefinition"
+    },
+    "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/type" : {
+      "name" : "type",
+      "key" : "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/type",
+      "type" : "com.netflix.maestro.models.definition.StepDependencyType",
+      "displayedType" : "StepDependencyType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 36,
+        "endLine" : 41,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepDependenciesDefinition"
+    },
+    "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/definitions" : {
+      "name" : "definitions",
+      "key" : "com.netflix.maestro.models.definition.StepDependenciesDefinition/memberField/definitions",
+      "type" : "java.util.List<com.netflix.maestro.models.definition.com.netflix.maestro.models.parameter.MapParamDefinition>",
+      "displayedType" : "List<MapParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 42,
+        "endLine" : 40,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepDependenciesDefinition"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.StepDependenciesDefinition/method/isReservedParamName(java.lang.String param)" : {
+      "name" : "isReservedParamName",
+      "key" : "com.netflix.maestro.models.definition.StepDependenciesDefinition/method/isReservedParamName(java.lang.String param)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 25,
+        "endLine" : 52,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "param",
+        "key" : "com.netflix.maestro.models.definition.StepDependenciesDefinition/method/isReservedParamName(java.lang.String param)/parameter/param",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 52,
+          "startColumn" : 52,
+          "endLine" : 52,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.definition.StepDependenciesDefinition/method/isReservedParamName(java.lang.String param)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.StepDependenciesDefinition"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/StepDependenciesDefinition.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

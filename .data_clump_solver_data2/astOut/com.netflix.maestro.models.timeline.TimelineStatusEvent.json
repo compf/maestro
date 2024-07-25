@@ -1,0 +1,354 @@
+{
+  "name" : "TimelineStatusEvent",
+  "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 41,
+    "startColumn" : 8,
+    "endLine" : 41,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/memberField/timestamp" : {
+      "name" : "timestamp",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/memberField/timestamp",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 22,
+        "endLine" : 42,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/memberField/status" : {
+      "name" : "status",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/memberField/status",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 24,
+        "endLine" : 43,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.timeline.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 15,
+        "endLine" : 46,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getStepStatus()" : {
+      "name" : "getStepStatus",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getStepStatus()",
+      "type" : "com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status",
+      "displayedType" : "StepInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 83,
+        "startColumn" : 30,
+        "endLine" : 83,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/asStatus()" : {
+      "name" : "asStatus",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/asStatus()",
+      "type" : "com.netflix.maestro.models.timeline.TimelineStatusEvent",
+      "displayedType" : "TimelineStatusEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 30,
+        "endLine" : 51,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getWorkflowStatus()" : {
+      "name" : "getWorkflowStatus",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getWorkflowStatus()",
+      "type" : "com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status",
+      "displayedType" : "WorkflowInstance.Status",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 34,
+        "endLine" : 77,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status status)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status status)",
+      "type" : "com.netflix.maestro.models.timeline.TimelineStatusEvent",
+      "displayedType" : "TimelineStatusEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 37,
+        "endLine" : 95,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestamp",
+        "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status status)/parameter/timestamp",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 49,
+          "endLine" : 95,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status status)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status status)/parameter/status",
+        "type" : "com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status",
+        "displayedType" : "WorkflowInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 95,
+          "startColumn" : 84,
+          "endLine" : 95,
+          "endColumn" : 90
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.WorkflowInstance#com.netflix.maestro.models.timeline.Status status)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getMessage()" : {
+      "name" : "getMessage",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/getMessage()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 17,
+        "endLine" : 57,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, java.lang.String status)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, java.lang.String status)",
+      "type" : "com.netflix.maestro.models.timeline.TimelineStatusEvent",
+      "displayedType" : "TimelineStatusEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 89,
+        "startColumn" : 37,
+        "endLine" : 89,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestamp",
+        "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, java.lang.String status)/parameter/timestamp",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 49,
+          "endLine" : 89,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, java.lang.String status)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, java.lang.String status)/parameter/status",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 67,
+          "endLine" : 89,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, java.lang.String status)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status status)" : {
+      "name" : "create",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status status)",
+      "type" : "com.netflix.maestro.models.timeline.TimelineStatusEvent",
+      "displayedType" : "TimelineStatusEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 37,
+        "endLine" : 101,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "timestamp",
+        "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status status)/parameter/timestamp",
+        "type" : "java.lang.Long",
+        "displayedType" : "Long",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 49,
+          "endLine" : 101,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status status)"
+      }, {
+        "name" : "status",
+        "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status status)/parameter/status",
+        "type" : "com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status",
+        "displayedType" : "StepInstance.Status",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 101,
+          "startColumn" : 80,
+          "endLine" : 101,
+          "endColumn" : 86
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/create(java.lang.Long timestamp, com.netflix.maestro.models.timeline.com.netflix.maestro.models.instance.StepInstance#com.netflix.maestro.models.timeline.Status status)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    },
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)" : {
+      "name" : "isIdentical",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 18,
+        "endLine" : 62,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "event",
+        "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)/parameter/event",
+        "type" : "com.netflix.maestro.models.timeline.TimelineEvent",
+        "displayedType" : "TimelineEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 62,
+          "startColumn" : 44,
+          "endLine" : 62,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent/method/isIdentical(com.netflix.maestro.models.timeline.TimelineEvent event)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/TimelineStatusEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.timeline.TimelineEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.timeline.TimelineStatusEvent.TimelineStatusEventBuilder" : {
+      "name" : "TimelineStatusEventBuilder",
+      "key" : "com.netflix.maestro.models.timeline.TimelineStatusEvent.TimelineStatusEventBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 23,
+        "endLine" : 73,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/timeline/TimelineStatusEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.timeline.TimelineStatusEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,145 @@
+{
+  "name" : "RunConfig",
+  "key" : "com.netflix.maestro.models.instance.RunConfig",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 37,
+    "startColumn" : 8,
+    "endLine" : 37,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.RunConfig/memberField/endStepIds" : {
+      "name" : "endStepIds",
+      "key" : "com.netflix.maestro.models.instance.RunConfig/memberField/endStepIds",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 53,
+        "endLine" : 58,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RunConfig"
+    },
+    "com.netflix.maestro.models.instance.RunConfig/memberField/restartConfig" : {
+      "name" : "restartConfig",
+      "key" : "com.netflix.maestro.models.instance.RunConfig/memberField/restartConfig",
+      "type" : "com.netflix.maestro.models.instance.RestartConfig",
+      "displayedType" : "RestartConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 35,
+        "endLine" : 44,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RunConfig"
+    },
+    "com.netflix.maestro.models.instance.RunConfig/memberField/runtimeTags" : {
+      "name" : "runtimeTags",
+      "key" : "com.netflix.maestro.models.instance.RunConfig/memberField/runtimeTags",
+      "type" : "java.util.List<com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.Tag>",
+      "displayedType" : "List<Tag>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 28,
+        "endLine" : 38,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RunConfig"
+    },
+    "com.netflix.maestro.models.instance.RunConfig/memberField/correlationId" : {
+      "name" : "correlationId",
+      "key" : "com.netflix.maestro.models.instance.RunConfig/memberField/correlationId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 18,
+        "endLine" : 39,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RunConfig"
+    },
+    "com.netflix.maestro.models.instance.RunConfig/memberField/policy" : {
+      "name" : "policy",
+      "key" : "com.netflix.maestro.models.instance.RunConfig/memberField/policy",
+      "type" : "com.netflix.maestro.models.instance.RunPolicy",
+      "displayedType" : "RunPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 30,
+        "endLine" : 41,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RunConfig"
+    },
+    "com.netflix.maestro.models.instance.RunConfig/memberField/startStepIds" : {
+      "name" : "startStepIds",
+      "key" : "com.netflix.maestro.models.instance.RunConfig/memberField/startStepIds",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 53,
+        "endLine" : 51,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RunConfig"
+    },
+    "com.netflix.maestro.models.instance.RunConfig/memberField/skipStepIds" : {
+      "name" : "skipStepIds",
+      "key" : "com.netflix.maestro.models.instance.RunConfig/memberField/skipStepIds",
+      "type" : "java.util.List<java.lang.String>",
+      "displayedType" : "List<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 53,
+        "endLine" : 67,
+        "endColumn" : 64
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RunConfig"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/RunConfig.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

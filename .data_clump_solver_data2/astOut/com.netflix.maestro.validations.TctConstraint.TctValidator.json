@@ -1,0 +1,125 @@
+{
+  "name" : "TctValidator",
+  "key" : "com.netflix.maestro.validations.TctConstraint.TctValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 3,
+    "endLine" : 43,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : {
+    "com.netflix.maestro.validations.TctConstraint.TctValidator/memberField/VALID_TIME_FIELD_COUNT" : {
+      "name" : "VALID_TIME_FIELD_COUNT",
+      "key" : "com.netflix.maestro.validations.TctConstraint.TctValidator/memberField/VALID_TIME_FIELD_COUNT",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 30,
+        "endLine" : 44,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TctConstraint.TctValidator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.validations.TctConstraint.TctValidator/method/initialize(com.netflix.maestro.validations.TctConstraint constraint)" : {
+      "name" : "initialize",
+      "key" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/initialize(com.netflix.maestro.validations.TctConstraint constraint)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 17,
+        "endLine" : 47,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "constraint",
+        "key" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/initialize(com.netflix.maestro.validations.TctConstraint constraint)/parameter/constraint",
+        "type" : "com.netflix.maestro.validations.TctConstraint",
+        "displayedType" : "TctConstraint",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 47,
+          "startColumn" : 42,
+          "endLine" : 47,
+          "endColumn" : 52
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/initialize(com.netflix.maestro.validations.TctConstraint constraint)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TctConstraint.TctValidator"
+    },
+    "com.netflix.maestro.validations.TctConstraint.TctValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct tct, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct tct, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 20,
+        "endLine" : 50,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "tct",
+        "key" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct tct, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/tct",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct",
+        "displayedType" : "Tct",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 32,
+          "endLine" : 50,
+          "endColumn" : 35
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct tct, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct tct, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 64,
+          "endLine" : 50,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.TctConstraint.TctValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct tct, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.TctConstraint.TctValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/TctConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.TctConstraint, com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct>", "com.netflix.maestro.validations.TctConstraint", "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Tct" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

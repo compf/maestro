@@ -1,0 +1,216 @@
+{
+  "name" : "InMemoryJobEventListenerTest",
+  "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 44,
+    "startColumn" : 8,
+    "endLine" : 44,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/startWorkflowJobProcessor" : {
+      "name" : "startWorkflowJobProcessor",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/startWorkflowJobProcessor",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.processors.StartWorkflowJobProcessor",
+      "displayedType" : "StartWorkflowJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 43,
+        "endLine" : 48,
+        "endColumn" : 68
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/terminateInstancesJobProcessor" : {
+      "name" : "terminateInstancesJobProcessor",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/terminateInstancesJobProcessor",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.processors.TerminateInstancesJobProcessor",
+      "displayedType" : "TerminateInstancesJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 48,
+        "endLine" : 49,
+        "endColumn" : 78
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/publishJobEventProcessor" : {
+      "name" : "publishJobEventProcessor",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/publishJobEventProcessor",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.processors.PublishJobEventProcessor",
+      "displayedType" : "PublishJobEventProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 42,
+        "endLine" : 51,
+        "endColumn" : 66
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/runWorkflowInstancesJobProcessor" : {
+      "name" : "runWorkflowInstancesJobProcessor",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/runWorkflowInstancesJobProcessor",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.processors.RunWorkflowInstancesJobProcessor",
+      "displayedType" : "RunWorkflowInstancesJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 50,
+        "endLine" : 47,
+        "endColumn" : 82
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/executorService" : {
+      "name" : "executorService",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/executorService",
+      "type" : "java.util.concurrent.ExecutorService",
+      "displayedType" : "ExecutorService",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 33,
+        "endLine" : 53,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/queue" : {
+      "name" : "queue",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/queue",
+      "type" : "java.util.concurrent.LinkedBlockingQueue<com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.jobevents.MaestroJobEvent>",
+      "displayedType" : "LinkedBlockingQueue<MaestroJobEvent>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 54,
+        "endLine" : 52,
+        "endColumn" : 59
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/jobEventListener" : {
+      "name" : "jobEventListener",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/jobEventListener",
+      "type" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListener",
+      "displayedType" : "InMemoryJobEventListener",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 36,
+        "endLine" : 54,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/terminateThenRunInstanceJobProcessor" : {
+      "name" : "terminateThenRunInstanceJobProcessor",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/terminateThenRunInstanceJobProcessor",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.processors.TerminateThenRunInstanceJobProcessor",
+      "displayedType" : "TerminateThenRunInstanceJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 54,
+        "endLine" : 50,
+        "endColumn" : 90
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/deleteWorkflowJobProcessor" : {
+      "name" : "deleteWorkflowJobProcessor",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/memberField/deleteWorkflowJobProcessor",
+      "type" : "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.processors.DeleteWorkflowJobProcessor",
+      "displayedType" : "DeleteWorkflowJobProcessor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 44,
+        "endLine" : 46,
+        "endColumn" : 70
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/method/testProcess()" : {
+      "name" : "testProcess",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/method/testProcess()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 15,
+        "endLine" : 71,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    },
+    "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 15,
+        "endLine" : 57,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.listeners.InMemoryJobEventListenerTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/listeners/InMemoryJobEventListenerTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.listeners.com.netflix.maestro.engine.MaestroEngineBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

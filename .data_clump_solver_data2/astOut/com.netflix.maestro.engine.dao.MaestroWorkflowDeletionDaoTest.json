@@ -1,0 +1,185 @@
+{
+  "name" : "MaestroWorkflowDeletionDaoTest",
+  "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/deletionDao" : {
+      "name" : "deletionDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/deletionDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDao",
+      "displayedType" : "MaestroWorkflowDeletionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 38,
+        "endLine" : 44,
+        "endColumn" : 49
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/publisher" : {
+      "name" : "publisher",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/publisher",
+      "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+      "displayedType" : "MaestroJobEventPublisher",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 42,
+        "endLine" : 42,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/TEST_WORKFLOW_ID1" : {
+      "name" : "TEST_WORKFLOW_ID1",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/TEST_WORKFLOW_ID1",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 31,
+        "endLine" : 40,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/workflowDao" : {
+      "name" : "workflowDao",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/memberField/workflowDao",
+      "type" : "com.netflix.maestro.engine.dao.MaestroWorkflowDao",
+      "displayedType" : "MaestroWorkflowDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 30,
+        "endLine" : 45,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/tearDown()" : {
+      "name" : "tearDown",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/tearDown()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 15,
+        "endLine" : 56,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/setUp()" : {
+      "name" : "setUp",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/setUp()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 15,
+        "endLine" : 48,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/testIsDeletionInitialized()" : {
+      "name" : "testIsDeletionInitialized",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/testIsDeletionInitialized()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 15,
+        "endLine" : 71,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/testDeleteWorkflowData()" : {
+      "name" : "testDeleteWorkflowData",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/testDeleteWorkflowData()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 95,
+        "startColumn" : 15,
+        "endLine" : 95,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    },
+    "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/testIsDeletionInProgress()" : {
+      "name" : "testIsDeletionInProgress",
+      "key" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest/method/testIsDeletionInProgress()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 15,
+        "endLine" : 62,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDaoTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/dao/MaestroWorkflowDeletionDaoTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.MaestroDaoBaseTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

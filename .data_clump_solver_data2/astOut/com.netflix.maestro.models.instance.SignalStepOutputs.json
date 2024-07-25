@@ -1,0 +1,194 @@
+{
+  "name" : "SignalStepOutputs",
+  "key" : "com.netflix.maestro.models.instance.SignalStepOutputs",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 8,
+    "endLine" : 36,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.SignalStepOutputs/memberField/info" : {
+      "name" : "info",
+      "key" : "com.netflix.maestro.models.instance.SignalStepOutputs/memberField/info",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.timeline.TimelineLogEvent",
+      "displayedType" : "TimelineLogEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 39,
+        "startColumn" : 38,
+        "endLine" : 39,
+        "endColumn" : 42
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs"
+    },
+    "com.netflix.maestro.models.instance.SignalStepOutputs/memberField/outputs" : {
+      "name" : "outputs",
+      "key" : "com.netflix.maestro.models.instance.SignalStepOutputs/memberField/outputs",
+      "type" : "java.util.List<com.netflix.maestro.models.instance.SignalStepOutputs$SignalStepOutput>",
+      "displayedType" : "List<SignalStepOutput>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 40,
+        "endLine" : 37,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.instance.SignalStepOutputs/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.instance.SignalStepOutputs/method/getType()",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.StepOutputsDefinition#com.netflix.maestro.models.instance.StepOutputType",
+      "displayedType" : "StepOutputsDefinition.StepOutputType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 47,
+        "endLine" : 47,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs"
+    },
+    "com.netflix.maestro.models.instance.SignalStepOutputs/method/asSignalStepOutputs()" : {
+      "name" : "asSignalStepOutputs",
+      "key" : "com.netflix.maestro.models.instance.SignalStepOutputs/method/asSignalStepOutputs()",
+      "type" : "com.netflix.maestro.models.instance.SignalStepOutputs",
+      "displayedType" : "SignalStepOutputs",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 28,
+        "endLine" : 52,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/SignalStepOutputs.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.instance.StepOutputs" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput" : {
+      "name" : "SignalStepOutput",
+      "key" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 17,
+        "endLine" : 62,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/memberField/outputSignalInstance" : {
+          "name" : "outputSignalInstance",
+          "key" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/memberField/outputSignalInstance",
+          "type" : "com.netflix.maestro.models.instance.OutputSignalInstance",
+          "displayedType" : "OutputSignalInstance",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 65,
+            "startColumn" : 34,
+            "endLine" : 65,
+            "endColumn" : 54
+          },
+          "modifiers" : [ "PRIVATE" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput"
+        },
+        "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/memberField/NAME_PARAM" : {
+          "name" : "NAME_PARAM",
+          "key" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/memberField/NAME_PARAM",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 63,
+            "startColumn" : 33,
+            "endLine" : 63,
+            "endColumn" : 43
+          },
+          "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput"
+        },
+        "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/memberField/param" : {
+          "name" : "param",
+          "key" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/memberField/param",
+          "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.MapParameter",
+          "displayedType" : "MapParameter",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 64,
+            "startColumn" : 32,
+            "endLine" : 64,
+            "endColumn" : 37
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput"
+        }
+      },
+      "methods" : {
+        "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/method/getName()" : {
+          "name" : "getName",
+          "key" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput/method/getName()",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 76,
+            "startColumn" : 19,
+            "endLine" : 76,
+            "endColumn" : 26
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.SignalStepOutputs.SignalStepOutput"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/SignalStepOutputs.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.instance.SignalStepOutputs",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

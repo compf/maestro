@@ -1,0 +1,169 @@
+{
+  "name" : "StepOutputsDefinitionConstraintTest",
+  "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest/method/testNullOrEmptyDefinitions()" : {
+      "name" : "testNullOrEmptyDefinitions",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest/method/testNullOrEmptyDefinitions()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 62,
+        "startColumn" : 15,
+        "endLine" : 62,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest"
+    },
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest/method/testNoConstraintViolations()" : {
+      "name" : "testNoConstraintViolations",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest/method/testNoConstraintViolations()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 15,
+        "endLine" : 46,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest"
+    },
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest/method/testSignalNameConstraint()" : {
+      "name" : "testSignalNameConstraint",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest/method/testSignalNameConstraint()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 86,
+        "startColumn" : 15,
+        "endLine" : 86,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/StepOutputsDefinitionConstraintTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.validations.BaseConstraintTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStepImpl" : {
+      "name" : "TestStepImpl",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStepImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 18,
+        "endLine" : 38,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStepImpl/memberField/outputs" : {
+          "name" : "outputs",
+          "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStepImpl/memberField/outputs",
+          "type" : "java.util.Map<com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition#com.netflix.maestro.validations.StepOutputType, com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition>",
+          "displayedType" : "Map<\n            StepOutputsDefinition.StepOutputType,\n            @StepOutputsDefinitionConstraint StepOutputsDefinition>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 42,
+            "startColumn" : 9,
+            "endLine" : 42,
+            "endColumn" : 16
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStepImpl"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/StepOutputsDefinitionConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest$TestStep" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : {
+    "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStep" : {
+      "name" : "TestStep",
+      "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStep",
+      "type" : "interface",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 11,
+        "endLine" : 32,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE", "ABSTRACT", "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStep/method/getOutputs()" : {
+          "name" : "getOutputs",
+          "key" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStep/method/getOutputs()",
+          "type" : "java.util.Map<com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition#com.netflix.maestro.validations.StepOutputType, com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepOutputsDefinition>",
+          "displayedType" : "Map<StepOutputsDefinition.StepOutputType, StepOutputsDefinition>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 33,
+            "startColumn" : 70,
+            "endLine" : 33,
+            "endColumn" : 80
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest.TestStep"
+        }
+      },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/StepOutputsDefinitionConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.StepOutputsDefinitionConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  }
+}

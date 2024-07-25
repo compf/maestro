@@ -1,0 +1,104 @@
+{
+  "name" : "MaestroWorkflowTaskRunner",
+  "key" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 23,
+    "startColumn" : 8,
+    "endLine" : 23,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)" : {
+      "name" : "runMaestroTask",
+      "key" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 24,
+        "startColumn" : 15,
+        "endLine" : 24,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "workflowExecutor",
+        "key" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)/parameter/workflowExecutor",
+        "type" : "com.netflix.conductor.core.execution.WorkflowExecutor",
+        "displayedType" : "WorkflowExecutor",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 24,
+          "endLine" : 25,
+          "endColumn" : 40
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)"
+      }, {
+        "name" : "workflow",
+        "key" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)/parameter/workflow",
+        "type" : "com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow",
+        "displayedType" : "Workflow",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 26,
+          "startColumn" : 16,
+          "endLine" : 26,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)"
+      }, {
+        "name" : "task",
+        "key" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)/parameter/task",
+        "type" : "com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task",
+        "displayedType" : "Task",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 27,
+          "startColumn" : 12,
+          "endLine" : 27,
+          "endColumn" : 16
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)"
+      }, {
+        "name" : "systemTask",
+        "key" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)/parameter/systemTask",
+        "type" : "com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask",
+        "displayedType" : "WorkflowSystemTask",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 28,
+          "startColumn" : 26,
+          "endLine" : 28,
+          "endColumn" : 36
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner/method/runMaestroTask(com.netflix.conductor.core.execution.WorkflowExecutor workflowExecutor, com.netflix.conductor.core.execution.com.netflix.conductor.common.run.Workflow workflow, com.netflix.conductor.core.execution.com.netflix.conductor.common.metadata.tasks.Task task, com.netflix.conductor.core.execution.com.netflix.conductor.core.execution.tasks.WorkflowSystemTask systemTask)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.core.execution.MaestroWorkflowTaskRunner"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/conductor/core/execution/MaestroWorkflowTaskRunner.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

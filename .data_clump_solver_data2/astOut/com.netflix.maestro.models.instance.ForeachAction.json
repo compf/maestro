@@ -1,0 +1,154 @@
+{
+  "name" : "ForeachAction",
+  "key" : "com.netflix.maestro.models.instance.ForeachAction",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 39,
+    "startColumn" : 8,
+    "endLine" : 39,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.ForeachAction/memberField/restartConfig" : {
+      "name" : "restartConfig",
+      "key" : "com.netflix.maestro.models.instance.ForeachAction/memberField/restartConfig",
+      "type" : "com.netflix.maestro.models.instance.RestartConfig",
+      "displayedType" : "RestartConfig",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 31,
+        "endLine" : 42,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachAction"
+    },
+    "com.netflix.maestro.models.instance.ForeachAction/memberField/instanceId" : {
+      "name" : "instanceId",
+      "key" : "com.netflix.maestro.models.instance.ForeachAction/memberField/instanceId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 22,
+        "endLine" : 40,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachAction"
+    },
+    "com.netflix.maestro.models.instance.ForeachAction/memberField/action" : {
+      "name" : "action",
+      "key" : "com.netflix.maestro.models.instance.ForeachAction/memberField/action",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.Actions#com.netflix.maestro.models.instance.StepInstanceAction",
+      "displayedType" : "Actions.StepInstanceAction",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 44,
+        "endLine" : 44,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachAction"
+    },
+    "com.netflix.maestro.models.instance.ForeachAction/memberField/user" : {
+      "name" : "user",
+      "key" : "com.netflix.maestro.models.instance.ForeachAction/memberField/user",
+      "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.definition.User",
+      "displayedType" : "User",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 22,
+        "endLine" : 45,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachAction"
+    },
+    "com.netflix.maestro.models.instance.ForeachAction/memberField/instanceRunId" : {
+      "name" : "instanceRunId",
+      "key" : "com.netflix.maestro.models.instance.ForeachAction/memberField/instanceRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 22,
+        "endLine" : 41,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachAction"
+    },
+    "com.netflix.maestro.models.instance.ForeachAction/memberField/createTime" : {
+      "name" : "createTime",
+      "key" : "com.netflix.maestro.models.instance.ForeachAction/memberField/createTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 22,
+        "endLine" : 46,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.ForeachAction"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/ForeachAction.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.instance.ForeachAction.ForeachActionBuilder" : {
+      "name" : "ForeachActionBuilder",
+      "key" : "com.netflix.maestro.models.instance.ForeachAction.ForeachActionBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 23,
+        "endLine" : 51,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/ForeachAction.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.instance.ForeachAction",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

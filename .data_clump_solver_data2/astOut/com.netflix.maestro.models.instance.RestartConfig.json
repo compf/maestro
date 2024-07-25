@@ -1,0 +1,379 @@
+{
+  "name" : "RestartConfig",
+  "key" : "com.netflix.maestro.models.instance.RestartConfig",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 54,
+    "startColumn" : 8,
+    "endLine" : 54,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.instance.RestartConfig/memberField/restartPath" : {
+      "name" : "restartPath",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig/memberField/restartPath",
+      "type" : "java.util.List<com.netflix.maestro.models.instance.RestartConfig$RestartNode>",
+      "displayedType" : "List<RestartNode>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 35,
+        "endLine" : 59,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig"
+    },
+    "com.netflix.maestro.models.instance.RestartConfig/memberField/restartParams" : {
+      "name" : "restartParams",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig/memberField/restartParams",
+      "type" : "java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.ParamDefinition>",
+      "displayedType" : "Map<String, ParamDefinition>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 56,
+        "endLine" : 71,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig"
+    },
+    "com.netflix.maestro.models.instance.RestartConfig/memberField/stepRestartParams" : {
+      "name" : "stepRestartParams",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig/memberField/stepRestartParams",
+      "type" : "java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.netflix.maestro.models.instance.com.netflix.maestro.models.parameter.ParamDefinition>>",
+      "displayedType" : "Map<String, Map<String, ParamDefinition>>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 73,
+        "startColumn" : 69,
+        "endLine" : 73,
+        "endColumn" : 86
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig"
+    },
+    "com.netflix.maestro.models.instance.RestartConfig/memberField/restartPolicy" : {
+      "name" : "restartPolicy",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig/memberField/restartPolicy",
+      "type" : "com.netflix.maestro.models.instance.RunPolicy",
+      "displayedType" : "RunPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 27,
+        "endLine" : 65,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig"
+    },
+    "com.netflix.maestro.models.instance.RestartConfig/memberField/skipSteps" : {
+      "name" : "skipSteps",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig/memberField/skipSteps",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 39,
+        "endLine" : 74,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig"
+    },
+    "com.netflix.maestro.models.instance.RestartConfig/memberField/downstreamPolicy" : {
+      "name" : "downstreamPolicy",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig/memberField/downstreamPolicy",
+      "type" : "com.netflix.maestro.models.instance.RunPolicy",
+      "displayedType" : "RunPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 27,
+        "endLine" : 68,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/RestartConfig.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder" : {
+      "name" : "RestartConfigBuilder",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 79,
+        "startColumn" : 23,
+        "endLine" : 79,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/build()" : {
+          "name" : "build",
+          "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/build()",
+          "type" : "com.netflix.maestro.models.instance.RestartConfig",
+          "displayedType" : "RestartConfig",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 82,
+            "startColumn" : 26,
+            "endLine" : 82,
+            "endColumn" : 31
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder"
+        },
+        "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)" : {
+          "name" : "addRestartNode",
+          "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)",
+          "type" : "com.netflix.maestro.models.instance.RestartConfig$RestartConfigBuilder",
+          "displayedType" : "RestartConfigBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 108,
+            "startColumn" : 33,
+            "endLine" : 108,
+            "endColumn" : 47
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "workflowId",
+            "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)/parameter/workflowId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 109,
+              "startColumn" : 16,
+              "endLine" : 109,
+              "endColumn" : 26
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)"
+          }, {
+            "name" : "instanceId",
+            "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)/parameter/instanceId",
+            "type" : "long",
+            "displayedType" : "long",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 109,
+              "startColumn" : 33,
+              "endLine" : 109,
+              "endColumn" : 43
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)"
+          }, {
+            "name" : "stepId",
+            "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)/parameter/stepId",
+            "type" : "java.lang.String",
+            "displayedType" : "String",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 109,
+              "startColumn" : 62,
+              "endLine" : 109,
+              "endColumn" : 68
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/addRestartNode(java.lang.String workflowId, long instanceId, java.lang.String stepId)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder"
+        },
+        "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setDownstreamPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)" : {
+          "name" : "setDownstreamPolicy",
+          "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setDownstreamPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)",
+          "type" : "com.netflix.maestro.models.instance.RestartConfig$RestartConfigBuilder",
+          "displayedType" : "RestartConfigBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 127,
+            "startColumn" : 33,
+            "endLine" : 127,
+            "endColumn" : 52
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "input",
+            "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setDownstreamPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)/parameter/input",
+            "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy",
+            "displayedType" : "RestartPolicy",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 127,
+              "startColumn" : 67,
+              "endLine" : 127,
+              "endColumn" : 72
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setDownstreamPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder"
+        },
+        "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setRestartPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)" : {
+          "name" : "setRestartPolicy",
+          "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setRestartPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)",
+          "type" : "com.netflix.maestro.models.instance.RestartConfig$RestartConfigBuilder",
+          "displayedType" : "RestartConfigBuilder",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 119,
+            "startColumn" : 33,
+            "endLine" : 119,
+            "endColumn" : 49
+          },
+          "modifiers" : [ "PUBLIC" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ {
+            "name" : "input",
+            "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setRestartPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)/parameter/input",
+            "type" : "com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy",
+            "displayedType" : "RestartPolicy",
+            "hasTypeVariable" : false,
+            "position" : {
+              "startLine" : 119,
+              "startColumn" : 64,
+              "endLine" : 119,
+              "endColumn" : 69
+            },
+            "modifiers" : [ ],
+            "ignore" : false,
+            "methodKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder/method/setRestartPolicy(com.netflix.maestro.models.instance.com.netflix.maestro.models.api.RestartPolicy input)"
+          } ],
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartConfigBuilder"
+        }
+      },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/RestartConfig.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.instance.RestartConfig",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    },
+    "com.netflix.maestro.models.instance.RestartConfig.RestartNode" : {
+      "name" : "RestartNode",
+      "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartNode",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 143,
+        "startColumn" : 17,
+        "endLine" : 143,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.models.instance.RestartConfig.RestartNode/memberField/workflowId" : {
+          "name" : "workflowId",
+          "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartNode/memberField/workflowId",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 144,
+            "startColumn" : 26,
+            "endLine" : 144,
+            "endColumn" : 36
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartNode"
+        },
+        "com.netflix.maestro.models.instance.RestartConfig.RestartNode/memberField/instanceId" : {
+          "name" : "instanceId",
+          "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartNode/memberField/instanceId",
+          "type" : "long",
+          "displayedType" : "long",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 145,
+            "startColumn" : 24,
+            "endLine" : 145,
+            "endColumn" : 34
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartNode"
+        },
+        "com.netflix.maestro.models.instance.RestartConfig.RestartNode/memberField/stepId" : {
+          "name" : "stepId",
+          "key" : "com.netflix.maestro.models.instance.RestartConfig.RestartNode/memberField/stepId",
+          "type" : "java.lang.String",
+          "displayedType" : "String",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 146,
+            "startColumn" : 36,
+            "endLine" : 146,
+            "endColumn" : 42
+          },
+          "modifiers" : [ "PRIVATE", "FINAL" ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.models.instance.RestartConfig.RestartNode"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/instance/RestartConfig.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.instance.RestartConfig",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

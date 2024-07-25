@@ -1,0 +1,243 @@
+{
+  "name" : "StepInstanceWakeUpEventProcessor",
+  "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 38,
+    "startColumn" : 8,
+    "endLine" : 38,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/memberField/workflowExecutor" : {
+      "name" : "workflowExecutor",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/memberField/workflowExecutor",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.conductor.core.execution.MaestroWorkflowExecutor",
+      "displayedType" : "MaestroWorkflowExecutor",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 41,
+        "endLine" : 40,
+        "endColumn" : 57
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/memberField/workflowInstanceDao" : {
+      "name" : "workflowInstanceDao",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/memberField/workflowInstanceDao",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 42,
+        "startColumn" : 44,
+        "endLine" : 42,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/memberField/stepInstanceDao" : {
+      "name" : "stepInstanceDao",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/memberField/stepInstanceDao",
+      "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 40,
+        "endLine" : 41,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent> messageSupplier)" : {
+      "name" : "process",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent> messageSupplier)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 15,
+        "endLine" : 50,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageSupplier",
+        "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent> messageSupplier)/parameter/messageSupplier",
+        "type" : "java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent>",
+        "displayedType" : "Supplier<StepInstanceWakeUpEvent>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 50,
+          "startColumn" : 57,
+          "endLine" : 50,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/process(java.util.function.Supplier<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent> messageSupplier)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/wakeupUnderlyingTask(java.lang.String failedStepUuid)" : {
+      "name" : "wakeupUnderlyingTask",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/wakeupUnderlyingTask(java.lang.String failedStepUuid)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 138,
+        "startColumn" : 16,
+        "endLine" : 138,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "failedStepUuid",
+        "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/wakeupUnderlyingTask(java.lang.String failedStepUuid)/parameter/failedStepUuid",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 138,
+          "startColumn" : 44,
+          "endLine" : 138,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/wakeupUnderlyingTask(java.lang.String failedStepUuid)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForWorkflowEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)" : {
+      "name" : "processForWorkflowEntity",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForWorkflowEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 149,
+        "startColumn" : 16,
+        "endLine" : 149,
+        "endColumn" : 40
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "jobEvent",
+        "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForWorkflowEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)/parameter/jobEvent",
+        "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent",
+        "displayedType" : "StepInstanceWakeUpEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 149,
+          "startColumn" : 65,
+          "endLine" : 149,
+          "endColumn" : 73
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForWorkflowEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/handleLeafTasksWakeup(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowRollupOverview overview)" : {
+      "name" : "handleLeafTasksWakeup",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/handleLeafTasksWakeup(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowRollupOverview overview)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 172,
+        "startColumn" : 16,
+        "endLine" : 172,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "overview",
+        "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/handleLeafTasksWakeup(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowRollupOverview overview)/parameter/overview",
+        "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowRollupOverview",
+        "displayedType" : "WorkflowRollupOverview",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 172,
+          "startColumn" : 61,
+          "endLine" : 172,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/handleLeafTasksWakeup(com.netflix.maestro.engine.processors.com.netflix.maestro.models.instance.WorkflowRollupOverview overview)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    },
+    "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForStepEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)" : {
+      "name" : "processForStepEntity",
+      "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForStepEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 16,
+        "endLine" : 63,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "jobEvent",
+        "key" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForStepEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)/parameter/jobEvent",
+        "type" : "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent",
+        "displayedType" : "StepInstanceWakeUpEvent",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 63,
+          "startColumn" : 61,
+          "endLine" : 63,
+          "endColumn" : 69
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor/method/processForStepEntity(com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent jobEvent)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.StepInstanceWakeUpEventProcessor"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/processors/StepInstanceWakeUpEventProcessor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.engine.processors.MaestroEventProcessor<com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent>", "com.netflix.maestro.engine.processors.com.netflix.maestro.engine.jobevents.StepInstanceWakeUpEvent" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

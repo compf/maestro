@@ -1,0 +1,59 @@
+{
+  "name" : "ResultProcessor",
+  "key" : "com.netflix.conductor.cockroachdb.util.ResultProcessor",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 8,
+    "endLine" : 24,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.conductor.cockroachdb.util.ResultProcessor/method/process(java.sql.ResultSet result)" : {
+      "name" : "process",
+      "key" : "com.netflix.conductor.cockroachdb.util.ResultProcessor/method/process(java.sql.ResultSet result)",
+      "type" : "R",
+      "displayedType" : "R",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 5,
+        "endLine" : 25,
+        "endColumn" : 12
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "result",
+        "key" : "com.netflix.conductor.cockroachdb.util.ResultProcessor/method/process(java.sql.ResultSet result)/parameter/result",
+        "type" : "java.sql.ResultSet",
+        "displayedType" : "ResultSet",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 23,
+          "endLine" : 25,
+          "endColumn" : 29
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.conductor.cockroachdb.util.ResultProcessor/method/process(java.sql.ResultSet result)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.conductor.cockroachdb.util.ResultProcessor"
+    }
+  },
+  "file_path" : "cockroachdb-persistence/src/main/java/com/netflix/conductor/cockroachdb/util/ResultProcessor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

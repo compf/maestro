@@ -1,0 +1,1109 @@
+{
+  "name" : "DatabaseConfiguration",
+  "key" : "com.netflix.maestro.server.config.DatabaseConfiguration",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 56,
+    "startColumn" : 8,
+    "endLine" : 56,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "executionDAO",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.conductor.dao.ExecutionDAO",
+      "displayedType" : "ExecutionDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 84,
+        "startColumn" : 23,
+        "endLine" : 84,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 18,
+          "endLine" : 85,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "indexDAO",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/indexDAO",
+        "type" : "com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO",
+        "displayedType" : "IndexDAO",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 86,
+          "startColumn" : 16,
+          "endLine" : 86,
+          "endColumn" : 24
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 87,
+          "startColumn" : 75,
+          "endLine" : 87,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "stringCodec",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/stringCodec",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec",
+        "displayedType" : "StringCodec",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 88,
+          "startColumn" : 19,
+          "endLine" : 88,
+          "endColumn" : 30
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 89,
+          "startColumn" : 27,
+          "endLine" : 89,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/executionDAO(javax.sql.DataSource crdbDataSource, com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO indexDAO, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec stringCodec, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "metadataDAO",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.conductor.dao.MetadataDAO",
+      "displayedType" : "MetadataDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 66,
+        "startColumn" : 22,
+        "endLine" : 66,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 67,
+          "startColumn" : 18,
+          "endLine" : 67,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 68,
+          "startColumn" : 75,
+          "endLine" : 68,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 69,
+          "startColumn" : 27,
+          "endLine" : 69,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/metadataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "maestroWorkflowDeletionDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDeletionDao",
+      "displayedType" : "MaestroWorkflowDeletionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 141,
+        "startColumn" : 37,
+        "endLine" : 141,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 142,
+          "startColumn" : 18,
+          "endLine" : 142,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 143,
+          "startColumn" : 60,
+          "endLine" : 143,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 144,
+          "startColumn" : 27,
+          "endLine" : 144,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDeletionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "outputDataDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.OutputDataDao",
+      "displayedType" : "OutputDataDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 24,
+        "endLine" : 194,
+        "endColumn" : 37
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 195,
+          "startColumn" : 18,
+          "endLine" : 195,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 196,
+          "startColumn" : 60,
+          "endLine" : 196,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 197,
+          "startColumn" : 27,
+          "endLine" : 197,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/outputDataDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)" : {
+      "name" : "maestroWorkflowInstanceDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowInstanceDao",
+      "displayedType" : "MaestroWorkflowInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 150,
+        "startColumn" : 37,
+        "endLine" : 150,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 151,
+          "startColumn" : 18,
+          "endLine" : 151,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 152,
+          "startColumn" : 60,
+          "endLine" : 152,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 153,
+          "startColumn" : 27,
+          "endLine" : 153,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      }, {
+        "name" : "maestroJobEventPublisher",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/maestroJobEventPublisher",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+        "displayedType" : "MaestroJobEventPublisher",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 154,
+          "startColumn" : 32,
+          "endLine" : 154,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/stringCodec()" : {
+      "name" : "stringCodec",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stringCodec()",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.compression.StringCodec",
+      "displayedType" : "StringCodec",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 96,
+        "startColumn" : 22,
+        "endLine" : 96,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "rateLimitingDAO",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.conductor.dao.RateLimitingDAO",
+      "displayedType" : "RateLimitingDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 101,
+        "startColumn" : 26,
+        "endLine" : 101,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 102,
+          "startColumn" : 18,
+          "endLine" : 102,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 103,
+          "startColumn" : 75,
+          "endLine" : 103,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 104,
+          "startColumn" : 27,
+          "endLine" : 104,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/rateLimitingDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "indexDAO",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.conductor.dao.IndexDAO",
+      "displayedType" : "IndexDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 119,
+        "startColumn" : 19,
+        "endLine" : 119,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 120,
+          "startColumn" : 18,
+          "endLine" : 120,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 121,
+          "startColumn" : 75,
+          "endLine" : 121,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 122,
+          "startColumn" : 27,
+          "endLine" : 122,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/indexDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/crdbDataSource(com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "crdbDataSource",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/crdbDataSource(com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "javax.sql.DataSource",
+      "displayedType" : "DataSource",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 59,
+        "startColumn" : 21,
+        "endLine" : 59,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/crdbDataSource(com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 59,
+          "startColumn" : 56,
+          "endLine" : 59,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/crdbDataSource(com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "eventHandlerDAO",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.conductor.dao.EventHandlerDAO",
+      "displayedType" : "EventHandlerDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 75,
+        "startColumn" : 26,
+        "endLine" : 75,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 76,
+          "startColumn" : 18,
+          "endLine" : 76,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 75,
+          "endLine" : 77,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 78,
+          "startColumn" : 27,
+          "endLine" : 78,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/eventHandlerDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)" : {
+      "name" : "stepBreakpointDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepBreakpointDao",
+      "displayedType" : "MaestroStepBreakpointDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 203,
+        "startColumn" : 35,
+        "endLine" : 203,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 204,
+          "startColumn" : 18,
+          "endLine" : 204,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 205,
+          "startColumn" : 60,
+          "endLine" : 205,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 206,
+          "startColumn" : 27,
+          "endLine" : 206,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)"
+      }, {
+        "name" : "workflowDao",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)/parameter/workflowDao",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao",
+        "displayedType" : "MaestroWorkflowDao",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 207,
+          "startColumn" : 26,
+          "endLine" : 207,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/stepBreakpointDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao workflowDao)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)" : {
+      "name" : "maestroWorkflowDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroWorkflowDao",
+      "displayedType" : "MaestroWorkflowDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 129,
+        "startColumn" : 29,
+        "endLine" : 129,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 130,
+          "startColumn" : 18,
+          "endLine" : 130,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 131,
+          "startColumn" : 60,
+          "endLine" : 131,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 132,
+          "startColumn" : 27,
+          "endLine" : 132,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)"
+      }, {
+        "name" : "maestroJobEventPublisher",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)/parameter/maestroJobEventPublisher",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+        "displayedType" : "MaestroJobEventPublisher",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 133,
+          "startColumn" : 32,
+          "endLine" : 133,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)"
+      }, {
+        "name" : "triggerSubscriptionClient",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)/parameter/triggerSubscriptionClient",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient",
+        "displayedType" : "TriggerSubscriptionClient",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 134,
+          "startColumn" : 33,
+          "endLine" : 134,
+          "endColumn" : 58
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroWorkflowDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.utils.TriggerSubscriptionClient triggerSubscriptionClient)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "maestroStepInstanceDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+      "displayedType" : "MaestroStepInstanceDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 173,
+        "startColumn" : 33,
+        "endLine" : 173,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 174,
+          "startColumn" : 18,
+          "endLine" : 174,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 175,
+          "startColumn" : 60,
+          "endLine" : 175,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 176,
+          "startColumn" : 27,
+          "endLine" : 176,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroStepInstanceDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)" : {
+      "name" : "pollDataDAO",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.conductor.dao.PollDataDAO",
+      "displayedType" : "PollDataDAO",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 110,
+        "startColumn" : 22,
+        "endLine" : 110,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 111,
+          "startColumn" : 18,
+          "endLine" : 111,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 112,
+          "startColumn" : 75,
+          "endLine" : 112,
+          "endColumn" : 87
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 113,
+          "startColumn" : 27,
+          "endLine" : 113,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/pollDataDAO(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)" : {
+      "name" : "maestroRunStrategyDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroRunStrategyDao",
+      "displayedType" : "MaestroRunStrategyDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 161,
+        "startColumn" : 32,
+        "endLine" : 161,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 162,
+          "startColumn" : 18,
+          "endLine" : 162,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 163,
+          "startColumn" : 60,
+          "endLine" : 163,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 164,
+          "startColumn" : 27,
+          "endLine" : 164,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)"
+      }, {
+        "name" : "maestroJobEventPublisher",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)/parameter/maestroJobEventPublisher",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+        "displayedType" : "MaestroJobEventPublisher",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 165,
+          "startColumn" : 32,
+          "endLine" : 165,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)"
+      }, {
+        "name" : "metricRepo",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)/parameter/metricRepo",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics",
+        "displayedType" : "MaestroMetrics",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 166,
+          "startColumn" : 22,
+          "endLine" : 166,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroRunStrategyDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher, com.netflix.maestro.server.config.com.netflix.maestro.engine.metrics.MaestroMetrics metricRepo)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    },
+    "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)" : {
+      "name" : "maestroInstanceActionDao",
+      "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)",
+      "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao",
+      "displayedType" : "MaestroStepInstanceActionDao",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 182,
+        "startColumn" : 39,
+        "endLine" : 182,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "crdbDataSource",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/crdbDataSource",
+        "type" : "javax.sql.DataSource",
+        "displayedType" : "DataSource",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 183,
+          "startColumn" : 18,
+          "endLine" : 183,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      }, {
+        "name" : "objectMapper",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/objectMapper",
+        "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+        "displayedType" : "ObjectMapper",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 184,
+          "startColumn" : 60,
+          "endLine" : 184,
+          "endColumn" : 72
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      }, {
+        "name" : "props",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/props",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties",
+        "displayedType" : "ConductorProperties",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 185,
+          "startColumn" : 27,
+          "endLine" : 185,
+          "endColumn" : 32
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      }, {
+        "name" : "stepInstanceDao",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/stepInstanceDao",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao",
+        "displayedType" : "MaestroStepInstanceDao",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 186,
+          "startColumn" : 30,
+          "endLine" : 186,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      }, {
+        "name" : "maestroJobEventPublisher",
+        "key" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)/parameter/maestroJobEventPublisher",
+        "type" : "com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher",
+        "displayedType" : "MaestroJobEventPublisher",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 187,
+          "startColumn" : 32,
+          "endLine" : 187,
+          "endColumn" : 56
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.server.config.DatabaseConfiguration/method/maestroInstanceActionDao(javax.sql.DataSource crdbDataSource, com.fasterxml.jackson.databind.ObjectMapper objectMapper, com.netflix.maestro.server.config.com.netflix.maestro.server.properties.ConductorProperties props, com.netflix.maestro.server.config.com.netflix.maestro.engine.dao.MaestroStepInstanceDao stepInstanceDao, com.netflix.maestro.server.config.com.netflix.maestro.engine.publisher.MaestroJobEventPublisher maestroJobEventPublisher)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.server.config.DatabaseConfiguration"
+    }
+  },
+  "file_path" : "maestro-server/src/main/java/com/netflix/maestro/server/config/DatabaseConfiguration.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

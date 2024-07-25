@@ -1,0 +1,103 @@
+{
+  "name" : "StepBreakpointDeleteResponse",
+  "key" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.api.StepBreakpointDeleteResponse/memberField/workflowId" : {
+      "name" : "workflowId",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse/memberField/workflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 24,
+        "endLine" : 47,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse"
+    },
+    "com.netflix.maestro.models.api.StepBreakpointDeleteResponse/memberField/stepId" : {
+      "name" : "stepId",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse/memberField/stepId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 24,
+        "endLine" : 48,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse"
+    },
+    "com.netflix.maestro.models.api.StepBreakpointDeleteResponse/memberField/timelineEvent" : {
+      "name" : "timelineEvent",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse/memberField/timelineEvent",
+      "type" : "com.netflix.maestro.models.api.com.netflix.maestro.models.timeline.TimelineEvent",
+      "displayedType" : "TimelineEvent",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 31,
+        "endLine" : 49,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/StepBreakpointDeleteResponse.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.api.StepBreakpointDeleteResponse.StepBreakpointDeleteResponseBuilder" : {
+      "name" : "StepBreakpointDeleteResponseBuilder",
+      "key" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse.StepBreakpointDeleteResponseBuilder",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 23,
+        "endLine" : 54,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/api/StepBreakpointDeleteResponse.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.api.StepBreakpointDeleteResponse",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

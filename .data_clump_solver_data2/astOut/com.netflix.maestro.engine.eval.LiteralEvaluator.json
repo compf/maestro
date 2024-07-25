@@ -1,0 +1,487 @@
+{
+  "name" : "LiteralEvaluator",
+  "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 36,
+    "startColumn" : 14,
+    "endLine" : 36,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/POTENTIAL_VARIABLE_REGEX" : {
+      "name" : "POTENTIAL_VARIABLE_REGEX",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/POTENTIAL_VARIABLE_REGEX",
+      "type" : "java.util.regex.Pattern",
+      "displayedType" : "Pattern",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 32,
+        "endLine" : 61,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/VARIABLE_MATCHER" : {
+      "name" : "VARIABLE_MATCHER",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/VARIABLE_MATCHER",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 31,
+        "endLine" : 46,
+        "endColumn" : 47
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/DOUBLE_DOLLAR_MATCHER" : {
+      "name" : "DOUBLE_DOLLAR_MATCHER",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/DOUBLE_DOLLAR_MATCHER",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 43,
+        "startColumn" : 31,
+        "endLine" : 43,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/MAPPER" : {
+      "name" : "MAPPER",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/MAPPER",
+      "type" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "displayedType" : "ObjectMapper",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 37,
+        "endLine" : 72,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/ESCAPED_MATCHER" : {
+      "name" : "ESCAPED_MATCHER",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/ESCAPED_MATCHER",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 41,
+        "startColumn" : 31,
+        "endLine" : 41,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/VARIABLE_REGEX" : {
+      "name" : "VARIABLE_REGEX",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/VARIABLE_REGEX",
+      "type" : "java.util.regex.Pattern",
+      "displayedType" : "Pattern",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 32,
+        "endLine" : 55,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/ESCAPED_VARIABLE_MATCHER" : {
+      "name" : "ESCAPED_VARIABLE_MATCHER",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/ESCAPED_VARIABLE_MATCHER",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 31,
+        "endLine" : 50,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/UNESCAPED_MATCHER" : {
+      "name" : "UNESCAPED_MATCHER",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/memberField/UNESCAPED_MATCHER",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 38,
+        "startColumn" : 31,
+        "endLine" : 38,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(java.lang.String value)" : {
+      "name" : "getReferencedParamNames",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(java.lang.String value)",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 180,
+        "startColumn" : 30,
+        "endLine" : 180,
+        "endColumn" : 53
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(java.lang.String value)/parameter/value",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 180,
+          "startColumn" : 61,
+          "endLine" : 180,
+          "endColumn" : 66
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(java.lang.String value)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractEscapedValue(java.util.regex.Matcher m)" : {
+      "name" : "extractEscapedValue",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractEscapedValue(java.util.regex.Matcher m)",
+      "type" : "java.util.Optional<java.lang.String>",
+      "displayedType" : "Optional<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 208,
+        "startColumn" : 35,
+        "endLine" : 208,
+        "endColumn" : 54
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractEscapedValue(java.util.regex.Matcher m)/parameter/m",
+        "type" : "java.util.regex.Matcher",
+        "displayedType" : "Matcher",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 208,
+          "startColumn" : 63,
+          "endLine" : 208,
+          "endColumn" : 64
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractEscapedValue(java.util.regex.Matcher m)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/eval(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)" : {
+      "name" : "eval",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/eval(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)",
+      "type" : "java.lang.Object",
+      "displayedType" : "Object",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 77,
+        "startColumn" : 24,
+        "endLine" : 77,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "param",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/eval(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)/parameter/param",
+        "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter",
+        "displayedType" : "Parameter",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 39,
+          "endLine" : 77,
+          "endColumn" : 44
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/eval(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)"
+      }, {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/eval(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Map<String, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 77,
+          "startColumn" : 69,
+          "endLine" : 77,
+          "endColumn" : 75
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/eval(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/interpolate(java.lang.String value, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)" : {
+      "name" : "interpolate",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/interpolate(java.lang.String value, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 108,
+        "startColumn" : 25,
+        "endLine" : 108,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "value",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/interpolate(java.lang.String value, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)/parameter/value",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 44,
+          "endLine" : 108,
+          "endColumn" : 49
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/interpolate(java.lang.String value, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)"
+      }, {
+        "name" : "params",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/interpolate(java.lang.String value, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)/parameter/params",
+        "type" : "java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter>",
+        "displayedType" : "Map<String, Parameter>",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 108,
+          "startColumn" : 74,
+          "endLine" : 108,
+          "endColumn" : 80
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/interpolate(java.lang.String value, java.util.Map<java.lang.String, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter> params)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)" : {
+      "name" : "getReferencedParamNames",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)",
+      "type" : "java.util.Set<java.lang.String>",
+      "displayedType" : "Set<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 159,
+        "startColumn" : 29,
+        "endLine" : 159,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "param",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)/parameter/param",
+        "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter",
+        "displayedType" : "Parameter",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 159,
+          "startColumn" : 63,
+          "endLine" : 159,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getReferencedParamNames(com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getEvaluatedResultAsString(java.lang.String paramName, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)" : {
+      "name" : "getEvaluatedResultAsString",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getEvaluatedResultAsString(java.lang.String paramName, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 139,
+        "startColumn" : 25,
+        "endLine" : 139,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "paramName",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getEvaluatedResultAsString(java.lang.String paramName, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)/parameter/paramName",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 59,
+          "endLine" : 139,
+          "endColumn" : 68
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getEvaluatedResultAsString(java.lang.String paramName, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)"
+      }, {
+        "name" : "param",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getEvaluatedResultAsString(java.lang.String paramName, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)/parameter/param",
+        "type" : "com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter",
+        "displayedType" : "Parameter",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 139,
+          "startColumn" : 80,
+          "endLine" : 139,
+          "endColumn" : 85
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/getEvaluatedResultAsString(java.lang.String paramName, com.netflix.maestro.engine.eval.com.netflix.maestro.models.parameter.Parameter param)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractParamName(java.util.regex.Matcher m)" : {
+      "name" : "extractParamName",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractParamName(java.util.regex.Matcher m)",
+      "type" : "java.util.Optional<java.lang.String>",
+      "displayedType" : "Optional<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 194,
+        "startColumn" : 35,
+        "endLine" : 194,
+        "endColumn" : 51
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractParamName(java.util.regex.Matcher m)/parameter/m",
+        "type" : "java.util.regex.Matcher",
+        "displayedType" : "Matcher",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 194,
+          "startColumn" : 60,
+          "endLine" : 194,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/extractParamName(java.util.regex.Matcher m)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    },
+    "com.netflix.maestro.engine.eval.LiteralEvaluator/method/maybeGroup(java.util.regex.Matcher m, int groupIndex)" : {
+      "name" : "maybeGroup",
+      "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/maybeGroup(java.util.regex.Matcher m, int groupIndex)",
+      "type" : "java.util.Optional<java.lang.String>",
+      "displayedType" : "Optional<String>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 219,
+        "startColumn" : 35,
+        "endLine" : 219,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "m",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/maybeGroup(java.util.regex.Matcher m, int groupIndex)/parameter/m",
+        "type" : "java.util.regex.Matcher",
+        "displayedType" : "Matcher",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 54,
+          "endLine" : 219,
+          "endColumn" : 55
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/maybeGroup(java.util.regex.Matcher m, int groupIndex)"
+      }, {
+        "name" : "groupIndex",
+        "key" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/maybeGroup(java.util.regex.Matcher m, int groupIndex)/parameter/groupIndex",
+        "type" : "int",
+        "displayedType" : "int",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 219,
+          "startColumn" : 61,
+          "endLine" : 219,
+          "endColumn" : 71
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator/method/maybeGroup(java.util.regex.Matcher m, int groupIndex)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.eval.LiteralEvaluator"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/eval/LiteralEvaluator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

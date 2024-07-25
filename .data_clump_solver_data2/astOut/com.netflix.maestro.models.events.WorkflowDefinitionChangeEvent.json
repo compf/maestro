@@ -1,0 +1,156 @@
+{
+  "name" : "WorkflowDefinitionChangeEvent",
+  "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 14,
+    "endLine" : 50,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/previousActiveVersionId" : {
+      "name" : "previousActiveVersionId",
+      "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/previousActiveVersionId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 58,
+        "startColumn" : 22,
+        "endLine" : 58,
+        "endColumn" : 45
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent"
+    },
+    "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/workflowName" : {
+      "name" : "workflowName",
+      "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/workflowName",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 24,
+        "endLine" : 51,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent"
+    },
+    "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/currentActiveVersionId" : {
+      "name" : "currentActiveVersionId",
+      "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/currentActiveVersionId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 22,
+        "endLine" : 56,
+        "endColumn" : 44
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent"
+    },
+    "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/versionId" : {
+      "name" : "versionId",
+      "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/versionId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 22,
+        "endLine" : 52,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent"
+    },
+    "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/snapshotId" : {
+      "name" : "snapshotId",
+      "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/memberField/snapshotId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 22,
+        "endLine" : 53,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent/method/getType()",
+      "type" : "com.netflix.maestro.models.events.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 15,
+        "endLine" : 61,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowDefinitionChangeEvent.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.events.WorkflowChangeEvent" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent.WorkflowDefinitionChangeEventBuilderImpl" : {
+      "name" : "WorkflowDefinitionChangeEventBuilderImpl",
+      "key" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent.WorkflowDefinitionChangeEventBuilderImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 68,
+        "startColumn" : 16,
+        "endLine" : 68,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "STATIC", "FINAL" ],
+      "fields" : { },
+      "methods" : { },
+      "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/events/WorkflowDefinitionChangeEvent.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ "com.netflix.maestro.models.events.WorkflowDefinitionChangeEventBuilder<com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent, com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent$WorkflowDefinitionChangeEventBuilderImpl>", "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent", "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent$WorkflowDefinitionChangeEventBuilderImpl" ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.models.events.WorkflowDefinitionChangeEvent",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : { }
+}

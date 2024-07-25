@@ -1,0 +1,77 @@
+{
+  "name" : "TypedStep",
+  "key" : "com.netflix.maestro.models.definition.TypedStep",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 50,
+    "startColumn" : 14,
+    "endLine" : 50,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.TypedStep/memberField/subType" : {
+      "name" : "subType",
+      "key" : "com.netflix.maestro.models.definition.TypedStep/memberField/subType",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 18,
+        "endLine" : 56,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TypedStep"
+    },
+    "com.netflix.maestro.models.definition.TypedStep/memberField/type" : {
+      "name" : "type",
+      "key" : "com.netflix.maestro.models.definition.TypedStep/memberField/type",
+      "type" : "com.netflix.maestro.models.definition.StepType",
+      "displayedType" : "StepType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 20,
+        "endLine" : 53,
+        "endColumn" : 24
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TypedStep"
+    },
+    "com.netflix.maestro.models.definition.TypedStep/memberField/retryPolicy" : {
+      "name" : "retryPolicy",
+      "key" : "com.netflix.maestro.models.definition.TypedStep/memberField/retryPolicy",
+      "type" : "com.netflix.maestro.models.definition.RetryPolicy",
+      "displayedType" : "RetryPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 61,
+        "startColumn" : 23,
+        "endLine" : 61,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.TypedStep"
+    }
+  },
+  "methods" : { },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/TypedStep.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.definition.AbstractStep" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

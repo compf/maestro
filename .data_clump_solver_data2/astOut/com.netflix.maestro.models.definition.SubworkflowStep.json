@@ -1,0 +1,79 @@
+{
+  "name" : "SubworkflowStep",
+  "key" : "com.netflix.maestro.models.definition.SubworkflowStep",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 51,
+    "startColumn" : 14,
+    "endLine" : 51,
+    "endColumn" : 19
+  },
+  "modifiers" : [ "PUBLIC", "FINAL" ],
+  "fields" : {
+    "com.netflix.maestro.models.definition.SubworkflowStep/memberField/sync" : {
+      "name" : "sync",
+      "key" : "com.netflix.maestro.models.definition.SubworkflowStep/memberField/sync",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 19,
+        "endLine" : 52,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.SubworkflowStep"
+    },
+    "com.netflix.maestro.models.definition.SubworkflowStep/memberField/explicitParams" : {
+      "name" : "explicitParams",
+      "key" : "com.netflix.maestro.models.definition.SubworkflowStep/memberField/explicitParams",
+      "type" : "java.lang.Boolean",
+      "displayedType" : "Boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 19,
+        "endLine" : 53,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.SubworkflowStep"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.definition.SubworkflowStep/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.definition.SubworkflowStep/method/getType()",
+      "type" : "com.netflix.maestro.models.definition.StepType",
+      "displayedType" : "StepType",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 57,
+        "startColumn" : 19,
+        "endLine" : 57,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.definition.SubworkflowStep"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/definition/SubworkflowStep.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.definition.AbstractStep" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

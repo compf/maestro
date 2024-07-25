@@ -1,0 +1,59 @@
+{
+  "name" : "MaestroEventProcessor",
+  "key" : "com.netflix.maestro.engine.processors.MaestroEventProcessor",
+  "type" : "interface",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 30,
+    "startColumn" : 8,
+    "endLine" : 30,
+    "endColumn" : 17
+  },
+  "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.engine.processors.MaestroEventProcessor/method/process(java.util.function.Supplier<T> messageSupplier)" : {
+      "name" : "process",
+      "key" : "com.netflix.maestro.engine.processors.MaestroEventProcessor/method/process(java.util.function.Supplier<T> messageSupplier)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 36,
+        "startColumn" : 8,
+        "endLine" : 36,
+        "endColumn" : 15
+      },
+      "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "messageSupplier",
+        "key" : "com.netflix.maestro.engine.processors.MaestroEventProcessor/method/process(java.util.function.Supplier<T> messageSupplier)/parameter/messageSupplier",
+        "type" : "java.util.function.Supplier<T>",
+        "displayedType" : "Supplier<T>",
+        "hasTypeVariable" : true,
+        "position" : {
+          "startLine" : 36,
+          "startColumn" : 28,
+          "endLine" : 36,
+          "endColumn" : 43
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.processors.MaestroEventProcessor/method/process(java.util.function.Supplier<T> messageSupplier)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.processors.MaestroEventProcessor"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/processors/MaestroEventProcessor.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

@@ -1,0 +1,208 @@
+{
+  "name" : "OutputDataDao",
+  "key" : "com.netflix.maestro.engine.dao.OutputDataDao",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 28,
+    "startColumn" : 8,
+    "endLine" : 28,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.dao.OutputDataDao/memberField/UPSERT_OUTPUT_DATA_QUERY" : {
+      "name" : "UPSERT_OUTPUT_DATA_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.OutputDataDao/memberField/UPSERT_OUTPUT_DATA_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 32,
+        "startColumn" : 31,
+        "endLine" : 32,
+        "endColumn" : 55
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.OutputDataDao"
+    },
+    "com.netflix.maestro.engine.dao.OutputDataDao/memberField/GET_OUTPUT_DATA_JOB_QUERY" : {
+      "name" : "GET_OUTPUT_DATA_JOB_QUERY",
+      "key" : "com.netflix.maestro.engine.dao.OutputDataDao/memberField/GET_OUTPUT_DATA_JOB_QUERY",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 29,
+        "startColumn" : 31,
+        "endLine" : 29,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PRIVATE", "STATIC", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.OutputDataDao"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.dao.OutputDataDao/method/validateAndToJson(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData data)" : {
+      "name" : "validateAndToJson",
+      "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/validateAndToJson(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData data)",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 85,
+        "startColumn" : 18,
+        "endLine" : 85,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "data",
+        "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/validateAndToJson(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData data)/parameter/data",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData",
+        "displayedType" : "OutputData",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 85,
+          "startColumn" : 47,
+          "endLine" : 85,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.OutputDataDao/method/validateAndToJson(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData data)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.OutputDataDao"
+    },
+    "com.netflix.maestro.engine.dao.OutputDataDao/method/outputDataFromResult(java.sql.ResultSet rs)" : {
+      "name" : "outputDataFromResult",
+      "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/outputDataFromResult(java.sql.ResultSet rs)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData>",
+      "displayedType" : "Optional<OutputData>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 74,
+        "startColumn" : 32,
+        "endLine" : 74,
+        "endColumn" : 52
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "rs",
+        "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/outputDataFromResult(java.sql.ResultSet rs)/parameter/rs",
+        "type" : "java.sql.ResultSet",
+        "displayedType" : "ResultSet",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 74,
+          "startColumn" : 63,
+          "endLine" : 74,
+          "endColumn" : 65
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.OutputDataDao/method/outputDataFromResult(java.sql.ResultSet rs)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.OutputDataDao"
+    },
+    "com.netflix.maestro.engine.dao.OutputDataDao/method/insertOrUpdateOutputData(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData outputData)" : {
+      "name" : "insertOrUpdateOutputData",
+      "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/insertOrUpdateOutputData(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData outputData)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 64,
+        "startColumn" : 15,
+        "endLine" : 64,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "outputData",
+        "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/insertOrUpdateOutputData(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData outputData)/parameter/outputData",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData",
+        "displayedType" : "OutputData",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 64,
+          "startColumn" : 51,
+          "endLine" : 64,
+          "endColumn" : 61
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.OutputDataDao/method/insertOrUpdateOutputData(com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData outputData)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.OutputDataDao"
+    },
+    "com.netflix.maestro.engine.dao.OutputDataDao/method/getOutputDataForExternalJob(java.lang.String externalJobId, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.ExternalJobType externalJobType)" : {
+      "name" : "getOutputDataForExternalJob",
+      "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/getOutputDataForExternalJob(java.lang.String externalJobId, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.ExternalJobType externalJobType)",
+      "type" : "java.util.Optional<com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.OutputData>",
+      "displayedType" : "Optional<OutputData>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 31,
+        "endLine" : 48,
+        "endColumn" : 58
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "externalJobId",
+        "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/getOutputDataForExternalJob(java.lang.String externalJobId, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.ExternalJobType externalJobType)/parameter/externalJobId",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 14,
+          "endLine" : 49,
+          "endColumn" : 27
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.OutputDataDao/method/getOutputDataForExternalJob(java.lang.String externalJobId, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.ExternalJobType externalJobType)"
+      }, {
+        "name" : "externalJobType",
+        "key" : "com.netflix.maestro.engine.dao.OutputDataDao/method/getOutputDataForExternalJob(java.lang.String externalJobId, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.ExternalJobType externalJobType)/parameter/externalJobType",
+        "type" : "com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.ExternalJobType",
+        "displayedType" : "ExternalJobType",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 49,
+          "startColumn" : 45,
+          "endLine" : 49,
+          "endColumn" : 60
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.engine.dao.OutputDataDao/method/getOutputDataForExternalJob(java.lang.String externalJobId, com.netflix.maestro.engine.dao.com.netflix.maestro.engine.dto.ExternalJobType externalJobType)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.dao.OutputDataDao"
+    }
+  },
+  "file_path" : "maestro-engine/src/main/java/com/netflix/maestro/engine/dao/OutputDataDao.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.engine.dao.com.netflix.conductor.cockroachdb.dao.CockroachDBBaseDAO" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

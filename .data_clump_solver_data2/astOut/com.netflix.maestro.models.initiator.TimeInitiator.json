@@ -1,0 +1,112 @@
+{
+  "name" : "TimeInitiator",
+  "key" : "com.netflix.maestro.models.initiator.TimeInitiator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.initiator.TimeInitiator/memberField/triggerTime" : {
+      "name" : "triggerTime",
+      "key" : "com.netflix.maestro.models.initiator.TimeInitiator/memberField/triggerTime",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 33,
+        "startColumn" : 25,
+        "endLine" : 33,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.TimeInitiator"
+    },
+    "com.netflix.maestro.models.initiator.TimeInitiator/memberField/timezone" : {
+      "name" : "timezone",
+      "key" : "com.netflix.maestro.models.initiator.TimeInitiator/memberField/timezone",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 27,
+        "endLine" : 34,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.TimeInitiator"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.initiator.TimeInitiator/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.initiator.TimeInitiator/method/getType()",
+      "type" : "com.netflix.maestro.models.initiator.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 15,
+        "endLine" : 45,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.TimeInitiator"
+    },
+    "com.netflix.maestro.models.initiator.TimeInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.models.initiator.TimeInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 37,
+        "startColumn" : 18,
+        "endLine" : 37,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "triggerUuids",
+        "key" : "com.netflix.maestro.models.initiator.TimeInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)/parameter/triggerUuids",
+        "type" : "com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids",
+        "displayedType" : "TriggerUuids",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 37,
+          "startColumn" : 39,
+          "endLine" : 37,
+          "endColumn" : 51
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.models.initiator.TimeInitiator/method/isValid(com.netflix.maestro.models.initiator.com.netflix.maestro.models.trigger.TriggerUuids triggerUuids)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.initiator.TimeInitiator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/initiator/TimeInitiator.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.models.initiator.TriggerInitiator" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

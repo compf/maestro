@@ -1,0 +1,113 @@
+{
+  "name" : "SelError",
+  "key" : "com.netflix.sel.type.SelError",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 16,
+    "startColumn" : 8,
+    "endLine" : 16,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.sel.type.SelError/memberField/val" : {
+      "name" : "val",
+      "key" : "com.netflix.sel.type.SelError/memberField/val",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 18,
+        "startColumn" : 24,
+        "endLine" : 18,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE", "FINAL" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelError"
+    }
+  },
+  "methods" : {
+    "com.netflix.sel.type.SelError/method/toString()" : {
+      "name" : "toString",
+      "key" : "com.netflix.sel.type.SelError/method/toString()",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 35,
+        "startColumn" : 17,
+        "endLine" : 35,
+        "endColumn" : 25
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelError"
+    },
+    "com.netflix.sel.type.SelError/method/of(java.lang.String t)" : {
+      "name" : "of",
+      "key" : "com.netflix.sel.type.SelError/method/of(java.lang.String t)",
+      "type" : "com.netflix.sel.type.SelError",
+      "displayedType" : "SelError",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 26,
+        "endLine" : 25,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC", "STATIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "t",
+        "key" : "com.netflix.sel.type.SelError/method/of(java.lang.String t)/parameter/t",
+        "type" : "java.lang.String",
+        "displayedType" : "String",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 25,
+          "startColumn" : 36,
+          "endLine" : 25,
+          "endColumn" : 37
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.sel.type.SelError/method/of(java.lang.String t)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelError"
+    },
+    "com.netflix.sel.type.SelError/method/type()" : {
+      "name" : "type",
+      "key" : "com.netflix.sel.type.SelError/method/type()",
+      "type" : "com.netflix.sel.type.SelTypes",
+      "displayedType" : "SelTypes",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 30,
+        "startColumn" : 19,
+        "endLine" : 30,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.sel.type.SelError"
+    }
+  },
+  "file_path" : "netflix-sel/src/main/java/com/netflix/sel/type/SelError.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.sel.type.AbstractSelType" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

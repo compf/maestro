@@ -1,0 +1,251 @@
+{
+  "name" : "ForeachArtifact",
+  "key" : "com.netflix.maestro.models.artifact.ForeachArtifact",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 43,
+    "startColumn" : 8,
+    "endLine" : 43,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/pendingAction" : {
+      "name" : "pendingAction",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/pendingAction",
+      "type" : "com.netflix.maestro.models.artifact.com.netflix.maestro.models.instance.ForeachAction",
+      "displayedType" : "ForeachAction",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 35,
+        "endLine" : 56,
+        "endColumn" : 48
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachWorkflowId" : {
+      "name" : "foreachWorkflowId",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachWorkflowId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 44,
+        "startColumn" : 18,
+        "endLine" : 44,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/runPolicy" : {
+      "name" : "runPolicy",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/runPolicy",
+      "type" : "com.netflix.maestro.models.artifact.com.netflix.maestro.models.instance.RunPolicy",
+      "displayedType" : "RunPolicy",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 21,
+        "endLine" : 48,
+        "endColumn" : 30
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/totalLoopCount" : {
+      "name" : "totalLoopCount",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/totalLoopCount",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 15,
+        "endLine" : 52,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachRunId" : {
+      "name" : "foreachRunId",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachRunId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 16,
+        "endLine" : 46,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/runId" : {
+      "name" : "runId",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/runId",
+      "type" : "long",
+      "displayedType" : "long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 16,
+        "endLine" : 49,
+        "endColumn" : 21
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/ancestorIterationCount" : {
+      "name" : "ancestorIterationCount",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/ancestorIterationCount",
+      "type" : "java.lang.Long",
+      "displayedType" : "Long",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 16,
+        "endLine" : 50,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachIdentity" : {
+      "name" : "foreachIdentity",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachIdentity",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 18,
+        "endLine" : 45,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachOverview" : {
+      "name" : "foreachOverview",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/foreachOverview",
+      "type" : "com.netflix.maestro.models.artifact.com.netflix.maestro.models.instance.ForeachStepOverview",
+      "displayedType" : "ForeachStepOverview",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 31,
+        "endLine" : 54,
+        "endColumn" : 46
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/nextLoopIndex" : {
+      "name" : "nextLoopIndex",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/memberField/nextLoopIndex",
+      "type" : "int",
+      "displayedType" : "int",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 15,
+        "endLine" : 53,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.artifact.ForeachArtifact/method/isFreshRun()" : {
+      "name" : "isFreshRun",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/method/isFreshRun()",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 71,
+        "startColumn" : 18,
+        "endLine" : 71,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/method/getType()",
+      "type" : "com.netflix.maestro.models.artifact.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    },
+    "com.netflix.maestro.models.artifact.ForeachArtifact/method/asForeach()" : {
+      "name" : "asForeach",
+      "key" : "com.netflix.maestro.models.artifact.ForeachArtifact/method/asForeach()",
+      "type" : "com.netflix.maestro.models.artifact.ForeachArtifact",
+      "displayedType" : "ForeachArtifact",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 26,
+        "endLine" : 60,
+        "endColumn" : 35
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.ForeachArtifact"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/artifact/ForeachArtifact.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.artifact.Artifact" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

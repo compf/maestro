@@ -1,0 +1,170 @@
+{
+  "name" : "StringCodecTest",
+  "key" : "com.netflix.maestro.engine.compression.StringCodecTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 24,
+    "startColumn" : 8,
+    "endLine" : 24,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.engine.compression.StringCodecTest/memberField/stringCodec" : {
+      "name" : "stringCodec",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/memberField/stringCodec",
+      "type" : "com.netflix.maestro.engine.compression.StringCodec",
+      "displayedType" : "StringCodec",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 25,
+        "startColumn" : 23,
+        "endLine" : 25,
+        "endColumn" : 34
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.engine.compression.StringCodecTest/method/decompressShouldThrowExceptionIfCompressedStringIsNull()" : {
+      "name" : "decompressShouldThrowExceptionIfCompressedStringIsNull",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/method/decompressShouldThrowExceptionIfCompressedStringIsNull()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 72,
+        "startColumn" : 15,
+        "endLine" : 72,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    },
+    "com.netflix.maestro.engine.compression.StringCodecTest/method/testCompress()" : {
+      "name" : "testCompress",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/method/testCompress()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 15,
+        "endLine" : 34,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    },
+    "com.netflix.maestro.engine.compression.StringCodecTest/method/setup()" : {
+      "name" : "setup",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/method/setup()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 28,
+        "startColumn" : 15,
+        "endLine" : 28,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    },
+    "com.netflix.maestro.engine.compression.StringCodecTest/method/testDecompress()" : {
+      "name" : "testDecompress",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/method/testDecompress()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 15,
+        "endLine" : 40,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    },
+    "com.netflix.maestro.engine.compression.StringCodecTest/method/compressShouldThrowExceptionIfDecompressedStringIsNull()" : {
+      "name" : "compressShouldThrowExceptionIfDecompressedStringIsNull",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/method/compressShouldThrowExceptionIfDecompressedStringIsNull()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 15,
+        "endLine" : 54,
+        "endColumn" : 69
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    },
+    "com.netflix.maestro.engine.compression.StringCodecTest/method/decompressShouldThrowExceptionIfCompressorNotFound()" : {
+      "name" : "decompressShouldThrowExceptionIfCompressorNotFound",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/method/decompressShouldThrowExceptionIfCompressorNotFound()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 63,
+        "startColumn" : 15,
+        "endLine" : 63,
+        "endColumn" : 65
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    },
+    "com.netflix.maestro.engine.compression.StringCodecTest/method/compressShouldThrowExceptionIfCompressorNotFound()" : {
+      "name" : "compressShouldThrowExceptionIfCompressorNotFound",
+      "key" : "com.netflix.maestro.engine.compression.StringCodecTest/method/compressShouldThrowExceptionIfCompressorNotFound()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 15,
+        "endLine" : 45,
+        "endColumn" : 63
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.engine.compression.StringCodecTest"
+    }
+  },
+  "file_path" : "maestro-engine/src/test/java/com/netflix/maestro/engine/compression/StringCodecTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

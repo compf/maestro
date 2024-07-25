@@ -1,0 +1,107 @@
+{
+  "name" : "MetadataValidator",
+  "key" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 42,
+    "startColumn" : 3,
+    "endLine" : 42,
+    "endColumn" : 8
+  },
+  "modifiers" : [ "PUBLIC", "STATIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/initialize(com.netflix.maestro.validations.MetadataConstraint constraint)" : {
+      "name" : "initialize",
+      "key" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/initialize(com.netflix.maestro.validations.MetadataConstraint constraint)",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 45,
+        "startColumn" : 17,
+        "endLine" : 45,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "constraint",
+        "key" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/initialize(com.netflix.maestro.validations.MetadataConstraint constraint)/parameter/constraint",
+        "type" : "com.netflix.maestro.validations.MetadataConstraint",
+        "displayedType" : "MetadataConstraint",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 45,
+          "startColumn" : 47,
+          "endLine" : 45,
+          "endColumn" : 57
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/initialize(com.netflix.maestro.validations.MetadataConstraint constraint)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator"
+    },
+    "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata metadata, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)" : {
+      "name" : "isValid",
+      "key" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata metadata, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)",
+      "type" : "boolean",
+      "displayedType" : "boolean",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 20,
+        "endLine" : 48,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ {
+        "name" : "metadata",
+        "key" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata metadata, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/metadata",
+        "type" : "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata",
+        "displayedType" : "Metadata",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 37,
+          "endLine" : 48,
+          "endColumn" : 45
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata metadata, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      }, {
+        "name" : "context",
+        "key" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata metadata, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)/parameter/context",
+        "type" : "com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext",
+        "displayedType" : "ConstraintValidatorContext",
+        "hasTypeVariable" : false,
+        "position" : {
+          "startLine" : 48,
+          "startColumn" : 74,
+          "endLine" : 48,
+          "endColumn" : 81
+        },
+        "modifiers" : [ ],
+        "ignore" : false,
+        "methodKey" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator/method/isValid(com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata metadata, com.netflix.maestro.validations.javax.validation.ConstraintValidatorContext context)"
+      } ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.MetadataConstraint.MetadataValidator"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/validations/MetadataConstraint.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.validations.javax.validation.ConstraintValidator<com.netflix.maestro.validations.MetadataConstraint, com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata>", "com.netflix.maestro.validations.MetadataConstraint", "com.netflix.maestro.validations.com.netflix.maestro.models.definition.Metadata" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}

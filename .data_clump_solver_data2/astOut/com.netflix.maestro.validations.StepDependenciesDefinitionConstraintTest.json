@@ -1,0 +1,187 @@
+{
+  "name" : "StepDependenciesDefinitionConstraintTest",
+  "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 32,
+    "startColumn" : 8,
+    "endLine" : 32,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : { },
+  "methods" : {
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testSignalNameConstraint()" : {
+      "name" : "testSignalNameConstraint",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testSignalNameConstraint()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 94,
+        "startColumn" : 15,
+        "endLine" : 94,
+        "endColumn" : 39
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest"
+    },
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testMoreThanOneSignalRangeParamConstraint()" : {
+      "name" : "testMoreThanOneSignalRangeParamConstraint",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testMoreThanOneSignalRangeParamConstraint()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 121,
+        "startColumn" : 15,
+        "endLine" : 121,
+        "endColumn" : 56
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest"
+    },
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testNoConstraintViolations()" : {
+      "name" : "testNoConstraintViolations",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testNoConstraintViolations()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 46,
+        "startColumn" : 15,
+        "endLine" : 46,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest"
+    },
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testNullOrEmptyDefinitions()" : {
+      "name" : "testNullOrEmptyDefinitions",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest/method/testNullOrEmptyDefinitions()",
+      "type" : "void",
+      "displayedType" : "void",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 67,
+        "startColumn" : 15,
+        "endLine" : 67,
+        "endColumn" : 41
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : false,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest"
+    }
+  },
+  "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/StepDependenciesDefinitionConstraintTest.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ ],
+  "extends_" : [ "com.netflix.maestro.validations.BaseConstraintTest" ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : {
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStepImpl" : {
+      "name" : "TestStepImpl",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStepImpl",
+      "type" : "class",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 40,
+        "startColumn" : 18,
+        "endLine" : 40,
+        "endColumn" : 23
+      },
+      "modifiers" : [ "PRIVATE", "STATIC" ],
+      "fields" : {
+        "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStepImpl/memberField/dependencies" : {
+          "name" : "dependencies",
+          "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStepImpl/memberField/dependencies",
+          "type" : "java.util.Map<com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependencyType, com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition>",
+          "displayedType" : "Map<StepDependencyType, @StepDependenciesDefinitionConstraint StepDependenciesDefinition>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 42,
+            "startColumn" : 9,
+            "endLine" : 42,
+            "endColumn" : 21
+          },
+          "modifiers" : [ ],
+          "ignore" : false,
+          "memberFieldKey" : null,
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStepImpl"
+        }
+      },
+      "methods" : { },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/StepDependenciesDefinitionConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest$TestStep" ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  },
+  "innerDefinedInterfaces" : {
+    "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStep" : {
+      "name" : "TestStep",
+      "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStep",
+      "type" : "interface",
+      "displayedType" : null,
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 34,
+        "startColumn" : 11,
+        "endLine" : 34,
+        "endColumn" : 20
+      },
+      "modifiers" : [ "PRIVATE", "ABSTRACT", "STATIC" ],
+      "fields" : { },
+      "methods" : {
+        "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStep/method/getDependencies()" : {
+          "name" : "getDependencies",
+          "key" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStep/method/getDependencies()",
+          "type" : "java.util.Map<com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependencyType, com.netflix.maestro.validations.com.netflix.maestro.models.definition.StepDependenciesDefinition>",
+          "displayedType" : "Map<StepDependencyType, StepDependenciesDefinition>",
+          "hasTypeVariable" : false,
+          "position" : {
+            "startLine" : 35,
+            "startColumn" : 57,
+            "endLine" : 35,
+            "endColumn" : 72
+          },
+          "modifiers" : [ "PUBLIC", "ABSTRACT" ],
+          "overrideAnnotation" : false,
+          "returnType" : null,
+          "parameters" : [ ],
+          "classOrInterfaceKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest.TestStep"
+        }
+      },
+      "file_path" : "maestro-common/src/test/java/com/netflix/maestro/validations/StepDependenciesDefinitionConstraintTest.java",
+      "imports" : [ ],
+      "anonymous" : false,
+      "auxclass" : false,
+      "implements_" : [ ],
+      "extends_" : [ ],
+      "definedInClassOrInterfaceTypeKey" : "com.netflix.maestro.validations.StepDependenciesDefinitionConstraintTest",
+      "innerDefinedClasses" : { },
+      "innerDefinedInterfaces" : { }
+    }
+  }
+}

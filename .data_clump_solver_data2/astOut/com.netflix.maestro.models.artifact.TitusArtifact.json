@@ -1,0 +1,233 @@
+{
+  "name" : "TitusArtifact",
+  "key" : "com.netflix.maestro.models.artifact.TitusArtifact",
+  "type" : "class",
+  "displayedType" : null,
+  "hasTypeVariable" : false,
+  "position" : {
+    "startLine" : 46,
+    "startColumn" : 8,
+    "endLine" : 46,
+    "endColumn" : 13
+  },
+  "modifiers" : [ "PUBLIC" ],
+  "fields" : {
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusTaskId" : {
+      "name" : "titusTaskId",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusTaskId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 55,
+        "startColumn" : 18,
+        "endLine" : 55,
+        "endColumn" : 29
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/milestones" : {
+      "name" : "milestones",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/milestones",
+      "type" : "java.util.List<com.netflix.maestro.models.artifact.com.netflix.maestro.models.timeline.TimelineMilestoneEvent>",
+      "displayedType" : "List<TimelineMilestoneEvent>",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 56,
+        "startColumn" : 40,
+        "endLine" : 56,
+        "endColumn" : 50
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusExecutionOutput" : {
+      "name" : "titusExecutionOutput",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusExecutionOutput",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 52,
+        "startColumn" : 18,
+        "endLine" : 52,
+        "endColumn" : 38
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/cmbUiLink" : {
+      "name" : "cmbUiLink",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/cmbUiLink",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 48,
+        "startColumn" : 18,
+        "endLine" : 48,
+        "endColumn" : 27
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusExecutionErrorOutput" : {
+      "name" : "titusExecutionErrorOutput",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusExecutionErrorOutput",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 53,
+        "startColumn" : 18,
+        "endLine" : 53,
+        "endColumn" : 43
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusOptions" : {
+      "name" : "titusOptions",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusOptions",
+      "type" : "com.netflix.maestro.models.artifact.com.netflix.maestro.models.stepruntime.TitusCommand",
+      "displayedType" : "TitusCommand",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 54,
+        "startColumn" : 24,
+        "endLine" : 54,
+        "endColumn" : 36
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/cmbJobId" : {
+      "name" : "cmbJobId",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/cmbJobId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 47,
+        "startColumn" : 18,
+        "endLine" : 47,
+        "endColumn" : 26
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/executionScript" : {
+      "name" : "executionScript",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/executionScript",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 49,
+        "startColumn" : 18,
+        "endLine" : 49,
+        "endColumn" : 33
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusLogUiLink" : {
+      "name" : "titusLogUiLink",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusLogUiLink",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 51,
+        "startColumn" : 18,
+        "endLine" : 51,
+        "endColumn" : 32
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusJobId" : {
+      "name" : "titusJobId",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/memberField/titusJobId",
+      "type" : "java.lang.String",
+      "displayedType" : "String",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 50,
+        "startColumn" : 18,
+        "endLine" : 50,
+        "endColumn" : 28
+      },
+      "modifiers" : [ "PRIVATE" ],
+      "ignore" : false,
+      "memberFieldKey" : null,
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    }
+  },
+  "methods" : {
+    "com.netflix.maestro.models.artifact.TitusArtifact/method/asTitus()" : {
+      "name" : "asTitus",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/method/asTitus()",
+      "type" : "com.netflix.maestro.models.artifact.TitusArtifact",
+      "displayedType" : "TitusArtifact",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 60,
+        "startColumn" : 24,
+        "endLine" : 60,
+        "endColumn" : 31
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    },
+    "com.netflix.maestro.models.artifact.TitusArtifact/method/getType()" : {
+      "name" : "getType",
+      "key" : "com.netflix.maestro.models.artifact.TitusArtifact/method/getType()",
+      "type" : "com.netflix.maestro.models.artifact.Type",
+      "displayedType" : "Type",
+      "hasTypeVariable" : false,
+      "position" : {
+        "startLine" : 65,
+        "startColumn" : 15,
+        "endLine" : 65,
+        "endColumn" : 22
+      },
+      "modifiers" : [ "PUBLIC" ],
+      "overrideAnnotation" : true,
+      "returnType" : null,
+      "parameters" : [ ],
+      "classOrInterfaceKey" : "com.netflix.maestro.models.artifact.TitusArtifact"
+    }
+  },
+  "file_path" : "maestro-common/src/main/java/com/netflix/maestro/models/artifact/TitusArtifact.java",
+  "imports" : [ ],
+  "anonymous" : false,
+  "auxclass" : false,
+  "implements_" : [ "com.netflix.maestro.models.artifact.Artifact" ],
+  "extends_" : [ ],
+  "definedInClassOrInterfaceTypeKey" : null,
+  "innerDefinedClasses" : { },
+  "innerDefinedInterfaces" : { }
+}
