@@ -755,30 +755,25 @@ public class MaestroStepBreakpointDao extends CockroachDBBaseDAO {
    */
   private PreparedStatement getPreparedStatementForMatchAnyOrSpecific(
       Connection conn,
-      String workflowId,
-      long version,
-      long instanceId,
-      long runId,
-      String stepId,
-      long attemptId)
+      WorkflowBreakpointParams params)
       throws SQLException {
     StringBuilder query = new StringBuilder(GET_STEP_BREAKPOINT_BASE_QUERY);
-    if (version != Constants.MATCH_ALL_WORKFLOW_VERSIONS) {
+    if (params.getVersion() != Constants.MATCH_ALL_WORKFLOW_VERSIONS) {
       query.append(CONDITION_BY_SPECIFIC_OR_MATCH_ALL_VERSIONS);
     }
-    if (instanceId != Constants.MATCH_ALL_WORKFLOW_INSTANCES) {
+    if (params.getInstanceId() != Constants.MATCH_ALL_WORKFLOW_INSTANCES) {
       query.append(CONDITION_BY_SPECIFIC_OR_MATCH_ALL_INSTANCES);
     }
-    if (runId != Constants.MATCH_ALL_RUNS) {
+    if (params.getRunId() != Constants.MATCH_ALL_RUNS) {
       query.append(CONDITION_BY_SPECIFIC_OR_MATCH_ALL_RUNS);
     }
-    if (attemptId != Constants.MATCH_ALL_STEP_ATTEMPTS) {
+    if (params.getAttemptId() != Constants.MATCH_ALL_STEP_ATTEMPTS) {
       query.append(CONDITION_BY_SPECIFIC_OR_MATCH_ALL_STEP_INSTANCE_ATTEMPT_IDS);
     }
 
     PreparedStatement stmt = conn.prepareStatement(query.toString());
     updateQueryStatementHelper(
-        stmt, workflowId, null, version, instanceId, runId, stepId, attemptId, null);
+        stmt, params, null);
     return stmt;
   }
 
