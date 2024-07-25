@@ -187,16 +187,9 @@ public class WorkflowActionHandler {
    * @param batchSize the batch size for run job instance uuids within a run job event.
    * @return the status of start foreach workflow instances.
    */
-  public Optional<Details> runForeachBatch(
-      Workflow workflow,
-      Long internalId,
-      long workflowVersionId,
-      RunProperties runProperties,
-      String foreachStepId,
-      ForeachArtifact artifact,
-      List<RunRequest> requests,
-      List<Long> instanceIds,
-      int batchSize) {
+  public Optional<Details> runForeachBatch(ForeachBatchContext context, int batchSize) {
+    List<RunRequest> requests = context.getRequests();
+    List<Long> instanceIds = context.getInstanceIds();
     if (ObjectHelper.isCollectionEmptyOrNull(requests)) {
       return Optional.empty();
     }
@@ -206,32 +199,15 @@ public class WorkflowActionHandler {
         requests.size(),
         instanceIds.size());
     List<WorkflowInstance> instances;
-    if (artifact.isFreshRun()) {
-      instances =
-          createStartForeachInstances(
-              workflow,
-              internalId,
-              workflowVersionId,
-              artifact.getForeachRunId(),
-              runProperties,
-              requests,
-              instanceIds);
+    if (context.getArtifact().isFreshRun()) {
+      instances = createStartForeachInstances(context);
     } else {
-      instances =
-          createRestartForeachInstances(
-              workflow,
-              internalId,
-              workflowVersionId,
-              runProperties,
-              foreachStepId,
-              artifact,
-              requests,
-              instanceIds);
+      instances = createRestartForeachInstances(context);
     }
     if (ObjectHelper.isCollectionEmptyOrNull(instances)) {
       return Optional.empty();
     }
-    return instanceDao.runWorkflowInstances(workflow.getId(), instances, batchSize);
+    return instanceDao.runWorkflowInstances(context.getWorkflow().getId(), instances, batchSize);
   }
 
   private List<WorkflowInstance> createStartForeachInstances(
@@ -243,57 +219,49 @@ public class WorkflowActionHandler {
       List<RunRequest> requests,
       List<Long> instanceIds) {
     List<WorkflowInstance> instances =
-        createWorkflowInstances(workflow, internalId, workflowVersionId, runProperties, requests);
+        createWorkflowInstances(context.getWorkflow(), context.getInternalId(), context.getWorkflowVersionId(), context.getRunProperties(), context.getRequests());
 
-    Iterator<Long> instanceId = instanceIds.iterator();
+    Iterator<Long> instanceId = context.getInstanceIds().iterator();
     for (WorkflowInstance instance : instances) {
       instance.setWorkflowInstanceId(instanceId.next());
-      instance.setWorkflowRunId(workflowRunId);
+      instance.setWorkflowRunId(context.getArtifact().getForeachRunId());
     }
     return instances;
   }
 
-  private List<WorkflowInstance> createRestartForeachInstances(
-      Workflow workflow,
-      Long internalId,
-      long workflowVersionId,
-      RunProperties runProperties,
-      String foreachStepId,
-      ForeachArtifact artifact,
-      List<RunRequest> requests,
-      List<Long> instanceIds) {
+  private List<WorkflowInstance> createRestartForeachInstances(ForeachBatchContext context) {
     long totalAncestorIterations =
-        ObjectHelper.valueOrDefault(artifact.getAncestorIterationCount(), 0L);
+        ObjectHelper.valueOrDefault(context.getArtifact().getAncestorIterationCount(), 0L);
     List<WorkflowInstance> instances = new ArrayList<>();
 
-    Iterator<Long> instanceIditerator = instanceIds.iterator();
-    for (RunRequest request : requests) {
+    Iterator<Long> instanceIditerator = context.getInstanceIds().iterator();
+    for (RunRequest request : context.getRequests()) {
 
       long instanceId = instanceIditerator.next();
       if (instanceId > totalAncestorIterations) {
         RunRequest.RunRequestBuilder requestBuilder =
             request.toBuilder().currentPolicy(RunPolicy.RESTART_FROM_BEGINNING);
-        if (!isRestartFromInlineRootMode(request, workflow)) {
+        if (!isRestartFromInlineRootMode(request, context.getWorkflow())) {
           requestBuilder.restartConfig(null);
         }
         WorkflowInstance instance =
             workflowHelper.createWorkflowInstance(
-                workflow.toBuilder().build(),
-                internalId,
-                workflowVersionId,
-                runProperties,
+                context.getWorkflow().toBuilder().build(),
+                context.getInternalId(),
+                context.getWorkflowVersionId(),
+                context.getRunProperties(),
                 requestBuilder.build());
         instance.setWorkflowInstanceId(instanceId);
-        instance.setWorkflowRunId(artifact.getForeachRunId());
+        instance.setWorkflowRunId(context.getArtifact().getForeachRunId());
         instances.add(instance);
       } else {
         WorkflowInstance instance =
-            instanceDao.getLatestWorkflowInstanceRun(workflow.getId(), instanceId);
-        if (!isRestartFromInlineRootMode(request, workflow)) {
-          request.updateForDownstreamIfNeeded(foreachStepId, instance);
+            instanceDao.getLatestWorkflowInstanceRun(context.getWorkflow().getId(), instanceId);
+        if (!isRestartFromInlineRootMode(request, context.getWorkflow())) {
+          request.updateForDownstreamIfNeeded(context.getForeachStepId(), instance);
         }
         workflowHelper.updateWorkflowInstance(instance, request);
-        instance.setWorkflowRunId(artifact.getForeachRunId());
+        instance.setWorkflowRunId(context.getArtifact().getForeachRunId());
         instances.add(instance);
       }
     }
