@@ -742,12 +742,13 @@ public class MaestroTask extends WorkflowSystemTask {
             break;
           case INITIALIZED:
             if (stepBreakpointDao.createPausedStepAttemptIfNeeded(
-                workflowSummary.getWorkflowId(),
-                workflowSummary.getWorkflowVersionId(),
-                workflowSummary.getWorkflowInstanceId(),
-                workflowSummary.getWorkflowRunId(),
-                runtimeSummary.getStepId(),
-                runtimeSummary.getStepAttemptId())) {
+                    new WorkflowExecutionDetails(
+                            workflowSummary.getWorkflowId(),
+                            workflowSummary.getWorkflowVersionId(),
+                            workflowSummary.getWorkflowInstanceId(),
+                            workflowSummary.getWorkflowRunId(),
+                            runtimeSummary.getStepId(),
+                            runtimeSummary.getStepAttemptId()))) {
               runtimeSummary.markPaused(tracingManager);
             } else {
               runtimeSummary.markWaitSignal(tracingManager);
@@ -755,12 +756,13 @@ public class MaestroTask extends WorkflowSystemTask {
             break;
           case PAUSED:
             if (stepBreakpointDao.shouldStepResume(
-                workflowSummary.getWorkflowId(),
-                workflowSummary.getWorkflowVersionId(),
-                workflowSummary.getWorkflowInstanceId(),
-                workflowSummary.getWorkflowRunId(),
-                runtimeSummary.getStepId(),
-                runtimeSummary.getStepAttemptId())) {
+                    new WorkflowExecutionDetails(
+                            workflowSummary.getWorkflowId(),
+                            workflowSummary.getWorkflowVersionId(),
+                            workflowSummary.getWorkflowInstanceId(),
+                            workflowSummary.getWorkflowRunId(),
+                            runtimeSummary.getStepId(),
+                            runtimeSummary.getStepAttemptId()))) {
               runtimeSummary.markWaitSignal(tracingManager);
             } else {
               runtimeSummary.addTimeline(
