@@ -11,74 +11,81 @@
  * specific language governing permissions and limitations under the License.
  */
 package com.netflix.maestro.engine.dao;
+
 public class WorkflowExecutionDetails {
 
-    private java.lang.String workflowId;
+  private java.lang.String workflowId;
 
-    private long version;
+  private long version;
 
-    private long instanceId;
+  private long instanceId;
 
-    private long runId;
+  private long runId;
 
-    private java.lang.String stepId;
+  private java.lang.String stepId;
 
-    private long stepAttemptId;
+  private long stepAttemptId;
 
-    public java.lang.String getWorkflowId() {
-        return workflowId;
-    }
+  public java.lang.String getWorkflowId() {
+    return workflowId;
+  }
 
-    public long getVersion() {
-        return version;
-    }
+  public long getVersion() {
+    return version;
+  }
 
-    public long getInstanceId() {
-        return instanceId;
-    }
+  public long getInstanceId() {
+    return instanceId;
+  }
 
-    public long getRunId() {
-        return runId;
-    }
+  public long getRunId() {
+    return runId;
+  }
 
-    public java.lang.String getStepId() {
-        return stepId;
-    }
+  public java.lang.String getStepId() {
+    return stepId;
+  }
 
-    public long getStepAttemptId() {
-        return stepAttemptId;
-    }
+  public long getStepAttemptId() {
+    return stepAttemptId;
+  }
 
-    public void setWorkflowId(java.lang.String workflowId) {
-        this.workflowId=workflowId;
-    }
+  public void setWorkflowId(java.lang.String workflowId) {
+    this.workflowId = workflowId;
+  }
 
-    public void setVersion(long version) {
-        this.version=version;
-    }
+  public void setVersion(long version) {
+    this.version = version;
+  }
 
-    public void setInstanceId(long instanceId) {
-        this.instanceId=instanceId;
-    }
+  public void setInstanceId(long instanceId) {
+    this.instanceId = instanceId;
+  }
 
-    public void setRunId(long runId) {
-        this.runId=runId;
-    }
+  public void setRunId(long runId) {
+    this.runId = runId;
+  }
 
-    public void setStepId(java.lang.String stepId) {
-        this.stepId=stepId;
-    }
+  public void setStepId(java.lang.String stepId) {
+    this.stepId = stepId;
+  }
 
-    public void setStepAttemptId(long stepAttemptId) {
-        this.stepAttemptId=stepAttemptId;
-    }
+  public void setStepAttemptId(long stepAttemptId) {
+    this.stepAttemptId = stepAttemptId;
+  }
 
-    public WorkflowExecutionDetails    (java.lang.String workflowId,long version,long instanceId,long runId,java.lang.String stepId,long stepAttemptId){
-        this.workflowId    =    workflowId;
-        this.version    =    version;
-        this.instanceId    =    instanceId;
-        this.runId    =    runId;
-        this.stepId    =    stepId;
-        this.stepAttemptId    =    stepAttemptId;
-}
+  public WorkflowExecutionDetails(
+      java.lang.String workflowId,
+      long version,
+      long instanceId,
+      long runId,
+      java.lang.String stepId,
+      long stepAttemptId) {
+    this.workflowId = workflowId;
+    this.version = version;
+    this.instanceId = instanceId;
+    this.runId = runId;
+    this.stepId = stepId;
+    this.stepAttemptId = stepAttemptId;
+  }
 }

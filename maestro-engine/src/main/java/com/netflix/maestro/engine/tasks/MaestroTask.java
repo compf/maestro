@@ -23,6 +23,7 @@ import com.netflix.maestro.engine.concurrency.InstanceStepConcurrencyHandler;
 import com.netflix.maestro.engine.concurrency.TagPermitManager;
 import com.netflix.maestro.engine.dao.MaestroStepBreakpointDao;
 import com.netflix.maestro.engine.dao.MaestroStepInstanceActionDao;
+import com.netflix.maestro.engine.dao.WorkflowExecutionDetails;
 import com.netflix.maestro.engine.db.DbOperation;
 import com.netflix.maestro.engine.db.StepAction;
 import com.netflix.maestro.engine.eval.InstanceWrapper;
@@ -742,13 +743,13 @@ public class MaestroTask extends WorkflowSystemTask {
             break;
           case INITIALIZED:
             if (stepBreakpointDao.createPausedStepAttemptIfNeeded(
-                    new WorkflowExecutionDetails(
-                            workflowSummary.getWorkflowId(),
-                            workflowSummary.getWorkflowVersionId(),
-                            workflowSummary.getWorkflowInstanceId(),
-                            workflowSummary.getWorkflowRunId(),
-                            runtimeSummary.getStepId(),
-                            runtimeSummary.getStepAttemptId()))) {
+                new WorkflowExecutionDetails(
+                    workflowSummary.getWorkflowId(),
+                    workflowSummary.getWorkflowVersionId(),
+                    workflowSummary.getWorkflowInstanceId(),
+                    workflowSummary.getWorkflowRunId(),
+                    runtimeSummary.getStepId(),
+                    runtimeSummary.getStepAttemptId()))) {
               runtimeSummary.markPaused(tracingManager);
             } else {
               runtimeSummary.markWaitSignal(tracingManager);
@@ -756,13 +757,13 @@ public class MaestroTask extends WorkflowSystemTask {
             break;
           case PAUSED:
             if (stepBreakpointDao.shouldStepResume(
-                    new WorkflowExecutionDetails(
-                            workflowSummary.getWorkflowId(),
-                            workflowSummary.getWorkflowVersionId(),
-                            workflowSummary.getWorkflowInstanceId(),
-                            workflowSummary.getWorkflowRunId(),
-                            runtimeSummary.getStepId(),
-                            runtimeSummary.getStepAttemptId()))) {
+                new WorkflowExecutionDetails(
+                    workflowSummary.getWorkflowId(),
+                    workflowSummary.getWorkflowVersionId(),
+                    workflowSummary.getWorkflowInstanceId(),
+                    workflowSummary.getWorkflowRunId(),
+                    runtimeSummary.getStepId(),
+                    runtimeSummary.getStepAttemptId()))) {
               runtimeSummary.markWaitSignal(tracingManager);
             } else {
               runtimeSummary.addTimeline(

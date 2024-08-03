@@ -98,13 +98,14 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     StepBreakpoint bp =
         maestroStepBreakpointDao.addStepBreakpoint(
-                TEST_USER, new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID2,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            TEST_USER,
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID2,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(TEST_WORKFLOW_ID2, bp.getWorkflowId());
     assertEquals(TEST_STEP_ID1, bp.getStepId());
     assertEquals(TEST_WORKFLOW_INSTANCE1, bp.getWorkflowInstanceId().longValue());
@@ -113,13 +114,14 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     assertNull(bp.getStepAttemptId());
     bp =
         maestroStepBreakpointDao.addStepBreakpoint(
-                TEST_USER, new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            TEST_USER,
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(TEST_WORKFLOW_ID1, bp.getWorkflowId());
     assertEquals(TEST_STEP_ID1, bp.getStepId());
     assertNull(bp.getWorkflowVersionId());
@@ -134,13 +136,14 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     String hashedInternalId = IdHelper.hashKey(INTERNAL_ID);
     StepBreakpoint bp =
         maestroStepBreakpointDao.addStepBreakpoint(
-                TEST_USER, new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID2,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_FOREACH_STEP_ID4,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            TEST_USER,
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID2,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                Constants.MATCH_ALL_RUNS,
+                TEST_FOREACH_STEP_ID4,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(
         String.format("%s_%s_", Constants.FOREACH_INLINE_WORKFLOW_PREFIX, hashedInternalId),
         bp.getWorkflowId());
@@ -155,38 +158,41 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
   public void testInsertUpsertBreakpointCycle() {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID2,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID2,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID2,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID2,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID2,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID2,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     List<StepBreakpoint> bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID2,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID2,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, bp.size());
     assertEquals(TEST_WORKFLOW_ID2, bp.get(0).getWorkflowId());
     assertEquals(TEST_STEP_ID1, bp.get(0).getStepId());
@@ -195,22 +201,23 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     assertNull(bp.get(0).getWorkflowRunId());
     assertNull(bp.get(0).getStepAttemptId());
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, bp.size());
     assertEquals(TEST_WORKFLOW_ID1, bp.get(0).getWorkflowId());
     assertEquals(TEST_STEP_ID1, bp.get(0).getStepId());
@@ -224,38 +231,41 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
   public void testUpsertStepBreakPoint() {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     List<StepBreakpoint> bps =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(3, bps.size());
   }
 
@@ -263,40 +273,42 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
   public void testRemoveBreakpoint() {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID3,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID3,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     List<StepBreakpoint> bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID3,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID3,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, bp.size());
     maestroStepBreakpointDao.removeStepBreakpoint(
-            true, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID3,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1));
+        true,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID3,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID3,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID3,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(0, bp.size());
     AssertHelper.assertThrows(
         "removing not existing breakpoint",
@@ -305,55 +317,58 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + " been created yet or has already been deleted",
         () ->
             maestroStepBreakpointDao.removeStepBreakpoint(
-                    true, new WorkflowExecutionDetails(
-                            TEST_WORKFLOW_ID1,
-                            TEST_WORKFLOW_VERSION1,
-                            TEST_WORKFLOW_INSTANCE1,
-                            TEST_WORKFLOW_RUN1,
-                            TEST_STEP_ID2,
-                            TEST_STEP_ATTEMPT1)));
+                true,
+                new WorkflowExecutionDetails(
+                    TEST_WORKFLOW_ID1,
+                    TEST_WORKFLOW_VERSION1,
+                    TEST_WORKFLOW_INSTANCE1,
+                    TEST_WORKFLOW_RUN1,
+                    TEST_STEP_ID2,
+                    TEST_STEP_ATTEMPT1)));
   }
 
   @Test
   public void testNonExistStepBreakpoints() {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID2,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID2,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
 
     List<StepBreakpoint> bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, bp.size());
 
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_NON_EXIST_STEP_ID,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_NON_EXIST_STEP_ID,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(0, bp.size());
 
     AssertHelper.assertThrows(
@@ -363,272 +378,290 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + " been created yet or has already been deleted",
         () ->
             maestroStepBreakpointDao.removeStepBreakpoint(
-                    true, new WorkflowExecutionDetails(
-                            TEST_WORKFLOW_ID1,
-                            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                            Constants.MATCH_ALL_RUNS,
-                            TEST_NON_EXIST_STEP_ID,
-                            Constants.MATCH_ALL_STEP_ATTEMPTS)));
+                true,
+                new WorkflowExecutionDetails(
+                    TEST_WORKFLOW_ID1,
+                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                    Constants.MATCH_ALL_RUNS,
+                    TEST_NON_EXIST_STEP_ID,
+                    Constants.MATCH_ALL_STEP_ATTEMPTS)));
 
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
 
     assertEquals(
         1,
         maestroStepBreakpointDao
             .getPausedStepAttempts(
-                    new WorkflowExecutionDetails(
-                            TEST_WORKFLOW_ID1,
-                            TEST_WORKFLOW_VERSION2,
-                            TEST_WORKFLOW_INSTANCE1,
-                            TEST_WORKFLOW_RUN1,
-                            TEST_STEP_ID1,
-                            TEST_STEP_ATTEMPT1))
+                new WorkflowExecutionDetails(
+                    TEST_WORKFLOW_ID1,
+                    TEST_WORKFLOW_VERSION2,
+                    TEST_WORKFLOW_INSTANCE1,
+                    TEST_WORKFLOW_RUN1,
+                    TEST_STEP_ID1,
+                    TEST_STEP_ATTEMPT1))
             .size());
 
     assertEquals(
         0,
         maestroStepBreakpointDao
             .getPausedStepAttempts(
-                    new WorkflowExecutionDetails(
-                            TEST_WORKFLOW_ID1,
-                            TEST_WORKFLOW_VERSION1,
-                            TEST_WORKFLOW_INSTANCE1,
-                            TEST_WORKFLOW_RUN1,
-                            TEST_NON_EXIST_STEP_ID,
-                            TEST_STEP_ATTEMPT1))
+                new WorkflowExecutionDetails(
+                    TEST_WORKFLOW_ID1,
+                    TEST_WORKFLOW_VERSION1,
+                    TEST_WORKFLOW_INSTANCE1,
+                    TEST_WORKFLOW_RUN1,
+                    TEST_NON_EXIST_STEP_ID,
+                    TEST_STEP_ATTEMPT1))
             .size());
 
     assertEquals(
         1,
         maestroStepBreakpointDao.removeStepBreakpoint(
-                true, new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS)));
+            true,
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS)));
   }
 
   @Test
   public void testGetBreakpoints() {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION2,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION2,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE2,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE2,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION2,
-                    TEST_WORKFLOW_INSTANCE1,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION2,
+            TEST_WORKFLOW_INSTANCE1,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION2,
-                    TEST_WORKFLOW_INSTANCE2,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION2,
+            TEST_WORKFLOW_INSTANCE2,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN2,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN2,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN2,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN2,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT2));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT2));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN2,
-                    TEST_STEP_ID2,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN2,
+            TEST_STEP_ID2,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT1));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT2));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT2));
     List<StepBreakpoint> bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(13, bp.size());
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(10, bp.size());
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(7, bp.size());
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(6, bp.size());
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertEquals(5, bp.size());
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE2,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID2,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE2,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID2,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, bp.size());
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID2,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID2,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(3, bp.size());
     bp =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID2,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID2,
+                TEST_STEP_ATTEMPT1));
     assertEquals(1, bp.size());
   }
 
@@ -642,13 +675,14 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + " [sample-active-wf-with-props]",
         () ->
             maestroStepBreakpointDao.addStepBreakpoint(
-                    TEST_USER, new WorkflowExecutionDetails(
-                            TEST_WORKFLOW_ID1,
-                            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                            Constants.MATCH_ALL_RUNS,
-                            TEST_NON_EXIST_STEP_ID,
-                            Constants.MATCH_ALL_RUNS)));
+                TEST_USER,
+                new WorkflowExecutionDetails(
+                    TEST_WORKFLOW_ID1,
+                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                    Constants.MATCH_ALL_RUNS,
+                    TEST_NON_EXIST_STEP_ID,
+                    Constants.MATCH_ALL_RUNS)));
   }
 
   @Test
@@ -656,73 +690,77 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     String workflowId = wfd.getPropertiesSnapshot().getWorkflowId();
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     conn.commit();
     conn.close();
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertEquals(1, pausedStepAttempts.size());
     // Also test remove cycle
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    workflowId,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            workflowId,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     int cnt =
         maestroStepBreakpointDao.removeStepBreakpoint(
-                false, new WorkflowExecutionDetails(
-                        workflowId,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            false,
+            new WorkflowExecutionDetails(
+                workflowId,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(0, cnt);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    workflowId,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            workflowId,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     cnt =
         maestroStepBreakpointDao.removeStepBreakpoint(
-                true, new WorkflowExecutionDetails(
-                        workflowId,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            true,
+            new WorkflowExecutionDetails(
+                workflowId,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, cnt);
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertEquals(0, pausedStepAttempts.size());
   }
 
@@ -731,33 +769,33 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     String workflowId = wfd.getPropertiesSnapshot().getWorkflowId();
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT1));
     conn.commit();
     conn.close();
     maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
-            new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT1));
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT1));
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID2,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID2,
+                TEST_STEP_ATTEMPT1));
     assertEquals(0, pausedStepAttempts.size());
   }
 
@@ -772,41 +810,41 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + " is not been created yet or already resumed",
         () ->
             maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
-                    new WorkflowExecutionDetails(
-                            workflowId,
-                            TEST_WORKFLOW_VERSION1,
-                            TEST_WORKFLOW_INSTANCE1,
-                            TEST_WORKFLOW_RUN1,
-                            TEST_STEP_ID2,
-                            TEST_STEP_ATTEMPT1)));
-    maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
+                new WorkflowExecutionDetails(
                     workflowId,
                     TEST_WORKFLOW_VERSION1,
                     TEST_WORKFLOW_INSTANCE1,
                     TEST_WORKFLOW_RUN1,
                     TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT1)
-    );
+                    TEST_STEP_ATTEMPT1)));
+    maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT1));
     conn.commit();
     conn.close();
     maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
-            new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT1));
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT1));
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID2,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID2,
+                TEST_STEP_ATTEMPT1));
     assertEquals(0, pausedStepAttempts.size());
     AssertHelper.assertThrows(
         "invalid resume call",
@@ -815,13 +853,13 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + " is not been created yet or already resumed",
         () ->
             maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
-                    new WorkflowExecutionDetails(
-                            workflowId,
-                            TEST_WORKFLOW_VERSION1,
-                            TEST_WORKFLOW_INSTANCE1,
-                            TEST_WORKFLOW_RUN1,
-                            TEST_STEP_ID2,
-                            TEST_STEP_ATTEMPT1)));
+                new WorkflowExecutionDetails(
+                    workflowId,
+                    TEST_WORKFLOW_VERSION1,
+                    TEST_WORKFLOW_INSTANCE1,
+                    TEST_WORKFLOW_RUN1,
+                    TEST_STEP_ID2,
+                    TEST_STEP_ATTEMPT1)));
   }
 
   @Test
@@ -829,33 +867,33 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     String workflowId = wfd.getPropertiesSnapshot().getWorkflowId();
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     conn.commit();
     conn.close();
     maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
-            new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1));
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertEquals(0, pausedStepAttempts.size());
   }
 
@@ -864,190 +902,190 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     String workflowId = wfd.getPropertiesSnapshot().getWorkflowId();
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT2)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT2));
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN2,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN2,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION2,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION2,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION2,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION2,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    workflowId,
-                    TEST_WORKFLOW_VERSION2,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID2,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            workflowId,
+            TEST_WORKFLOW_VERSION2,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID2,
+            TEST_STEP_ATTEMPT1));
     conn.commit();
     conn.close();
     // Get all for <wfId, stepId> group
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(5, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(4, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(3, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(2, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertEquals(1, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID2,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID2,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(2, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID2,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID2,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(0, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION2,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID2,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION2,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID2,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(2, pausedStepAttempts.size());
     pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID2,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID2,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, pausedStepAttempts.size());
     boolean resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertFalse(resume);
     resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT2));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT2));
     assertFalse(resume);
     resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        workflowId,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN2,
-                        TEST_STEP_ID2,
-                        TEST_STEP_ATTEMPT2));
+            new WorkflowExecutionDetails(
+                workflowId,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN2,
+                TEST_STEP_ID2,
+                TEST_STEP_ATTEMPT2));
     assertTrue(resume);
   }
 
@@ -1055,150 +1093,155 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
   public void testShouldStepPause() {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
     boolean resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertFalse(resume);
     maestroStepBreakpointDao.removeStepBreakpoint(
-            true, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        true,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertFalse(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_STEP_ID1,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_STEP_ID1,
+                Constants.MATCH_ALL_STEP_ATTEMPTS)));
     resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertTrue(resume);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
     resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertFalse(resume);
     maestroStepBreakpointDao.removeStepBreakpoint(
-            true, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        true,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertFalse(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
 
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION2,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_STEP_ID1,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION2,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_STEP_ID1,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
     assertFalse(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
     resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertFalse(resume);
     resume =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1));
     assertTrue(resume);
   }
 
@@ -1215,50 +1258,51 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + "_"
             + TEST_STEP_ID3;
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID4,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID4,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1)));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1)));
     boolean resume1 =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1));
     assertFalse(resume1);
     boolean resume2 =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1));
     assertFalse(resume2);
   }
 
@@ -1275,60 +1319,62 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + "_"
             + TEST_STEP_ID3;
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID4,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID4,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1)));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1)));
     int resumedSteps =
         maestroStepBreakpointDao.removeStepBreakpoint(
-                true, new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_FOREACH_STEP_ID4,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            true,
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_FOREACH_STEP_ID4,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(2, resumedSteps);
     boolean resume1 =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1));
     assertTrue(resume1);
     boolean resume2 =
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1));
     assertTrue(resume2);
   }
 
@@ -1345,49 +1391,50 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + "_"
             + TEST_STEP_ID3;
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID4,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID4,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1)));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1)));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE3,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE3,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                TEST_STEP_ATTEMPT1)));
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_FOREACH_STEP_ID4,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_FOREACH_STEP_ID4,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(3, pausedStepAttempts.size());
     pausedStepAttempts.forEach(
         pausedStepAttempt -> assertEquals(test_foreach_wf_id, pausedStepAttempt.getWorkflowId()));
@@ -1397,63 +1444,68 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
   public void testGetInlineWorkflowStepBreakPoints() {
     when(workflowDao.getWorkflowDefinition(anyString(), anyString())).thenReturn(wfd);
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID4,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID4,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID5,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID5,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN2,
-                    TEST_FOREACH_STEP_ID4,
-                    TEST_STEP_ATTEMPT1));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN2,
+            TEST_FOREACH_STEP_ID4,
+            TEST_STEP_ATTEMPT1));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    TEST_WORKFLOW_VERSION1,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID5,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            TEST_WORKFLOW_VERSION1,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID5,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_FOREACH_STEP_ID5,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN1,
+            TEST_FOREACH_STEP_ID5,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     List<StepBreakpoint> stepBreakpoints =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID5,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID5,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     List<StepBreakpoint> stepBreakpoints1 =
         maestroStepBreakpointDao.getStepBreakPoints(
-                new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID4,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID4,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(3, stepBreakpoints.size());
     assertEquals(1, stepBreakpoints1.size());
     stepBreakpoints.forEach(
@@ -1475,118 +1527,120 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + "_"
             + TEST_STEP_ID3;
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID5,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID5,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    TEST_WORKFLOW_VERSION1,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID5,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            TEST_WORKFLOW_VERSION1,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID5,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID5,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID5,
+                TEST_STEP_ATTEMPT1)));
     assertTrue(
         maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID5,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID5,
+                TEST_STEP_ATTEMPT1)));
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_FOREACH_STEP_ID5,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_FOREACH_STEP_ID5,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(2, pausedStepAttempts.size());
 
     maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
-            new WorkflowExecutionDetails(
-                    test_foreach_wf_id,
-                    TEST_WORKFLOW_VERSION2,
-                    TEST_WORKFLOW_INSTANCE2,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_FOREACH_STEP_ID5,
-                    TEST_STEP_ATTEMPT1));
+        new WorkflowExecutionDetails(
+            test_foreach_wf_id,
+            TEST_WORKFLOW_VERSION2,
+            TEST_WORKFLOW_INSTANCE2,
+            TEST_WORKFLOW_RUN1,
+            TEST_FOREACH_STEP_ID5,
+            TEST_STEP_ATTEMPT1));
     List<PausedStepAttempt> pausedStepAttemptsAfter =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_FOREACH_STEP_ID5,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_FOREACH_STEP_ID5,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(1, pausedStepAttemptsAfter.size());
     assertTrue(
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        test_foreach_wf_id,
-                        TEST_WORKFLOW_VERSION2,
-                        TEST_WORKFLOW_INSTANCE2,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_FOREACH_STEP_ID5,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                test_foreach_wf_id,
+                TEST_WORKFLOW_VERSION2,
+                TEST_WORKFLOW_INSTANCE2,
+                TEST_WORKFLOW_RUN1,
+                TEST_FOREACH_STEP_ID5,
+                TEST_STEP_ATTEMPT1)));
   }
 
   @Test
   public void testShouldStepResume() throws SQLException {
     maestroStepBreakpointDao.insertPausedStepInstanceAttempt(
-        conn, new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1)
-    );
+        conn,
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     conn.commit();
     conn.close();
     assertFalse(
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
-    maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
             new WorkflowExecutionDetails(
-                    TEST_WORKFLOW_ID1,
-                    TEST_WORKFLOW_VERSION1,
-                    TEST_WORKFLOW_INSTANCE1,
-                    TEST_WORKFLOW_RUN1,
-                    TEST_STEP_ID1,
-                    TEST_STEP_ATTEMPT1));
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
+    maestroStepBreakpointDao.resumePausedStepInstanceAttempt(
+        new WorkflowExecutionDetails(
+            TEST_WORKFLOW_ID1,
+            TEST_WORKFLOW_VERSION1,
+            TEST_WORKFLOW_INSTANCE1,
+            TEST_WORKFLOW_RUN1,
+            TEST_STEP_ID1,
+            TEST_STEP_ATTEMPT1));
     assertTrue(
         maestroStepBreakpointDao.shouldStepResume(
-                new WorkflowExecutionDetails(
-                        TEST_WORKFLOW_ID1,
-                        TEST_WORKFLOW_VERSION1,
-                        TEST_WORKFLOW_INSTANCE1,
-                        TEST_WORKFLOW_RUN1,
-                        TEST_STEP_ID1,
-                        TEST_STEP_ATTEMPT1)));
+            new WorkflowExecutionDetails(
+                TEST_WORKFLOW_ID1,
+                TEST_WORKFLOW_VERSION1,
+                TEST_WORKFLOW_INSTANCE1,
+                TEST_WORKFLOW_RUN1,
+                TEST_STEP_ID1,
+                TEST_STEP_ATTEMPT1)));
   }
 
   @Test
@@ -1602,43 +1656,45 @@ public class MaestroStepBreakpointDaoTest extends MaestroDaoBaseTest {
             + "_"
             + TEST_STEP_ID3;
     maestroStepBreakpointDao.addStepBreakpoint(
-            TEST_USER, new WorkflowExecutionDetails(
-                    wfd.getPropertiesSnapshot().getWorkflowId(),
-                    Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                    Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                    Constants.MATCH_ALL_RUNS,
-                    TEST_FOREACH_STEP_ID5,
-                    Constants.MATCH_ALL_STEP_ATTEMPTS));
+        TEST_USER,
+        new WorkflowExecutionDetails(
+            wfd.getPropertiesSnapshot().getWorkflowId(),
+            Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+            Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+            Constants.MATCH_ALL_RUNS,
+            TEST_FOREACH_STEP_ID5,
+            Constants.MATCH_ALL_STEP_ATTEMPTS));
     for (int i = 1; i <= DELETION_BATCH_LIMIT + 1; i++) {
       assertTrue(
           maestroStepBreakpointDao.createPausedStepAttemptIfNeeded(
-                  new WorkflowExecutionDetails(
-                          test_foreach_wf_id,
-                          TEST_WORKFLOW_VERSION1,
-                          TEST_WORKFLOW_INSTANCE1,
-                          i,
-                          TEST_FOREACH_STEP_ID5,
-                          TEST_STEP_ATTEMPT1)));
+              new WorkflowExecutionDetails(
+                  test_foreach_wf_id,
+                  TEST_WORKFLOW_VERSION1,
+                  TEST_WORKFLOW_INSTANCE1,
+                  i,
+                  TEST_FOREACH_STEP_ID5,
+                  TEST_STEP_ATTEMPT1)));
     }
     List<PausedStepAttempt> pausedStepAttempts =
         maestroStepBreakpointDao.getPausedStepAttempts(
-                new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_FOREACH_STEP_ID5,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS));
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_FOREACH_STEP_ID5,
+                Constants.MATCH_ALL_STEP_ATTEMPTS));
     assertEquals(DELETION_BATCH_LIMIT + 1, pausedStepAttempts.size());
     assertEquals(
         DELETION_BATCH_LIMIT + 1,
         maestroStepBreakpointDao.removeStepBreakpoint(
-                true, new WorkflowExecutionDetails(
-                        wfd.getPropertiesSnapshot().getWorkflowId(),
-                        Constants.MATCH_ALL_WORKFLOW_VERSIONS,
-                        Constants.MATCH_ALL_WORKFLOW_INSTANCES,
-                        Constants.MATCH_ALL_RUNS,
-                        TEST_FOREACH_STEP_ID5,
-                        Constants.MATCH_ALL_STEP_ATTEMPTS)));
+            true,
+            new WorkflowExecutionDetails(
+                wfd.getPropertiesSnapshot().getWorkflowId(),
+                Constants.MATCH_ALL_WORKFLOW_VERSIONS,
+                Constants.MATCH_ALL_WORKFLOW_INSTANCES,
+                Constants.MATCH_ALL_RUNS,
+                TEST_FOREACH_STEP_ID5,
+                Constants.MATCH_ALL_STEP_ATTEMPTS)));
   }
 }
